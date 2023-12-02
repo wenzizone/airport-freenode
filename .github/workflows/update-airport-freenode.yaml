@@ -1,0 +1,33 @@
+# Update subscription links
+name: Daily AirPort Free Node Update
+
+on:
+  #  2/8/14/20 beijing
+  # Runs every 6hours UTC time
+  schedule:
+    - cron: "0 */6 * * *"
+
+  # Manual updates
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out the repository under $GITHUB_WORKSPACE
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.12.0' 
+      - run: pip install -r req.txt
+      - name: Fetch Free AirPort Node
+        run: python update.py
+      - name: Commit Newest Node
+        # Condition to prevent unintended automatic workflow
+        # Change or comment out this line for automatic workflow on forks
+        if: ${{ github.repository == 'wenzizone/airport-freenode' }}
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add ./node
+          git commit -m "update node" && git push || echo "no change"
