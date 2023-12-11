@@ -9,10 +9,18 @@ import re
 import datetime
 import os
 import yaml
+from functools import reduce
+
+basicHeader = {
+    'User-Agent': "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36",
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Accept-Language': 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+}
 
 User_Agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
 clashfan_url = "https://clashfan.com/freenode/"
-storePath = "node/"
+storePath = "node"
+template = "template/airport-tpl.yaml"
 
 now = datetime.datetime.now()
 year = now.strftime("%Y")
@@ -70,12 +78,6 @@ freeNodeList = [
     "fileName" : getFileName(year, month, day, "clash")
   },
   {
-    "name": "clashnode",
-    "hostUrl": "https://clashnode.com/",
-    "midPath": os.path.join("wp-content", "uploads", getFileUrlPath(year,month)),
-    "fileName" : getFileName(year, month, day)
-  },
-  {
     "name": "nodebird",
     "hostUrl": "https://nodebird.net/",
     "midPath": os.path.join("wp-content", "uploads", getFileUrlPath(year,month)),
@@ -86,9 +88,8 @@ freeNodeList = [
 def getNodeFromLists(nodeList):
   url = os.path.join(nodeList['hostUrl'], nodeList['midPath'], nodeList['fileName'])
   print(url)
-  req = urllib.request.Request(url)
+  req = urllib.request.Request(url, headers=basicHeader)
   req.add_header('Referer', nodeList['hostUrl'])
-  req.add_header('User-Agent', User_Agent)
   try: 
     r = urllib.request.urlopen(req)
     fh = open(os.path.join(storePath,nodeList['name']+".yaml"), 'wb')
@@ -129,26 +130,75 @@ def getNodeFromClashfan():
     print(e)
 
 def putClashNodeInOneFile():
-  os.chdir(storePath)
-  mainClashData = yaml_loader("clash.yaml")
-  for file in os.listdir():
-    if file.endswith == "yaml":
+  with open(template, 'r') as file:
+    try:
+      tplConfig = yaml.safe_load(file)
+    except yaml.YAMLError as exc:
+      print("Error in configuration file: %s", exc)
+  for file in os.listdir(storePath):
+    if os.path.splitext(file)[1] == ".yaml":
       if file == "clash.yaml":
         continue
       else:
-        tmpData = yaml_loader(file)
-        mainClashData.update(tmpData)
+          #print(file)
+          with open(os.path.join(storePath, file), 'r') as source:
+            try:
+              sourceConfig = yaml.safe_load(source)
+            except yaml.YAMLError as exc:
+              print("Error in configuration file: %s", exc)
+            if type(sourceConfig) == dict and 'proxies' in sourceConfig:
+              sourceConfig['proxies'] = filterBadCipher(sourceConfig['proxies'])
+              proxies = list(map(lambda x: x['name'], sourceConfig['proxies']))
+              #print(proxies)
+              if type(tplConfig['proxies']) == list:
+                tplConfig['proxies'].extend(sourceConfig['proxies'])
+              else:
+                tplConfig['proxies'] = sourceConfig['proxies']
+              tplConfig['proxy-groups'][0]['proxies'].extend(proxies)
+              if type(tplConfig['proxy-groups'][1]['proxies']) == list:
+                tplConfig['proxy-groups'][1]['proxies'].extend(proxies)
+              else:
+                tplConfig['proxy-groups'][1]['proxies'] = proxies
+            #print(tplConfig)
     else:
       if file == "v2ray.txt":
         continue
       else:
         continue
+  #print(tplConfig)
+  #remove_duplicate_dicts(tplConfig['proxies'])
+  tplConfig['proxies'] = delete_duplicate_str(tplConfig['proxies'])
+  tplConfig['proxy-groups'][0]['proxies'] = dedupe(tplConfig['proxy-groups'][0]['proxies'])
+  tplConfig['proxy-groups'][1]['proxies'] = dedupe(tplConfig['proxy-groups'][1]['proxies'])
+  with open('node/clash.yaml', 'w') as file:
+    yaml.dump(tplConfig, file, encoding='utf-8')
 
+
+
+# 从列表里去重
+def dedupe(l):
+  newList = list(set(l))
+  newList.sort(key=l.index)
+  return newList
+
+def delete_duplicate_str(data):
+    immutable_dict = set([str(item) for item in data])
+    #print(immutable_dict)
+    data = [eval(i) for i in immutable_dict]
+    return data
+
+def filterBadCipher(l):
+  for item in l:
+    if 'cipher' in item and item['cipher'] == 'chacha20-poly1305':
+      l.remove(item)
+  return l
 
 # Main entry
 if __name__ == '__main__':
   ## 从clash 获取免费节点订阅文件
   getNodeFromClashfan()
   res = list(map(getNodeFromLists, freeNodeList))
-  #putClashNodeInOneFile()
+  putClashNodeInOneFile()
+
+
 
