@@ -77,445 +77,13 @@ external-controller: 0.0.0.0:9090
 log-level: info
 mixed-port: 7890
 proxies:
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_22"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.200.139
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_3"
-  password: amazonskr05
-  port: 443
-  server: 35.87.39.181
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 5"
-  password: asdKkaskJKfnsa
-  port: 110
-  server: 51.158.195.96
-  type: ss
-- name: "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927_9"
-  password: 027c71ac-026b-4755-9a33-26558ce6f6a2
-  port: 443
-  server: 172.105.5.158
-  skip-cert-verify: true
-  sni: ddragon.leagueoflegends.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_42"
-  network: ws
-  port: 2082
-  server: XXX104.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836
-  ws-opts:
-    headers:
-      Host: XXX104.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_71"
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 50001
-  server: service.ouluyun9803.com
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_34"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 198.244.231.24
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 9"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 162.19.204.83
-  type: ss
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_32"
-  network: http
-  port: 56333
-  server: 3.129.250.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 610fcb1f-ffa6-4819-d313-cd530be44a3c
-- cipher: aes-256-gcm
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_56"
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 10"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.203.2
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_48"
-  network: ws
-  port: 80
-  server: scadn.yydsii.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f32fb637-67eb-48be-9f29-4523c4720de7
-  ws-opts:
-    headers:
-      Host: jpyx.651568.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_63"
-  network: ws
-  port: 443
-  server: xxx.star-one.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 30aa0825-c1bc-45cc-ad43-dcdeb3b4ba7d
-  ws-opts:
-    headers:
-      Host: xxx.star-one.cfd
-    path: /35083/@FORWADV2RAY
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 5"
-  network: http
-  port: 56333
-  server: 3.129.250.63
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 610fcb1f-ffa6-4819-d313-cd530be44a3c
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_16"
-  network: ws
-  port: 80
-  server: ld2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ld2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_60"
-  network: ws
-  port: 2096
-  server: XXX54.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2201c95f-3d1c-4d02-99b4-b5006edaaf98
-  ws-opts:
-    headers:
-      Host: XXX54.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_27"
-  password: yTzEeImDDKooThuQKhZjob
-  port: 11285
-  server: 45.150.65.34
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_85"
-  network: ws
-  port: 2082
-  server: XXX216.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836
-  ws-opts:
-    headers:
-      Host: XXX216.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- name: "\U0001F1F5\U0001F1F1 _PL_\u6CE2\u5170_15"
-  password: fd2ef3e6-75b7-46cf-bc60-e8899851ed57
-  port: 443
-  server: 70.34.252.233
-  skip-cert-verify: true
-  sni: proxmox.com
-  type: trojan
-- cipher: aes-256-gcm
-  name: "\U0001F1E7\U0001F1F7 _BR_\u5DF4\u897F"
-  password: VcVGtFxYAQlor5DX7AZm7KpqJu5EnlFEtQr3kSaTCog=
-  port: 5600
-  server: 186.233.118.171
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6_35"
-  password: dhXDSrO3HnkhOZWxNOrvII
-  port: 42320
-  server: 62.113.114.116
-  type: ss
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 2"
-  network: ws
-  password: d2698cf9-c47e-455c-8384-12e642cbba15
-  port: 443
-  server: 167.68.5.183
-  skip-cert-verify: false
-  sni: 6us3.pqjc.buzz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 6us3.pqjc.buzz
-    path: /pq/us3
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_80"
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 20009
-  server: service.ouluyun9803.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6_4"
-  password: OWJlYjYy
-  port: 8388
-  server: 91.194.161.7
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_83"
-  password: B0ry56X2AxfFgcgI7sHDWD
-  port: 26669
-  server: 94.131.12.58
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 16"
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 54.36.174.181
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: http
-  port: 443
-  server: 80.71.157.199
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a88ba483-d935-4cb8-a425-a8a9a468409b
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 8"
-  password: amazonskr05
-  port: 443
-  server: tg_mfbpn_aus2.52vpn.eu.org
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_11"
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F7\U0001F1F4 _RO_\u7F57\u9A6C\u5C3C\u4E9A_37"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 194.14.217.115
-  type: ss
-- name: "US_\u7F8E\u56FD 3"
-  network: ws
-  password: d2698cf9-c47e-455c-8384-12e642cbba15
-  port: 443
-  server: 167.68.5.183
-  skip-cert-verify: false
-  sni: 6us3.pqjc.buzz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 6us3.pqjc.buzz
-    path: /pq/us3
-- name: "US_\u7F8E\u56FD"
-  password: d56cb8dc-e932-4d57-bd90-1381a1245f90
-  port: 20352
-  server: UNLK2.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN
-  skip-cert-verify: false
-  sni: 206.237.5.220
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_49"
-  network: ws
-  port: 2052
-  server: family.mgtajhiz.ir
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
-  ws-opts:
-    headers:
-      Host: family.mgtajhiz.ir
-    path: /
-- name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927_1"
-  network: ws
-  port: 443
-  server: 23.227.39.86
-  servername: xray1.freegradely.xyz
-  tls: true
-  type: vless
-  uuid: 0773256c-d020-436d-afea-6eee7cb6c872
-  ws-opts:
-    path: /bodhws
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_29"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 198.244.231.28
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_6"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 37.59.21.131
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_2"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 198.244.231.34
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_58"
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 54.36.174.181
-  type: ss
-- name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927_2"
-  network: ws
-  port: 443
-  server: 23.227.38.86
-  servername: xray1.freegradely.xyz
-  tls: true
-  type: vless
-  uuid: 0773256c-d020-436d-afea-6eee7cb6c872
-  ws-opts:
-    path: /bodhws
-- name: "PL_\u6CE2\u5170"
+- name: "\U0001F1F5\U0001F1F1 _PL_\u6CE2\u5170"
   password: fd2ef3e6-75b7-46cf-bc60-e8899851ed57
   port: 443
   server: 70.34.252.233
   skip-cert-verify: false
   sni: proxmox.com
   type: trojan
-- name: "CA_\u52A0\u62FF\u5927"
-  password: 027c71ac-026b-4755-9a33-26558ce6f6a2
-  port: 443
-  server: 172.105.5.158
-  skip-cert-verify: false
-  sni: ddragon.leagueoflegends.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_40"
-  network: ws
-  port: 2096
-  server: XXX39.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2201c95f-3d1c-4d02-99b4-b5006edaaf98
-  ws-opts:
-    headers:
-      Host: XXX39.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_61"
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 20001
-  server: service.ouluyun9803.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: "US_\u7F8E\u56FD 2"
-  network: http
-  port: 56333
-  server: 3.129.250.63
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 610fcb1f-ffa6-4819-d313-cd530be44a3c
-- cipher: aes-256-cfb
-  name: "\U0001F1F3\U0001F1F1 _NL_\u8377\u5170"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.27.48
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1E7\U0001F1F7 _BR_\u5DF4\u897F_14"
-  password: VcVGtFxYAQlor5DX7AZm7KpqJu5EnlFEtQr3kSaTCog=
-  port: 5600
-  server: 186.233.118.171
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6 2"
-  password: OWJlYjYy
-  port: 8388
-  server: 91.194.161.7
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FB\U0001F1F3 _VN_\u8D8A\u5357_77"
-  network: ws
-  port: 80
-  server: 103.232.54.160
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d95cded2-816a-4b5d-bb21-6180bd6d4d3a
-  ws-opts:
-    path: /zenpn.com
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_38"
-  network: ws
-  password: d2698cf9-c47e-455c-8384-12e642cbba15
-  port: 443
-  server: 167.68.5.183
-  skip-cert-verify: true
-  sni: 6us3.pqjc.buzz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 6us3.pqjc.buzz
-    path: /pq/us3
-- alterId: 0
-  cipher: auto
-  name: "US_\u7F8E\u56FD->GB_\u82F1\u56FD"
-  network: ws
-  port: 80
-  server: ld2.shabijichang.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ld2.shabijichang.com
-    path: /
 - cipher: aes-256-cfb
   name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 14"
   password: asdKkaskJKfnsa
@@ -524,368 +92,30 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_59"
-  network: ws
-  port: 443
-  server: xxx.star-one.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 182a3503-2dec-4002-9069-3f49881b3ec8
-  ws-opts:
-    headers:
-      Host: xxx.star-one.cfd
-    path: /32943/@FORWADV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_86"
-  network: ws
-  port: 443
-  server: xxx.star-one.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 712ac294-b8b4-46e6-9cf3-3a32453ff6ed
-  ws-opts:
-    headers:
-      Host: xxx.star-one.cfd
-    path: /22154/@FORWADV2RAY
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_8"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.159.221.219
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_62"
-  network: ws
-  port: 443
-  server: xxx.star-one.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e0b5838c-7345-4376-9974-87e73455f02d
-  ws-opts:
-    headers:
-      Host: xxx.star-one.cfd
-    path: /55504/@FORWADV2RAY
-- cipher: aes-256-gcm
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_13"
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 54.36.174.181
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_73"
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 21001
-  server: service.ouluyun9803.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_65"
-  network: ws
-  port: 443
-  server: xxx.star-one.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 769a0ff7-dd4c-459d-85f8-a4b5aba262e7
-  ws-opts:
-    headers:
-      Host: xxx.star-one.cfd
-    path: /15220/@FORWADV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_69"
-  network: ws
-  port: 2086
-  server: XXX105.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f322bbea-1729-453e-ace1-cb2acac11975
-  ws-opts:
-    headers:
-      Host: XXX105.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_76"
-  network: ws
-  port: 2082
-  server: XXX174.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836
-  ws-opts:
-    headers:
-      Host: XXX174.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_64"
-  network: ws
-  port: 443
-  server: xxx.star-one.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f27c3ac2-6fba-4693-943e-a1ccdaa08bfd
-  ws-opts:
-    headers:
-      Host: xxx.star-one.cfd
-    path: /18318/@FORWADV2RAY
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 5"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 198.244.231.34
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  network: http
-  port: 56333
-  server: 3.129.250.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 610fcb1f-ffa6-4819-d313-cd530be44a3c
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.159.221.219
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_57"
-  network: ws
-  port: 443
-  server: xxx.star-one.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 5e391580-dc79-4673-8f2b-24d50074e006
-  ws-opts:
-    headers:
-      Host: xxx.star-one.cfd
-    path: /55992/@FORWADV2RAY
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_31"
-  password: datdGFe4LkMN710aHedy
-  port: 51348
-  server: 85.239.52.174
-  type: ss
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: ws
-  port: 2053
-  server: 172.66.47.98
-  servername: mtnfinldefhdisjwidjsmperep0.amoozeshgah-com.com
-  tls: true
-  type: vless
-  uuid: 0b111ced-0f47-461f-ae09-589f393d45b6
-  ws-opts:
-    path: /backup
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_50"
-  network: ws
-  port: 8080
-  server: XXX130.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e1aa1aea-a836-4a92-9bb2-ee12a79d6fa7
-  ws-opts:
-    headers:
-      Host: XXX130.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  network: ws
-  port: 80
-  server: ld2.shabijichang.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ld2.shabijichang.com
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_19"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 198.244.231.26
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_41"
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_10"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.200.119
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_20"
-  password: amazonskr05
-  port: 443
-  server: tg_mfbpn_aus2.52vpn.eu.org
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 4"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 74.121.191.98
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_44"
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 20003
-  server: service.ouluyun9803.com
-  type: ss
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD"
-  password: d56cb8dc-e932-4d57-bd90-1381a1245f90
-  port: 20352
-  server: UNLK2.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN
-  skip-cert-verify: false
-  sni: 206.237.5.220
-  type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 11"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.200.139
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_72"
-  network: ws
-  port: 8080
-  server: scadn.yydsii.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f32fb637-67eb-48be-9f29-4523c4720de7
-  ws-opts:
-    headers:
-      Host: kryx.651568.xyz
-    path: /
-- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  network: tcp
-  password: 9ebdbb4a-8ae6-45e8-9169-33fe68fdbaae
-  port: 80
-  server: 141.94.221.127
-  skip-cert-verify: true
-  sni: ftp.debian.org
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 6"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.159.222.35
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_53"
-  network: ws
-  port: 443
-  server: xxx.star-one.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8f8e0fd3-1775-46c1-b07c-6f269f854784
-  ws-opts:
-    headers:
-      Host: xxx.star-one.cfd
-    path: /18220/@FORWADV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_84"
-  network: ws
-  port: 2082
-  server: XXX167.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836
-  ws-opts:
-    headers:
-      Host: XXX167.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170"
-  network: tcp
-  password: fd2ef3e6-75b7-46cf-bc60-e8899851ed57
-  port: 443
-  server: 70.34.252.233
-  skip-cert-verify: true
-  sni: proxmox.com
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 13"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.203.4
-  type: ss
-- alterId: 0
-  cipher: auto
   http-opts:
     method: GET
     path:
     - /
-  name: "DE_\u5FB7\u56FD"
+  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD_23"
   network: http
   port: 443
   server: 80.71.157.199
-  skip-cert-verify: false
-  tfo: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: a88ba483-d935-4cb8-a425-a8a9a468409b
-- cipher: aes-256-cfb
-  name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.27.48
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_52"
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 26601
+  server: 183.233.187.235
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 3"
-  password: amazonskr05
-  port: 443
-  server: 35.87.39.181
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_7"
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_12"
   password: asdKkaskJKfnsa
   port: 443
-  server: 198.244.231.34
+  server: 162.19.59.160
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_46"
-  network: ws
-  port: 443
-  server: xxx.star-one.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 5c0cac25-9645-4439-a60a-84f74303470f
-  ws-opts:
-    headers:
-      Host: xxx.star-one.cfd
-    path: /26202/@FORWADV2RAY
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_45"
@@ -900,20 +130,83 @@ proxies:
     headers:
       Host: XXX202.FORWARDV2RAYTELEGRAMCHANNEL.FUN
     path: /@FORWARDV2RAY
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
+  password: OWJlYjYy
+  port: 8388
+  server: 91.194.161.7
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_2"
+  password: GeZbX4Enoc
+  port: 15100
+  server: 5.181.27.97
+  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_82"
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_63"
   network: ws
-  port: 2086
-  server: XXX238.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  port: 443
+  server: xxx.star-one.cfd
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: f322bbea-1729-453e-ace1-cb2acac11975
+  uuid: 30aa0825-c1bc-45cc-ad43-dcdeb3b4ba7d
   ws-opts:
     headers:
-      Host: XXX238.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+      Host: xxx.star-one.cfd
+    path: /35083/@FORWADV2RAY
+- name: "PL_\u6CE2\u5170"
+  password: fd2ef3e6-75b7-46cf-bc60-e8899851ed57
+  port: 443
+  server: 70.34.252.233
+  skip-cert-verify: false
+  sni: proxmox.com
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_27"
+  password: yTzEeImDDKooThuQKhZjob
+  port: 11285
+  server: 45.150.65.34
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 37.59.21.130
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_61"
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 20001
+  server: service.ouluyun9803.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_60"
+  network: ws
+  port: 2096
+  server: XXX54.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2201c95f-3d1c-4d02-99b4-b5006edaaf98
+  ws-opts:
+    headers:
+      Host: XXX54.FORWARDV2RAYTELEGRAMCHANNEL.FUN
     path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 12"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.200.119
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_20"
+  password: amazonskr05
+  port: 443
+  server: tg_mfbpn_aus2.52vpn.eu.org
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_87"
@@ -930,6 +223,226 @@ proxies:
     path: /@FORWARDV2RAY
 - alterId: 0
   cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_84"
+  network: ws
+  port: 2082
+  server: XXX167.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836
+  ws-opts:
+    headers:
+      Host: XXX167.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 3"
+  password: amazonskr05
+  port: 443
+  server: 35.87.39.181
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_21"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 162.19.204.83
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_64"
+  network: ws
+  port: 443
+  server: xxx.star-one.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f27c3ac2-6fba-4693-943e-a1ccdaa08bfd
+  ws-opts:
+    headers:
+      Host: xxx.star-one.cfd
+    path: /18318/@FORWADV2RAY
+- alterId: 0
+  cipher: auto
+  name: "US_\u7F8E\u56FD->GB_\u82F1\u56FD"
+  network: ws
+  port: 80
+  server: ld2.shabijichang.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ld2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_53"
+  network: ws
+  port: 443
+  server: xxx.star-one.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8f8e0fd3-1775-46c1-b07c-6f269f854784
+  ws-opts:
+    headers:
+      Host: xxx.star-one.cfd
+    path: /18220/@FORWADV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_34"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 198.244.231.24
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_24"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.159.222.35
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 9"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 162.19.204.83
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 2"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.159.221.227
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_36"
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 54.36.174.181
+  type: ss
+- name: "US_\u7F8E\u56FD 3"
+  network: ws
+  password: d2698cf9-c47e-455c-8384-12e642cbba15
+  port: 443
+  server: 167.68.5.183
+  skip-cert-verify: false
+  sni: 6us3.pqjc.buzz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 6us3.pqjc.buzz
+    path: /pq/us3
+- cipher: aes-256-gcm
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 17"
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_19"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 198.244.231.26
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_28"
+  password: asdKkaskJKfnsa
+  port: 110
+  server: 51.158.195.96
+  type: ss
+- name: "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927"
+  password: 027c71ac-026b-4755-9a33-26558ce6f6a2
+  port: 443
+  server: 172.105.5.158
+  skip-cert-verify: false
+  sni: ddragon.leagueoflegends.com
+  type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  password: amazonskr05
+  port: 443
+  server: 35.87.39.181
+  type: ss
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: "US_\u7F8E\u56FD 2"
+  network: http
+  port: 56333
+  server: 3.129.250.63
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 610fcb1f-ffa6-4819-d313-cd530be44a3c
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_48"
+  network: ws
+  port: 80
+  server: scadn.yydsii.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f32fb637-67eb-48be-9f29-4523c4720de7
+  ws-opts:
+    headers:
+      Host: jpyx.651568.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_69"
+  network: ws
+  port: 2086
+  server: XXX105.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f322bbea-1729-453e-ace1-cb2acac11975
+  ws-opts:
+    headers:
+      Host: XXX105.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_72"
+  network: ws
+  port: 8080
+  server: scadn.yydsii.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f32fb637-67eb-48be-9f29-4523c4720de7
+  ws-opts:
+    headers:
+      Host: kryx.651568.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: "DE_\u5FB7\u56FD"
+  network: http
+  port: 443
+  server: 80.71.157.199
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a88ba483-d935-4cb8-a425-a8a9a468409b
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 6"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.159.222.35
+  type: ss
+- alterId: 0
+  cipher: auto
   name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_67"
   network: ws
   port: 8080
@@ -942,51 +455,54 @@ proxies:
     headers:
       Host: cloud.dragonrzm.sbs
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_52"
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 26601
-  server: 183.233.187.235
+- cipher: aes-256-gcm
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 15"
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 54.36.174.181
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_26"
-  password: asdKkaskJKfnsa
+- name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927"
+  network: tcp
+  password: 027c71ac-026b-4755-9a33-26558ce6f6a2
   port: 443
-  server: 51.159.221.227
-  type: ss
+  server: 172.105.5.158
+  skip-cert-verify: true
+  sni: ddragon.leagueoflegends.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_66"
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_46"
   network: ws
-  port: 2086
-  server: XXX217.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  port: 443
+  server: xxx.star-one.cfd
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: f322bbea-1729-453e-ace1-cb2acac11975
+  uuid: 5c0cac25-9645-4439-a60a-84f74303470f
   ws-opts:
     headers:
-      Host: XXX217.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- name: "\U0001F1F5\U0001F1F1 _PL_\u6CE2\u5170"
-  password: fd2ef3e6-75b7-46cf-bc60-e8899851ed57
+      Host: xxx.star-one.cfd
+    path: /26202/@FORWADV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_57"
+  network: ws
   port: 443
-  server: 70.34.252.233
-  skip-cert-verify: false
-  sni: proxmox.com
-  type: trojan
-- name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_33"
-  password: 9ebdbb4a-8ae6-45e8-9169-33fe68fdbaae
-  port: 80
-  server: 141.94.221.127
+  server: xxx.star-one.cfd
   skip-cert-verify: true
-  sni: ftp.debian.org
-  type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 4"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 37.59.21.130
+  tls: true
+  type: vmess
+  uuid: 5e391580-dc79-4673-8f2b-24d50074e006
+  ws-opts:
+    headers:
+      Host: xxx.star-one.cfd
+    path: /55992/@FORWADV2RAY
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 7"
+  password: datdGFe4LkMN710aHedy
+  port: 51348
+  server: 85.239.52.174
   type: ss
 - alterId: 0
   cipher: auto
@@ -1002,277 +518,6 @@ proxies:
     headers:
       Host: XXX188.FORWARDV2RAYTELEGRAMCHANNEL.FUN
     path: /@FORWARDV2RAY
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1EE _FI_\u82AC\u5170_75"
-  password: zIPjynKNVVaBnKK0UZ5zu2
-  port: 38584
-  server: 45.159.249.231
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 6"
-  password: yTzEeImDDKooThuQKhZjob
-  port: 11285
-  server: 45.150.65.34
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
-  password: dhXDSrO3HnkhOZWxNOrvII
-  port: 42320
-  server: 62.113.114.116
-  type: ss
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
-  network: ws
-  password: d2698cf9-c47e-455c-8384-12e642cbba15
-  port: 443
-  server: 167.68.5.183
-  skip-cert-verify: true
-  sni: 6us3.pqjc.buzz
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /pq/us3
-- cipher: aes-256-gcm
-  name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_1"
-  password: GeZbX4Enoc
-  port: 15100
-  server: 5.181.27.97
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 4"
-  password: GeZbX4Enoc
-  port: 15100
-  server: 5.181.27.97
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_25"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 74.121.191.98
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_2"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 37.59.21.131
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 2"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 198.244.231.28
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 3"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 198.244.231.26
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 198.244.231.24
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 12"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.200.119
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_68"
-  network: ws
-  port: 8080
-  server: XXX172.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e1aa1aea-a836-4a92-9bb2-ee12a79d6fa7
-  ws-opts:
-    headers:
-      Host: XXX172.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- name: "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927"
-  password: 027c71ac-026b-4755-9a33-26558ce6f6a2
-  port: 443
-  server: 172.105.5.158
-  skip-cert-verify: false
-  sni: ddragon.leagueoflegends.com
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
-  password: OWJlYjYy
-  port: 8388
-  server: 91.194.161.7
-  type: ss
-- name: "\U0001F1E8\U0001F1F3 _TW_\u53F0\u6E7E_43"
-  password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff
-  port: 443
-  server: download1tw.windowsupdatea.com
-  skip-cert-verify: true
-  sni: glc-tw1.windowsupdatea.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_55"
-  network: ws
-  port: 2082
-  server: XXX195.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836
-  ws-opts:
-    headers:
-      Host: XXX195.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  password: amazonskr05
-  port: 443
-  server: 35.87.39.181
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_18"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.203.4
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 7"
-  password: datdGFe4LkMN710aHedy
-  port: 51348
-  server: 85.239.52.174
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_24"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.159.222.35
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_30"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 162.19.204.80
-  type: ss
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  network: tcp
-  password: d56cb8dc-e932-4d57-bd90-1381a1245f90
-  port: 20352
-  server: UNLK2.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN
-  skip-cert-verify: true
-  sni: 206.237.5.220
-  type: trojan
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 8"
-  password: 9ebdbb4a-8ae6-45e8-9169-33fe68fdbaae
-  port: 80
-  server: 141.94.221.127
-  skip-cert-verify: false
-  sni: ftp.debian.org
-  type: trojan
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD_23"
-  network: http
-  port: 443
-  server: 80.71.157.199
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a88ba483-d935-4cb8-a425-a8a9a468409b
-- cipher: aes-256-gcm
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_36"
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 54.36.174.181
-  type: ss
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD"
-  network: http
-  port: 443
-  server: 80.71.157.199
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: a88ba483-d935-4cb8-a425-a8a9a468409b
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_79"
-  network: ws
-  port: 2082
-  server: XXX118.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836
-  ws-opts:
-    headers:
-      Host: XXX118.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_81"
-  password: OTI5ZDhk
-  port: 8388
-  server: 95.164.44.21
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 2"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.159.221.227
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_54"
-  network: ws
-  port: 2086
-  server: XXX133.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f322bbea-1729-453e-ace1-cb2acac11975
-  ws-opts:
-    headers:
-      Host: XXX133.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- cipher: aes-256-gcm
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 17"
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_21"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 162.19.204.83
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_47"
-  network: ws
-  port: 8080
-  server: XXX102.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e1aa1aea-a836-4a92-9bb2-ee12a79d6fa7
-  ws-opts:
-    headers:
-      Host: XXX102.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
 - cipher: aes-256-cfb
   name: "\U0001F1F3\U0001F1F1 _NL_\u8377\u5170_1"
   password: f8f7aCzcPKbsF8p3
@@ -1280,22 +525,40 @@ proxies:
   server: 51.15.27.48
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_28"
-  password: asdKkaskJKfnsa
-  port: 110
-  server: 51.158.195.96
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_12"
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_6"
   password: asdKkaskJKfnsa
   port: 443
-  server: 162.19.59.160
+  server: 37.59.21.131
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_81"
+  password: OTI5ZDhk
+  port: 8388
+  server: 95.164.44.21
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_5"
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
   password: asdKkaskJKfnsa
   port: 443
-  server: 37.59.21.130
+  server: 198.244.231.24
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_13"
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_29"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 198.244.231.28
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 4"
+  password: GeZbX4Enoc
+  port: 15100
+  server: 5.181.27.97
   type: ss
 - name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_51"
   password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff
@@ -1304,85 +567,11 @@ proxies:
   skip-cert-verify: true
   sni: glc-hkt1.windowsupdatea.com
   type: trojan
-- cipher: aes-256-gcm
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 15"
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 54.36.174.181
-  type: ss
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_17"
-  password: d56cb8dc-e932-4d57-bd90-1381a1245f90
-  port: 20352
-  server: UNLK2.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN
-  skip-cert-verify: true
-  sni: 206.237.5.220
-  type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_39"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.203.2
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 37.59.21.130
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_2"
-  password: GeZbX4Enoc
-  port: 15100
-  server: 5.181.27.97
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  network: ws
-  port: 80
-  server: ld2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: ld2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_78"
-  network: ws
-  port: 8080
-  server: XXX109.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e1aa1aea-a836-4a92-9bb2-ee12a79d6fa7
-  ws-opts:
-    headers:
-      Host: XXX109.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- cipher: aes-256-cfb
-  name: "\U0001F1F7\U0001F1F4 _RO_\u7F57\u9A6C\u5C3C\u4E9A"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 194.14.217.115
-  type: ss
-- name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927"
-  network: tcp
-  password: 027c71ac-026b-4755-9a33-26558ce6f6a2
-  port: 443
-  server: 172.105.5.158
-  skip-cert-verify: true
-  sni: ddragon.leagueoflegends.com
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 3"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 162.19.204.80
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 6"
+  password: yTzEeImDDKooThuQKhZjob
+  port: 11285
+  server: 45.150.65.34
   type: ss
 - alterId: 0
   cipher: auto
@@ -1398,6 +587,614 @@ proxies:
     headers:
       Host: XXX193.FORWARDV2RAYTELEGRAMCHANNEL.FUN
     path: /@FORWARDV2RAY
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_31"
+  password: datdGFe4LkMN710aHedy
+  port: 51348
+  server: 85.239.52.174
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_79"
+  network: ws
+  port: 2082
+  server: XXX118.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836
+  ws-opts:
+    headers:
+      Host: XXX118.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 4"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 74.121.191.98
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 4"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 37.59.21.130
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+  network: ws
+  port: 80
+  server: ld2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: ld2.shabijichang.com
+    path: /
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 2"
+  network: ws
+  password: d2698cf9-c47e-455c-8384-12e642cbba15
+  port: 443
+  server: 167.68.5.183
+  skip-cert-verify: false
+  sni: 6us3.pqjc.buzz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 6us3.pqjc.buzz
+    path: /pq/us3
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  network: http
+  port: 443
+  server: 80.71.157.199
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a88ba483-d935-4cb8-a425-a8a9a468409b
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  network: ws
+  password: d2698cf9-c47e-455c-8384-12e642cbba15
+  port: 443
+  server: 167.68.5.183
+  skip-cert-verify: true
+  sni: 6us3.pqjc.buzz
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /pq/us3
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 2"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 198.244.231.28
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_83"
+  password: B0ry56X2AxfFgcgI7sHDWD
+  port: 26669
+  server: 94.131.12.58
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_8"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.159.221.219
+  type: ss
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  network: ws
+  port: 2053
+  server: 172.66.47.98
+  servername: mtnfinldefhdisjwidjsmperep0.amoozeshgah-com.com
+  tls: true
+  type: vless
+  uuid: 0b111ced-0f47-461f-ae09-589f393d45b6
+  ws-opts:
+    path: /backup
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD"
+  network: http
+  port: 443
+  server: 80.71.157.199
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a88ba483-d935-4cb8-a425-a8a9a468409b
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 13"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.203.4
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FB\U0001F1F3 _VN_\u8D8A\u5357_77"
+  network: ws
+  port: 80
+  server: 103.232.54.160
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d95cded2-816a-4b5d-bb21-6180bd6d4d3a
+  ws-opts:
+    path: /zenpn.com
+- cipher: aes-256-gcm
+  name: "\U0001F1E7\U0001F1F7 _BR_\u5DF4\u897F"
+  password: VcVGtFxYAQlor5DX7AZm7KpqJu5EnlFEtQr3kSaTCog=
+  port: 5600
+  server: 186.233.118.171
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_10"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.200.119
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 3"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 198.244.231.26
+  type: ss
+- name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 8"
+  password: 9ebdbb4a-8ae6-45e8-9169-33fe68fdbaae
+  port: 80
+  server: 141.94.221.127
+  skip-cert-verify: false
+  sni: ftp.debian.org
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6 2"
+  password: OWJlYjYy
+  port: 8388
+  server: 91.194.161.7
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_59"
+  network: ws
+  port: 443
+  server: xxx.star-one.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 182a3503-2dec-4002-9069-3f49881b3ec8
+  ws-opts:
+    headers:
+      Host: xxx.star-one.cfd
+    path: /32943/@FORWADV2RAY
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6_35"
+  password: dhXDSrO3HnkhOZWxNOrvII
+  port: 42320
+  server: 62.113.114.116
+  type: ss
+- name: "US_\u7F8E\u56FD"
+  password: d56cb8dc-e932-4d57-bd90-1381a1245f90
+  port: 20352
+  server: UNLK2.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN
+  skip-cert-verify: false
+  sni: 206.237.5.220
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_55"
+  network: ws
+  port: 2082
+  server: XXX195.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836
+  ws-opts:
+    headers:
+      Host: XXX195.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- name: "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927_9"
+  password: 027c71ac-026b-4755-9a33-26558ce6f6a2
+  port: 443
+  server: 172.105.5.158
+  skip-cert-verify: true
+  sni: ddragon.leagueoflegends.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 5"
+  network: http
+  port: 56333
+  server: 3.129.250.63
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 610fcb1f-ffa6-4819-d313-cd530be44a3c
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  network: tcp
+  password: d56cb8dc-e932-4d57-bd90-1381a1245f90
+  port: 20352
+  server: UNLK2.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN
+  skip-cert-verify: true
+  sni: 206.237.5.220
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_25"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 74.121.191.98
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_41"
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 3"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 162.19.204.80
+  type: ss
+- name: "\U0001F1F5\U0001F1F1 _PL_\u6CE2\u5170_15"
+  password: fd2ef3e6-75b7-46cf-bc60-e8899851ed57
+  port: 443
+  server: 70.34.252.233
+  skip-cert-verify: true
+  sni: proxmox.com
+  type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_3"
+  password: amazonskr05
+  port: 443
+  server: 35.87.39.181
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_16"
+  network: ws
+  port: 80
+  server: ld2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ld2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+  network: ws
+  port: 80
+  server: ld2.shabijichang.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ld2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_47"
+  network: ws
+  port: 8080
+  server: XXX102.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e1aa1aea-a836-4a92-9bb2-ee12a79d6fa7
+  ws-opts:
+    headers:
+      Host: XXX102.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 7"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 162.19.59.160
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_58"
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 5"
+  password: asdKkaskJKfnsa
+  port: 110
+  server: 51.158.195.96
+  type: ss
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_32"
+  network: http
+  port: 56333
+  server: 3.129.250.63
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 610fcb1f-ffa6-4819-d313-cd530be44a3c
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_76"
+  network: ws
+  port: 2082
+  server: XXX174.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836
+  ws-opts:
+    headers:
+      Host: XXX174.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_86"
+  network: ws
+  port: 443
+  server: xxx.star-one.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 712ac294-b8b4-46e6-9cf3-3a32453ff6ed
+  ws-opts:
+    headers:
+      Host: xxx.star-one.cfd
+    path: /22154/@FORWADV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.27.48
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_1"
+  password: GeZbX4Enoc
+  port: 15100
+  server: 5.181.27.97
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_85"
+  network: ws
+  port: 2082
+  server: XXX216.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836
+  ws-opts:
+    headers:
+      Host: XXX216.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_44"
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 20003
+  server: service.ouluyun9803.com
+  type: ss
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_38"
+  network: ws
+  password: d2698cf9-c47e-455c-8384-12e642cbba15
+  port: 443
+  server: 167.68.5.183
+  skip-cert-verify: true
+  sni: 6us3.pqjc.buzz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 6us3.pqjc.buzz
+    path: /pq/us3
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_82"
+  network: ws
+  port: 2086
+  server: XXX238.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f322bbea-1729-453e-ace1-cb2acac11975
+  ws-opts:
+    headers:
+      Host: XXX238.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1EE _FI_\u82AC\u5170_75"
+  password: zIPjynKNVVaBnKK0UZ5zu2
+  port: 38584
+  server: 45.159.249.231
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_2"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 198.244.231.34
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_68"
+  network: ws
+  port: 8080
+  server: XXX172.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e1aa1aea-a836-4a92-9bb2-ee12a79d6fa7
+  ws-opts:
+    headers:
+      Host: XXX172.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-gcm
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_56"
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 10"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.203.2
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_80"
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 20009
+  server: service.ouluyun9803.com
+  type: ss
+- name: "CA_\u52A0\u62FF\u5927"
+  password: 027c71ac-026b-4755-9a33-26558ce6f6a2
+  port: 443
+  server: 172.105.5.158
+  skip-cert-verify: false
+  sni: ddragon.leagueoflegends.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_49"
+  network: ws
+  port: 2052
+  server: family.mgtajhiz.ir
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
+  ws-opts:
+    headers:
+      Host: family.mgtajhiz.ir
+    path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_18"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.203.4
+  type: ss
+- name: "\U0001F1E8\U0001F1F3 _TW_\u53F0\u6E7E_43"
+  password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff
+  port: 443
+  server: download1tw.windowsupdatea.com
+  skip-cert-verify: true
+  sni: glc-tw1.windowsupdatea.com
+  type: trojan
+- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  network: tcp
+  password: 9ebdbb4a-8ae6-45e8-9169-33fe68fdbaae
+  port: 80
+  server: 141.94.221.127
+  skip-cert-verify: true
+  sni: ftp.debian.org
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_26"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.159.221.227
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 11"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.200.139
+  type: ss
+- name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170"
+  network: tcp
+  password: fd2ef3e6-75b7-46cf-bc60-e8899851ed57
+  port: 443
+  server: 70.34.252.233
+  skip-cert-verify: true
+  sni: proxmox.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1F7\U0001F1F4 _RO_\u7F57\u9A6C\u5C3C\u4E9A"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 194.14.217.115
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_54"
+  network: ws
+  port: 2086
+  server: XXX133.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f322bbea-1729-453e-ace1-cb2acac11975
+  ws-opts:
+    headers:
+      Host: XXX133.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  network: http
+  port: 56333
+  server: 3.129.250.63
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 610fcb1f-ffa6-4819-d313-cd530be44a3c
+- name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_33"
+  password: 9ebdbb4a-8ae6-45e8-9169-33fe68fdbaae
+  port: 80
+  server: 141.94.221.127
+  skip-cert-verify: true
+  sni: ftp.debian.org
+  type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_39"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.203.2
+  type: ss
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_17"
+  password: d56cb8dc-e932-4d57-bd90-1381a1245f90
+  port: 20352
+  server: UNLK2.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN
+  skip-cert-verify: true
+  sni: 206.237.5.220
+  type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_5"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 37.59.21.130
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F3\U0001F1F1 _NL_\u8377\u5170"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.27.48
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_7"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 198.244.231.34
+  type: ss
 - name: "FR_\u6CD5\u56FD"
   password: 9ebdbb4a-8ae6-45e8-9169-33fe68fdbaae
   port: 80
@@ -1405,12 +1202,215 @@ proxies:
   skip-cert-verify: false
   sni: ftp.debian.org
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_73"
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 21001
+  server: service.ouluyun9803.com
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_11"
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 54.36.174.181
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_65"
+  network: ws
+  port: 443
+  server: xxx.star-one.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 769a0ff7-dd4c-459d-85f8-a4b5aba262e7
+  ws-opts:
+    headers:
+      Host: xxx.star-one.cfd
+    path: /15220/@FORWADV2RAY
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6_4"
+  password: OWJlYjYy
+  port: 8388
+  server: 91.194.161.7
+  type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 7"
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_30"
   password: asdKkaskJKfnsa
   port: 443
-  server: 162.19.59.160
+  server: 162.19.204.80
   type: ss
+- name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927_2"
+  network: ws
+  port: 443
+  server: 23.227.38.86
+  servername: xray1.freegradely.xyz
+  tls: true
+  type: vless
+  uuid: 0773256c-d020-436d-afea-6eee7cb6c872
+  ws-opts:
+    path: /bodhws
+- cipher: aes-256-gcm
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 16"
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_2"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 37.59.21.131
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_22"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.200.139
+  type: ss
+- name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927_1"
+  network: ws
+  port: 443
+  server: 23.227.39.86
+  servername: xray1.freegradely.xyz
+  tls: true
+  type: vless
+  uuid: 0773256c-d020-436d-afea-6eee7cb6c872
+  ws-opts:
+    path: /bodhws
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_40"
+  network: ws
+  port: 2096
+  server: XXX39.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2201c95f-3d1c-4d02-99b4-b5006edaaf98
+  ws-opts:
+    headers:
+      Host: XXX39.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_50"
+  network: ws
+  port: 8080
+  server: XXX130.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e1aa1aea-a836-4a92-9bb2-ee12a79d6fa7
+  ws-opts:
+    headers:
+      Host: XXX130.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 8"
+  password: amazonskr05
+  port: 443
+  server: tg_mfbpn_aus2.52vpn.eu.org
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1E7\U0001F1F7 _BR_\u5DF4\u897F_14"
+  password: VcVGtFxYAQlor5DX7AZm7KpqJu5EnlFEtQr3kSaTCog=
+  port: 5600
+  server: 186.233.118.171
+  type: ss
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD"
+  password: d56cb8dc-e932-4d57-bd90-1381a1245f90
+  port: 20352
+  server: UNLK2.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN
+  skip-cert-verify: false
+  sni: 206.237.5.220
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_42"
+  network: ws
+  port: 2082
+  server: XXX104.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836
+  ws-opts:
+    headers:
+      Host: XXX104.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1F7\U0001F1F4 _RO_\u7F57\u9A6C\u5C3C\u4E9A_37"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 194.14.217.115
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_62"
+  network: ws
+  port: 443
+  server: xxx.star-one.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e0b5838c-7345-4376-9974-87e73455f02d
+  ws-opts:
+    headers:
+      Host: xxx.star-one.cfd
+    path: /55504/@FORWADV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_78"
+  network: ws
+  port: 8080
+  server: XXX109.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e1aa1aea-a836-4a92-9bb2-ee12a79d6fa7
+  ws-opts:
+    headers:
+      Host: XXX109.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.159.221.219
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 5"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 198.244.231.34
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
+  password: dhXDSrO3HnkhOZWxNOrvII
+  port: 42320
+  server: 62.113.114.116
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_71"
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 50001
+  server: service.ouluyun9803.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_66"
+  network: ws
+  port: 2086
+  server: XXX217.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f322bbea-1729-453e-ace1-cb2acac11975
+  ws-opts:
+    headers:
+      Host: XXX217.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
 proxy-groups:
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
   proxies:
