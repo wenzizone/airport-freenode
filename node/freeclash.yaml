@@ -78,53 +78,109 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"172.67.221.114","port":2083,"cipher":"auto","uuid":"055079b7-84cb-4619-8b46-f21e642232ef","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@apt_mahdi","headers":{"host":"amsb.carfin.tech"}}}
-  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"104.21.75.246","port":80,"cipher":"auto","uuid":"c458695d-6908-45c3-9512-e0c46418454c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"sbl2.shabijichang.com"}}}
+  - {"name":"🇨🇦_CA_加拿大_1","type":"vless","server":"23.227.39.86","port":443,"uuid":"0773256c-d020-436d-afea-6eee7cb6c872","tls":true,"servername":"xray1.freegradely.xyz","network":"ws","ws-opts":{"path":"/bodhws"}}
+  - {"name":"🇳🇱_NL_荷兰","type":"ss","server":"51.15.27.48","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇬🇧_GB_英国_1","type":"ss","server":"5.181.27.97","port":15100,"password":"GeZbX4Enoc","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸_US_美国","type":"ss","server":"35.87.39.181","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国","type":"vless","server":"172.66.47.98","port":2053,"uuid":"0b111ced-0f47-461f-ae09-589f393d45b6","tls":true,"servername":"mtnfinldefhdisjwidjsmperep0.amoozeshgah-com.com","network":"ws","ws-opts":{"path":"/backup"}}
+  - {"name":"🇷🇺_RU_俄罗斯联邦","type":"ss","server":"91.194.161.7","port":8388,"password":"OWJlYjYy","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷_FR_法国_1","type":"ss","server":"37.59.21.130","port":443,"password":"asdKkaskJKfnsa","cipher":"aes-256-cfb"}
+  - {"name":"🇫🇷_FR_法国_2","type":"ss","server":"37.59.21.131","port":443,"password":"asdKkaskJKfnsa","cipher":"aes-256-cfb"}
+  - {"name":"🇨🇦_CA_加拿大_2","type":"vless","server":"23.227.38.86","port":443,"uuid":"0773256c-d020-436d-afea-6eee7cb6c872","tls":true,"servername":"xray1.freegradely.xyz","network":"ws","ws-opts":{"path":"/bodhws"}}
+  - {"name":"🇬🇧_GB_英国_2","type":"ss","server":"198.244.231.34","port":443,"password":"asdKkaskJKfnsa","cipher":"aes-256-cfb"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_1
+      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇫🇷_FR_法国_1
+      - 🇫🇷_FR_法国_2
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_1
+      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇫🇷_FR_法国_1
+      - 🇫🇷_FR_法国_2
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_1
+      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇫🇷_FR_法国_1
+      - 🇫🇷_FR_法国_2
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_1
+      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇫🇷_FR_法国_1
+      - 🇫🇷_FR_法国_2
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_1
+      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇫🇷_FR_法国_1
+      - 🇫🇷_FR_法国_2
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_1
+      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇫🇷_FR_法国_1
+      - 🇫🇷_FR_法国_2
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -147,8 +203,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
+      - 🇨🇦_CA_加拿大_1
+      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯联邦
+      - 🇫🇷_FR_法国_1
+      - 🇫🇷_FR_法国_2
+      - 🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国_2
 
 rules:
 # 本地/局域网地址
