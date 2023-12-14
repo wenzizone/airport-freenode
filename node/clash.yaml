@@ -77,133 +77,1755 @@ external-controller: 0.0.0.0:9090
 log-level: info
 mixed-port: 7890
 proxies:
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 6"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.200.119
+  type: ss
+- name: "\U0001F1EA\U0001F1F8 _ES_\u897F\u73ED\u7259_32"
+  password: 4fc77152e665415b9986d5b9b8f43601
+  port: 443
+  server: 65.20.102.54
+  skip-cert-verify: true
+  sni: www.gpt123.one
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_60"
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_44"
   network: ws
-  port: 2096
-  server: XXX54.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  port: 2086
+  server: XXX116.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5e2b8412-ae02-4279-b13a-af3972952287
+  ws-opts:
+    headers:
+      Host: XXX116.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1F1\U0001F1F9_LT_\u7ACB\u9676\
+    \u5B9B"
+  network: ws
+  port: 8080
+  server: cloud.dragonrzm.sbs
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: ce0d5151-7734-4189-b6ae-eb58e9af5603
+  ws-opts:
+    headers:
+      Host: cloud.dragonrzm.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_78"
+  network: ws
+  port: 8880
+  server: XXX174.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 245eacd2-497e-4a3b-a16f-cf04797d1dc6
+  ws-opts:
+    headers:
+      Host: XXX174.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 198.244.231.34
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_102"
+  network: ws
+  port: 2083
+  server: XXX122.FORWARDV2RAYTELEGRAMCHANNEL.FUN
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 2201c95f-3d1c-4d02-99b4-b5006edaaf98
+  uuid: 56c8c4f4-1ff7-4ca5-b5c2-42c719ba917e
   ws-opts:
     headers:
-      Host: XXX54.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+      Host: XXX122.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_97"
+  network: ws
+  port: 2096
+  server: XXX124.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1797383f-0203-40a4-a213-95403b2f7794
+  ws-opts:
+    headers:
+      Host: XXX124.FORWARDV2RAYTELEGRAMCHANNEL.FUN
     path: /@FORWARDV2RAY
 - cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_12"
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 3"
   password: asdKkaskJKfnsa
   port: 443
-  server: 162.19.59.160
+  server: 198.244.231.26
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 2"
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_8"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 89.187.181.179
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_20"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 37.59.21.132
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_93"
+  network: ws
+  port: 8080
+  server: XXX103.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a99463e1-c0f4-4b35-a5f1-72de43029f27
+  ws-opts:
+    headers:
+      Host: XXX103.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F8\U0001F1EC _SG_\u65B0\u52A0\u5761_101"
+  network: ws
+  port: 80
+  server: kkyx.yydsii.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f32fb637-67eb-48be-9f29-4523c4720de7
+  ws-opts:
+    headers:
+      Host: yxtw.651568.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_112"
+  network: ws
+  port: 80
+  server: XXX17.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0c61cea2-4906-4901-86c2-c0988af7b0a3
+  ws-opts:
+    headers:
+      Host: XXX17.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD"
+  password: 8Ka1hu4r3g
+  port: 8443
+  server: cf.network383.online
+  skip-cert-verify: false
+  sni: ams-trojan-grpc.carfin.tech
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_115"
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 20009
+  server: service.ouluyun9803.com
+  type: ss
+- grpc-opts:
+    grpc-service-name: '@apt_mahdi'
+  name: "US_\u7F8E\u56FD 3"
+  network: grpc
+  password: 8Ka1hu4r3g
+  port: 8443
+  server: cf.network383.online
+  skip-cert-verify: false
+  sni: ams-trojan-grpc.carfin.tech
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_42"
+  network: ws
+  port: 2083
+  server: XXX170.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 56c8c4f4-1ff7-4ca5-b5c2-42c719ba917e
+  ws-opts:
+    headers:
+      Host: XXX170.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 7"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 37.59.21.132
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_63"
+  network: ws
+  port: 2086
+  server: XXX164.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5e2b8412-ae02-4279-b13a-af3972952287
+  ws-opts:
+    headers:
+      Host: XXX164.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_73"
+  network: ws
+  port: 2096
+  server: XXX160.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1797383f-0203-40a4-a213-95403b2f7794
+  ws-opts:
+    headers:
+      Host: XXX160.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_113"
+  network: ws
+  port: 8880
+  server: XXX114.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 245eacd2-497e-4a3b-a16f-cf04797d1dc6
+  ws-opts:
+    headers:
+      Host: XXX114.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: "DE_\u5FB7\u56FD"
+  network: http
+  port: 443
+  server: 80.71.157.199
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a88ba483-d935-4cb8-a425-a8a9a468409b
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_106"
+  network: ws
+  port: 8080
+  server: XXX163.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a99463e1-c0f4-4b35-a5f1-72de43029f27
+  ws-opts:
+    headers:
+      Host: XXX163.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- name: "\uFE0F\u200D\U0001F308_UN_\u672A\u77E5_26"
+  password: 8Ka1hu4r3g
+  port: 8443
+  server: cf.network383.online
+  skip-cert-verify: true
+  sni: ams-trojan-grpc.carfin.tech
+  type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_25"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 141.95.99.192
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.203.2
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_103"
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 26667
+  server: service.ouluyun9803.com
+  type: ss
+- name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_35"
+  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
+  port: 10845
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
+    _1"
+  network: tcp
+  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
+  port: 10850
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_40"
+  network: ws
+  port: 2096
+  server: www.speedtest.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 37dc5b2d-0cff-44cc-a9ab-9be1123c62f5
+  ws-opts:
+    headers:
+      Host: freenodeWLF13.freedns.site
+    path: /@womanlifefreedom13?ed=2048
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD"
+  network: http
+  port: 443
+  server: 80.71.157.199
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a88ba483-d935-4cb8-a425-a8a9a468409b
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_49"
+  network: ws
+  port: 8080
+  server: XXX187.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a99463e1-c0f4-4b35-a5f1-72de43029f27
+  ws-opts:
+    headers:
+      Host: XXX187.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- name: "\U0001F1FA\U0001F1E6 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
+    \u5170"
+  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
+  port: 10845
+  server: other.kunlun-ppg.com
+  skip-cert-verify: false
+  sni: alibaba-node.cn
+  type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 5"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 89.187.181.179
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_9"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 135.125.172.153
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 10"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.195.96
+  type: ss
+- name: "\U0001F1E6\U0001F1F9 _CN_\u4E2D\u56FD->\U0001F1E6\U0001F1F9_AT_\u5965\u5730\
+    \u5229"
+  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
+  port: 10848
+  server: other.kunlun-ppg.com
+  skip-cert-verify: false
+  sni: alibaba-node.cn
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_65"
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 20001
+  server: service.ouluyun9803.com
+  type: ss
+- name: "\U0001F1EA\U0001F1F8 _ES_\u897F\u73ED\u7259"
+  password: 4fc77152e665415b9986d5b9b8f43601
+  port: 443
+  server: 65.20.102.54
+  skip-cert-verify: false
+  sni: www.gpt123.one
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_69"
+  network: ws
+  port: 2095
+  server: XXX105.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d59aa585-8da0-40b6-8720-0f76f1357a65
+  ws-opts:
+    headers:
+      Host: XXX105.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_52"
+  network: ws
+  port: 80
+  server: XXX125.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0c61cea2-4906-4901-86c2-c0988af7b0a3
+  ws-opts:
+    headers:
+      Host: XXX125.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E6\U0001F1F9_AT_\u5965\u5730\
+    \u5229"
+  network: tcp
+  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
+  port: 10848
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_50"
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 50003
+  server: service.ouluyun9803.com
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_36"
+  password: amazonskr05
+  port: 443
+  server: tg_mfbpn_aus2.52vpn.eu.org
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 6"
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 38.91.107.37
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_80"
+  network: ws
+  port: 2095
+  server: XXX117.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d59aa585-8da0-40b6-8720-0f76f1357a65
+  ws-opts:
+    headers:
+      Host: XXX117.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_7"
+  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
+  port: 10850
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+- name: "ES_\u897F\u73ED\u7259"
+  password: 4fc77152e665415b9986d5b9b8f43601
+  port: 443
+  server: 65.20.102.54
+  skip-cert-verify: false
+  sni: www.gpt123.one
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_105"
+  network: ws
+  port: 2086
+  server: XXX176.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5e2b8412-ae02-4279-b13a-af3972952287
+  ws-opts:
+    headers:
+      Host: XXX176.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 8"
+  network: ws
+  port: 80
+  server: ns1.v2-vip.fun
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_4"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 57.129.1.20
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_74"
+  network: ws
+  port: 2087
+  server: XXX111.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 67ad5b2f-831e-43f5-9128-cf468903f454
+  ws-opts:
+    headers:
+      Host: XXX111.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_87"
+  network: ws
+  port: 8080
+  server: cloud.dragonrzm.sbs
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ce0d5151-7734-4189-b6ae-eb58e9af5603
+  ws-opts:
+    headers:
+      Host: cloud.dragonrzm.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_107"
+  network: ws
+  port: 2095
+  server: XXX11.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d59aa585-8da0-40b6-8720-0f76f1357a65
+  ws-opts:
+    headers:
+      Host: XXX11.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 11"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 37.59.21.130
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_1"
+  network: ws
+  port: 8080
+  server: cloud.dragonrzm.sbs
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ce0d5151-7734-4189-b6ae-eb58e9af5603
+  ws-opts:
+    headers:
+      Host: cloud.dragonrzm.sbs
+    path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 12"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.159.222.35
+  type: ss
+- name: "CN_\u4E2D\u56FD->UA_\u4E4C\u514B\u5170"
+  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
+  port: 10845
+  server: other.kunlun-ppg.com
+  skip-cert-verify: false
+  sni: alibaba-node.cn
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_66"
+  network: ws
+  port: 2086
+  server: XXX140.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5e2b8412-ae02-4279-b13a-af3972952287
+  ws-opts:
+    headers:
+      Host: XXX140.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_18"
   password: asdKkaskJKfnsa
   port: 443
   server: 198.244.231.28
   type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_76"
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_39"
   network: ws
-  port: 2082
-  server: XXX174.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  port: 8880
+  server: XXX102.FORWARDV2RAYTELEGRAMCHANNEL.FUN
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836
+  uuid: 245eacd2-497e-4a3b-a16f-cf04797d1dc6
   ws-opts:
     headers:
-      Host: XXX174.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+      Host: XXX102.FORWARDV2RAYTELEGRAMCHANNEL.FUN
     path: /@FORWARDV2RAY
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 13"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.203.4
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_80"
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 20009
-  server: service.ouluyun9803.com
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_10"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.200.119
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6_4"
-  password: OWJlYjYy
-  port: 8388
-  server: 91.194.161.7
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_22"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.200.139
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 4"
-  password: GeZbX4Enoc
-  port: 15100
-  server: 5.181.27.97
-  type: ss
+- name: "\U0001F1FA\U0001F1F8 _CA_\u52A0\u62FF\u5927->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD"
+  password: 57edfecf-5694-4a34-8072-54a4f0636a62
+  port: 40007
+  server: frontend.kuangbiaoyun.com
+  skip-cert-verify: false
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_79"
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_46"
   network: ws
-  port: 2082
-  server: XXX118.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  port: 2096
+  server: XXX136.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1797383f-0203-40a4-a213-95403b2f7794
+  ws-opts:
+    headers:
+      Host: XXX136.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_84"
+  network: ws
+  port: 8080
+  server: XXX139.FORWARDV2RAYTELEGRAMCHANNEL.FUN
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836
+  uuid: a99463e1-c0f4-4b35-a5f1-72de43029f27
   ws-opts:
     headers:
-      Host: XXX118.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+      Host: XXX139.FORWARDV2RAYTELEGRAMCHANNEL.FUN
     path: /@FORWARDV2RAY
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  network: tcp
-  password: d56cb8dc-e932-4d57-bd90-1381a1245f90
-  port: 20352
-  server: UNLK2.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_94"
+  network: ws
+  port: 2095
+  server: XXX153.FORWARDV2RAYTELEGRAMCHANNEL.FUN
   skip-cert-verify: true
-  sni: 206.237.5.220
-  type: trojan
-  udp: true
-- name: "US_\u7F8E\u56FD"
-  password: d56cb8dc-e932-4d57-bd90-1381a1245f90
-  port: 20352
-  server: UNLK2.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN
-  skip-cert-verify: false
-  sni: 206.237.5.220
-  type: trojan
+  tls: false
+  type: vmess
+  uuid: d59aa585-8da0-40b6-8720-0f76f1357a65
+  ws-opts:
+    headers:
+      Host: XXX153.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
 - cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_30"
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 5"
   password: asdKkaskJKfnsa
   port: 443
-  server: 162.19.204.80
+  server: 198.244.231.24
   type: ss
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_37"
+  network: ws
+  password: d2698cf9-c47e-455c-8384-12e642cbba15
+  port: 443
+  server: 89.116.180.179
+  skip-cert-verify: true
+  sni: p6us4.pqjc.buzz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: p6us4.pqjc.buzz
+    path: /pq/us4
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_76"
+  network: ws
+  port: 2086
+  server: XXX128.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5e2b8412-ae02-4279-b13a-af3972952287
+  ws-opts:
+    headers:
+      Host: XXX128.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- name: "\U0001F1FA\U0001F1F8 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
+  port: 10838
+  server: other.kunlun-ppg.com
+  skip-cert-verify: false
+  sni: alibaba-node.cn
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_70"
+  network: ws
+  port: 8080
+  server: XXX127.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a99463e1-c0f4-4b35-a5f1-72de43029f27
+  ws-opts:
+    headers:
+      Host: XXX127.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_110"
+  network: ws
+  port: 8880
+  server: XXX162.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 245eacd2-497e-4a3b-a16f-cf04797d1dc6
+  ws-opts:
+    headers:
+      Host: XXX162.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  network: ws
+  port: 80
+  server: ns1.v2-vip.fun
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
 - cipher: aes-256-cfb
   name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 14"
   password: asdKkaskJKfnsa
   port: 443
-  server: 37.59.21.131
+  server: 162.19.204.83
   type: ss
-- name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927"
-  network: tcp
-  password: 027c71ac-026b-4755-9a33-26558ce6f6a2
+- name: "\U0001F1E8\U0001F1F3 _TW_\u53F0\u6E7E_57"
+  password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff
   port: 443
-  server: 172.105.5.158
+  server: download1tw.windowsupdatea.com
   skip-cert-verify: true
-  sni: ddragon.leagueoflegends.com
+  sni: glc-tw1.windowsupdatea.com
+  type: trojan
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
+    \u5170"
+  network: tcp
+  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
+  port: 10845
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 2"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 57.129.1.20
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_12"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.195.96
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_92"
+  network: ws
+  port: 80
+  server: XXX185.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0c61cea2-4906-4901-86c2-c0988af7b0a3
+  ws-opts:
+    headers:
+      Host: XXX185.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_47"
+  network: ws
+  port: 8080
+  server: cloud.dragonrzm.sbs
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ce0d5151-7734-4189-b6ae-eb58e9af5603
+  ws-opts:
+    headers:
+      Host: cloud.dragonrzm.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_6"
+  network: ws
+  port: 80
+  server: ns1.v2-vip.fun
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- name: "CN_\u4E2D\u56FD->AT_\u5965\u5730\u5229"
+  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
+  port: 10848
+  server: other.kunlun-ppg.com
+  skip-cert-verify: false
+  sni: alibaba-node.cn
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_55"
+  network: ws
+  port: 2095
+  server: XXX189.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d59aa585-8da0-40b6-8720-0f76f1357a65
+  ws-opts:
+    headers:
+      Host: XXX189.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_75"
+  network: ws
+  port: 2096
+  server: XXX184.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1797383f-0203-40a4-a213-95403b2f7794
+  ws-opts:
+    headers:
+      Host: XXX184.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_16"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.159.221.203
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_24"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 37.59.21.130
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_59"
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 50001
+  server: service.ouluyun9803.com
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_21"
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 38.91.107.37
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_56"
+  network: ws
+  port: 8080
+  server: XXX175.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a99463e1-c0f4-4b35-a5f1-72de43029f27
+  ws-opts:
+    headers:
+      Host: XXX175.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_10"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 162.19.204.83
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_13"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 198.244.231.26
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_54"
+  network: ws
+  port: 2096
+  server: XXX112.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1797383f-0203-40a4-a213-95403b2f7794
+  ws-opts:
+    headers:
+      Host: XXX112.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 16"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.204.70
+  type: ss
+- name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_28"
+  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
+  port: 10838
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_60"
+  network: ws
+  port: 2083
+  server: XXX182.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 56c8c4f4-1ff7-4ca5-b5c2-42c719ba917e
+  ws-opts:
+    headers:
+      Host: XXX182.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 2"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 198.244.231.27
+  type: ss
+- name: "US_\u7F8E\u56FD 2"
+  network: ws
+  password: d2698cf9-c47e-455c-8384-12e642cbba15
+  port: 443
+  server: 167.68.5.183
+  skip-cert-verify: false
+  sni: 6us3.pqjc.buzz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 6us3.pqjc.buzz
+    path: /pq/us3
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_96"
+  network: ws
+  port: 2083
+  server: XXX146.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 56c8c4f4-1ff7-4ca5-b5c2-42c719ba917e
+  ws-opts:
+    headers:
+      Host: XXX146.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_33"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.203.4
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_99"
+  network: ws
+  port: 2096
+  server: XXX100.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1797383f-0203-40a4-a213-95403b2f7794
+  ws-opts:
+    headers:
+      Host: XXX100.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_3"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.204.70
+  type: ss
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
+    _2"
+  network: tcp
+  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
+  port: 10838
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  network: ws
+  password: d2698cf9-c47e-455c-8384-12e642cbba15
+  port: 443
+  server: 167.68.5.183
+  skip-cert-verify: true
+  sni: 6us3.pqjc.buzz
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /pq/us3
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_72"
+  network: ws
+  port: 2087
+  server: XXX171.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 67ad5b2f-831e-43f5-9128-cf468903f454
+  ws-opts:
+    headers:
+      Host: XXX171.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_2"
+  password: asdKkaskJKfnsa
+  port: 110
+  server: 51.158.195.96
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  network: http
+  port: 443
+  server: 80.71.157.199
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a88ba483-d935-4cb8-a425-a8a9a468409b
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_34"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 37.59.21.131
+  type: ss
+- name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_81"
+  password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff
+  port: 443
+  server: download1hkt.windowsupdatea.com
+  skip-cert-verify: true
+  sni: glc-hkt1.windowsupdatea.com
+  type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_19"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.200.139
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_100"
+  network: ws
+  port: 2087
+  server: XXX147.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 67ad5b2f-831e-43f5-9128-cf468903f454
+  ws-opts:
+    headers:
+      Host: XXX147.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 3"
+  password: amazonskr05
+  port: 443
+  server: tg_mfbpn_aus2.52vpn.eu.org
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 3"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.159.221.203
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 8"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.203.4
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 5"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 141.95.99.192
+  type: ss
+- grpc-opts:
+    grpc-service-name: '@apt_mahdi'
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  network: grpc
+  password: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=
+  port: 8443
+  server: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=@apt_mahdi
+  skip-cert-verify: true
+  sni: ams-trojan-grpc.carfin.tech
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD_14"
+  network: http
+  port: 443
+  server: 80.71.157.199
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a88ba483-d935-4cb8-a425-a8a9a468409b
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_89"
+  network: ws
+  port: 8880
+  server: XXX126.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 245eacd2-497e-4a3b-a16f-cf04797d1dc6
+  ws-opts:
+    headers:
+      Host: XXX126.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_71"
+  network: ws
+  port: 8880
+  server: XXX186.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 245eacd2-497e-4a3b-a16f-cf04797d1dc6
+  ws-opts:
+    headers:
+      Host: XXX186.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_114"
+  network: ws
+  port: 2087
+  server: XXX183.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 67ad5b2f-831e-43f5-9128-cf468903f454
+  ws-opts:
+    headers:
+      Host: XXX183.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 17"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 135.125.172.153
+  type: ss
+- name: "CN_\u4E2D\u56FD->US_\u7F8E\u56FD"
+  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
+  port: 10850
+  server: other.kunlun-ppg.com
+  skip-cert-verify: false
+  sni: alibaba-node.cn
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "US_\u7F8E\u56FD->LT_\u7ACB\u9676\u5B9B"
+  network: ws
+  port: 8080
+  server: cloud.dragonrzm.sbs
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ce0d5151-7734-4189-b6ae-eb58e9af5603
+  ws-opts:
+    headers:
+      Host: cloud.dragonrzm.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_90"
+  network: ws
+  port: 2083
+  server: XXX14.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 56c8c4f4-1ff7-4ca5-b5c2-42c719ba917e
+  ws-opts:
+    headers:
+      Host: XXX14.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_53"
+  network: ws
+  port: 2087
+  server: XXX123.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 67ad5b2f-831e-43f5-9128-cf468903f454
+  ws-opts:
+    headers:
+      Host: XXX123.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_22"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.159.222.35
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_86"
+  network: ws
+  port: 443
+  server: XXX157.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9a1f2b24-06af-41a8-841e-95d31f18ad05
+  ws-opts:
+    headers:
+      Host: XXX157.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_108"
+  network: ws
+  port: 2086
+  server: XXX188.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5e2b8412-ae02-4279-b13a-af3972952287
+  ws-opts:
+    headers:
+      Host: XXX188.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_29"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 198.244.231.24
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 7"
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 38.91.107.37
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 15"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 162.19.204.81
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_68"
+  network: ws
+  port: 2095
+  server: XXX165.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d59aa585-8da0-40b6-8720-0f76f1357a65
+  ws-opts:
+    headers:
+      Host: XXX165.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_85"
+  network: ws
+  port: 2086
+  server: XXX104.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5e2b8412-ae02-4279-b13a-af3972952287
+  ws-opts:
+    headers:
+      Host: XXX104.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 4"
+  network: ws
+  password: d2698cf9-c47e-455c-8384-12e642cbba15
+  port: 443
+  server: 167.68.5.183
+  skip-cert-verify: false
+  sni: 6us3.pqjc.buzz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 6us3.pqjc.buzz
+    path: /pq/us3
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 4"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.200.139
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_77"
+  network: ws
+  port: 80
+  server: scadn.yydsii.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f32fb637-67eb-48be-9f29-4523c4720de7
+  ws-opts:
+    headers:
+      Host: yxtw.651568.xyz
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_61"
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 50004
+  server: service.ouluyun9803.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "US_\u7F8E\u56FD"
+  network: ws
+  port: 80
+  server: ns1.v2-vip.fun
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_38"
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 38.91.107.37
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_91"
+  network: ws
+  port: 2083
+  server: XXX110.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 56c8c4f4-1ff7-4ca5-b5c2-42c719ba917e
+  ws-opts:
+    headers:
+      Host: XXX110.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_41"
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 21001
+  server: service.ouluyun9803.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_88"
+  network: ws
+  port: 2095
+  server: XXX141.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d59aa585-8da0-40b6-8720-0f76f1357a65
+  ws-opts:
+    headers:
+      Host: XXX141.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_79"
+  network: ws
+  port: 2086
+  server: XXX10.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5e2b8412-ae02-4279-b13a-af3972952287
+  ws-opts:
+    headers:
+      Host: XXX10.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_43"
+  network: ws
+  port: 2096
+  server: XXX148.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1797383f-0203-40a4-a213-95403b2f7794
+  ws-opts:
+    headers:
+      Host: XXX148.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_104"
+  network: ws
+  port: 80
+  server: XXX161.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0c61cea2-4906-4901-86c2-c0988af7b0a3
+  ws-opts:
+    headers:
+      Host: XXX161.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_30"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 198.244.231.34
+  type: ss
+- name: "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927_27"
+  password: 57edfecf-5694-4a34-8072-54a4f0636a62
+  port: 40007
+  server: frontend.kuangbiaoyun.com
+  skip-cert-verify: true
+  type: trojan
+- name: "US_\u7F8E\u56FD 4"
+  network: ws
+  password: d2698cf9-c47e-455c-8384-12e642cbba15
+  port: 443
+  server: 89.116.180.179
+  skip-cert-verify: false
+  sni: p6us4.pqjc.buzz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: p6us4.pqjc.buzz
+    path: /pq/us4
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_82"
+  network: ws
+  port: 80
+  server: XXX113.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0c61cea2-4906-4901-86c2-c0988af7b0a3
+  ws-opts:
+    headers:
+      Host: XXX113.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_98"
+  network: ws
+  port: 80
+  server: XXX149.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0c61cea2-4906-4901-86c2-c0988af7b0a3
+  ws-opts:
+    headers:
+      Host: XXX149.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD"
+  network: tcp
+  password: 57edfecf-5694-4a34-8072-54a4f0636a62
+  port: 40007
+  server: frontend.kuangbiaoyun.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_15"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.200.119
+  type: ss
+- name: "\U0001F1EA\U0001F1F8_ES_\u897F\u73ED\u7259"
+  network: tcp
+  password: 4fc77152e665415b9986d5b9b8f43601
+  port: 443
+  server: 65.20.102.54
+  skip-cert-verify: true
+  sni: www.gpt123.one
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_95"
+  network: ws
+  port: 8880
+  server: XXX138.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 245eacd2-497e-4a3b-a16f-cf04797d1dc6
+  ws-opts:
+    headers:
+      Host: XXX138.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 2"
+  network: ws
+  password: d2698cf9-c47e-455c-8384-12e642cbba15
+  port: 443
+  server: 89.116.180.179
+  skip-cert-verify: false
+  sni: p6us4.pqjc.buzz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: p6us4.pqjc.buzz
+    path: /pq/us4
+- name: "CN_\u4E2D\u56FD->US_\u7F8E\u56FD 2"
+  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
+  port: 10838
+  server: other.kunlun-ppg.com
+  skip-cert-verify: false
+  sni: alibaba-node.cn
+  type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_31"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.203.2
+  type: ss
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  network: tcp
+  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
+  port: 10850
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 13"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 37.59.21.131
+  type: ss
+- name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_23"
+  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
+  port: 10848
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+- name: "\U0001F1FA\U0001F1F8 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
+    \ 2"
+  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
+  port: 10850
+  server: other.kunlun-ppg.com
+  skip-cert-verify: false
+  sni: alibaba-node.cn
+  type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 4"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 198.244.231.28
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_58"
+  network: ws
+  port: 80
+  server: XXX173.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0c61cea2-4906-4901-86c2-c0988af7b0a3
+  ws-opts:
+    headers:
+      Host: XXX173.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_45"
+  network: ws
+  port: 2083
+  server: XXX158.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 56c8c4f4-1ff7-4ca5-b5c2-42c719ba917e
+  ws-opts:
+    headers:
+      Host: XXX158.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  network: ws
+  port: 80
+  server: ns1.v2-vip.fun
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_67"
+  network: ws
+  port: 80
+  server: XXX137.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0c61cea2-4906-4901-86c2-c0988af7b0a3
+  ws-opts:
+    headers:
+      Host: XXX137.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_51"
+  network: ws
+  port: 8080
+  server: XXX151.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a99463e1-c0f4-4b35-a5f1-72de43029f27
+  ws-opts:
+    headers:
+      Host: XXX151.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_83"
+  network: ws
+  port: 8080
+  server: XXX115.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a99463e1-c0f4-4b35-a5f1-72de43029f27
+  ws-opts:
+    headers:
+      Host: XXX115.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 9"
+  password: asdKkaskJKfnsa
+  port: 110
+  server: 51.158.195.96
+  type: ss
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
+  network: ws
+  password: d2698cf9-c47e-455c-8384-12e642cbba15
+  port: 443
+  server: 89.116.180.179
+  skip-cert-verify: true
+  sni: p6us4.pqjc.buzz
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /pq/us4
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_17"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 198.244.231.27
+  type: ss
+- name: "CA_\u52A0\u62FF\u5927->US_\u7F8E\u56FD"
+  password: 57edfecf-5694-4a34-8072-54a4f0636a62
+  port: 40007
+  server: frontend.kuangbiaoyun.com
+  skip-cert-verify: false
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_48"
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 20003
+  server: service.ouluyun9803.com
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_5"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 162.19.204.81
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_64"
+  network: ws
+  port: 2052
+  server: family.mgtajhiz.ir
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
+  ws-opts:
+    headers:
+      Host: family.mgtajhiz.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F1\U0001F1F9_LT_\u7ACB\u9676\
@@ -221,732 +1843,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_67"
-  network: ws
-  port: 8080
-  server: cloud.dragonrzm.sbs
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ce0d5151-7734-4189-b6ae-eb58e9af5603
-  ws-opts:
-    headers:
-      Host: cloud.dragonrzm.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_46"
-  network: ws
-  port: 443
-  server: xxx.star-one.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 5c0cac25-9645-4439-a60a-84f74303470f
-  ws-opts:
-    headers:
-      Host: xxx.star-one.cfd
-    path: /26202/@FORWADV2RAY
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_29"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 198.244.231.28
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_6"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 37.59.21.131
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_31"
-  password: datdGFe4LkMN710aHedy
-  port: 51348
-  server: 85.239.52.174
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_26"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.159.221.227
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_111"
   network: ws
   port: 80
-  server: ld2.shabijichang.com
+  server: XXX101.FORWARDV2RAYTELEGRAMCHANNEL.FUN
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: 0c61cea2-4906-4901-86c2-c0988af7b0a3
   ws-opts:
     headers:
-      host: ld2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_40"
-  network: ws
-  port: 2096
-  server: XXX39.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2201c95f-3d1c-4d02-99b4-b5006edaaf98
-  ws-opts:
-    headers:
-      Host: XXX39.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+      Host: XXX101.FORWARDV2RAYTELEGRAMCHANNEL.FUN
     path: /@FORWARDV2RAY
-- name: "US_\u7F8E\u56FD 3"
-  network: ws
-  password: d2698cf9-c47e-455c-8384-12e642cbba15
-  port: 443
-  server: 167.68.5.183
-  skip-cert-verify: false
-  sni: 6us3.pqjc.buzz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 6us3.pqjc.buzz
-    path: /pq/us3
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_86"
-  network: ws
-  port: 443
-  server: xxx.star-one.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 712ac294-b8b4-46e6-9cf3-3a32453ff6ed
-  ws-opts:
-    headers:
-      Host: xxx.star-one.cfd
-    path: /22154/@FORWADV2RAY
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 2"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.159.221.227
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F7\U0001F1F4 _RO_\u7F57\u9A6C\u5C3C\u4E9A"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 194.14.217.115
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 198.244.231.24
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1E7\U0001F1F7 _BR_\u5DF4\u897F"
-  password: VcVGtFxYAQlor5DX7AZm7KpqJu5EnlFEtQr3kSaTCog=
-  port: 5600
-  server: 186.233.118.171
-  type: ss
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 2"
-  network: ws
-  password: d2698cf9-c47e-455c-8384-12e642cbba15
-  port: 443
-  server: 167.68.5.183
-  skip-cert-verify: false
-  sni: 6us3.pqjc.buzz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 6us3.pqjc.buzz
-    path: /pq/us3
-- name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170"
-  network: tcp
-  password: fd2ef3e6-75b7-46cf-bc60-e8899851ed57
-  port: 443
-  server: 70.34.252.233
-  skip-cert-verify: true
-  sni: proxmox.com
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 3"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 162.19.204.80
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F7\U0001F1F4 _RO_\u7F57\u9A6C\u5C3C\u4E9A_37"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 194.14.217.115
-  type: ss
-- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  network: tcp
-  password: 9ebdbb4a-8ae6-45e8-9169-33fe68fdbaae
-  port: 80
-  server: 141.94.221.127
-  skip-cert-verify: true
-  sni: ftp.debian.org
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_11"
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 54.36.174.181
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_82"
-  network: ws
-  port: 2086
-  server: XXX238.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f322bbea-1729-453e-ace1-cb2acac11975
-  ws-opts:
-    headers:
-      Host: XXX238.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_19"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 198.244.231.26
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_57"
-  network: ws
-  port: 443
-  server: xxx.star-one.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 5e391580-dc79-4673-8f2b-24d50074e006
-  ws-opts:
-    headers:
-      Host: xxx.star-one.cfd
-    path: /55992/@FORWADV2RAY
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 5"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 198.244.231.34
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_72"
-  network: ws
-  port: 8080
-  server: scadn.yydsii.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f32fb637-67eb-48be-9f29-4523c4720de7
-  ws-opts:
-    headers:
-      Host: kryx.651568.xyz
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 5"
-  password: asdKkaskJKfnsa
-  port: 110
-  server: 51.158.195.96
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6 2"
-  password: OWJlYjYy
-  port: 8388
-  server: 91.194.161.7
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_25"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 74.121.191.98
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_16"
-  network: ws
-  port: 80
-  server: ld2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ld2.shabijichang.com
-    path: /
-- name: "\U0001F1F5\U0001F1F1 _PL_\u6CE2\u5170"
-  password: fd2ef3e6-75b7-46cf-bc60-e8899851ed57
-  port: 443
-  server: 70.34.252.233
-  skip-cert-verify: false
-  sni: proxmox.com
-  type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_8"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.159.221.219
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_53"
-  network: ws
-  port: 443
-  server: xxx.star-one.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8f8e0fd3-1775-46c1-b07c-6f269f854784
-  ws-opts:
-    headers:
-      Host: xxx.star-one.cfd
-    path: /18220/@FORWADV2RAY
-- name: "PL_\u6CE2\u5170"
-  password: fd2ef3e6-75b7-46cf-bc60-e8899851ed57
-  port: 443
-  server: 70.34.252.233
-  skip-cert-verify: false
-  sni: proxmox.com
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 7"
-  password: datdGFe4LkMN710aHedy
-  port: 51348
-  server: 85.239.52.174
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_34"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 198.244.231.24
-  type: ss
-- name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_33"
-  password: 9ebdbb4a-8ae6-45e8-9169-33fe68fdbaae
-  port: 80
-  server: 141.94.221.127
-  skip-cert-verify: true
-  sni: ftp.debian.org
-  type: trojan
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD"
-  network: http
-  port: 443
-  server: 80.71.157.199
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: a88ba483-d935-4cb8-a425-a8a9a468409b
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_61"
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 20001
-  server: service.ouluyun9803.com
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 4"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 37.59.21.130
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  network: ws
-  port: 80
-  server: ld2.shabijichang.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ld2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD_23"
-  network: http
-  port: 443
-  server: 80.71.157.199
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a88ba483-d935-4cb8-a425-a8a9a468409b
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FB\U0001F1F3 _VN_\u8D8A\u5357_77"
-  network: ws
-  port: 80
-  server: 103.232.54.160
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d95cded2-816a-4b5d-bb21-6180bd6d4d3a
-  ws-opts:
-    path: /zenpn.com
-- cipher: aes-256-gcm
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_58"
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 54.36.174.181
-  type: ss
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 5"
-  network: http
-  port: 56333
-  server: 3.129.250.63
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 610fcb1f-ffa6-4819-d313-cd530be44a3c
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_83"
-  password: B0ry56X2AxfFgcgI7sHDWD
-  port: 26669
-  server: 94.131.12.58
-  type: ss
-- name: "\U0001F1F5\U0001F1F1 _PL_\u6CE2\u5170_15"
-  password: fd2ef3e6-75b7-46cf-bc60-e8899851ed57
-  port: 443
-  server: 70.34.252.233
-  skip-cert-verify: true
-  sni: proxmox.com
-  type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_39"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.203.2
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_56"
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 54.36.174.181
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_48"
-  network: ws
-  port: 80
-  server: scadn.yydsii.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f32fb637-67eb-48be-9f29-4523c4720de7
-  ws-opts:
-    headers:
-      Host: jpyx.651568.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_50"
-  network: ws
-  port: 8080
-  server: XXX130.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e1aa1aea-a836-4a92-9bb2-ee12a79d6fa7
-  ws-opts:
-    headers:
-      Host: XXX130.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_69"
-  network: ws
-  port: 2086
-  server: XXX105.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f322bbea-1729-453e-ace1-cb2acac11975
-  ws-opts:
-    headers:
-      Host: XXX105.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- cipher: aes-256-gcm
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 15"
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 54.36.174.181
-  type: ss
-- name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 8"
-  password: 9ebdbb4a-8ae6-45e8-9169-33fe68fdbaae
-  port: 80
-  server: 141.94.221.127
-  skip-cert-verify: false
-  sni: ftp.debian.org
-  type: trojan
-- name: "\U0001F1E8\U0001F1F3 _TW_\u53F0\u6E7E_43"
-  password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff
-  port: 443
-  server: download1tw.windowsupdatea.com
-  skip-cert-verify: true
-  sni: glc-tw1.windowsupdatea.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_59"
-  network: ws
-  port: 443
-  server: xxx.star-one.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 182a3503-2dec-4002-9069-3f49881b3ec8
-  ws-opts:
-    headers:
-      Host: xxx.star-one.cfd
-    path: /32943/@FORWADV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  network: ws
-  port: 80
-  server: ns1.v2-vip.fun
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
-  ws-opts:
-    headers:
-      host: ssrsub.v03.ssrsub.com
-    path: /api/v3/download.getFile
-- cipher: aes-256-gcm
-  name: "\U0001F1E7\U0001F1F7 _BR_\u5DF4\u897F_14"
-  password: VcVGtFxYAQlor5DX7AZm7KpqJu5EnlFEtQr3kSaTCog=
-  port: 5600
-  server: 186.233.118.171
-  type: ss
-- name: "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927"
-  password: 027c71ac-026b-4755-9a33-26558ce6f6a2
-  port: 443
-  server: 172.105.5.158
-  skip-cert-verify: false
-  sni: ddragon.leagueoflegends.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_65"
-  network: ws
-  port: 443
-  server: xxx.star-one.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 769a0ff7-dd4c-459d-85f8-a4b5aba262e7
-  ws-opts:
-    headers:
-      Host: xxx.star-one.cfd
-    path: /15220/@FORWADV2RAY
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 3"
-  password: amazonskr05
-  port: 443
-  server: 35.87.39.181
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_27"
-  password: yTzEeImDDKooThuQKhZjob
-  port: 11285
-  server: 45.150.65.34
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1EE _FI_\u82AC\u5170_75"
-  password: zIPjynKNVVaBnKK0UZ5zu2
-  port: 38584
-  server: 45.159.249.231
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F3\U0001F1F1 _NL_\u8377\u5170"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.27.48
-  type: ss
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_32"
-  network: http
-  port: 56333
-  server: 3.129.250.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 610fcb1f-ffa6-4819-d313-cd530be44a3c
-- cipher: aes-256-gcm
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_41"
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F3\U0001F1F1 _NL_\u8377\u5170_1"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.27.48
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 11"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.200.139
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_5"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 37.59.21.130
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_21"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 162.19.204.83
-  type: ss
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: "DE_\u5FB7\u56FD"
-  network: http
-  port: 443
-  server: 80.71.157.199
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a88ba483-d935-4cb8-a425-a8a9a468409b
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_73"
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 21001
-  server: service.ouluyun9803.com
-  type: ss
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD"
-  password: d56cb8dc-e932-4d57-bd90-1381a1245f90
-  port: 20352
-  server: UNLK2.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN
-  skip-cert-verify: false
-  sni: 206.237.5.220
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "US_\u7F8E\u56FD->GB_\u82F1\u56FD"
-  network: ws
-  port: 80
-  server: ld2.shabijichang.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ld2.shabijichang.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_44"
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 20003
-  server: service.ouluyun9803.com
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_24"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.159.222.35
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 12"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.200.119
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 9"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 162.19.204.83
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 6"
-  password: yTzEeImDDKooThuQKhZjob
-  port: 11285
-  server: 45.150.65.34
-  type: ss
-- name: "CA_\u52A0\u62FF\u5927"
-  password: 027c71ac-026b-4755-9a33-26558ce6f6a2
-  port: 443
-  server: 172.105.5.158
-  skip-cert-verify: false
-  sni: ddragon.leagueoflegends.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_85"
-  network: ws
-  port: 2082
-  server: XXX216.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836
-  ws-opts:
-    headers:
-      Host: XXX216.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_87"
-  network: ws
-  port: 2086
-  server: XXX154.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f322bbea-1729-453e-ace1-cb2acac11975
-  ws-opts:
-    headers:
-      Host: XXX154.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 8"
-  password: amazonskr05
-  port: 443
-  server: tg_mfbpn_aus2.52vpn.eu.org
-  type: ss
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_38"
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_11"
   network: ws
   password: d2698cf9-c47e-455c-8384-12e642cbba15
   port: 443
@@ -958,724 +1867,401 @@ proxies:
     headers:
       Host: 6us3.pqjc.buzz
     path: /pq/us3
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_109"
+  network: ws
+  port: 2087
+  server: XXX15.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 67ad5b2f-831e-43f5-9128-cf468903f454
+  ws-opts:
+    headers:
+      Host: XXX15.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+    path: /@FORWARDV2RAY
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_62"
   network: ws
-  port: 443
-  server: xxx.star-one.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e0b5838c-7345-4376-9974-87e73455f02d
-  ws-opts:
-    headers:
-      Host: xxx.star-one.cfd
-    path: /55504/@FORWADV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_74"
-  network: ws
-  port: 2082
-  server: XXX188.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+  port: 2095
+  server: XXX177.FORWARDV2RAYTELEGRAMCHANNEL.FUN
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836
+  uuid: d59aa585-8da0-40b6-8720-0f76f1357a65
   ws-opts:
     headers:
-      Host: XXX188.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- cipher: aes-256-gcm
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_13"
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 54.36.174.181
-  type: ss
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
-  network: ws
-  password: d2698cf9-c47e-455c-8384-12e642cbba15
-  port: 443
-  server: 167.68.5.183
-  skip-cert-verify: true
-  sni: 6us3.pqjc.buzz
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /pq/us3
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  network: http
-  port: 56333
-  server: 3.129.250.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 610fcb1f-ffa6-4819-d313-cd530be44a3c
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: http
-  port: 443
-  server: 80.71.157.199
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a88ba483-d935-4cb8-a425-a8a9a468409b
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
-  password: dhXDSrO3HnkhOZWxNOrvII
-  port: 42320
-  server: 62.113.114.116
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6_35"
-  password: dhXDSrO3HnkhOZWxNOrvII
-  port: 42320
-  server: 62.113.114.116
-  type: ss
-- name: "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927_9"
-  password: 027c71ac-026b-4755-9a33-26558ce6f6a2
-  port: 443
-  server: 172.105.5.158
-  skip-cert-verify: true
-  sni: ddragon.leagueoflegends.com
-  type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.159.221.219
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_36"
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 17"
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 54.36.174.181
-  type: ss
-- name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_51"
-  password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff
-  port: 443
-  server: download1hkt.windowsupdatea.com
-  skip-cert-verify: true
-  sni: glc-hkt1.windowsupdatea.com
-  type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_3"
-  password: amazonskr05
-  port: 443
-  server: 35.87.39.181
-  type: ss
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  network: tcp
-  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
-  port: 10850
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 16"
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_20"
-  password: amazonskr05
-  port: 443
-  server: tg_mfbpn_aus2.52vpn.eu.org
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_81"
-  password: OTI5ZDhk
-  port: 8388
-  server: 95.164.44.21
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_63"
-  network: ws
-  port: 443
-  server: xxx.star-one.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 30aa0825-c1bc-45cc-ad43-dcdeb3b4ba7d
-  ws-opts:
-    headers:
-      Host: xxx.star-one.cfd
-    path: /35083/@FORWADV2RAY
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: "US_\u7F8E\u56FD 2"
-  network: http
-  port: 56333
-  server: 3.129.250.63
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 610fcb1f-ffa6-4819-d313-cd530be44a3c
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_84"
-  network: ws
-  port: 2082
-  server: XXX167.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836
-  ws-opts:
-    headers:
-      Host: XXX167.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- name: "FR_\u6CD5\u56FD"
-  password: 9ebdbb4a-8ae6-45e8-9169-33fe68fdbaae
-  port: 80
-  server: 141.94.221.127
-  skip-cert-verify: false
-  sni: ftp.debian.org
-  type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 4"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 74.121.191.98
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 3"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 198.244.231.26
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_45"
-  network: ws
-  port: 2082
-  server: XXX202.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836
-  ws-opts:
-    headers:
-      Host: XXX202.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_28"
-  password: asdKkaskJKfnsa
-  port: 110
-  server: 51.158.195.96
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_7"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 198.244.231.34
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_64"
-  network: ws
-  port: 443
-  server: xxx.star-one.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f27c3ac2-6fba-4693-943e-a1ccdaa08bfd
-  ws-opts:
-    headers:
-      Host: xxx.star-one.cfd
-    path: /18318/@FORWADV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_55"
-  network: ws
-  port: 2082
-  server: XXX195.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836
-  ws-opts:
-    headers:
-      Host: XXX195.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_66"
-  network: ws
-  port: 2086
-  server: XXX217.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f322bbea-1729-453e-ace1-cb2acac11975
-  ws-opts:
-    headers:
-      Host: XXX217.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 6"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.159.222.35
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_18"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.203.4
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_2"
-  password: GeZbX4Enoc
-  port: 15100
-  server: 5.181.27.97
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_42"
-  network: ws
-  port: 2082
-  server: XXX104.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836
-  ws-opts:
-    headers:
-      Host: XXX104.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_47"
-  network: ws
-  port: 8080
-  server: XXX102.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e1aa1aea-a836-4a92-9bb2-ee12a79d6fa7
-  ws-opts:
-    headers:
-      Host: XXX102.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 10"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.203.2
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_78"
-  network: ws
-  port: 8080
-  server: XXX109.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e1aa1aea-a836-4a92-9bb2-ee12a79d6fa7
-  ws-opts:
-    headers:
-      Host: XXX109.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_52"
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 26601
-  server: 183.233.187.235
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 7"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 162.19.59.160
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_68"
-  network: ws
-  port: 8080
-  server: XXX172.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e1aa1aea-a836-4a92-9bb2-ee12a79d6fa7
-  ws-opts:
-    headers:
-      Host: XXX172.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_17"
-  password: d56cb8dc-e932-4d57-bd90-1381a1245f90
-  port: 20352
-  server: UNLK2.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN
-  skip-cert-verify: true
-  sni: 206.237.5.220
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_71"
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 50001
-  server: service.ouluyun9803.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_49"
-  network: ws
-  port: 2052
-  server: family.mgtajhiz.ir
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
-  ws-opts:
-    headers:
-      Host: family.mgtajhiz.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_70"
-  network: ws
-  port: 8080
-  server: XXX193.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e1aa1aea-a836-4a92-9bb2-ee12a79d6fa7
-  ws-opts:
-    headers:
-      Host: XXX193.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_54"
-  network: ws
-  port: 2086
-  server: XXX133.FORWARDV2RAYTELEGRAMCHANNEL.FUN
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f322bbea-1729-453e-ace1-cb2acac11975
-  ws-opts:
-    headers:
-      Host: XXX133.FORWARDV2RAYTELEGRAMCHANNEL.FUN
+      Host: XXX177.FORWARDV2RAYTELEGRAMCHANNEL.FUN
     path: /@FORWARDV2RAY
 proxy-groups:
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
   proxies:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - DIRECT
-  - "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927"
-  - "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F1\U0001F1F9_LT_\u7ACB\u9676\u5B9B"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  - "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  - "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E6\U0001F1F9_AT_\u5965\u5730\u5229"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  - "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  - "\U0001F1EA\U0001F1F8_ES_\u897F\u73ED\u7259"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "US_\u7F8E\u56FD->LT_\u7ACB\u9676\u5B9B"
+  - "US_\u7F8E\u56FD"
+  - "CN_\u4E2D\u56FD->US_\u7F8E\u56FD"
+  - "US_\u7F8E\u56FD 2"
+  - "DE_\u5FB7\u56FD"
+  - "CN_\u4E2D\u56FD->AT_\u5965\u5730\u5229"
+  - "US_\u7F8E\u56FD 3"
+  - "CA_\u52A0\u62FF\u5927->US_\u7F8E\u56FD"
+  - "CN_\u4E2D\u56FD->US_\u7F8E\u56FD 2"
+  - "ES_\u897F\u73ED\u7259"
+  - "CN_\u4E2D\u56FD->UA_\u4E4C\u514B\u5170"
+  - "US_\u7F8E\u56FD 4"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 2"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD"
-  - "\U0001F1F7\U0001F1F4 _RO_\u7F57\u9A6C\u5C3C\u4E9A"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 2"
-  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
-  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 2"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 3"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 3"
-  - "\U0001F1F3\U0001F1F1 _NL_\u8377\u5170"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 4"
-  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 3"
-  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 4"
-  - "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 4"
-  - "\U0001F1F5\U0001F1F1 _PL_\u6CE2\u5170"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 5"
-  - "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 2"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 3"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 4"
+  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 5"
+  - "\U0001F1E6\U0001F1F9 _CN_\u4E2D\u56FD->\U0001F1E6\U0001F1F9_AT_\u5965\u5730\u5229"
+  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 2"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 6"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 7"
-  - "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD"
-  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 5"
-  - "\U0001F1E7\U0001F1F7 _BR_\u5DF4\u897F"
+  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 3"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 8"
+  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 4"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 9"
+  - "\U0001F1EA\U0001F1F8 _ES_\u897F\u73ED\u7259"
+  - "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 10"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 11"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 12"
+  - "\U0001F1FA\U0001F1F8 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 5"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 13"
+  - "\U0001F1FA\U0001F1F8 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD 2"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 14"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 15"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 16"
-  - "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6 2"
+  - "\U0001F1FA\U0001F1E6 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 6"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 7"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1F1\U0001F1F9_LT_\u7ACB\u9676\u5B9B"
+  - "\U0001F1FA\U0001F1F8 _CA_\u52A0\u62FF\u5927->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 17"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 8"
-  - "CA_\u52A0\u62FF\u5927"
-  - "PL_\u6CE2\u5170"
-  - "US_\u7F8E\u56FD->GB_\u82F1\u56FD"
-  - "US_\u7F8E\u56FD"
-  - "DE_\u5FB7\u56FD"
-  - "US_\u7F8E\u56FD 2"
-  - "FR_\u6CD5\u56FD"
-  - "US_\u7F8E\u56FD 3"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F1\U0001F1F9_LT_\u7ACB\u9676\u5B9B"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  - "\U0001F1F3\U0001F1F1 _NL_\u8377\u5170_1"
-  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_2"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_3"
-  - "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6_4"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_1"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_2"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_3"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_4"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_5"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_6"
-  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_7"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_8"
-  - "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927_9"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_6"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_7"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_8"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_9"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_10"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_11"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_11"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_12"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_13"
-  - "\U0001F1E7\U0001F1F7 _BR_\u5DF4\u897F_14"
-  - "\U0001F1F5\U0001F1F1 _PL_\u6CE2\u5170_15"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_16"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_17"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_18"
-  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_19"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_20"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_21"
+  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_13"
+  - "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD_14"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_15"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_16"
+  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_17"
+  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_18"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_19"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_20"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_21"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_22"
-  - "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD_23"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_23"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_24"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_25"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_26"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_27"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_28"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_25"
+  - "\uFE0F\u200D\U0001F308_UN_\u672A\u77E5_26"
+  - "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927_27"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_28"
   - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_29"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_30"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_31"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_32"
+  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_30"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_31"
+  - "\U0001F1EA\U0001F1F8 _ES_\u897F\u73ED\u7259_32"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_33"
-  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_34"
-  - "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6_35"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_36"
-  - "\U0001F1F7\U0001F1F4 _RO_\u7F57\u9A6C\u5C3C\u4E9A_37"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_34"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_35"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_36"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_37"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_38"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_39"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_39"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_40"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_41"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_41"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_42"
-  - "\U0001F1E8\U0001F1F3 _TW_\u53F0\u6E7E_43"
-  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_44"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_43"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_44"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_45"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_46"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_47"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_48"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_48"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_49"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_50"
-  - "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_51"
-  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_52"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_50"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_51"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_52"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_53"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_54"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_55"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_56"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_57"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_58"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_59"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_56"
+  - "\U0001F1E8\U0001F1F3 _TW_\u53F0\u6E7E_57"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_58"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_59"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_60"
   - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_61"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_62"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_63"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_64"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_65"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_65"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_66"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_67"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_68"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_69"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_70"
-  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_71"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_71"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_72"
-  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_73"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_73"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_74"
-  - "\U0001F1EB\U0001F1EE _FI_\u82AC\u5170_75"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_75"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_76"
-  - "\U0001F1FB\U0001F1F3 _VN_\u8D8A\u5357_77"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_77"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_78"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_79"
-  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_80"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_81"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_80"
+  - "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_81"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_82"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_83"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_84"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_85"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_86"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_87"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_88"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_89"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_90"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_91"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_92"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_93"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_94"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_95"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_96"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_97"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_98"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_99"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_100"
+  - "\U0001F1F8\U0001F1EC _SG_\u65B0\u52A0\u5761_101"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_102"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_103"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_104"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_105"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_106"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_107"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_108"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_109"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_110"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_111"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_112"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_113"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_114"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_115"
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   proxies:
-  - "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927"
-  - "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F1\U0001F1F9_LT_\u7ACB\u9676\u5B9B"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  - "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  - "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E6\U0001F1F9_AT_\u5965\u5730\u5229"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  - "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  - "\U0001F1EA\U0001F1F8_ES_\u897F\u73ED\u7259"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "US_\u7F8E\u56FD->LT_\u7ACB\u9676\u5B9B"
+  - "US_\u7F8E\u56FD"
+  - "CN_\u4E2D\u56FD->US_\u7F8E\u56FD"
+  - "US_\u7F8E\u56FD 2"
+  - "DE_\u5FB7\u56FD"
+  - "CN_\u4E2D\u56FD->AT_\u5965\u5730\u5229"
+  - "US_\u7F8E\u56FD 3"
+  - "CA_\u52A0\u62FF\u5927->US_\u7F8E\u56FD"
+  - "CN_\u4E2D\u56FD->US_\u7F8E\u56FD 2"
+  - "ES_\u897F\u73ED\u7259"
+  - "CN_\u4E2D\u56FD->UA_\u4E4C\u514B\u5170"
+  - "US_\u7F8E\u56FD 4"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 2"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD"
-  - "\U0001F1F7\U0001F1F4 _RO_\u7F57\u9A6C\u5C3C\u4E9A"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 2"
-  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
-  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 2"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 3"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 3"
-  - "\U0001F1F3\U0001F1F1 _NL_\u8377\u5170"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 4"
-  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 3"
-  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 4"
-  - "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 4"
-  - "\U0001F1F5\U0001F1F1 _PL_\u6CE2\u5170"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 5"
-  - "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 2"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 3"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 4"
+  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 5"
+  - "\U0001F1E6\U0001F1F9 _CN_\u4E2D\u56FD->\U0001F1E6\U0001F1F9_AT_\u5965\u5730\u5229"
+  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 2"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 6"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 7"
-  - "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD"
-  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 5"
-  - "\U0001F1E7\U0001F1F7 _BR_\u5DF4\u897F"
+  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 3"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 8"
+  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 4"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 9"
+  - "\U0001F1EA\U0001F1F8 _ES_\u897F\u73ED\u7259"
+  - "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 10"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 11"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 12"
+  - "\U0001F1FA\U0001F1F8 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 5"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 13"
+  - "\U0001F1FA\U0001F1F8 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD 2"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 14"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 15"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 16"
-  - "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6 2"
+  - "\U0001F1FA\U0001F1E6 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 6"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 7"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1F1\U0001F1F9_LT_\u7ACB\u9676\u5B9B"
+  - "\U0001F1FA\U0001F1F8 _CA_\u52A0\u62FF\u5927->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 17"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 8"
-  - "CA_\u52A0\u62FF\u5927"
-  - "PL_\u6CE2\u5170"
-  - "US_\u7F8E\u56FD->GB_\u82F1\u56FD"
-  - "US_\u7F8E\u56FD"
-  - "DE_\u5FB7\u56FD"
-  - "US_\u7F8E\u56FD 2"
-  - "FR_\u6CD5\u56FD"
-  - "US_\u7F8E\u56FD 3"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F1\U0001F1F9_LT_\u7ACB\u9676\u5B9B"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  - "\U0001F1F3\U0001F1F1 _NL_\u8377\u5170_1"
-  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_2"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_3"
-  - "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6_4"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_1"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_2"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_3"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_4"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_5"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_6"
-  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_7"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_8"
-  - "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927_9"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_6"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_7"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_8"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_9"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_10"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_11"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_11"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_12"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_13"
-  - "\U0001F1E7\U0001F1F7 _BR_\u5DF4\u897F_14"
-  - "\U0001F1F5\U0001F1F1 _PL_\u6CE2\u5170_15"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_16"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_17"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_18"
-  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_19"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_20"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_21"
+  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_13"
+  - "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD_14"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_15"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_16"
+  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_17"
+  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_18"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_19"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_20"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_21"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_22"
-  - "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD_23"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_23"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_24"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_25"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_26"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_27"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_28"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_25"
+  - "\uFE0F\u200D\U0001F308_UN_\u672A\u77E5_26"
+  - "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927_27"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_28"
   - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_29"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_30"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_31"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_32"
+  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_30"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_31"
+  - "\U0001F1EA\U0001F1F8 _ES_\u897F\u73ED\u7259_32"
   - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_33"
-  - "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_34"
-  - "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6_35"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_36"
-  - "\U0001F1F7\U0001F1F4 _RO_\u7F57\u9A6C\u5C3C\u4E9A_37"
+  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_34"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_35"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_36"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_37"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_38"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_39"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_39"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_40"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_41"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_41"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_42"
-  - "\U0001F1E8\U0001F1F3 _TW_\u53F0\u6E7E_43"
-  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_44"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_43"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_44"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_45"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_46"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_47"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_48"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_48"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_49"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_50"
-  - "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_51"
-  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_52"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_50"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_51"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_52"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_53"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_54"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_55"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_56"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_57"
-  - "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_58"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_59"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_56"
+  - "\U0001F1E8\U0001F1F3 _TW_\u53F0\u6E7E_57"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_58"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_59"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_60"
   - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_61"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_62"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_63"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_64"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_65"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_65"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_66"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_67"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_68"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_69"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_70"
-  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_71"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_71"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_72"
-  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_73"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_73"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_74"
-  - "\U0001F1EB\U0001F1EE _FI_\u82AC\u5170_75"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_75"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_76"
-  - "\U0001F1FB\U0001F1F3 _VN_\u8D8A\u5357_77"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_77"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_78"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_79"
-  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_80"
-  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_81"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_80"
+  - "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_81"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_82"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_83"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_84"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_85"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_86"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_87"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_88"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_89"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_90"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_91"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_92"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_93"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_94"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_95"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_96"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_97"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_98"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_99"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_100"
+  - "\U0001F1F8\U0001F1EC _SG_\u65B0\u52A0\u5761_101"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_102"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_103"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_104"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_105"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_106"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_107"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_108"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_109"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_110"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_111"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_112"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_113"
+  - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_114"
+  - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_115"
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204

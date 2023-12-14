@@ -5,279 +5,363 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇳🇱 _NL_荷兰_1, server: 51.15.27.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇬🇧 _GB_英国_2, server: 5.181.27.97, port: 15100, type: ss, cipher: aes-256-gcm, password: GeZbX4Enoc}
-  - {name: 🇺🇸 _US_美国_3, server: 35.87.39.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇷🇺 _RU_俄罗斯联邦_4, server: 91.194.161.7, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: OWJlYjYy}
-  - {name: 🇫🇷 _FR_法国_5, server: 37.59.21.130, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 _FR_法国_6, server: 37.59.21.131, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇬🇧 _GB_英国_7, server: 198.244.231.34, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 _FR_法国_8, server: 51.159.221.219, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇨🇦 _CA_加拿大_9, server: 172.105.5.158, port: 443, type: trojan, password: 027c71ac-026b-4755-9a33-26558ce6f6a2, sni: ddragon.leagueoflegends.com, skip-cert-verify: true}
-  - {name: 🇫🇷 _FR_法国_10, server: 51.158.200.119, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 _FR_法国_11, server: 54.36.174.181, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇫🇷 _FR_法国_12, server: 162.19.59.160, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 _FR_法国_13, server: 54.36.174.181, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇧🇷 _BR_巴西_14, server: 186.233.118.171, port: 5600, type: ss, cipher: aes-256-gcm, password: VcVGtFxYAQlor5DX7AZm7KpqJu5EnlFEtQr3kSaTCog=}
-  - {name: 🇵🇱 _PL_波兰_15, server: 70.34.252.233, port: 443, type: trojan, password: fd2ef3e6-75b7-46cf-bc60-e8899851ed57, sni: proxmox.com, skip-cert-verify: true}
-  - {name: 🇺🇸 _US_美国_16, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
-  - {name: 🇺🇸 _US_美国_17, server: UNLK2.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN, port: 20352, type: trojan, password: d56cb8dc-e932-4d57-bd90-1381a1245f90, sni: 206.237.5.220, skip-cert-verify: true}
-  - {name: 🇫🇷 _FR_法国_18, server: 51.158.203.4, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇬🇧 _GB_英国_19, server: 198.244.231.26, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇺🇸 _US_美国_20, server: tg_mfbpn_aus2.52vpn.eu.org, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇫🇷 _FR_法国_21, server: 162.19.204.83, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 _FR_法国_22, server: 51.158.200.139, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇩🇪 _DE_德国_23, server: 80.71.157.199, port: 443, type: vmess, uuid: a88ba483-d935-4cb8-a425-a8a9a468409b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇫🇷 _FR_法国_24, server: 51.159.222.35, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇺🇸 _US_美国_25, server: 74.121.191.98, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇫🇷 _FR_法国_26, server: 51.159.221.227, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇺🇸 _US_美国_27, server: 45.150.65.34, port: 11285, type: ss, cipher: chacha20-ietf-poly1305, password: yTzEeImDDKooThuQKhZjob}
-  - {name: 🇫🇷 _FR_法国_28, server: 51.158.195.96, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇬🇧 _GB_英国_29, server: 198.244.231.28, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇫🇷 _FR_法国_30, server: 162.19.204.80, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇺🇸 _US_美国_31, server: 85.239.52.174, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: datdGFe4LkMN710aHedy}
-  - {name: 🇺🇸 _US_美国_32, server: 3.129.250.63, port: 56333, type: vmess, uuid: 610fcb1f-ffa6-4819-d313-cd530be44a3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇫🇷 _FR_法国_33, server: 141.94.221.127, port: 80, type: trojan, password: 9ebdbb4a-8ae6-45e8-9169-33fe68fdbaae, sni: ftp.debian.org, skip-cert-verify: true}
-  - {name: 🇬🇧 _GB_英国_34, server: 198.244.231.24, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇷🇺 _RU_俄罗斯联邦_35, server: 62.113.114.116, port: 42320, type: ss, cipher: chacha20-ietf-poly1305, password: dhXDSrO3HnkhOZWxNOrvII}
-  - {name: 🇫🇷 _FR_法国_36, server: 54.36.174.181, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇷🇴 _RO_罗马尼亚_37, server: 194.14.217.115, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 _US_美国_38, server: 167.68.5.183, port: 443, type: trojan, password: d2698cf9-c47e-455c-8384-12e642cbba15, sni: 6us3.pqjc.buzz, skip-cert-verify: true, network: ws, ws-opts: {path: /pq/us3, headers: {Host: 6us3.pqjc.buzz}}}
-  - {name: 🇫🇷 _FR_法国_39, server: 51.158.203.2, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇺🇸 _US_美国_40, server: XXX39.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2096, type: vmess, uuid: 2201c95f-3d1c-4d02-99b4-b5006edaaf98, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX39.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
-  - {name: 🇫🇷 _FR_法国_41, server: 54.36.174.181, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇸 _US_美国_42, server: XXX104.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2082, type: vmess, uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX104.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
-  - {name: 🇨🇳 _TW_台湾_43, server: download1tw.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-tw1.windowsupdatea.com, skip-cert-verify: true}
-  - {name: 🇨🇳 _CN_中国_44, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4}
-  - {name: 🇺🇸 _US_美国_45, server: XXX202.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2082, type: vmess, uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX202.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
-  - {name: 🇺🇸 _US_美国_46, server: xxx.star-one.cfd, port: 443, type: vmess, uuid: 5c0cac25-9645-4439-a60a-84f74303470f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /26202/@FORWADV2RAY, headers: {Host: xxx.star-one.cfd}}}
-  - {name: 🇺🇸 _US_美国_47, server: XXX102.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 8080, type: vmess, uuid: e1aa1aea-a836-4a92-9bb2-ee12a79d6fa7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX102.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
-  - {name: 🇺🇸 _US_美国_48, server: scadn.yydsii.com, port: 80, type: vmess, uuid: f32fb637-67eb-48be-9f29-4523c4720de7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jpyx.651568.xyz}}}
-  - {name: 🇺🇸 _US_美国_49, server: family.mgtajhiz.ir, port: 2052, type: vmess, uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: family.mgtajhiz.ir}}}
-  - {name: 🇺🇸 _US_美国_50, server: XXX130.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 8080, type: vmess, uuid: e1aa1aea-a836-4a92-9bb2-ee12a79d6fa7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX130.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
-  - {name: 🇭🇰 _HK_香港_51, server: download1hkt.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-hkt1.windowsupdatea.com, skip-cert-verify: true}
-  - {name: 🇨🇳 _CN_中国_52, server: 183.233.187.235, port: 26601, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4}
-  - {name: 🇺🇸 _US_美国_53, server: xxx.star-one.cfd, port: 443, type: vmess, uuid: 8f8e0fd3-1775-46c1-b07c-6f269f854784, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /18220/@FORWADV2RAY, headers: {Host: xxx.star-one.cfd}}}
-  - {name: 🇺🇸 _US_美国_54, server: XXX133.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2086, type: vmess, uuid: f322bbea-1729-453e-ace1-cb2acac11975, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX133.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
-  - {name: 🇺🇸 _US_美国_55, server: XXX195.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2082, type: vmess, uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX195.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
-  - {name: 🇫🇷 _FR_法国_56, server: 54.36.174.181, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 _US_美国_57, server: xxx.star-one.cfd, port: 443, type: vmess, uuid: 5e391580-dc79-4673-8f2b-24d50074e006, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /55992/@FORWADV2RAY, headers: {Host: xxx.star-one.cfd}}}
-  - {name: 🇫🇷 _FR_法国_58, server: 54.36.174.181, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 _US_美国_59, server: xxx.star-one.cfd, port: 443, type: vmess, uuid: 182a3503-2dec-4002-9069-3f49881b3ec8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /32943/@FORWADV2RAY, headers: {Host: xxx.star-one.cfd}}}
-  - {name: 🇺🇸 _US_美国_60, server: XXX54.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2096, type: vmess, uuid: 2201c95f-3d1c-4d02-99b4-b5006edaaf98, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX54.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
-  - {name: 🇨🇳 _CN_中国_61, server: service.ouluyun9803.com, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4}
-  - {name: 🇺🇸 _US_美国_62, server: xxx.star-one.cfd, port: 443, type: vmess, uuid: e0b5838c-7345-4376-9974-87e73455f02d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /55504/@FORWADV2RAY, headers: {Host: xxx.star-one.cfd}}}
-  - {name: 🇺🇸 _US_美国_63, server: xxx.star-one.cfd, port: 443, type: vmess, uuid: 30aa0825-c1bc-45cc-ad43-dcdeb3b4ba7d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /35083/@FORWADV2RAY, headers: {Host: xxx.star-one.cfd}}}
-  - {name: 🇺🇸 _US_美国_64, server: xxx.star-one.cfd, port: 443, type: vmess, uuid: f27c3ac2-6fba-4693-943e-a1ccdaa08bfd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /18318/@FORWADV2RAY, headers: {Host: xxx.star-one.cfd}}}
-  - {name: 🇺🇸 _US_美国_65, server: xxx.star-one.cfd, port: 443, type: vmess, uuid: 769a0ff7-dd4c-459d-85f8-a4b5aba262e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /15220/@FORWADV2RAY, headers: {Host: xxx.star-one.cfd}}}
-  - {name: 🇺🇸 _US_美国_66, server: XXX217.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2086, type: vmess, uuid: f322bbea-1729-453e-ace1-cb2acac11975, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX217.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
-  - {name: 🇺🇸 _US_美国_67, server: cloud.dragonrzm.sbs, port: 8080, type: vmess, uuid: ce0d5151-7734-4189-b6ae-eb58e9af5603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloud.dragonrzm.sbs}}}
-  - {name: 🇺🇸 _US_美国_68, server: XXX172.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 8080, type: vmess, uuid: e1aa1aea-a836-4a92-9bb2-ee12a79d6fa7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX172.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
-  - {name: 🇺🇸 _US_美国_69, server: XXX105.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2086, type: vmess, uuid: f322bbea-1729-453e-ace1-cb2acac11975, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX105.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
-  - {name: 🇺🇸 _US_美国_70, server: XXX193.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 8080, type: vmess, uuid: e1aa1aea-a836-4a92-9bb2-ee12a79d6fa7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX193.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
-  - {name: 🇨🇳 _CN_中国_71, server: service.ouluyun9803.com, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4}
-  - {name: 🇺🇸 _US_美国_72, server: scadn.yydsii.com, port: 8080, type: vmess, uuid: f32fb637-67eb-48be-9f29-4523c4720de7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kryx.651568.xyz}}}
-  - {name: 🇨🇳 _CN_中国_73, server: service.ouluyun9803.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4}
-  - {name: 🇺🇸 _US_美国_74, server: XXX188.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2082, type: vmess, uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX188.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
-  - {name: 🇫🇮 _FI_芬兰_75, server: 45.159.249.231, port: 38584, type: ss, cipher: chacha20-ietf-poly1305, password: zIPjynKNVVaBnKK0UZ5zu2}
-  - {name: 🇺🇸 _US_美国_76, server: XXX174.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2082, type: vmess, uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX174.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
-  - {name: 🇻🇳 _VN_越南_77, server: 103.232.54.160, port: 80, type: vmess, uuid: d95cded2-816a-4b5d-bb21-6180bd6d4d3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zenpn.com}}
-  - {name: 🇺🇸 _US_美国_78, server: XXX109.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 8080, type: vmess, uuid: e1aa1aea-a836-4a92-9bb2-ee12a79d6fa7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX109.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
-  - {name: 🇺🇸 _US_美国_79, server: XXX118.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2082, type: vmess, uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX118.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
-  - {name: 🇨🇳 _CN_中国_80, server: service.ouluyun9803.com, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4}
-  - {name: 🇺🇸 _US_美国_81, server: 95.164.44.21, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: OTI5ZDhk}
-  - {name: 🇺🇸 _US_美国_82, server: XXX238.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2086, type: vmess, uuid: f322bbea-1729-453e-ace1-cb2acac11975, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX238.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
-  - {name: 🇺🇸 _US_美国_83, server: 94.131.12.58, port: 26669, type: ss, cipher: chacha20-ietf-poly1305, password: B0ry56X2AxfFgcgI7sHDWD}
-  - {name: 🇺🇸 _US_美国_84, server: XXX167.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2082, type: vmess, uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX167.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
-  - {name: 🇺🇸 _US_美国_85, server: XXX216.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2082, type: vmess, uuid: 8ec7071d-d99e-4e90-81b5-9ee060029836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX216.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
-  - {name: 🇺🇸 _US_美国_86, server: xxx.star-one.cfd, port: 443, type: vmess, uuid: 712ac294-b8b4-46e6-9cf3-3a32453ff6ed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /22154/@FORWADV2RAY, headers: {Host: xxx.star-one.cfd}}}
-  - {name: 🇺🇸 _US_美国_87, server: XXX154.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2086, type: vmess, uuid: f322bbea-1729-453e-ace1-cb2acac11975, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX154.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_1, server: cloud.dragonrzm.sbs, port: 8080, type: vmess, uuid: ce0d5151-7734-4189-b6ae-eb58e9af5603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloud.dragonrzm.sbs}}}
+  - {name: 🇫🇷 _FR_法国_2, server: 51.158.195.96, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国_3, server: 51.158.204.70, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国_4, server: 57.129.1.20, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国_5, server: 162.19.204.81, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇺🇸 _US_美国_6, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
+  - {name: 🇨🇳 _CN_中国_7, server: other.kunlun-ppg.com, port: 10850, type: trojan, password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇺🇸 _US_美国_8, server: 89.187.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国_9, server: 135.125.172.153, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国_10, server: 162.19.204.83, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇺🇸 _US_美国_11, server: 167.68.5.183, port: 443, type: trojan, password: d2698cf9-c47e-455c-8384-12e642cbba15, sni: 6us3.pqjc.buzz, skip-cert-verify: true, network: ws, ws-opts: {path: /pq/us3, headers: {Host: 6us3.pqjc.buzz}}}
+  - {name: 🇫🇷 _FR_法国_12, server: 51.158.195.96, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇬🇧 _GB_英国_13, server: 198.244.231.26, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇩🇪 _DE_德国_14, server: 80.71.157.199, port: 443, type: vmess, uuid: a88ba483-d935-4cb8-a425-a8a9a468409b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇫🇷 _FR_法国_15, server: 51.158.200.119, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国_16, server: 51.159.221.203, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇬🇧 _GB_英国_17, server: 198.244.231.27, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇬🇧 _GB_英国_18, server: 198.244.231.28, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国_19, server: 51.158.200.139, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国_20, server: 37.59.21.132, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇺🇸 _US_美国_21, server: 38.91.107.37, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇫🇷 _FR_法国_22, server: 51.159.222.35, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇨🇳 _CN_中国_23, server: other.kunlun-ppg.com, port: 10848, type: trojan, password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇫🇷 _FR_法国_24, server: 37.59.21.130, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国_25, server: 141.95.99.192, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: ️‍🌈_UN_未知_26, server: cf.network383.online, port: 8443, type: trojan, password: 8Ka1hu4r3g, sni: ams-trojan-grpc.carfin.tech, skip-cert-verify: true}
+  - {name: 🇨🇦 _CA_加拿大_27, server: frontend.kuangbiaoyun.com, port: 40007, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, skip-cert-verify: true}
+  - {name: 🇨🇳 _CN_中国_28, server: other.kunlun-ppg.com, port: 10838, type: trojan, password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇬🇧 _GB_英国_29, server: 198.244.231.24, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇬🇧 _GB_英国_30, server: 198.244.231.34, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国_31, server: 51.158.203.2, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇪🇸 _ES_西班牙_32, server: 65.20.102.54, port: 443, type: trojan, password: 4fc77152e665415b9986d5b9b8f43601, sni: www.gpt123.one, skip-cert-verify: true}
+  - {name: 🇫🇷 _FR_法国_33, server: 51.158.203.4, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 _FR_法国_34, server: 37.59.21.131, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇨🇳 _CN_中国_35, server: other.kunlun-ppg.com, port: 10845, type: trojan, password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇺🇸 _US_美国_36, server: tg_mfbpn_aus2.52vpn.eu.org, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 _US_美国_37, server: 89.116.180.179, port: 443, type: trojan, password: d2698cf9-c47e-455c-8384-12e642cbba15, sni: p6us4.pqjc.buzz, skip-cert-verify: true, network: ws, ws-opts: {path: /pq/us4, headers: {Host: p6us4.pqjc.buzz}}}
+  - {name: 🇺🇸 _US_美国_38, server: 38.91.107.37, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 _US_美国_39, server: XXX102.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 8880, type: vmess, uuid: 245eacd2-497e-4a3b-a16f-cf04797d1dc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX102.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_40, server: www.speedtest.net, port: 2096, type: vmess, uuid: 37dc5b2d-0cff-44cc-a9ab-9be1123c62f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/@womanlifefreedom13?ed=2048", headers: {Host: freenodeWLF13.freedns.site}}}
+  - {name: 🇨🇳 _CN_中国_41, server: service.ouluyun9803.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4}
+  - {name: 🇺🇸 _US_美国_42, server: XXX170.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2083, type: vmess, uuid: 56c8c4f4-1ff7-4ca5-b5c2-42c719ba917e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX170.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_43, server: XXX148.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2096, type: vmess, uuid: 1797383f-0203-40a4-a213-95403b2f7794, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX148.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_44, server: XXX116.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2086, type: vmess, uuid: 5e2b8412-ae02-4279-b13a-af3972952287, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX116.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_45, server: XXX158.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2083, type: vmess, uuid: 56c8c4f4-1ff7-4ca5-b5c2-42c719ba917e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX158.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_46, server: XXX136.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2096, type: vmess, uuid: 1797383f-0203-40a4-a213-95403b2f7794, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX136.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_47, server: cloud.dragonrzm.sbs, port: 8080, type: vmess, uuid: ce0d5151-7734-4189-b6ae-eb58e9af5603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloud.dragonrzm.sbs}}}
+  - {name: 🇨🇳 _CN_中国_48, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4}
+  - {name: 🇺🇸 _US_美国_49, server: XXX187.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 8080, type: vmess, uuid: a99463e1-c0f4-4b35-a5f1-72de43029f27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX187.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇨🇳 _CN_中国_50, server: service.ouluyun9803.com, port: 50003, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4}
+  - {name: 🇺🇸 _US_美国_51, server: XXX151.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 8080, type: vmess, uuid: a99463e1-c0f4-4b35-a5f1-72de43029f27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX151.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_52, server: XXX125.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 80, type: vmess, uuid: 0c61cea2-4906-4901-86c2-c0988af7b0a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX125.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_53, server: XXX123.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2087, type: vmess, uuid: 67ad5b2f-831e-43f5-9128-cf468903f454, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX123.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_54, server: XXX112.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2096, type: vmess, uuid: 1797383f-0203-40a4-a213-95403b2f7794, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX112.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_55, server: XXX189.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2095, type: vmess, uuid: d59aa585-8da0-40b6-8720-0f76f1357a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX189.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_56, server: XXX175.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 8080, type: vmess, uuid: a99463e1-c0f4-4b35-a5f1-72de43029f27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX175.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇨🇳 _TW_台湾_57, server: download1tw.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-tw1.windowsupdatea.com, skip-cert-verify: true}
+  - {name: 🇺🇸 _US_美国_58, server: XXX173.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 80, type: vmess, uuid: 0c61cea2-4906-4901-86c2-c0988af7b0a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX173.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇨🇳 _CN_中国_59, server: service.ouluyun9803.com, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4}
+  - {name: 🇺🇸 _US_美国_60, server: XXX182.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2083, type: vmess, uuid: 56c8c4f4-1ff7-4ca5-b5c2-42c719ba917e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX182.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇨🇳 _CN_中国_61, server: service.ouluyun9803.com, port: 50004, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4}
+  - {name: 🇺🇸 _US_美国_62, server: XXX177.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2095, type: vmess, uuid: d59aa585-8da0-40b6-8720-0f76f1357a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX177.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_63, server: XXX164.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2086, type: vmess, uuid: 5e2b8412-ae02-4279-b13a-af3972952287, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX164.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_64, server: family.mgtajhiz.ir, port: 2052, type: vmess, uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: family.mgtajhiz.ir}}}
+  - {name: 🇨🇳 _CN_中国_65, server: service.ouluyun9803.com, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4}
+  - {name: 🇺🇸 _US_美国_66, server: XXX140.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2086, type: vmess, uuid: 5e2b8412-ae02-4279-b13a-af3972952287, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX140.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_67, server: XXX137.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 80, type: vmess, uuid: 0c61cea2-4906-4901-86c2-c0988af7b0a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX137.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_68, server: XXX165.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2095, type: vmess, uuid: d59aa585-8da0-40b6-8720-0f76f1357a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX165.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_69, server: XXX105.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2095, type: vmess, uuid: d59aa585-8da0-40b6-8720-0f76f1357a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX105.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_70, server: XXX127.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 8080, type: vmess, uuid: a99463e1-c0f4-4b35-a5f1-72de43029f27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX127.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_71, server: XXX186.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 8880, type: vmess, uuid: 245eacd2-497e-4a3b-a16f-cf04797d1dc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX186.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_72, server: XXX171.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2087, type: vmess, uuid: 67ad5b2f-831e-43f5-9128-cf468903f454, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX171.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_73, server: XXX160.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2096, type: vmess, uuid: 1797383f-0203-40a4-a213-95403b2f7794, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX160.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_74, server: XXX111.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2087, type: vmess, uuid: 67ad5b2f-831e-43f5-9128-cf468903f454, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX111.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_75, server: XXX184.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2096, type: vmess, uuid: 1797383f-0203-40a4-a213-95403b2f7794, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX184.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_76, server: XXX128.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2086, type: vmess, uuid: 5e2b8412-ae02-4279-b13a-af3972952287, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX128.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_77, server: scadn.yydsii.com, port: 80, type: vmess, uuid: f32fb637-67eb-48be-9f29-4523c4720de7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yxtw.651568.xyz}}}
+  - {name: 🇺🇸 _US_美国_78, server: XXX174.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 8880, type: vmess, uuid: 245eacd2-497e-4a3b-a16f-cf04797d1dc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX174.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_79, server: XXX10.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2086, type: vmess, uuid: 5e2b8412-ae02-4279-b13a-af3972952287, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX10.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_80, server: XXX117.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2095, type: vmess, uuid: d59aa585-8da0-40b6-8720-0f76f1357a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX117.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇭🇰 _HK_香港_81, server: download1hkt.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-hkt1.windowsupdatea.com, skip-cert-verify: true}
+  - {name: 🇺🇸 _US_美国_82, server: XXX113.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 80, type: vmess, uuid: 0c61cea2-4906-4901-86c2-c0988af7b0a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX113.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_83, server: XXX115.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 8080, type: vmess, uuid: a99463e1-c0f4-4b35-a5f1-72de43029f27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX115.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_84, server: XXX139.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 8080, type: vmess, uuid: a99463e1-c0f4-4b35-a5f1-72de43029f27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX139.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_85, server: XXX104.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2086, type: vmess, uuid: 5e2b8412-ae02-4279-b13a-af3972952287, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX104.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_86, server: XXX157.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 443, type: vmess, uuid: 9a1f2b24-06af-41a8-841e-95d31f18ad05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX157.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_87, server: cloud.dragonrzm.sbs, port: 8080, type: vmess, uuid: ce0d5151-7734-4189-b6ae-eb58e9af5603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloud.dragonrzm.sbs}}}
+  - {name: 🇺🇸 _US_美国_88, server: XXX141.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2095, type: vmess, uuid: d59aa585-8da0-40b6-8720-0f76f1357a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX141.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_89, server: XXX126.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 8880, type: vmess, uuid: 245eacd2-497e-4a3b-a16f-cf04797d1dc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX126.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_90, server: XXX14.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2083, type: vmess, uuid: 56c8c4f4-1ff7-4ca5-b5c2-42c719ba917e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX14.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_91, server: XXX110.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2083, type: vmess, uuid: 56c8c4f4-1ff7-4ca5-b5c2-42c719ba917e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX110.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_92, server: XXX185.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 80, type: vmess, uuid: 0c61cea2-4906-4901-86c2-c0988af7b0a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX185.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_93, server: XXX103.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 8080, type: vmess, uuid: a99463e1-c0f4-4b35-a5f1-72de43029f27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX103.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_94, server: XXX153.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2095, type: vmess, uuid: d59aa585-8da0-40b6-8720-0f76f1357a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX153.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_95, server: XXX138.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 8880, type: vmess, uuid: 245eacd2-497e-4a3b-a16f-cf04797d1dc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX138.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_96, server: XXX146.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2083, type: vmess, uuid: 56c8c4f4-1ff7-4ca5-b5c2-42c719ba917e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX146.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_97, server: XXX124.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2096, type: vmess, uuid: 1797383f-0203-40a4-a213-95403b2f7794, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX124.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_98, server: XXX149.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 80, type: vmess, uuid: 0c61cea2-4906-4901-86c2-c0988af7b0a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX149.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_99, server: XXX100.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2096, type: vmess, uuid: 1797383f-0203-40a4-a213-95403b2f7794, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX100.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_100, server: XXX147.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2087, type: vmess, uuid: 67ad5b2f-831e-43f5-9128-cf468903f454, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX147.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇸🇬 _SG_新加坡_101, server: kkyx.yydsii.com, port: 80, type: vmess, uuid: f32fb637-67eb-48be-9f29-4523c4720de7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yxtw.651568.xyz}}}
+  - {name: 🇺🇸 _US_美国_102, server: XXX122.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2083, type: vmess, uuid: 56c8c4f4-1ff7-4ca5-b5c2-42c719ba917e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX122.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇨🇳 _CN_中国_103, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4}
+  - {name: 🇺🇸 _US_美国_104, server: XXX161.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 80, type: vmess, uuid: 0c61cea2-4906-4901-86c2-c0988af7b0a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX161.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_105, server: XXX176.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2086, type: vmess, uuid: 5e2b8412-ae02-4279-b13a-af3972952287, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX176.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_106, server: XXX163.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 8080, type: vmess, uuid: a99463e1-c0f4-4b35-a5f1-72de43029f27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX163.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_107, server: XXX11.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2095, type: vmess, uuid: d59aa585-8da0-40b6-8720-0f76f1357a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX11.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_108, server: XXX188.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2086, type: vmess, uuid: 5e2b8412-ae02-4279-b13a-af3972952287, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX188.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_109, server: XXX15.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2087, type: vmess, uuid: 67ad5b2f-831e-43f5-9128-cf468903f454, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX15.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_110, server: XXX162.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 8880, type: vmess, uuid: 245eacd2-497e-4a3b-a16f-cf04797d1dc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX162.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_111, server: XXX101.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 80, type: vmess, uuid: 0c61cea2-4906-4901-86c2-c0988af7b0a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX101.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_112, server: XXX17.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 80, type: vmess, uuid: 0c61cea2-4906-4901-86c2-c0988af7b0a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX17.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_113, server: XXX114.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 8880, type: vmess, uuid: 245eacd2-497e-4a3b-a16f-cf04797d1dc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX114.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇺🇸 _US_美国_114, server: XXX183.FORWARDV2RAYTELEGRAMCHANNEL.FUN, port: 2087, type: vmess, uuid: 67ad5b2f-831e-43f5-9128-cf468903f454, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: XXX183.FORWARDV2RAYTELEGRAMCHANNEL.FUN}}}
+  - {name: 🇨🇳 _CN_中国_115, server: service.ouluyun9803.com, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇳🇱 _NL_荷兰_1
-      - 🇬🇧 _GB_英国_2
-      - 🇺🇸 _US_美国_3
-      - 🇷🇺 _RU_俄罗斯联邦_4
+      - 🇺🇸 _US_美国_1
+      - 🇫🇷 _FR_法国_2
+      - 🇫🇷 _FR_法国_3
+      - 🇫🇷 _FR_法国_4
       - 🇫🇷 _FR_法国_5
-      - 🇫🇷 _FR_法国_6
-      - 🇬🇧 _GB_英国_7
-      - 🇫🇷 _FR_法国_8
-      - 🇨🇦 _CA_加拿大_9
+      - 🇺🇸 _US_美国_6
+      - 🇨🇳 _CN_中国_7
+      - 🇺🇸 _US_美国_8
+      - 🇫🇷 _FR_法国_9
       - 🇫🇷 _FR_法国_10
-      - 🇫🇷 _FR_法国_11
+      - 🇺🇸 _US_美国_11
       - 🇫🇷 _FR_法国_12
-      - 🇫🇷 _FR_法国_13
-      - 🇧🇷 _BR_巴西_14
-      - 🇵🇱 _PL_波兰_15
-      - 🇺🇸 _US_美国_16
-      - 🇺🇸 _US_美国_17
-      - 🇫🇷 _FR_法国_18
-      - 🇬🇧 _GB_英国_19
-      - 🇺🇸 _US_美国_20
-      - 🇫🇷 _FR_法国_21
+      - 🇬🇧 _GB_英国_13
+      - 🇩🇪 _DE_德国_14
+      - 🇫🇷 _FR_法国_15
+      - 🇫🇷 _FR_法国_16
+      - 🇬🇧 _GB_英国_17
+      - 🇬🇧 _GB_英国_18
+      - 🇫🇷 _FR_法国_19
+      - 🇫🇷 _FR_法国_20
+      - 🇺🇸 _US_美国_21
       - 🇫🇷 _FR_法国_22
-      - 🇩🇪 _DE_德国_23
+      - 🇨🇳 _CN_中国_23
       - 🇫🇷 _FR_法国_24
-      - 🇺🇸 _US_美国_25
-      - 🇫🇷 _FR_法国_26
-      - 🇺🇸 _US_美国_27
-      - 🇫🇷 _FR_法国_28
+      - 🇫🇷 _FR_法国_25
+      - ️‍🌈_UN_未知_26
+      - 🇨🇦 _CA_加拿大_27
+      - 🇨🇳 _CN_中国_28
       - 🇬🇧 _GB_英国_29
-      - 🇫🇷 _FR_法国_30
-      - 🇺🇸 _US_美国_31
-      - 🇺🇸 _US_美国_32
+      - 🇬🇧 _GB_英国_30
+      - 🇫🇷 _FR_法国_31
+      - 🇪🇸 _ES_西班牙_32
       - 🇫🇷 _FR_法国_33
-      - 🇬🇧 _GB_英国_34
-      - 🇷🇺 _RU_俄罗斯联邦_35
-      - 🇫🇷 _FR_法国_36
-      - 🇷🇴 _RO_罗马尼亚_37
+      - 🇫🇷 _FR_法国_34
+      - 🇨🇳 _CN_中国_35
+      - 🇺🇸 _US_美国_36
+      - 🇺🇸 _US_美国_37
       - 🇺🇸 _US_美国_38
-      - 🇫🇷 _FR_法国_39
+      - 🇺🇸 _US_美国_39
       - 🇺🇸 _US_美国_40
-      - 🇫🇷 _FR_法国_41
+      - 🇨🇳 _CN_中国_41
       - 🇺🇸 _US_美国_42
-      - 🇨🇳 _TW_台湾_43
-      - 🇨🇳 _CN_中国_44
+      - 🇺🇸 _US_美国_43
+      - 🇺🇸 _US_美国_44
       - 🇺🇸 _US_美国_45
       - 🇺🇸 _US_美国_46
       - 🇺🇸 _US_美国_47
-      - 🇺🇸 _US_美国_48
+      - 🇨🇳 _CN_中国_48
       - 🇺🇸 _US_美国_49
-      - 🇺🇸 _US_美国_50
-      - 🇭🇰 _HK_香港_51
-      - 🇨🇳 _CN_中国_52
+      - 🇨🇳 _CN_中国_50
+      - 🇺🇸 _US_美国_51
+      - 🇺🇸 _US_美国_52
       - 🇺🇸 _US_美国_53
       - 🇺🇸 _US_美国_54
       - 🇺🇸 _US_美国_55
-      - 🇫🇷 _FR_法国_56
-      - 🇺🇸 _US_美国_57
-      - 🇫🇷 _FR_法国_58
-      - 🇺🇸 _US_美国_59
+      - 🇺🇸 _US_美国_56
+      - 🇨🇳 _TW_台湾_57
+      - 🇺🇸 _US_美国_58
+      - 🇨🇳 _CN_中国_59
       - 🇺🇸 _US_美国_60
       - 🇨🇳 _CN_中国_61
       - 🇺🇸 _US_美国_62
       - 🇺🇸 _US_美国_63
       - 🇺🇸 _US_美国_64
-      - 🇺🇸 _US_美国_65
+      - 🇨🇳 _CN_中国_65
       - 🇺🇸 _US_美国_66
       - 🇺🇸 _US_美国_67
       - 🇺🇸 _US_美国_68
       - 🇺🇸 _US_美国_69
       - 🇺🇸 _US_美国_70
-      - 🇨🇳 _CN_中国_71
+      - 🇺🇸 _US_美国_71
       - 🇺🇸 _US_美国_72
-      - 🇨🇳 _CN_中国_73
+      - 🇺🇸 _US_美国_73
       - 🇺🇸 _US_美国_74
-      - 🇫🇮 _FI_芬兰_75
+      - 🇺🇸 _US_美国_75
       - 🇺🇸 _US_美国_76
-      - 🇻🇳 _VN_越南_77
+      - 🇺🇸 _US_美国_77
       - 🇺🇸 _US_美国_78
       - 🇺🇸 _US_美国_79
-      - 🇨🇳 _CN_中国_80
-      - 🇺🇸 _US_美国_81
+      - 🇺🇸 _US_美国_80
+      - 🇭🇰 _HK_香港_81
       - 🇺🇸 _US_美国_82
       - 🇺🇸 _US_美国_83
       - 🇺🇸 _US_美国_84
       - 🇺🇸 _US_美国_85
       - 🇺🇸 _US_美国_86
       - 🇺🇸 _US_美国_87
+      - 🇺🇸 _US_美国_88
+      - 🇺🇸 _US_美国_89
+      - 🇺🇸 _US_美国_90
+      - 🇺🇸 _US_美国_91
+      - 🇺🇸 _US_美国_92
+      - 🇺🇸 _US_美国_93
+      - 🇺🇸 _US_美国_94
+      - 🇺🇸 _US_美国_95
+      - 🇺🇸 _US_美国_96
+      - 🇺🇸 _US_美国_97
+      - 🇺🇸 _US_美国_98
+      - 🇺🇸 _US_美国_99
+      - 🇺🇸 _US_美国_100
+      - 🇸🇬 _SG_新加坡_101
+      - 🇺🇸 _US_美国_102
+      - 🇨🇳 _CN_中国_103
+      - 🇺🇸 _US_美国_104
+      - 🇺🇸 _US_美国_105
+      - 🇺🇸 _US_美国_106
+      - 🇺🇸 _US_美国_107
+      - 🇺🇸 _US_美国_108
+      - 🇺🇸 _US_美国_109
+      - 🇺🇸 _US_美国_110
+      - 🇺🇸 _US_美国_111
+      - 🇺🇸 _US_美国_112
+      - 🇺🇸 _US_美国_113
+      - 🇺🇸 _US_美国_114
+      - 🇨🇳 _CN_中国_115
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇳🇱 _NL_荷兰_1
-      - 🇬🇧 _GB_英国_2
-      - 🇺🇸 _US_美国_3
-      - 🇷🇺 _RU_俄罗斯联邦_4
+      - 🇺🇸 _US_美国_1
+      - 🇫🇷 _FR_法国_2
+      - 🇫🇷 _FR_法国_3
+      - 🇫🇷 _FR_法国_4
       - 🇫🇷 _FR_法国_5
-      - 🇫🇷 _FR_法国_6
-      - 🇬🇧 _GB_英国_7
-      - 🇫🇷 _FR_法国_8
-      - 🇨🇦 _CA_加拿大_9
+      - 🇺🇸 _US_美国_6
+      - 🇨🇳 _CN_中国_7
+      - 🇺🇸 _US_美国_8
+      - 🇫🇷 _FR_法国_9
       - 🇫🇷 _FR_法国_10
-      - 🇫🇷 _FR_法国_11
+      - 🇺🇸 _US_美国_11
       - 🇫🇷 _FR_法国_12
-      - 🇫🇷 _FR_法国_13
-      - 🇧🇷 _BR_巴西_14
-      - 🇵🇱 _PL_波兰_15
-      - 🇺🇸 _US_美国_16
-      - 🇺🇸 _US_美国_17
-      - 🇫🇷 _FR_法国_18
-      - 🇬🇧 _GB_英国_19
-      - 🇺🇸 _US_美国_20
-      - 🇫🇷 _FR_法国_21
+      - 🇬🇧 _GB_英国_13
+      - 🇩🇪 _DE_德国_14
+      - 🇫🇷 _FR_法国_15
+      - 🇫🇷 _FR_法国_16
+      - 🇬🇧 _GB_英国_17
+      - 🇬🇧 _GB_英国_18
+      - 🇫🇷 _FR_法国_19
+      - 🇫🇷 _FR_法国_20
+      - 🇺🇸 _US_美国_21
       - 🇫🇷 _FR_法国_22
-      - 🇩🇪 _DE_德国_23
+      - 🇨🇳 _CN_中国_23
       - 🇫🇷 _FR_法国_24
-      - 🇺🇸 _US_美国_25
-      - 🇫🇷 _FR_法国_26
-      - 🇺🇸 _US_美国_27
-      - 🇫🇷 _FR_法国_28
+      - 🇫🇷 _FR_法国_25
+      - ️‍🌈_UN_未知_26
+      - 🇨🇦 _CA_加拿大_27
+      - 🇨🇳 _CN_中国_28
       - 🇬🇧 _GB_英国_29
-      - 🇫🇷 _FR_法国_30
-      - 🇺🇸 _US_美国_31
-      - 🇺🇸 _US_美国_32
+      - 🇬🇧 _GB_英国_30
+      - 🇫🇷 _FR_法国_31
+      - 🇪🇸 _ES_西班牙_32
       - 🇫🇷 _FR_法国_33
-      - 🇬🇧 _GB_英国_34
-      - 🇷🇺 _RU_俄罗斯联邦_35
-      - 🇫🇷 _FR_法国_36
-      - 🇷🇴 _RO_罗马尼亚_37
+      - 🇫🇷 _FR_法国_34
+      - 🇨🇳 _CN_中国_35
+      - 🇺🇸 _US_美国_36
+      - 🇺🇸 _US_美国_37
       - 🇺🇸 _US_美国_38
-      - 🇫🇷 _FR_法国_39
+      - 🇺🇸 _US_美国_39
       - 🇺🇸 _US_美国_40
-      - 🇫🇷 _FR_法国_41
+      - 🇨🇳 _CN_中国_41
       - 🇺🇸 _US_美国_42
-      - 🇨🇳 _TW_台湾_43
-      - 🇨🇳 _CN_中国_44
+      - 🇺🇸 _US_美国_43
+      - 🇺🇸 _US_美国_44
       - 🇺🇸 _US_美国_45
       - 🇺🇸 _US_美国_46
       - 🇺🇸 _US_美国_47
-      - 🇺🇸 _US_美国_48
+      - 🇨🇳 _CN_中国_48
       - 🇺🇸 _US_美国_49
-      - 🇺🇸 _US_美国_50
-      - 🇭🇰 _HK_香港_51
-      - 🇨🇳 _CN_中国_52
+      - 🇨🇳 _CN_中国_50
+      - 🇺🇸 _US_美国_51
+      - 🇺🇸 _US_美国_52
       - 🇺🇸 _US_美国_53
       - 🇺🇸 _US_美国_54
       - 🇺🇸 _US_美国_55
-      - 🇫🇷 _FR_法国_56
-      - 🇺🇸 _US_美国_57
-      - 🇫🇷 _FR_法国_58
-      - 🇺🇸 _US_美国_59
+      - 🇺🇸 _US_美国_56
+      - 🇨🇳 _TW_台湾_57
+      - 🇺🇸 _US_美国_58
+      - 🇨🇳 _CN_中国_59
       - 🇺🇸 _US_美国_60
       - 🇨🇳 _CN_中国_61
       - 🇺🇸 _US_美国_62
       - 🇺🇸 _US_美国_63
       - 🇺🇸 _US_美国_64
-      - 🇺🇸 _US_美国_65
+      - 🇨🇳 _CN_中国_65
       - 🇺🇸 _US_美国_66
       - 🇺🇸 _US_美国_67
       - 🇺🇸 _US_美国_68
       - 🇺🇸 _US_美国_69
       - 🇺🇸 _US_美国_70
-      - 🇨🇳 _CN_中国_71
+      - 🇺🇸 _US_美国_71
       - 🇺🇸 _US_美国_72
-      - 🇨🇳 _CN_中国_73
+      - 🇺🇸 _US_美国_73
       - 🇺🇸 _US_美国_74
-      - 🇫🇮 _FI_芬兰_75
+      - 🇺🇸 _US_美国_75
       - 🇺🇸 _US_美国_76
-      - 🇻🇳 _VN_越南_77
+      - 🇺🇸 _US_美国_77
       - 🇺🇸 _US_美国_78
       - 🇺🇸 _US_美国_79
-      - 🇨🇳 _CN_中国_80
-      - 🇺🇸 _US_美国_81
+      - 🇺🇸 _US_美国_80
+      - 🇭🇰 _HK_香港_81
       - 🇺🇸 _US_美国_82
       - 🇺🇸 _US_美国_83
       - 🇺🇸 _US_美国_84
       - 🇺🇸 _US_美国_85
       - 🇺🇸 _US_美国_86
       - 🇺🇸 _US_美国_87
+      - 🇺🇸 _US_美国_88
+      - 🇺🇸 _US_美国_89
+      - 🇺🇸 _US_美国_90
+      - 🇺🇸 _US_美国_91
+      - 🇺🇸 _US_美国_92
+      - 🇺🇸 _US_美国_93
+      - 🇺🇸 _US_美国_94
+      - 🇺🇸 _US_美国_95
+      - 🇺🇸 _US_美国_96
+      - 🇺🇸 _US_美国_97
+      - 🇺🇸 _US_美国_98
+      - 🇺🇸 _US_美国_99
+      - 🇺🇸 _US_美国_100
+      - 🇸🇬 _SG_新加坡_101
+      - 🇺🇸 _US_美国_102
+      - 🇨🇳 _CN_中国_103
+      - 🇺🇸 _US_美国_104
+      - 🇺🇸 _US_美国_105
+      - 🇺🇸 _US_美国_106
+      - 🇺🇸 _US_美国_107
+      - 🇺🇸 _US_美国_108
+      - 🇺🇸 _US_美国_109
+      - 🇺🇸 _US_美国_110
+      - 🇺🇸 _US_美国_111
+      - 🇺🇸 _US_美国_112
+      - 🇺🇸 _US_美国_113
+      - 🇺🇸 _US_美国_114
+      - 🇨🇳 _CN_中国_115
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -295,93 +379,121 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱 _NL_荷兰_1
-      - 🇬🇧 _GB_英国_2
-      - 🇺🇸 _US_美国_3
-      - 🇷🇺 _RU_俄罗斯联邦_4
+      - 🇺🇸 _US_美国_1
+      - 🇫🇷 _FR_法国_2
+      - 🇫🇷 _FR_法国_3
+      - 🇫🇷 _FR_法国_4
       - 🇫🇷 _FR_法国_5
-      - 🇫🇷 _FR_法国_6
-      - 🇬🇧 _GB_英国_7
-      - 🇫🇷 _FR_法国_8
-      - 🇨🇦 _CA_加拿大_9
+      - 🇺🇸 _US_美国_6
+      - 🇨🇳 _CN_中国_7
+      - 🇺🇸 _US_美国_8
+      - 🇫🇷 _FR_法国_9
       - 🇫🇷 _FR_法国_10
-      - 🇫🇷 _FR_法国_11
+      - 🇺🇸 _US_美国_11
       - 🇫🇷 _FR_法国_12
-      - 🇫🇷 _FR_法国_13
-      - 🇧🇷 _BR_巴西_14
-      - 🇵🇱 _PL_波兰_15
-      - 🇺🇸 _US_美国_16
-      - 🇺🇸 _US_美国_17
-      - 🇫🇷 _FR_法国_18
-      - 🇬🇧 _GB_英国_19
-      - 🇺🇸 _US_美国_20
-      - 🇫🇷 _FR_法国_21
+      - 🇬🇧 _GB_英国_13
+      - 🇩🇪 _DE_德国_14
+      - 🇫🇷 _FR_法国_15
+      - 🇫🇷 _FR_法国_16
+      - 🇬🇧 _GB_英国_17
+      - 🇬🇧 _GB_英国_18
+      - 🇫🇷 _FR_法国_19
+      - 🇫🇷 _FR_法国_20
+      - 🇺🇸 _US_美国_21
       - 🇫🇷 _FR_法国_22
-      - 🇩🇪 _DE_德国_23
+      - 🇨🇳 _CN_中国_23
       - 🇫🇷 _FR_法国_24
-      - 🇺🇸 _US_美国_25
-      - 🇫🇷 _FR_法国_26
-      - 🇺🇸 _US_美国_27
-      - 🇫🇷 _FR_法国_28
+      - 🇫🇷 _FR_法国_25
+      - ️‍🌈_UN_未知_26
+      - 🇨🇦 _CA_加拿大_27
+      - 🇨🇳 _CN_中国_28
       - 🇬🇧 _GB_英国_29
-      - 🇫🇷 _FR_法国_30
-      - 🇺🇸 _US_美国_31
-      - 🇺🇸 _US_美国_32
+      - 🇬🇧 _GB_英国_30
+      - 🇫🇷 _FR_法国_31
+      - 🇪🇸 _ES_西班牙_32
       - 🇫🇷 _FR_法国_33
-      - 🇬🇧 _GB_英国_34
-      - 🇷🇺 _RU_俄罗斯联邦_35
-      - 🇫🇷 _FR_法国_36
-      - 🇷🇴 _RO_罗马尼亚_37
+      - 🇫🇷 _FR_法国_34
+      - 🇨🇳 _CN_中国_35
+      - 🇺🇸 _US_美国_36
+      - 🇺🇸 _US_美国_37
       - 🇺🇸 _US_美国_38
-      - 🇫🇷 _FR_法国_39
+      - 🇺🇸 _US_美国_39
       - 🇺🇸 _US_美国_40
-      - 🇫🇷 _FR_法国_41
+      - 🇨🇳 _CN_中国_41
       - 🇺🇸 _US_美国_42
-      - 🇨🇳 _TW_台湾_43
-      - 🇨🇳 _CN_中国_44
+      - 🇺🇸 _US_美国_43
+      - 🇺🇸 _US_美国_44
       - 🇺🇸 _US_美国_45
       - 🇺🇸 _US_美国_46
       - 🇺🇸 _US_美国_47
-      - 🇺🇸 _US_美国_48
+      - 🇨🇳 _CN_中国_48
       - 🇺🇸 _US_美国_49
-      - 🇺🇸 _US_美国_50
-      - 🇭🇰 _HK_香港_51
-      - 🇨🇳 _CN_中国_52
+      - 🇨🇳 _CN_中国_50
+      - 🇺🇸 _US_美国_51
+      - 🇺🇸 _US_美国_52
       - 🇺🇸 _US_美国_53
       - 🇺🇸 _US_美国_54
       - 🇺🇸 _US_美国_55
-      - 🇫🇷 _FR_法国_56
-      - 🇺🇸 _US_美国_57
-      - 🇫🇷 _FR_法国_58
-      - 🇺🇸 _US_美国_59
+      - 🇺🇸 _US_美国_56
+      - 🇨🇳 _TW_台湾_57
+      - 🇺🇸 _US_美国_58
+      - 🇨🇳 _CN_中国_59
       - 🇺🇸 _US_美国_60
       - 🇨🇳 _CN_中国_61
       - 🇺🇸 _US_美国_62
       - 🇺🇸 _US_美国_63
       - 🇺🇸 _US_美国_64
-      - 🇺🇸 _US_美国_65
+      - 🇨🇳 _CN_中国_65
       - 🇺🇸 _US_美国_66
       - 🇺🇸 _US_美国_67
       - 🇺🇸 _US_美国_68
       - 🇺🇸 _US_美国_69
       - 🇺🇸 _US_美国_70
-      - 🇨🇳 _CN_中国_71
+      - 🇺🇸 _US_美国_71
       - 🇺🇸 _US_美国_72
-      - 🇨🇳 _CN_中国_73
+      - 🇺🇸 _US_美国_73
       - 🇺🇸 _US_美国_74
-      - 🇫🇮 _FI_芬兰_75
+      - 🇺🇸 _US_美国_75
       - 🇺🇸 _US_美国_76
-      - 🇻🇳 _VN_越南_77
+      - 🇺🇸 _US_美国_77
       - 🇺🇸 _US_美国_78
       - 🇺🇸 _US_美国_79
-      - 🇨🇳 _CN_中国_80
-      - 🇺🇸 _US_美国_81
+      - 🇺🇸 _US_美国_80
+      - 🇭🇰 _HK_香港_81
       - 🇺🇸 _US_美国_82
       - 🇺🇸 _US_美国_83
       - 🇺🇸 _US_美国_84
       - 🇺🇸 _US_美国_85
       - 🇺🇸 _US_美国_86
       - 🇺🇸 _US_美国_87
+      - 🇺🇸 _US_美国_88
+      - 🇺🇸 _US_美国_89
+      - 🇺🇸 _US_美国_90
+      - 🇺🇸 _US_美国_91
+      - 🇺🇸 _US_美国_92
+      - 🇺🇸 _US_美国_93
+      - 🇺🇸 _US_美国_94
+      - 🇺🇸 _US_美国_95
+      - 🇺🇸 _US_美国_96
+      - 🇺🇸 _US_美国_97
+      - 🇺🇸 _US_美国_98
+      - 🇺🇸 _US_美国_99
+      - 🇺🇸 _US_美国_100
+      - 🇸🇬 _SG_新加坡_101
+      - 🇺🇸 _US_美国_102
+      - 🇨🇳 _CN_中国_103
+      - 🇺🇸 _US_美国_104
+      - 🇺🇸 _US_美国_105
+      - 🇺🇸 _US_美国_106
+      - 🇺🇸 _US_美国_107
+      - 🇺🇸 _US_美国_108
+      - 🇺🇸 _US_美国_109
+      - 🇺🇸 _US_美国_110
+      - 🇺🇸 _US_美国_111
+      - 🇺🇸 _US_美国_112
+      - 🇺🇸 _US_美国_113
+      - 🇺🇸 _US_美国_114
+      - 🇨🇳 _CN_中国_115
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
