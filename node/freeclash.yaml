@@ -78,46 +78,60 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇺🇸_US_美国","type":"vmess","server":"ns1.v2-vip.fun","port":80,"cipher":"auto","uuid":"b1e30339-a603-47d1-b31c-1d0ceb59952e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v03.ssrsub.com"}}}
+  - {"name":"🇨🇦_CA_加拿大->🇺🇸_US_美国","type":"trojan","server":"frontend.kuangbiaoyun.com","port":40007,"udp":true,"password":"57edfecf-5694-4a34-8072-54a4f0636a62","sni":"frontend.kuangbiaoyun.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_1","type":"trojan","server":"89.116.180.158","port":443,"udp":true,"password":"097f6b5f-bcf9-4a24-9f0d-d1feaa638d86","sni":"3us2.pqjc.buzz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/pq/us2","headers":{"host":"3us2.pqjc.buzz"}}}
+  - {"name":"🇺🇸_US_美国_2","type":"trojan","server":"89.116.180.179","port":443,"udp":true,"password":"097f6b5f-bcf9-4a24-9f0d-d1feaa638d86","sni":"p6us4.pqjc.buzz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/pq/us4","headers":{"host":"p6us4.pqjc.buzz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -140,7 +154,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
 
 rules:
 # 本地/局域网地址
