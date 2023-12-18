@@ -77,197 +77,25 @@ external-controller: 0.0.0.0:9090
 log-level: info
 mixed-port: 7890
 proxies:
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 141.95.125.11
-  type: ss
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 12"
-  password: 8Ka1hu4r3g
-  port: 8443
-  server: cf.network383.online
-  skip-cert-verify: false
-  sni: ams-trojan-grpc.carfin.tech
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 10"
-  network: ws
-  port: 443
-  server: 162.159.192.244
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 673ba378-840f-4928-81f2-203148d07350
-  ws-opts:
-    headers:
-      Host: cowochtmtrkers.turbo021.link
-    path: /673ba378-840f-4928-81f2-203148d07350
-- name: "DE_\u5FB7\u56FD 3"
-  password: 81cd0143-601c-44dc-b479-6f28b3b71c64
-  port: 443
-  server: 5.104.108.109
-  skip-cert-verify: false
-  sni: 20-24-33-134.nhost.00cdn.com
-  type: trojan
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
-  network: tcp
-  password: ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa
-  port: 443
-  server: sg1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: true
-  sni: 206.237.5.220
-  type: trojan
-  udp: true
-- name: "US_\u7F8E\u56FD 7"
-  network: ws
-  password: 81cd0143-601c-44dc-b479-6f28b3b71c64
-  port: 443
-  server: 167.68.5.183
-  skip-cert-verify: false
-  sni: 6us3.pqjc.buzz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 6us3.pqjc.buzz
-    path: /pq/us3
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_3"
-  network: tcp
-  password: 81cd0143-601c-44dc-b479-6f28b3b71c64
-  port: 443
-  server: 5.104.108.109
-  skip-cert-verify: true
-  sni: 20-24-33-134.nhost.00cdn.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - arshatheroad8pippahotelsinestra.irandarkpro.gq
-    method: GET
-    path:
-    - /
-  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD 2"
-  network: http
-  port: 2082
-  server: arshatheroad8pippahotelsinestra.irandarkpro.gq
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 37eb0303-8420-4691-a773-54ae4a009d36
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 7"
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
   network: ws
   password: 81cd0143-601c-44dc-b479-6f28b3b71c64
   port: 443
   server: 89.116.180.179
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: p6us4.pqjc.buzz
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: p6us4.pqjc.buzz
+      host: p6us4.pqjc.buzz
     path: /pq/us4
 - cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 5"
-  password: amazonskr05
-  port: 443
-  server: 35.87.39.181
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 2"
-  password: amazonskr05
-  port: 443
-  server: 35.90.10.174
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 2"
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 4"
   password: asdKkaskJKfnsa
-  port: 443
+  port: 80
   server: 51.158.195.96
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 3"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 57.129.1.20
-  type: ss
-- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.36.43.202
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  network: ws
-  port: 443
-  server: 162.159.192.244
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 673ba378-840f-4928-81f2-203148d07350
-  ws-opts:
-    headers:
-      host: cowochtmtrkers.turbo021.link
-    path: /673ba378-840f-4928-81f2-203148d07350
-- name: "US_\u7F8E\u56FD 5"
-  network: ws
-  password: 81cd0143-601c-44dc-b479-6f28b3b71c64
-  port: 443
-  server: 89.116.180.179
-  skip-cert-verify: false
-  sni: p6us4.pqjc.buzz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: p6us4.pqjc.buzz
-    path: /pq/us4
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  network: tcp
-  password: ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa
-  port: 443
-  server: us1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: true
-  sni: 206.237.5.220
-  type: trojan
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 4"
-  password: ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa
-  port: 443
-  server: jp1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: false
-  sni: 13-231-155-134.nhost.00cdn.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_1"
-  network: http
-  port: 2082
-  server: arshatheroad8pippahotelsinestra.irandarkpro.gq
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 37eb0303-8420-4691-a773-54ae4a009d36
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 11"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 89.187.181.179
-  type: ss
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD"
-  password: ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa
-  port: 443
-  server: us1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: false
-  sni: 206.237.5.220
-  type: trojan
 - name: "US_\u7F8E\u56FD 2"
   password: ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa
   port: 443
@@ -275,78 +103,26 @@ proxies:
   skip-cert-verify: false
   sni: 206.237.5.220
   type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 5"
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 135.125.172.153
-  type: ss
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_2"
-  network: tcp
-  password: 81cd0143-601c-44dc-b479-6f28b3b71c64
-  port: 443
-  server: 5.104.108.120
-  skip-cert-verify: true
-  sni: 20-24-33-134.nhost.00cdn.com
-  type: trojan
-  udp: true
-- name: "US_\u7F8E\u56FD 6"
-  password: ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa
-  port: 443
-  server: jp1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: false
-  sni: 13-231-155-134.nhost.00cdn.com
-  type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 8"
-  password: amazonskr05
-  port: 443
-  server: 52.33.95.19
-  type: ss
-- name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD 3"
-  password: 81cd0143-601c-44dc-b479-6f28b3b71c64
-  port: 443
-  server: 5.104.108.109
-  skip-cert-verify: false
-  sni: 20-24-33-134.nhost.00cdn.com
-  type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 6"
-  password: asdKkaskJKfnsa
-  port: 110
-  server: 51.158.195.96
-  type: ss
-- grpc-opts:
-    grpc-service-name: '@apt_mahdi'
-  name: "US_\u7F8E\u56FD 8"
-  network: grpc
-  password: 8Ka1hu4r3g
-  port: 8443
-  server: cf.network383.online
-  skip-cert-verify: false
-  sni: ams-trojan-grpc.carfin.tech
-  type: trojan
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 6"
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_7"
   network: ws
   password: 81cd0143-601c-44dc-b479-6f28b3b71c64
   port: 443
-  server: 89.116.180.158
-  skip-cert-verify: false
-  sni: 3us2.pqjc.buzz
+  server: 167.68.5.183
+  skip-cert-verify: true
+  sni: 6us3.pqjc.buzz
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: 3us2.pqjc.buzz
-    path: /pq/us2
-- grpc-opts:
-    grpc-service-name: '@apt_mahdi'
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_8"
-  network: grpc
-  password: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=
-  port: 8443
-  server: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=@apt_mahdi
+      host: 6us3.pqjc.buzz
+    path: /pq/us3
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  network: tcp
+  password: ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa
+  port: 443
+  server: us1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
   skip-cert-verify: true
-  sni: ams-trojan-grpc.carfin.tech
+  sni: 206.237.5.220
   type: trojan
   udp: true
 - alterId: 0
@@ -367,19 +143,89 @@ proxies:
   tls: false
   type: vmess
   uuid: 37eb0303-8420-4691-a773-54ae4a009d36
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
+- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.36.43.202
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 6"
   network: ws
   password: 81cd0143-601c-44dc-b479-6f28b3b71c64
   port: 443
-  server: 89.116.180.179
-  skip-cert-verify: true
-  sni: p6us4.pqjc.buzz
+  server: 89.116.180.158
+  skip-cert-verify: false
+  sni: 3us2.pqjc.buzz
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      host: p6us4.pqjc.buzz
-    path: /pq/us4
+      Host: 3us2.pqjc.buzz
+    path: /pq/us2
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 12"
+  password: 8Ka1hu4r3g
+  port: 8443
+  server: cf.network383.online
+  skip-cert-verify: false
+  sni: ams-trojan-grpc.carfin.tech
+  type: trojan
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
+  network: tcp
+  password: ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa
+  port: 443
+  server: jp1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: true
+  sni: 13-231-155-134.nhost.00cdn.com
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: '@apt_mahdi'
+  name: "US_\u7F8E\u56FD 8"
+  network: grpc
+  password: 8Ka1hu4r3g
+  port: 8443
+  server: cf.network383.online
+  skip-cert-verify: false
+  sni: ams-trojan-grpc.carfin.tech
+  type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 7"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 135.125.172.139
+  type: ss
+- name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD"
+  password: 81cd0143-601c-44dc-b479-6f28b3b71c64
+  port: 443
+  server: 5.104.108.120
+  skip-cert-verify: false
+  sni: 20-24-33-134.nhost.00cdn.com
+  type: trojan
+- grpc-opts:
+    grpc-service-name: '@apt_mahdi'
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  network: grpc
+  password: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=
+  port: 8443
+  server: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=@apt_mahdi
+  skip-cert-verify: true
+  sni: ams-trojan-grpc.carfin.tech
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 11"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 89.187.181.179
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 198.244.231.74
+  type: ss
 - name: "DE_\u5FB7\u56FD 2"
   password: 81cd0143-601c-44dc-b479-6f28b3b71c64
   port: 443
@@ -387,13 +233,46 @@ proxies:
   skip-cert-verify: false
   sni: 20-24-33-134.nhost.00cdn.com
   type: trojan
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 3"
-  password: ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
+  network: ws
+  password: 81cd0143-601c-44dc-b479-6f28b3b71c64
   port: 443
-  server: sg1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: false
-  sni: 206.237.5.220
+  server: 89.116.180.158
+  skip-cert-verify: true
+  sni: 3us2.pqjc.buzz
   type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: 3us2.pqjc.buzz
+    path: /pq/us2
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_2"
+  network: tcp
+  password: 81cd0143-601c-44dc-b479-6f28b3b71c64
+  port: 443
+  server: 5.104.108.120
+  skip-cert-verify: true
+  sni: 20-24-33-134.nhost.00cdn.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 2"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.195.96
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 5"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 135.125.172.153
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 2"
+  password: amazonskr05
+  port: 443
+  server: 35.90.10.174
+  type: ss
 - alterId: 0
   cipher: auto
   name: "US_\u7F8E\u56FD"
@@ -409,6 +288,71 @@ proxies:
     headers:
       Host: cowochtmtrkers.turbo021.link
     path: /673ba378-840f-4928-81f2-203148d07350
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 5"
+  password: amazonskr05
+  port: 443
+  server: 35.87.39.181
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 8"
+  password: amazonskr05
+  port: 443
+  server: 52.33.95.19
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD"
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 141.95.125.11
+  type: ss
+- name: "US_\u7F8E\u56FD 7"
+  network: ws
+  password: 81cd0143-601c-44dc-b479-6f28b3b71c64
+  port: 443
+  server: 167.68.5.183
+  skip-cert-verify: false
+  sni: 6us3.pqjc.buzz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 6us3.pqjc.buzz
+    path: /pq/us3
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 3"
+  password: ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa
+  port: 443
+  server: sg1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: false
+  sni: 206.237.5.220
+  type: trojan
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 4"
+  password: ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa
+  port: 443
+  server: jp1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: false
+  sni: 13-231-155-134.nhost.00cdn.com
+  type: trojan
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD"
+  password: ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa
+  port: 443
+  server: us1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: false
+  sni: 206.237.5.220
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 10"
+  network: ws
+  port: 443
+  server: 162.159.192.244
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 673ba378-840f-4928-81f2-203148d07350
+  ws-opts:
+    headers:
+      Host: cowochtmtrkers.turbo021.link
+    path: /673ba378-840f-4928-81f2-203148d07350
 - name: "US_\u7F8E\u56FD 3"
   password: ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa
   port: 443
@@ -416,41 +360,6 @@ proxies:
   skip-cert-verify: false
   sni: 206.237.5.220
   type: trojan
-- name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD"
-  password: 81cd0143-601c-44dc-b479-6f28b3b71c64
-  port: 443
-  server: 5.104.108.120
-  skip-cert-verify: false
-  sni: 20-24-33-134.nhost.00cdn.com
-  type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 4"
-  password: asdKkaskJKfnsa
-  port: 80
-  server: 51.158.195.96
-  type: ss
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_7"
-  network: ws
-  password: 81cd0143-601c-44dc-b479-6f28b3b71c64
-  port: 443
-  server: 167.68.5.183
-  skip-cert-verify: true
-  sni: 6us3.pqjc.buzz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 6us3.pqjc.buzz
-    path: /pq/us3
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
-  network: tcp
-  password: ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa
-  port: 443
-  server: jp1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: true
-  sni: 13-231-155-134.nhost.00cdn.com
-  type: trojan
-  udp: true
 - name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 9"
   network: ws
   password: 81cd0143-601c-44dc-b479-6f28b3b71c64
@@ -463,18 +372,127 @@ proxies:
     headers:
       Host: 6us3.pqjc.buzz
     path: /pq/us3
+- name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD 3"
+  password: 81cd0143-601c-44dc-b479-6f28b3b71c64
+  port: 443
+  server: 5.104.108.109
+  skip-cert-verify: false
+  sni: 20-24-33-134.nhost.00cdn.com
+  type: trojan
+- name: "DE_\u5FB7\u56FD 3"
+  password: 81cd0143-601c-44dc-b479-6f28b3b71c64
+  port: 443
+  server: 5.104.108.109
+  skip-cert-verify: false
+  sni: 20-24-33-134.nhost.00cdn.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_1"
+  network: http
+  port: 2082
+  server: arshatheroad8pippahotelsinestra.irandarkpro.gq
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 37eb0303-8420-4691-a773-54ae4a009d36
 - cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 3"
   password: asdKkaskJKfnsa
   port: 443
-  server: 198.244.231.74
+  server: 57.129.1.20
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 7"
-  password: asdKkaskJKfnsa
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 7"
+  network: ws
+  password: 81cd0143-601c-44dc-b479-6f28b3b71c64
   port: 443
-  server: 135.125.172.139
-  type: ss
+  server: 89.116.180.179
+  skip-cert-verify: false
+  sni: p6us4.pqjc.buzz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: p6us4.pqjc.buzz
+    path: /pq/us4
+- grpc-opts:
+    grpc-service-name: '@apt_mahdi'
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_8"
+  network: grpc
+  password: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=
+  port: 8443
+  server: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=@apt_mahdi
+  skip-cert-verify: true
+  sni: ams-trojan-grpc.carfin.tech
+  type: trojan
+  udp: true
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  network: tcp
+  password: ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa
+  port: 443
+  server: sg1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: true
+  sni: 206.237.5.220
+  type: trojan
+  udp: true
+- name: "US_\u7F8E\u56FD 5"
+  network: ws
+  password: 81cd0143-601c-44dc-b479-6f28b3b71c64
+  port: 443
+  server: 89.116.180.179
+  skip-cert-verify: false
+  sni: p6us4.pqjc.buzz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: p6us4.pqjc.buzz
+    path: /pq/us4
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  network: ws
+  port: 443
+  server: 162.159.192.244
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 673ba378-840f-4928-81f2-203148d07350
+  ws-opts:
+    headers:
+      host: cowochtmtrkers.turbo021.link
+    path: /673ba378-840f-4928-81f2-203148d07350
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_3"
+  network: tcp
+  password: 81cd0143-601c-44dc-b479-6f28b3b71c64
+  port: 443
+  server: 5.104.108.109
+  skip-cert-verify: true
+  sni: 20-24-33-134.nhost.00cdn.com
+  type: trojan
+  udp: true
+- name: "US_\u7F8E\u56FD 6"
+  password: ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa
+  port: 443
+  server: jp1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: false
+  sni: 13-231-155-134.nhost.00cdn.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - arshatheroad8pippahotelsinestra.irandarkpro.gq
+    method: GET
+    path:
+    - /
+  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD 2"
+  network: http
+  port: 2082
+  server: arshatheroad8pippahotelsinestra.irandarkpro.gq
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 37eb0303-8420-4691-a773-54ae4a009d36
 - name: "US_\u7F8E\u56FD 4"
   network: ws
   password: 81cd0143-601c-44dc-b479-6f28b3b71c64
@@ -487,30 +505,12 @@ proxies:
     headers:
       Host: 3us2.pqjc.buzz
     path: /pq/us2
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  network: ws
-  password: 81cd0143-601c-44dc-b479-6f28b3b71c64
-  port: 443
-  server: 89.116.180.158
-  skip-cert-verify: true
-  sni: 3us2.pqjc.buzz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 3us2.pqjc.buzz
-    path: /pq/us2
-- grpc-opts:
-    grpc-service-name: '@apt_mahdi'
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  network: grpc
-  password: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=
-  port: 8443
-  server: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=@apt_mahdi
-  skip-cert-verify: true
-  sni: ams-trojan-grpc.carfin.tech
-  type: trojan
-  udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 6"
+  password: asdKkaskJKfnsa
+  port: 110
+  server: 51.158.195.96
+  type: ss
 proxy-groups:
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
   proxies:
