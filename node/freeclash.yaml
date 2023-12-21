@@ -78,53 +78,60 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇺🇸_US_美国","type":"vmess","server":"104.21.75.246","port":80,"cipher":"auto","uuid":"c458695d-6908-45c3-9512-e0c46418454c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"sbl2.shabijichang.com"}}}
-  - {"name":"🇳🇱_NL_荷兰","type":"vmess","server":"46.182.107.15","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/1702215223320"}}
+  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国","type":"vmess","server":"104.21.33.130","port":2052,"cipher":"auto","uuid":"544f2e93-51b0-4d47-fd72-e7d858021bbd","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"family.mgtajhiz.ir"}}}
+  - {"name":"🇺🇸_US_美国","type":"vmess","server":"cdn1.shaniugpt.top","port":8080,"cipher":"auto","uuid":"539c31e8-75a0-4307-b000-ca1b1951bf88","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/20231217","headers":{"host":"yyjc-uk1.shaniugpt.top"}}}
+  - {"name":"🇬🇧_GB_英国","type":"vmess","server":"172.99.190.109","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"linkvws"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇺🇸_US_美国
-      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇺🇸_US_美国
-      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇺🇸_US_美国
-      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇺🇸_US_美国
-      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇺🇸_US_美国
-      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇺🇸_US_美国
-      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -147,8 +154,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇺🇸_US_美国
-      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国
 
 rules:
 # 本地/局域网地址
