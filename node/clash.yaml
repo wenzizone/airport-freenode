@@ -77,51 +77,68 @@ external-controller: 0.0.0.0:9090
 log-level: info
 mixed-port: 7890
 proxies:
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_32"
-  network: ws
-  port: 16620
-  server: 120.233.43.33
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+  network: tcp
+  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
+  port: 17728
+  server: gbs.pptv-tv.store
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  ws-opts:
-    headers:
-      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-    path: /
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_92"
+  password: MGQwNTgw
+  port: 1443
+  server: 185.231.205.80
+  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 6"
+  client-fingerprint: chrome
+  name: "GB_\u82F1\u56FD"
+  network: ws
+  port: 443
+  server: 172.99.190.109
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 8"
   network: ws
   port: 80
-  server: cf-lt.sharecentre.online
+  server: ns1.v2-vip.fun
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
   ws-opts:
     headers:
-      Host: ssrsub.v005.ssrsub.com
+      Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: "CN_\u4E2D\u56FD->US_\u7F8E\u56FD 2"
-  obfs: plain
-  obfs-param: 511df45641.microsoft.com
-  password: jFa4F1
-  port: 7703
-  protocol: auth_aes128_sha1
-  protocol-param: 45641:1119_jE165t
-  server: cm01.newcome.xyz
-  type: ssr
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_40"
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_95"
+  network: ws
+  port: 80
+  server: 104.21.91.52
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cf9277a9-7661-4b06-865d-b7c239deb26b
+  ws-opts:
+    headers:
+      Host: ee2.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F0\U0001F1FF _KZ_\u54C8\u8428\u514B\u65AF\u5766_3"
   network: ws
   port: 443
-  server: 92.223.118.14
+  server: 92.46.108.106
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -132,13 +149,18 @@ proxies:
     path: /@FORWARDV2RAY
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1E6 _UA_\u4E4C\u514B\u5170_112"
-  port: 8443
-  server: 193.238.153.14
+  name: "\U0001F1F5\U0001F1ED _PH_\u83F2\u5F8B\u5BBE_56"
+  network: ws
+  port: 443
+  server: 1.37.77.98
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 159693e0-5146-482d-9e46-8c4f2fc865b1
+  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
+  ws-opts:
+    headers:
+      Host: m3hdio1.zapto.org
+    path: /@FORWARDV2RAY
 - alterId: 0
   cipher: auto
   name: "\U0001F1E7\U0001F1F7 _BR_\u5DF4\u897F_29"
@@ -153,38 +175,37 @@ proxies:
     headers:
       Host: m3hdio1.zapto.org
     path: /@FORWARDV2RAY
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_96"
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: ru01.trojanyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD"
-  password: MGQwNTgw
-  port: 1443
-  server: 185.231.205.80
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_87"
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 5"
   network: ws
-  port: 25257
-  server: us2.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  password: ZjzcW3LXeJ
+  port: 2096
+  server: cf.network383.online
+  skip-cert-verify: false
+  sni: amsb.network383.online
+  type: trojan
   ws-opts:
     headers:
-      Host: us2.awslcn.info
-    path: /
+      Host: amsb.network383.online
+    path: /@apt_mahdi
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  network: ws
+  password: ZjzcW3LXeJ@cf.network383.online:2096?type=ws&sni=amsb.network383.online&allowInsecure=1&path=/
+  port: 2096
+  server: ZjzcW3LXeJ@cf.network383.online:2096?type=ws&sni=amsb.network383.online&allowInsecure=1&path=/@apt_mahdi&host=amsb.network383.online
+  skip-cert-verify: true
+  sni: amsb.network383.online
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: amsb.network383.online
+    path: /@apt_mahdi
 - alterId: 0
   cipher: auto
-  name: "\U0001F1F5\U0001F1EA _PE_\u79D8\u9C81_23"
+  name: "\U0001F1F3\U0001F1EC _NG_\u5C3C\u65E5\u5229\u4E9A_25"
   network: ws
   port: 443
-  server: 213.156.151.6
+  server: 150.107.126.4
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -193,82 +214,20 @@ proxies:
     headers:
       Host: m3hdio1.zapto.org
     path: /@FORWARDV2RAY
-- cipher: chacha20-ietf
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_101"
-  obfs: plain
-  obfs-param: 511df45641.microsoft.com
-  password: jFa4F1
-  port: 7703
-  protocol: auth_aes128_sha1
-  protocol-param: 45641:1119_jE165t
-  server: cm01.newcome.xyz
-  type: ssr
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_81"
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_89"
   network: ws
-  port: 8880
-  server: mtn.morotech.sbs
+  port: 25239
+  server: us1.awslcn.info
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c2441b44-e556-401a-8963-8678ca14acf6
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      Host: bhv2ray.plusultra.fun
-    path: /@v2group7
-- name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_63"
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: tw01.trojanyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD_5"
-  network: ws
-  port: 443
-  server: 92.223.124.16
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
-  ws-opts:
-    headers:
-      Host: m3hdio1.servehalflife.com
-    path: /@FORWARDV2RAY
-- name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
-  network: ws
-  password: d07a02a06191c99f
-  port: 3306
-  server: 185.230.245.213
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /gateway/connect
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_13"
-  network: ws
-  port: 20401
-  server: data-us-v1.shwjfkw.cn
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: data-us-v1.shwjfkw.cn
-    path: /debian
-- name: "\U0001F1E8\U0001F1ED _CH_\u745E\u58EB_27"
-  password: ef5a92d0-6acd-4308-a4d6-2cdbe1c80cc2
-  port: 25002
-  server: unlk5.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: true
-  sni: ip3691376078.mobgslb.tbcache.com
-  type: trojan
+      Host: us1.awslcn.info
+    path: /
 - cipher: aes-256-cfb
   name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_103"
   password: amazonskr05
@@ -277,24 +236,59 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FB\U0001F1F3 _VN_\u8D8A\u5357_21"
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_108"
   network: ws
-  port: 443
-  server: 171.234.242.197
+  port: 25284
+  server: cu.awslcn.info
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      Host: m3hdio1.zapto.org
-    path: /@FORWARDV2RAY
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 15"
-  password: bNUe0jR9rzsvLEzfPmI4Of
-  port: 38108
-  server: 94.131.115.129
+      Host: cu.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 14"
+  network: ws
+  port: 8080
+  server: cdn1.shaniugpt.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 539c31e8-75a0-4307-b000-ca1b1951bf88
+  ws-opts:
+    headers:
+      Host: yyjc-uk1.shaniugpt.top
+    path: /20231217
+- name: "\U0001F1E8\U0001F1ED _CH_\u745E\u58EB_75"
+  password: ef5a92d0-6acd-4308-a4d6-2cdbe1c80cc2
+  port: 21852
+  server: unlk3.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: true
+  sni: ip3691376078.mobgslb.tbcache.com
+  type: trojan
+- name: "\U0001F1E8\U0001F1ED _CH_\u745E\u58EB_70"
+  password: ef5a92d0-6acd-4308-a4d6-2cdbe1c80cc2
+  port: 21152
+  server: unlk4.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: true
+  sni: ip3691376078.mobgslb.tbcache.com
+  type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_94"
+  password: amazonskr05
+  port: 443
+  server: 35.90.10.174
   type: ss
+- name: "\U0001F1E8\U0001F1ED _CH_\u745E\u58EB_27"
+  password: ef5a92d0-6acd-4308-a4d6-2cdbe1c80cc2
+  port: 25002
+  server: unlk5.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: true
+  sni: ip3691376078.mobgslb.tbcache.com
+  type: trojan
 - client-fingerprint: chrome
   name: "NL_\u8377\u5170"
   network: ws
@@ -312,9 +306,113 @@ proxies:
     path: /fflsws
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_28"
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_2"
   network: ws
-  port: 16618
+  port: 16616
+  server: t.cnmjcn.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  ws-opts:
+    headers:
+      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EE\U0001F1F3_IN_\u5370\u5EA6"
+  network: ws
+  port: 16626
+  server: yes.cnmjcn.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  ws-opts:
+    headers:
+      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1ED _CH_\u745E\u58EB_34"
+  network: ws
+  port: 22050
+  server: kr123.yydsii.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: kr123.yydsii.com
+    path: /
+- client-fingerprint: chrome
+  name: "DE_\u5FB7\u56FD"
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.194.165.146
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_45"
+  password: f7EI0dGWQM42T8gwN9CZIj
+  port: 6199
+  server: 45.87.153.246
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 _JP_\u65E5\u672C_36"
+  network: ws
+  port: 443
+  server: 31.184.207.8
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
+  ws-opts:
+    headers:
+      Host: m3hdio1.servehalflife.com
+    path: /@FORWARDV2RAY
+- name: "\uFE0F\u200D\U0001F308_UN_\u672A\u77E5_100"
+  network: ws
+  password: ZjzcW3LXeJ
+  port: 2096
+  server: cf.network383.online
+  skip-cert-verify: true
+  sni: amsb.network383.online
+  type: trojan
+  ws-opts:
+    headers:
+      Host: amsb.network383.online
+    path: /@ZjzcW3LXeJ@cf.network383.online:2096
+- client-fingerprint: chrome
+  name: "CA_\u52A0\u62FF\u5927->US_\u7F8E\u56FD"
+  password: 57edfecf-5694-4a34-8072-54a4f0636a62
+  port: 40007
+  server: frontend.kuangbiaoyun.com
+  skip-cert-verify: true
+  sni: frontend.kuangbiaoyun.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  network: ws
+  port: 80
+  server: singapore.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_42"
+  network: ws
+  port: 16626
   server: yes.cnmjcn.net
   skip-cert-verify: true
   tls: false
@@ -324,17 +422,97 @@ proxies:
     headers:
       Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 9"
-  password: amazonskr05
+- name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD"
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.194.165.146
+  skip-cert-verify: false
+  sni: trj.rollingnext.co.uk
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1E6 _UA_\u4E4C\u514B\u5170"
+  port: 8443
+  server: 193.238.153.14
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 159693e0-5146-482d-9e46-8c4f2fc865b1
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
+  network: tcp
+  port: 8443
+  server: 193.238.153.14
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 159693e0-5146-482d-9e46-8c4f2fc865b1
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD"
+  password: ba4db48d-46d7-4b53-ba03-0878ed637aa1
   port: 443
-  server: 54.70.3.6
+  server: hk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: false
+  sni: 13-231-155-134.nhost.00cdn.com
+  type: trojan
+- client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD->NL_\u8377\u5170"
+  network: ws
+  port: 443
+  server: 104.21.16.162
+  servername: lmn37.sbs
+  skip-cert-verify: false
   tfo: false
+  tls: true
+  type: vless
+  uuid: 376b9861-2fc6-4647-959c-18185cd9c95a
+  ws-opts:
+    headers:
+      Host: lmn37.sbs
+    path: /fflsws
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_96"
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: ru01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+- name: "\U0001F1EC\U0001F1E7 _CN_\u4E2D\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
+  port: 17728
+  server: gbs.pptv-tv.store
+  skip-cert-verify: false
+  type: trojan
+- client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD->NL_\u8377\u5170 5"
+  network: ws
+  port: 443
+  server: 104.17.88.212
+  servername: lmn37.sbs
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 376b9861-2fc6-4647-959c-18185cd9c95a
+  ws-opts:
+    headers:
+      Host: lmn37.sbs
+    path: /fflsws
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_15"
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: sk01.trojanyyds.xyz
+  skip-cert-verify: true
+  sni: sk01.trojanyyds.xyz
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 9"
+  password: datdGFe4LkMN710aHedy
+  port: 51348
+  server: 85.239.52.174
   type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_91"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717"
   network: ws
   port: 8080
   server: tl.iranray.online
@@ -344,14 +522,113 @@ proxies:
   uuid: b3c20911-126d-4c30-bd32-10152bf0b593
   ws-opts:
     headers:
-      Host: tl.iranray.online
+      host: tl.iranray.online
     path: /
-- name: "\U0001F1EC\U0001F1E7 _CN_\u4E2D\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
-  port: 17728
-  server: gbs.pptv-tv.store
-  skip-cert-verify: false
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_71"
+  password: 84d3b720-f85c-44d9-853c-651751079fed
+  port: 13007
+  server: zzins.sb520.xyz
+  type: ss
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_73"
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: ru01.trojanyyds.xyz
+  skip-cert-verify: true
+  sni: ru01.trojanyyds.xyz
   type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_109"
+  password: amazonskr05
+  port: 443
+  server: 35.87.39.181
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_40"
+  network: ws
+  port: 443
+  server: 92.223.118.14
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
+  ws-opts:
+    headers:
+      Host: m3hdio1.zapto.org
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_50"
+  network: ws
+  port: 2052
+  server: mehdi24.forwardv2raytelegramchannel.fun
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d68585a6-fb62-4f8e-96ee-0131bb4d5865
+  ws-opts:
+    headers:
+      Host: mehdi24.forwardv2raytelegramchannel.fun
+    path: /@FORWARDV2RAY
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_83"
+  password: YDSrXzv55YtU9EBtggpxV9
+  port: 13506
+  server: 51.142.106.171
+  type: ss
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_22"
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: sk01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 10"
+  password: amazonskr05
+  port: 443
+  server: 35.87.39.181
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
+  network: ws
+  port: 443
+  server: 172.99.190.109
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_33"
+  network: ws
+  port: 443
+  server: 92.223.107.45
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
+  ws-opts:
+    headers:
+      Host: m3hdio1.zapto.org
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_32"
+  network: ws
+  port: 16620
+  server: 120.233.43.33
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  ws-opts:
+    headers:
+      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 12"
@@ -368,6 +645,60 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_11"
+  network: ws
+  port: 16616
+  server: yes.cnmjcn.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  ws-opts:
+    headers:
+      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 13"
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 142.202.48.43
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E7\U0001F1F7 _BR_\u5DF4\u897F_12"
+  network: ws
+  port: 443
+  server: 80.240.124.8
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
+  ws-opts:
+    headers:
+      Host: m3hdio1.zapto.org
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_28"
+  network: ws
+  port: 16618
+  server: yes.cnmjcn.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  ws-opts:
+    headers:
+      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /
+- name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_38"
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: uk01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+- alterId: 0
+  cipher: auto
   name: "\U0001F1E6\U0001F1F7 _AR_\u963F\u6839\u5EF7_58"
   network: ws
   port: 443
@@ -380,18 +711,163 @@ proxies:
     headers:
       Host: m3hdio1.zapto.org
     path: /@FORWARDV2RAY
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927_102"
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_13"
+  network: ws
+  port: 20401
+  server: data-us-v1.shwjfkw.cn
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-us-v1.shwjfkw.cn
+    path: /debian
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E7\U0001F1F7 _BR_\u5DF4\u897F_57"
   network: ws
   port: 443
-  server: 142.171.202.130
+  server: 92.223.12.20
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
+  ws-opts:
+    headers:
+      Host: m3hdio1.servehalflife.com
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "_IQ_\u4F0A\u62C9\u514B_77"
+  network: ws
+  port: 443
+  server: 37.236.95.2
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
+  ws-opts:
+    headers:
+      Host: m3hdio1.zapto.org
+    path: /@FORWARDV2RAY
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1F3\U0001F1F1 _NL_\u8377\u5170_110"
+  network: ws
+  port: 30000
+  server: 46.182.107.15
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
-    path: /path/1702650992491
+    path: /path/1702215223320
+- name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_55"
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: tw02.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 6"
+  network: ws
+  port: 80
+  server: cf-lt.sharecentre.online
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      Host: ssrsub.v005.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E7\U0001F1F7 _BR_\u5DF4\u897F_24"
+  network: ws
+  port: 443
+  server: 92.223.12.4
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
+  ws-opts:
+    headers:
+      Host: m3hdio1.servehalflife.com
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_97"
+  network: ws
+  port: 8443
+  server: rf.rafalion.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0198fa0c-221c-427c-8ab0-3a4829e73078
+  ws-opts:
+    headers:
+      Host: rf.rafalion.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  network: ws
+  port: 80
+  server: ns1.v2-vip.fun
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- name: "\U0001F1E8\U0001F1ED _CH_\u745E\u58EB_62"
+  password: ba4db48d-46d7-4b53-ba03-0878ed637aa1
+  port: 21852
+  server: unlk3.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: true
+  sni: ip3691376078.mobgslb.tbcache.com
+  type: trojan
+- name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_63"
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: tw01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+- name: "\U0001F1F8\U0001F1EC _SG_\u65B0\u52A0\u5761_90"
+  network: ws
+  password: d07a02a06191c99f
+  port: 3306
+  server: 185.230.245.213
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: /gateway/connect
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_44"
+  network: ws
+  port: 25257
+  server: us2.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: us2.awslcn.info
+    path: /
 - name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_68"
   password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   port: 443
@@ -399,26 +875,6 @@ proxies:
   skip-cert-verify: true
   sni: tw01.trojanyyds.xyz
   type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 7"
-  password: amazonskr05
-  port: 443
-  server: 52.33.95.19
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_6"
-  network: ws
-  port: 25230
-  server: cm1.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: cm1.awslcn.info
-    path: /
 - client-fingerprint: chrome
   name: "US_\u7F8E\u56FD->NL_\u8377\u5170 2"
   network: ws
@@ -434,51 +890,128 @@ proxies:
     headers:
       Host: lmn59.sbs
     path: /fflsws
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_80"
+  password: 2df26669-1aba-49c2-a86d-8e426f2bd50d
+  port: 19584
+  server: nc.cm.go002.xyz
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
+  network: ws
+  port: 30000
+  server: 46.182.107.15
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/1702215223320
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_108"
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 14"
   network: ws
-  port: 25284
-  server: cu.awslcn.info
+  port: 80
+  server: 104.21.75.246
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: sbl2.shabijichang.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_26"
+  password: 84d3b720-f85c-44d9-853c-651751079fed
+  port: 13002
+  server: zzins.sb520.xyz
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_69"
+  network: ws
+  port: 443
+  server: 92.223.107.58
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
+  ws-opts:
+    headers:
+      Host: m3hdio1.servehalflife.com
+    path: /@FORWARDV2RAY
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 15"
+  password: bNUe0jR9rzsvLEzfPmI4Of
+  port: 38108
+  server: 94.131.115.129
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_87"
+  network: ws
+  port: 25257
+  server: us2.awslcn.info
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      Host: cu.awslcn.info
+      Host: us2.awslcn.info
     path: /
+- name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_111"
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: us01.trojanyyds.xyz
+  skip-cert-verify: true
+  sni: us01.trojanyyds.xyz
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: "UA_\u4E4C\u514B\u5170"
-  port: 8443
-  server: 193.238.153.14
+  name: "US_\u7F8E\u56FD->GB_\u82F1\u56FD"
+  network: ws
+  port: 2052
+  server: 104.21.33.130
   skip-cert-verify: false
   tfo: false
-  tls: true
-  type: vmess
-  uuid: 159693e0-5146-482d-9e46-8c4f2fc865b1
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 14"
-  network: ws
-  port: 8080
-  server: cdn1.shaniugpt.top
-  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 539c31e8-75a0-4307-b000-ca1b1951bf88
+  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
   ws-opts:
     headers:
-      Host: yyjc-uk1.shaniugpt.top
-    path: /20231217
+      Host: family.mgtajhiz.ir
+    path: /
+- name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
+  network: ws
+  password: d07a02a06191c99f
+  port: 3306
+  server: 185.230.245.213
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /gateway/connect
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 9"
+  password: amazonskr05
+  port: 443
+  server: 54.70.3.6
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD_7"
+  name: "\U0001F1F8\U0001F1EC _SG_\u65B0\u52A0\u5761_67"
   network: ws
   port: 443
-  server: 92.223.124.16
+  server: 92.223.116.207
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -487,34 +1020,64 @@ proxies:
     headers:
       Host: m3hdio1.zapto.org
     path: /@FORWARDV2RAY
-- name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_86"
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.42.77.152
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 12"
+  password: amazonskr05
+  port: 443
+  server: 35.90.10.174
+  tfo: false
+  type: ss
+- name: "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\
+    \u65AF\u8054\u90A6"
   network: tcp
-  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
-  port: 17728
-  server: gbs.pptv-tv.store
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: ru01.trojanyyds.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_89"
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_88"
   network: ws
-  port: 25239
-  server: us1.awslcn.info
+  port: 16626
+  server: yes.cnmjcn.net
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
   ws-opts:
     headers:
-      Host: us1.awslcn.info
+      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1FE _CY_\u585E\u6D66\u8DEF\u65AF_4"
+  network: ws
+  port: 443
+  server: 195.14.146.81
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
+  ws-opts:
+    headers:
+      Host: m3hdio1.zapto.org
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+  network: ws
+  port: 2052
+  server: 104.21.33.130
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
+  ws-opts:
+    headers:
+      Host: family.mgtajhiz.ir
     path: /
 - client-fingerprint: chrome
   name: "US_\u7F8E\u56FD->GB_\u82F1\u56FD 2"
@@ -533,619 +1096,6 @@ proxies:
     path: /fflsws
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
-  network: tcp
-  port: 8443
-  server: 193.238.153.14
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 159693e0-5146-482d-9e46-8c4f2fc865b1
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_97"
-  network: ws
-  port: 8443
-  server: rf.rafalion.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 0198fa0c-221c-427c-8ab0-3a4829e73078
-  ws-opts:
-    headers:
-      Host: rf.rafalion.ir
-    path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 8"
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 142.202.48.43
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_19"
-  network: ws
-  port: 443
-  server: 92.223.76.24
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
-  ws-opts:
-    headers:
-      Host: m3hdio1.servehalflife.com
-    path: /@FORWARDV2RAY
-- name: "\U0001F1F8\U0001F1EA _SE_\u745E\u5178"
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.53.252.96
-  skip-cert-verify: false
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_35"
-  network: ws
-  port: 8080
-  server: tl.iranray.online
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b3c20911-126d-4c30-bd32-10152bf0b593
-  ws-opts:
-    headers:
-      Host: tl.iranray.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_104"
-  network: ws
-  port: 443
-  server: hexsen.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  ws-opts:
-    headers:
-      Host: us.king361.cf
-    path: /argo-vmess?ed=2048
-- client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 10"
-  password: ba4db48d-46d7-4b53-ba03-0878ed637aa1
-  port: 443
-  server: hk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: true
-  sni: 13-231-155-134.nhost.00cdn.com
-  type: trojan
-- client-fingerprint: chrome
-  name: "CN_\u4E2D\u56FD->GB_\u82F1\u56FD"
-  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
-  port: 17728
-  server: gbs.pptv-tv.store
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F5\U0001F1ED _PH_\u83F2\u5F8B\u5BBE_66"
-  network: ws
-  port: 443
-  server: 1.37.77.98
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
-  ws-opts:
-    headers:
-      Host: m3hdio1.servehalflife.com
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD->GB_\u82F1\u56FD"
-  network: ws
-  port: 2052
-  server: 104.21.33.130
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
-  ws-opts:
-    headers:
-      Host: family.mgtajhiz.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 4"
-  network: ws
-  port: 80
-  server: ns1.v2-vip.fun
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
-  ws-opts:
-    headers:
-      Host: ssrsub.v03.ssrsub.com
-    path: /api/v3/download.getFile
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD_92"
-  password: MGQwNTgw
-  port: 1443
-  server: 185.231.205.80
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 3"
-  password: amazonskr05
-  port: 443
-  server: 35.90.10.174
-  type: ss
-- name: "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\
-    \u65AF\u8054\u90A6"
-  network: tcp
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: ru01.trojanyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: "_GI_\u76F4\u5E03\u7F57\u9640_93"
-  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
-  port: 17728
-  server: gbs.pptv-tv.store
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_2"
-  network: ws
-  port: 16616
-  server: t.cnmjcn.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  ws-opts:
-    headers:
-      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F8\U0001F1EC _SG_\u65B0\u52A0\u5761_20"
-  network: ws
-  port: 443
-  server: 92.223.116.207
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
-  ws-opts:
-    headers:
-      Host: m3hdio1.servehalflife.com
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E7\U0001F1F7 _BR_\u5DF4\u897F_54"
-  network: ws
-  port: 443
-  server: 92.223.12.18
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
-  ws-opts:
-    headers:
-      Host: m3hdio1.servehalflife.com
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_10"
-  network: ws
-  port: 16616
-  server: yes.cnmjcn.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  ws-opts:
-    headers:
-      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_64"
-  network: ws
-  port: 25284
-  server: cu.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: cu.awslcn.info
-    path: /
-- name: "\U0001F1F8\U0001F1EC _SG_\u65B0\u52A0\u5761"
-  network: ws
-  password: d07a02a06191c99f
-  port: 3306
-  server: 185.230.245.213
-  skip-cert-verify: false
-  sni: n2.gladns.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: n2.gladns.com
-    path: /gateway/connect
-- cipher: chacha20-ietf
-  name: "\U0001F1FA\U0001F1F8 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  obfs: plain
-  obfs-param: 511df45641.microsoft.com
-  password: jFa4F1
-  port: 7703
-  protocol: auth_aes128_sha1
-  protocol-param: 45641:1119_jE165t
-  server: cm01.newcome.xyz
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 4"
-  network: ws
-  port: 56052
-  server: 146.235.227.242
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5da8114c-0bc6-4416-aa3e-106bcc452161
-  ws-opts:
-    headers:
-      Host: microsoft.com
-    path: /?ed=2048
-- client-fingerprint: chrome
-  name: "SE_\u745E\u5178"
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.53.252.96
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 8"
-  network: ws
-  port: 80
-  server: ns1.v2-vip.fun
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
-  ws-opts:
-    headers:
-      Host: ssrsub.v03.ssrsub.com
-    path: /api/v3/download.getFile
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 10"
-  password: amazonskr05
-  port: 443
-  server: 35.87.39.181
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 2"
-  password: amazonskr05
-  port: 443
-  server: 35.87.39.181
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F5\U0001F1ED _PH_\u83F2\u5F8B\u5BBE_56"
-  network: ws
-  port: 443
-  server: 1.37.77.98
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
-  ws-opts:
-    headers:
-      Host: m3hdio1.zapto.org
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1EF\U0001F1F5 _JP_\u65E5\u672C_36"
-  network: ws
-  port: 443
-  server: 31.184.207.8
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
-  ws-opts:
-    headers:
-      Host: m3hdio1.servehalflife.com
-    path: /@FORWARDV2RAY
-- name: "\U0001F1E8\U0001F1ED _CH_\u745E\u58EB_85"
-  password: ba4db48d-46d7-4b53-ba03-0878ed637aa1
-  port: 21152
-  server: unlk4.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: true
-  sni: ip3691376078.mobgslb.tbcache.com
-  type: trojan
-- name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_76"
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: us01.trojanyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_26"
-  password: 84d3b720-f85c-44d9-853c-651751079fed
-  port: 13002
-  server: zzins.sb520.xyz
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_16"
-  network: ws
-  port: 20401
-  server: data-us-v1.shwjfkw.cn
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: data-us-v1.shwjfkw.cn
-    path: /debian
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_80"
-  password: 2df26669-1aba-49c2-a86d-8e426f2bd50d
-  port: 19584
-  server: nc.cm.go002.xyz
-  type: ss
-- client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD->NL_\u8377\u5170 3"
-  network: ws
-  port: 443
-  server: 104.17.42.10
-  servername: lmn37.sbs
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 376b9861-2fc6-4647-959c-18185cd9c95a
-  ws-opts:
-    headers:
-      Host: lmn37.sbs
-    path: /fflsws
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_52"
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: hk04.trojanyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E7\U0001F1F7 _BR_\u5DF4\u897F_24"
-  network: ws
-  port: 443
-  server: 92.223.12.4
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
-  ws-opts:
-    headers:
-      Host: m3hdio1.servehalflife.com
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: "_UZ_\u4E4C\u5179\u522B\u514B\u65AF\u5766_30"
-  network: ws
-  port: 443
-  server: 37.110.209.228
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
-  ws-opts:
-    headers:
-      Host: m3hdio1.zapto.org
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  network: ws
-  port: 8080
-  server: cdn1.shaniugpt.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 539c31e8-75a0-4307-b000-ca1b1951bf88
-  ws-opts:
-    headers:
-      host: yyjc-uk1.shaniugpt.top
-    path: /20231217
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1EF\U0001F1F5 _JP_\u65E5\u672C_49"
-  network: ws
-  port: 443
-  server: 31.184.207.5
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
-  ws-opts:
-    headers:
-      Host: m3hdio1.servehalflife.com
-    path: /@FORWARDV2RAY
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_71"
-  password: 84d3b720-f85c-44d9-853c-651751079fed
-  port: 13007
-  server: zzins.sb520.xyz
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _1"
-  network: ws
-  port: 25257
-  server: us2.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      host: us2.awslcn.info
-    path: /
-- client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD->NL_\u8377\u5170 4"
-  network: ws
-  port: 443
-  server: 104.16.219.230
-  servername: lmn37.sbs
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 376b9861-2fc6-4647-959c-18185cd9c95a
-  ws-opts:
-    headers:
-      Host: lmn37.sbs
-    path: /fflsws
-- name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_55"
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: tw02.trojanyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-- name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927->\U0001F1FA\U0001F1F8_US_\u7F8E\
-    \u56FD"
-  network: tcp
-  password: 57edfecf-5694-4a34-8072-54a4f0636a62
-  port: 40007
-  server: frontend.kuangbiaoyun.com
-  skip-cert-verify: true
-  sni: frontend.kuangbiaoyun.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EE\U0001F1F3_IN_\u5370\u5EA6"
-  network: ws
-  port: 16626
-  server: yes.cnmjcn.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  ws-opts:
-    headers:
-      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 11"
-  password: amazonskr05
-  port: 443
-  server: 52.33.95.19
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
-  password: OWJlYjYy
-  port: 8388
-  server: 91.194.161.7
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_95"
-  network: ws
-  port: 80
-  server: 104.21.91.52
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cf9277a9-7661-4b06-865d-b7c239deb26b
-  ws-opts:
-    headers:
-      Host: ee2.xv2ray.net
-    path: /vmess
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_45"
-  password: f7EI0dGWQM42T8gwN9CZIj
-  port: 6199
-  server: 45.87.153.246
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "_CN_\u4E2D\u56FD"
-  password: f7EI0dGWQM42T8gwN9CZIj
-  port: 6199
-  server: 45.87.153.246
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 14"
-  network: ws
-  port: 80
-  server: 104.21.75.246
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: sbl2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_39"
-  network: ws
-  port: 443
-  server: 92.38.168.6
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
-  ws-opts:
-    headers:
-      Host: m3hdio1.servehalflife.com
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E7\U0001F1F7 _BR_\u5DF4\u897F_57"
-  network: ws
-  port: 443
-  server: 92.223.12.20
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
-  ws-opts:
-    headers:
-      Host: m3hdio1.servehalflife.com
-    path: /@FORWARDV2RAY
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "FR_\u6CD5\u56FD"
-  password: MGQwNTgw
-  port: 1443
-  server: 185.231.205.80
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
   name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
     _3"
   network: ws
@@ -1159,114 +1109,12 @@ proxies:
     headers:
       host: us.king361.cf
     path: /argo-vmess?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_33"
-  network: ws
-  port: 443
-  server: 92.223.107.45
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
-  ws-opts:
-    headers:
-      Host: m3hdio1.zapto.org
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F0\U0001F1FF _KZ_\u54C8\u8428\u514B\u65AF\u5766_48"
-  network: ws
-  port: 443
-  server: 92.46.108.106
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
-  ws-opts:
-    headers:
-      Host: m3hdio1.servehalflife.com
-    path: /@FORWARDV2RAY
-- name: "\U0001F1FA\U0001F1F8 _CA_\u52A0\u62FF\u5927->\U0001F1FA\U0001F1F8_US_\u7F8E\
-    \u56FD"
-  password: 57edfecf-5694-4a34-8072-54a4f0636a62
-  port: 40007
-  server: frontend.kuangbiaoyun.com
-  skip-cert-verify: false
-  sni: frontend.kuangbiaoyun.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F8\U0001F1EC _SG_\u65B0\u52A0\u5761_67"
-  network: ws
-  port: 443
-  server: 92.223.116.207
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
-  ws-opts:
-    headers:
-      Host: m3hdio1.zapto.org
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_107"
-  network: ws
-  port: 443
-  server: 172.99.190.109
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: linkvws
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
-  network: ws
-  port: 30000
-  server: 46.182.107.15
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/1702215223320
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 5"
-  password: datdGFe4LkMN710aHedy
-  port: 51348
-  server: 85.239.52.174
-  tfo: false
+  name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
+  password: OWJlYjYy
+  port: 8388
+  server: 91.194.161.7
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_72"
-  network: ws
-  port: 443
-  server: hexsen.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  ws-opts:
-    headers:
-      Host: arthur-experienced-hate-maiden.trycloudflare.com
-    path: /argo-vmess?ed=2048
-- name: "\U0001F1F8\U0001F1EC _SG_\u65B0\u52A0\u5761_90"
-  network: ws
-  password: d07a02a06191c99f
-  port: 3306
-  server: 185.230.245.213
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: n2.gladns.com
-    path: /gateway/connect
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_47"
@@ -1283,13 +1131,11 @@ proxies:
     path: /@FORWARDV2RAY
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: "GB_\u82F1\u56FD"
+  name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_2"
   network: ws
   port: 443
   server: 172.99.190.109
-  skip-cert-verify: false
-  tfo: false
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -1297,80 +1143,10 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_44"
-  network: ws
-  port: 25257
-  server: us2.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: us2.awslcn.info
-    path: /
-- name: "\U0001F1E8\U0001F1ED _CH_\u745E\u58EB_62"
-  password: ba4db48d-46d7-4b53-ba03-0878ed637aa1
-  port: 21852
-  server: unlk3.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: true
-  sni: ip3691376078.mobgslb.tbcache.com
-  type: trojan
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_74"
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: 74.226.186.190
-  skip-cert-verify: true
-  sni: hk04.trojanyyds.xyz
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_84"
-  network: ws
-  port: 16616
-  server: m.cnmjcn.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  ws-opts:
-    headers:
-      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717"
-  network: ws
-  port: 8080
-  server: tl.iranray.online
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b3c20911-126d-4c30-bd32-10152bf0b593
-  ws-opts:
-    headers:
-      host: tl.iranray.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "_IQ_\u4F0A\u62C9\u514B_77"
+  name: "\U0001F1F0\U0001F1FF _KZ_\u54C8\u8428\u514B\u65AF\u5766_48"
   network: ws
   port: 443
-  server: 37.236.95.2
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
-  ws-opts:
-    headers:
-      Host: m3hdio1.zapto.org
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E6\U0001F1F7 _AR_\u963F\u6839\u5EF7_65"
-  network: ws
-  port: 443
-  server: 87.120.164.4
+  server: 92.46.108.106
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -1380,49 +1156,15 @@ proxies:
       Host: m3hdio1.servehalflife.com
     path: /@FORWARDV2RAY
 - cipher: chacha20-ietf
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_99"
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_101"
   obfs: plain
   obfs-param: 511df45641.microsoft.com
   password: jFa4F1
-  port: 7706
+  port: 7703
   protocol: auth_aes128_sha1
   protocol-param: 45641:1119_jE165t
   server: cm01.newcome.xyz
   type: ssr
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_109"
-  password: amazonskr05
-  port: 443
-  server: 35.87.39.181
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  network: ws
-  port: 2052
-  server: 104.21.33.130
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
-  ws-opts:
-    headers:
-      Host: family.mgtajhiz.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "_QA_\u5361\u5854\u5C14_82"
-  network: ws
-  port: 443
-  server: 82.148.98.42
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
-  ws-opts:
-    headers:
-      Host: m3hdio1.zapto.org
-    path: /@FORWARDV2RAY
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
@@ -1437,245 +1179,34 @@ proxies:
   ws-opts:
     path: /
 - client-fingerprint: chrome
-  name: "DE_\u5FB7\u56FD"
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.194.165.146
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 11"
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 142.202.48.43
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F3\U0001F1EC _NG_\u5C3C\u65E5\u5229\u4E9A_25"
+  name: "RU_\u4FC4\u7F57\u65AF\u8054\u90A6->NL_\u8377\u5170"
   network: ws
   port: 443
-  server: 150.107.126.4
-  skip-cert-verify: true
+  server: 185.109.21.24
+  servername: lmn37.sbs
+  skip-cert-verify: false
+  tfo: false
   tls: true
-  type: vmess
-  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
+  type: vless
+  uuid: 376b9861-2fc6-4647-959c-18185cd9c95a
   ws-opts:
     headers:
-      Host: m3hdio1.zapto.org
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  network: ws
-  port: 443
-  server: 172.99.190.109
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_88"
-  network: ws
-  port: 16626
-  server: yes.cnmjcn.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  ws-opts:
-    headers:
-      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1ED _CH_\u745E\u58EB_34"
-  network: ws
-  port: 22050
-  server: kr123.yydsii.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: kr123.yydsii.com
-    path: /
+      Host: lmn37.sbs
+    path: /fflsws
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_83"
-  password: YDSrXzv55YtU9EBtggpxV9
-  port: 13506
-  server: 51.142.106.171
-  type: ss
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 5"
-  network: ws
-  password: ZjzcW3LXeJ
-  port: 2096
-  server: cf.network383.online
-  skip-cert-verify: false
-  sni: amsb.network383.online
-  type: trojan
-  ws-opts:
-    headers:
-      Host: amsb.network383.online
-    path: /@apt_mahdi
-- name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD"
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.194.165.146
-  skip-cert-verify: false
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_94"
-  password: amazonskr05
-  port: 443
-  server: 35.90.10.174
-  type: ss
-- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 12"
-  password: amazonskr05
-  port: 443
-  server: 35.90.10.174
+  name: "FR_\u6CD5\u56FD"
+  password: MGQwNTgw
+  port: 1443
+  server: 185.231.205.80
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_43"
-  network: ws
-  port: 25257
-  server: us2.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: us2.awslcn.info
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 9"
-  password: datdGFe4LkMN710aHedy
-  port: 51348
-  server: 85.239.52.174
-  type: ss
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_46"
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: hk03.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: hk03.trojanyyds.xyz
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F0\U0001F1FF _KZ_\u54C8\u8428\u514B\u65AF\u5766_3"
+  name: "\U0001F1F8\U0001F1EC _SG_\u65B0\u52A0\u5761_20"
   network: ws
   port: 443
-  server: 92.46.108.106
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
-  ws-opts:
-    headers:
-      Host: m3hdio1.zapto.org
-    path: /@FORWARDV2RAY
-- client-fingerprint: chrome
-  name: "SG_\u65B0\u52A0\u5761"
-  password: d07a02a06191c99f
-  port: 3306
-  server: 185.230.245.213
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_22"
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: sk01.trojanyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: "CN_\u4E2D\u56FD->US_\u7F8E\u56FD"
-  obfs: plain
-  obfs-param: 511df45641.microsoft.com
-  password: jFa4F1
-  port: 7706
-  protocol: auth_aes128_sha1
-  protocol-param: 45641:1119_jE165t
-  server: cm01.newcome.xyz
-  type: ssr
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 13"
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 142.202.48.43
-  type: ss
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_73"
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: ru01.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: ru01.trojanyyds.xyz
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F0\U0001F1FF _KZ_\u54C8\u8428\u514B\u65AF\u5766_14"
-  network: ws
-  port: 443
-  server: 5.189.207.4
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
-  ws-opts:
-    headers:
-      Host: m3hdio1.zapto.org
-    path: /@FORWARDV2RAY
-- name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_111"
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: us01.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: us01.trojanyyds.xyz
-  type: trojan
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD"
-  password: ba4db48d-46d7-4b53-ba03-0878ed637aa1
-  port: 443
-  server: hk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: false
-  sni: 13-231-155-134.nhost.00cdn.com
-  type: trojan
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  network: ws
-  password: ZjzcW3LXeJ@cf.network383.online:2096?type=ws&sni=amsb.network383.online&allowInsecure=1&path=/
-  port: 2096
-  server: ZjzcW3LXeJ@cf.network383.online:2096?type=ws&sni=amsb.network383.online&allowInsecure=1&path=/@apt_mahdi&host=amsb.network383.online
-  skip-cert-verify: true
-  sni: amsb.network383.online
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: amsb.network383.online
-    path: /@apt_mahdi
-- name: "\U0001F1EF\U0001F1F5 _JP_\u65E5\u672C_61"
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: sg01.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: sg01.trojanyyds.xyz
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_69"
-  network: ws
-  port: 443
-  server: 92.223.107.58
+  server: 92.223.116.207
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -1702,68 +1233,175 @@ proxies:
     path: /20231217
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_50"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
   network: ws
-  port: 2052
-  server: mehdi24.forwardv2raytelegramchannel.fun
+  port: 80
+  server: 104.21.75.246
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: d68585a6-fb62-4f8e-96ee-0131bb4d5865
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: mehdi24.forwardv2raytelegramchannel.fun
-    path: /@FORWARDV2RAY
-- name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_38"
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: uk01.trojanyyds.xyz
+      host: sbl2.shabijichang.com
+    path: /
+- name: "_GI_\u76F4\u5E03\u7F57\u9640_93"
+  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
+  port: 17728
+  server: gbs.pptv-tv.store
   skip-cert-verify: true
   type: trojan
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1E6 _UA_\u4E4C\u514B\u5170"
-  port: 8443
-  server: 193.238.153.14
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 159693e0-5146-482d-9e46-8c4f2fc865b1
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_37"
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_84"
   network: ws
-  port: 443
-  server: 92.223.107.43
+  port: 16616
+  server: m.cnmjcn.com
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
   ws-opts:
     headers:
-      Host: m3hdio1.zapto.org
-    path: /@FORWARDV2RAY
+      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_10"
+  network: ws
+  port: 16616
+  server: yes.cnmjcn.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  ws-opts:
+    headers:
+      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 2"
+  password: amazonskr05
+  port: 443
+  server: 35.87.39.181
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_98"
   password: amazonskr05
   port: 443
   server: 52.33.95.19
   type: ss
-- client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD->NL_\u8377\u5170 5"
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_60"
   network: ws
   port: 443
-  server: 104.17.88.212
-  servername: lmn37.sbs
-  skip-cert-verify: false
-  tfo: false
+  server: 92.223.76.25
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 376b9861-2fc6-4647-959c-18185cd9c95a
+  type: vmess
+  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
   ws-opts:
     headers:
-      Host: lmn37.sbs
-    path: /fflsws
+      Host: m3hdio1.servehalflife.com
+    path: /@FORWARDV2RAY
+- name: "\U0001F1E8\U0001F1ED _CH_\u745E\u58EB_85"
+  password: ba4db48d-46d7-4b53-ba03-0878ed637aa1
+  port: 21152
+  server: unlk4.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: true
+  sni: ip3691376078.mobgslb.tbcache.com
+  type: trojan
+- name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_8"
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: us01.trojanyyds.xyz
+  skip-cert-verify: true
+  sni: us01.trojanyyds.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_104"
+  network: ws
+  port: 443
+  server: hexsen.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  ws-opts:
+    headers:
+      Host: us.king361.cf
+    path: /argo-vmess?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_35"
+  network: ws
+  port: 8080
+  server: tl.iranray.online
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b3c20911-126d-4c30-bd32-10152bf0b593
+  ws-opts:
+    headers:
+      Host: tl.iranray.online
+    path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 8"
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 142.202.48.43
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 7"
+  password: amazonskr05
+  port: 443
+  server: 52.33.95.19
+  type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: "CN_\u4E2D\u56FD->US_\u7F8E\u56FD"
+  obfs: plain
+  obfs-param: 511df45641.microsoft.com
+  password: jFa4F1
+  port: 7706
+  protocol: auth_aes128_sha1
+  protocol-param: 45641:1119_jE165t
+  server: cm01.newcome.xyz
+  type: ssr
+- cipher: chacha20-ietf
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_99"
+  obfs: plain
+  obfs-param: 511df45641.microsoft.com
+  password: jFa4F1
+  port: 7706
+  protocol: auth_aes128_sha1
+  protocol-param: 45641:1119_jE165t
+  server: cm01.newcome.xyz
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
+  network: ws
+  port: 8443
+  server: rf.rafalion.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0198fa0c-221c-427c-8ab0-3a4829e73078
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 2"
+  password: amazonskr05
+  port: 443
+  server: 54.70.3.6
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1ED _CH_\u745E\u58EB_53"
@@ -1778,20 +1416,40 @@ proxies:
     headers:
       Host: kr123.yydsii.com
     path: /
-- name: "\U0001F1E8\U0001F1ED _CH_\u745E\u58EB_75"
-  password: ef5a92d0-6acd-4308-a4d6-2cdbe1c80cc2
-  port: 21852
-  server: unlk3.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 _JP_\u65E5\u672C_17"
+  network: ws
+  port: 443
+  server: 92.223.63.10
   skip-cert-verify: true
-  sni: ip3691376078.mobgslb.tbcache.com
-  type: trojan
-- client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 15"
-  password: ZjzcW3LXeJ
-  port: 2096
-  server: cf.network383.online
+  tls: true
+  type: vmess
+  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
+  ws-opts:
+    headers:
+      Host: m3hdio1.servehalflife.com
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD_5"
+  network: ws
+  port: 443
+  server: 92.223.124.16
   skip-cert-verify: true
-  sni: amsb.network383.online
+  tls: true
+  type: vmess
+  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
+  ws-opts:
+    headers:
+      Host: m3hdio1.servehalflife.com
+    path: /@FORWARDV2RAY
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_46"
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: hk03.trojanyyds.xyz
+  skip-cert-verify: true
+  sni: hk03.trojanyyds.xyz
   type: trojan
 - name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
   network: tcp
@@ -1804,117 +1462,25 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  network: ws
-  port: 2052
-  server: 104.21.33.130
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
-  ws-opts:
-    headers:
-      host: family.mgtajhiz.ir
-    path: /
-- name: "\uFE0F\u200D\U0001F308_UN_\u672A\u77E5_100"
-  network: ws
-  password: ZjzcW3LXeJ
-  port: 2096
-  server: cf.network383.online
-  skip-cert-verify: true
-  sni: amsb.network383.online
-  type: trojan
-  ws-opts:
-    headers:
-      Host: amsb.network383.online
-    path: /@ZjzcW3LXeJ@cf.network383.online:2096
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_15"
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: sk01.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: sk01.trojanyyds.xyz
-  type: trojan
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927"
+  name: "\U0001F1F5\U0001F1EA _PE_\u79D8\u9C81_23"
   network: ws
   port: 443
-  server: 142.171.202.130
+  server: 213.156.151.6
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/1702650992491
-- client-fingerprint: chrome
-  name: "RU_\u4FC4\u7F57\u65AF\u8054\u90A6->NL_\u8377\u5170"
-  network: ws
-  port: 443
-  server: 185.109.21.24
-  servername: lmn37.sbs
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 376b9861-2fc6-4647-959c-18185cd9c95a
+  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
   ws-opts:
     headers:
-      Host: lmn37.sbs
-    path: /fflsws
-- client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD->NL_\u8377\u5170"
-  network: ws
-  port: 443
-  server: 104.21.16.162
-  servername: lmn37.sbs
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 376b9861-2fc6-4647-959c-18185cd9c95a
-  ws-opts:
-    headers:
-      Host: lmn37.sbs
-    path: /fflsws
-- name: "\U0001F1E8\U0001F1ED _CH_\u745E\u58EB_70"
-  password: ef5a92d0-6acd-4308-a4d6-2cdbe1c80cc2
-  port: 21152
-  server: unlk4.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: true
-  sni: ip3691376078.mobgslb.tbcache.com
-  type: trojan
+      Host: m3hdio1.zapto.org
+    path: /@FORWARDV2RAY
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F2\U0001F1FD_MX_\u58A8\u897F\
-    \u54E5"
-  network: ws
-  port: 25284
-  server: cu.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    path: /
-- name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_1"
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.42.77.152
-  skip-cert-verify: false
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 7"
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 4"
   network: ws
   port: 56052
   server: 146.235.227.242
   skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 5da8114c-0bc6-4416-aa3e-106bcc452161
@@ -1936,20 +1502,158 @@ proxies:
     headers:
       host: ee2.xv2ray.net
     path: /vmess
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_91"
+  network: ws
+  port: 8080
+  server: tl.iranray.online
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b3c20911-126d-4c30-bd32-10152bf0b593
+  ws-opts:
+    headers:
+      Host: tl.iranray.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1E6 _UA_\u4E4C\u514B\u5170_112"
+  port: 8443
+  server: 193.238.153.14
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 159693e0-5146-482d-9e46-8c4f2fc865b1
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 6"
+  network: ws
+  port: 80
+  server: cf-lt.sharecentre.online
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      Host: ssrsub.v005.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_59"
+  network: ws
+  port: 80
+  server: singapore.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      Host: ssrsub.v005.ssrsub.com
+    path: /api/v3/download.getFile
+- name: "\U0001F1EF\U0001F1F5 _JP_\u65E5\u672C_61"
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: sg01.trojanyyds.xyz
+  skip-cert-verify: true
+  sni: sg01.trojanyyds.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F0\U0001F1FF _KZ_\u54C8\u8428\u514B\u65AF\u5766_14"
+  network: ws
+  port: 443
+  server: 5.189.207.4
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
+  ws-opts:
+    headers:
+      Host: m3hdio1.zapto.org
+    path: /@FORWARDV2RAY
+- name: "\U0001F1E8\U0001F1F3 _TW_\u53F0\u6E7E_78"
+  password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff
+  port: 443
+  server: download1tw.windowsupdatea.com
+  skip-cert-verify: true
+  sni: glc-tw1.windowsupdatea.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_16"
+  network: ws
+  port: 20401
+  server: data-us-v1.shwjfkw.cn
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-us-v1.shwjfkw.cn
+    path: /debian
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 3"
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 142.202.48.43
+  name: "RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
+  password: OWJlYjYy
+  port: 8388
+  server: 91.194.161.7
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E7\U0001F1F7 _BR_\u5DF4\u897F_12"
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_37"
   network: ws
   port: 443
-  server: 80.240.124.8
+  server: 92.223.107.43
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
+  ws-opts:
+    headers:
+      Host: m3hdio1.zapto.org
+    path: /@FORWARDV2RAY
+- client-fingerprint: chrome
+  name: "SG_\u65B0\u52A0\u5761"
+  password: d07a02a06191c99f
+  port: 3306
+  server: 185.230.245.213
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 _JP_\u65E5\u672C_49"
+  network: ws
+  port: 443
+  server: 31.184.207.5
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
+  ws-opts:
+    headers:
+      Host: m3hdio1.servehalflife.com
+    path: /@FORWARDV2RAY
+- name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_1"
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.42.77.152
+  skip-cert-verify: false
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD_7"
+  network: ws
+  port: 443
+  server: 92.223.124.16
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -1960,10 +1664,85 @@ proxies:
     path: /@FORWARDV2RAY
 - alterId: 0
   cipher: auto
-  name: "\U0001F1F5\U0001F1EA _PE_\u79D8\u9C81_18"
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 7"
+  network: ws
+  port: 56052
+  server: 146.235.227.242
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5da8114c-0bc6-4416-aa3e-106bcc452161
+  ws-opts:
+    headers:
+      Host: microsoft.com
+    path: /?ed=2048
+- name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_76"
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: us01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927_102"
   network: ws
   port: 443
-  server: 213.156.151.6
+  server: 142.171.202.130
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/1702650992491
+- alterId: 0
+  cipher: auto
+  name: "_QA_\u5361\u5854\u5C14_82"
+  network: ws
+  port: 443
+  server: 82.148.98.42
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
+  ws-opts:
+    headers:
+      Host: m3hdio1.zapto.org
+    path: /@FORWARDV2RAY
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_52"
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: hk04.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_74"
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: 74.226.186.190
+  skip-cert-verify: true
+  sni: hk04.trojanyyds.xyz
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD_51"
+  password: eidpOijUrSr6VOUZyNVuiC
+  port: 8243
+  server: file.delveseh.store
+  type: ss
+- client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 15"
+  password: ZjzcW3LXeJ
+  port: 2096
+  server: cf.network383.online
+  skip-cert-verify: true
+  sni: amsb.network383.online
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_19"
+  network: ws
+  port: 443
+  server: 92.223.76.24
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -1971,6 +1750,102 @@ proxies:
   ws-opts:
     headers:
       Host: m3hdio1.servehalflife.com
+    path: /@FORWARDV2RAY
+- name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD"
+  network: tcp
+  password: 57edfecf-5694-4a34-8072-54a4f0636a62
+  port: 40007
+  server: frontend.kuangbiaoyun.com
+  skip-cert-verify: true
+  sni: frontend.kuangbiaoyun.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_43"
+  network: ws
+  port: 25257
+  server: us2.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: us2.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "_UZ_\u4E4C\u5179\u522B\u514B\u65AF\u5766_30"
+  network: ws
+  port: 443
+  server: 37.110.209.228
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
+  ws-opts:
+    headers:
+      Host: m3hdio1.zapto.org
+    path: /@FORWARDV2RAY
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 11"
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 142.202.48.43
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_39"
+  network: ws
+  port: 443
+  server: 92.38.168.6
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
+  ws-opts:
+    headers:
+      Host: m3hdio1.servehalflife.com
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 4"
+  network: ws
+  port: 80
+  server: ns1.v2-vip.fun
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- name: "\U0001F1FA\U0001F1F8 _CA_\u52A0\u62FF\u5927->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD"
+  password: 57edfecf-5694-4a34-8072-54a4f0636a62
+  port: 40007
+  server: frontend.kuangbiaoyun.com
+  skip-cert-verify: false
+  sni: frontend.kuangbiaoyun.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FB\U0001F1F3 _VN_\u8D8A\u5357_21"
+  network: ws
+  port: 443
+  server: 171.234.242.197
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
+  ws-opts:
+    headers:
+      Host: m3hdio1.zapto.org
     path: /@FORWARDV2RAY
 - alterId: 64
   cipher: auto
@@ -1986,62 +1861,25 @@ proxies:
     headers:
       Host: www.42077230.xyz
     path: /path/1702961716738
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_60"
-  network: ws
-  port: 443
-  server: 92.223.76.25
+- client-fingerprint: chrome
+  name: "SE_\u745E\u5178"
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.53.252.96
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
-  ws-opts:
-    headers:
-      Host: m3hdio1.servehalflife.com
-    path: /@FORWARDV2RAY
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
-  password: OWJlYjYy
-  port: 8388
-  server: 91.194.161.7
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_9"
-  network: ws
-  port: 8080
-  server: cdn.shoptajv2ray.sbs
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f2042dca-2363-4fb1-9f95-12a880392b34
-  ws-opts:
-    headers:
-      Host: cdn.shoptajv2ray.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  network: ws
-  port: 80
-  server: ns1.v2-vip.fun
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
-  ws-opts:
-    headers:
-      host: ssrsub.v03.ssrsub.com
-    path: /api/v3/download.getFile
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD_51"
-  password: eidpOijUrSr6VOUZyNVuiC
-  port: 8243
-  server: file.delveseh.store
-  type: ss
+  sni: trj.rollingnext.co.uk
+  type: trojan
+- cipher: chacha20-ietf
+  name: "\U0001F1FA\U0001F1F8 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
+    \ 2"
+  obfs: plain
+  obfs-param: 511df45641.microsoft.com
+  password: jFa4F1
+  port: 7706
+  protocol: auth_aes128_sha1
+  protocol-param: 45641:1119_jE165t
+  server: cm01.newcome.xyz
+  type: ssr
 - client-fingerprint: chrome
   name: "US_\u7F8E\u56FD->NL_\u8377\u5170 6"
   network: ws
@@ -2059,219 +1897,17 @@ proxies:
     path: /fflsws
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_11"
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_6"
   network: ws
-  port: 16616
-  server: yes.cnmjcn.net
+  port: 25230
+  server: cm1.awslcn.info
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_2"
-  network: ws
-  port: 443
-  server: 172.99.190.109
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
-  network: ws
-  port: 8443
-  server: rf.rafalion.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 0198fa0c-221c-427c-8ab0-3a4829e73078
-  ws-opts:
-    path: /
-- name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F_8"
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: us01.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: us01.trojanyyds.xyz
-  type: trojan
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1F3\U0001F1F1 _NL_\u8377\u5170_110"
-  network: ws
-  port: 30000
-  server: 46.182.107.15
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/1702215223320
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_105"
-  network: ws
-  port: 80
-  server: ns1.v2-vip.fun
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
-  ws-opts:
-    headers:
-      Host: ssrsub.v03.ssrsub.com
-    path: /api/v3/download.getFile
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "_CN_\u4E2D\u56FD"
-  password: f7EI0dGWQM42T8gwN9CZIj
-  port: 6199
-  server: 45.87.153.246
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 2"
-  password: amazonskr05
-  port: 443
-  server: 54.70.3.6
-  type: ss
-- name: "\U0001F1E8\U0001F1F3 _TW_\u53F0\u6E7E_78"
-  password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff
-  port: 443
-  server: download1tw.windowsupdatea.com
-  skip-cert-verify: true
-  sni: glc-tw1.windowsupdatea.com
-  type: trojan
-- cipher: chacha20-ietf
-  name: "\U0001F1FA\U0001F1F8 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    \ 2"
-  obfs: plain
-  obfs-param: 511df45641.microsoft.com
-  password: jFa4F1
-  port: 7706
-  protocol: auth_aes128_sha1
-  protocol-param: 45641:1119_jE165t
-  server: cm01.newcome.xyz
-  type: ssr
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_79"
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: my02.trojanyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 13"
-  password: bNUe0jR9rzsvLEzfPmI4Of
-  port: 38108
-  server: 94.131.115.129
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_59"
-  network: ws
-  port: 80
-  server: singapore.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
-  ws-opts:
-    headers:
-      Host: ssrsub.v005.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
-  network: ws
-  port: 443
-  server: 172.99.190.109
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: linkvws
-- name: "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927_106"
-  password: 57edfecf-5694-4a34-8072-54a4f0636a62
-  port: 40007
-  server: frontend.kuangbiaoyun.com
-  skip-cert-verify: true
-  sni: frontend.kuangbiaoyun.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 6"
-  network: ws
-  port: 80
-  server: cf-lt.sharecentre.online
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
-  ws-opts:
-    headers:
-      Host: ssrsub.v005.ssrsub.com
-    path: /api/v3/download.getFile
-- client-fingerprint: chrome
-  name: "CA_\u52A0\u62FF\u5927->US_\u7F8E\u56FD"
-  password: 57edfecf-5694-4a34-8072-54a4f0636a62
-  port: 40007
-  server: frontend.kuangbiaoyun.com
-  skip-cert-verify: true
-  sni: frontend.kuangbiaoyun.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1EF\U0001F1F5 _JP_\u65E5\u672C_17"
-  network: ws
-  port: 443
-  server: 92.223.63.10
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
-  ws-opts:
-    headers:
-      Host: m3hdio1.servehalflife.com
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_1"
-  network: ws
-  port: 443
-  server: 92.38.168.6
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f
-  ws-opts:
-    headers:
-      Host: m3hdio1.zapto.org
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_42"
-  network: ws
-  port: 16626
-  server: yes.cnmjcn.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  ws-opts:
-    headers:
-      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+      Host: cm1.awslcn.info
     path: /
 - alterId: 0
   cipher: auto
@@ -2289,10 +1925,38 @@ proxies:
     path: /@FORWARDV2RAY
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1FE _CY_\u585E\u6D66\u8DEF\u65AF_4"
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_64"
+  network: ws
+  port: 25284
+  server: cu.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cu.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_81"
+  network: ws
+  port: 8880
+  server: mtn.morotech.sbs
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c2441b44-e556-401a-8963-8678ca14acf6
+  ws-opts:
+    headers:
+      Host: bhv2ray.plusultra.fun
+    path: /@v2group7
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_1"
   network: ws
   port: 443
-  server: 195.14.146.81
+  server: 92.38.168.6
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -2301,6 +1965,339 @@ proxies:
     headers:
       Host: m3hdio1.zapto.org
     path: /@FORWARDV2RAY
+- cipher: chacha20-ietf
+  name: "\U0001F1FA\U0001F1F8 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  obfs: plain
+  obfs-param: 511df45641.microsoft.com
+  password: jFa4F1
+  port: 7703
+  protocol: auth_aes128_sha1
+  protocol-param: 45641:1119_jE165t
+  server: cm01.newcome.xyz
+  type: ssr
+- name: "\U0001F1F8\U0001F1EC _SG_\u65B0\u52A0\u5761"
+  network: ws
+  password: d07a02a06191c99f
+  port: 3306
+  server: 185.230.245.213
+  skip-cert-verify: false
+  sni: n2.gladns.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: /gateway/connect
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F5\U0001F1ED _PH_\u83F2\u5F8B\u5BBE_66"
+  network: ws
+  port: 443
+  server: 1.37.77.98
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
+  ws-opts:
+    headers:
+      Host: m3hdio1.servehalflife.com
+    path: /@FORWARDV2RAY
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: "CN_\u4E2D\u56FD->US_\u7F8E\u56FD 2"
+  obfs: plain
+  obfs-param: 511df45641.microsoft.com
+  password: jFa4F1
+  port: 7703
+  protocol: auth_aes128_sha1
+  protocol-param: 45641:1119_jE165t
+  server: cm01.newcome.xyz
+  type: ssr
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "UA_\u4E4C\u514B\u5170"
+  port: 8443
+  server: 193.238.153.14
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 159693e0-5146-482d-9e46-8c4f2fc865b1
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "_CN_\u4E2D\u56FD"
+  password: f7EI0dGWQM42T8gwN9CZIj
+  port: 6199
+  server: 45.87.153.246
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 11"
+  password: amazonskr05
+  port: 443
+  server: 52.33.95.19
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E7\U0001F1F7 _BR_\u5DF4\u897F_54"
+  network: ws
+  port: 443
+  server: 92.223.12.18
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
+  ws-opts:
+    headers:
+      Host: m3hdio1.servehalflife.com
+    path: /@FORWARDV2RAY
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  network: tcp
+  password: 6ca647f5-91c2-4bf6-b444-762f171ad696
+  port: 443
+  server: jp1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: true
+  sni: 13-231-155-134.nhost.00cdn.com
+  type: trojan
+  udp: true
+- name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_86"
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.42.77.152
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD_107"
+  network: ws
+  port: 443
+  server: 172.99.190.109
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_72"
+  network: ws
+  port: 443
+  server: hexsen.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  ws-opts:
+    headers:
+      Host: arthur-experienced-hate-maiden.trycloudflare.com
+    path: /argo-vmess?ed=2048
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 13"
+  password: bNUe0jR9rzsvLEzfPmI4Of
+  port: 38108
+  server: 94.131.115.129
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F5\U0001F1EA _PE_\u79D8\u9C81_18"
+  network: ws
+  port: 443
+  server: 213.156.151.6
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
+  ws-opts:
+    headers:
+      Host: m3hdio1.servehalflife.com
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E6\U0001F1F7 _AR_\u963F\u6839\u5EF7_65"
+  network: ws
+  port: 443
+  server: 87.120.164.4
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
+  ws-opts:
+    headers:
+      Host: m3hdio1.servehalflife.com
+    path: /@FORWARDV2RAY
+- client-fingerprint: chrome
+  name: "CN_\u4E2D\u56FD->GB_\u82F1\u56FD"
+  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
+  port: 17728
+  server: gbs.pptv-tv.store
+  skip-cert-verify: true
+  type: trojan
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_79"
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: my02.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+- name: "\U0001F1F8\U0001F1EA _SE_\u745E\u5178"
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.53.252.96
+  skip-cert-verify: false
+  sni: trj.rollingnext.co.uk
+  type: trojan
+- name: "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927_106"
+  password: 57edfecf-5694-4a34-8072-54a4f0636a62
+  port: 40007
+  server: frontend.kuangbiaoyun.com
+  skip-cert-verify: true
+  sni: frontend.kuangbiaoyun.com
+  type: trojan
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 3"
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 142.202.48.43
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927"
+  network: ws
+  port: 443
+  server: 142.171.202.130
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/1702650992491
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
+    _1"
+  network: ws
+  port: 25257
+  server: us2.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      host: us2.awslcn.info
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD"
+  password: MGQwNTgw
+  port: 1443
+  server: 185.231.205.80
+  type: ss
+- client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 10"
+  password: ba4db48d-46d7-4b53-ba03-0878ed637aa1
+  port: 443
+  server: hk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: true
+  sni: 13-231-155-134.nhost.00cdn.com
+  type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 3"
+  password: amazonskr05
+  port: 443
+  server: 35.90.10.174
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F2\U0001F1FD_MX_\u58A8\u897F\
+    \u54E5"
+  network: ws
+  port: 25284
+  server: cu.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_105"
+  network: ws
+  port: 80
+  server: ns1.v2-vip.fun
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- cipher: chacha20-ietf-poly1305
+  name: "_CN_\u4E2D\u56FD"
+  password: f7EI0dGWQM42T8gwN9CZIj
+  port: 6199
+  server: 45.87.153.246
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 5"
+  password: datdGFe4LkMN710aHedy
+  port: 51348
+  server: 85.239.52.174
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD->NL_\u8377\u5170 4"
+  network: ws
+  port: 443
+  server: 104.16.219.230
+  servername: lmn37.sbs
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 376b9861-2fc6-4647-959c-18185cd9c95a
+  ws-opts:
+    headers:
+      Host: lmn37.sbs
+    path: /fflsws
+- client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD->NL_\u8377\u5170 3"
+  network: ws
+  port: 443
+  server: 104.17.42.10
+  servername: lmn37.sbs
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 376b9861-2fc6-4647-959c-18185cd9c95a
+  ws-opts:
+    headers:
+      Host: lmn37.sbs
+    path: /fflsws
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_9"
+  network: ws
+  port: 8080
+  server: cdn.shoptajv2ray.sbs
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f2042dca-2363-4fb1-9f95-12a880392b34
+  ws-opts:
+    headers:
+      Host: cdn.shoptajv2ray.sbs
+    path: /
 proxy-groups:
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
   proxies:
@@ -2391,9 +2388,7 @@ proxy-groups:
   - "US_\u7F8E\u56FD->NL_\u8377\u5170 6"
   - "US_\u7F8E\u56FD 14"
   - "US_\u7F8E\u56FD 15"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  - "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_1"
   - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_2"
   - "\U0001F1F0\U0001F1FF _KZ_\u54C8\u8428\u514B\u65AF\u5766_3"
@@ -2595,9 +2590,7 @@ proxy-groups:
   - "US_\u7F8E\u56FD->NL_\u8377\u5170 6"
   - "US_\u7F8E\u56FD 14"
   - "US_\u7F8E\u56FD 15"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  - "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
   - "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD_1"
   - "\U0001F1E8\U0001F1F3 _CN_\u4E2D\u56FD_2"
   - "\U0001F1F0\U0001F1FF _KZ_\u54C8\u8428\u514B\u65AF\u5766_3"
