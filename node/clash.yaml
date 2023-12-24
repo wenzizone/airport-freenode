@@ -79,28 +79,6 @@ mixed-port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\
-    \u65AF\u8054\u90A6"
-  network: ws
-  port: 25230
-  server: cm1.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      host: cm1.awslcn.info
-    path: /
-- name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD"
-  password: 45a8d20d-9a78-4be4-a74a-ab3b9e84e34e
-  port: 443
-  server: 5.104.108.109
-  skip-cert-verify: false
-  sni: 20-24-33-134.nhost.00cdn.com
-  type: trojan
-- alterId: 0
-  cipher: auto
   name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 9"
   network: ws
   port: 80
@@ -113,25 +91,37 @@ proxies:
     headers:
       Host: ssrsub.v004.ssrsub.com
     path: /api/v3/download.getFile
+- name: "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927"
+  password: 57edfecf-5694-4a34-8072-54a4f0636a62
+  port: 40020
+  server: 68.233.121.121
+  skip-cert-verify: false
+  sni: frontend.kuangbiaoyun.com
+  type: trojan
+- client-fingerprint: chrome
+  name: "CA_\u52A0\u62FF\u5927"
+  password: 57edfecf-5694-4a34-8072-54a4f0636a62
+  port: 40020
+  server: 68.233.121.121
+  skip-cert-verify: false
+  sni: frontend.kuangbiaoyun.com
+  type: trojan
 - cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 4"
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 7"
   password: amazonskr05
   port: 443
-  server: 54.70.3.6
+  server: 52.33.95.19
   type: ss
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD"
-  password: cc287f24-c5a5-4ebc-a77a-bb95ff902445
+- name: "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\
+    \u65AF\u8054\u90A6"
+  network: tcp
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   port: 443
-  server: hk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: false
-  sni: 13-231-155-134.nhost.00cdn.com
+  server: ru01.trojanyyds.xyz
+  skip-cert-verify: true
+  sni: ru01.trojanyyds.xyz
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
-  password: OWJlYjYy
-  port: 8388
-  server: 91.194.161.7
-  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 10"
@@ -146,95 +136,155 @@ proxies:
     headers:
       Host: us-02.jikuai.xyz
     path: /
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  network: ws
-  port: 30000
-  server: 45.58.153.25
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
-  ws-opts:
-    path: /path/1702961716738
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
+  network: ws
+  port: 80
+  server: 104.21.75.246
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: sbl2.shabijichang.com
+    path: /
+- name: "\U0001F1F8\U0001F1F0 _CN_\u4E2D\u56FD->\U0001F1F8\U0001F1F0_SK_\u65AF\u6D1B\
+    \u4F10\u514B"
+  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
+  port: 17728
+  server: gbs.pptv-tv.store
+  skip-cert-verify: false
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 2"
   network: ws
   port: 80
   server: cf-lt.sharecentre.online
-  skip-cert-verify: true
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
   ws-opts:
     headers:
-      host: ssrsub.v004.ssrsub.com
+      Host: ssrsub.v004.ssrsub.com
     path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  network: ws
-  port: 80
-  server: cf-lt.sharecentre.online
+- cipher: chacha20-ietf
+  name: "\U0001F1FA\U0001F1F8 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
+    \ 3"
+  obfs: plain
+  obfs-param: 5d3ee46961.microsoft.com
+  password: jFa4F1
+  port: 7701
+  protocol: auth_aes128_sha1
+  protocol-param: 46961:1210-Tha
+  server: cm01.newcome.xyz
+  type: ssr
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F8\U0001F1F0_SK_\u65AF\u6D1B\
+    \u4F10\u514B"
+  network: tcp
+  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
+  port: 17728
+  server: gbs.pptv-tv.store
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
-  ws-opts:
-    headers:
-      host: ssrsub.v004.ssrsub.com
-    path: /api/v3/download.getFile
-- name: "\U0001F1FA\U0001F1F8 _CA_\u52A0\u62FF\u5927->\U0001F1FA\U0001F1F8_US_\u7F8E\
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 8"
+  password: amazonskr05
+  port: 443
+  server: 35.87.39.181
+  type: ss
+- name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927->\U0001F1FA\U0001F1F8_US_\u7F8E\
     \u56FD"
+  network: tcp
   password: 57edfecf-5694-4a34-8072-54a4f0636a62
   port: 40007
   server: frontend.kuangbiaoyun.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: frontend.kuangbiaoyun.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 3"
-  network: ws
-  port: 80
-  server: singapore.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
-  ws-opts:
-    headers:
-      Host: ssrsub.v03.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD->DE_\u5FB7\u56FD 2"
-  network: ws
-  port: 8443
-  server: skk.moe
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 41aa073b-68fa-40c0-9b1c-9dc42c0b312c
-  ws-opts:
-    headers:
-      Host: vm.restia.love
-    path: 41aa073b-68fa-40c0-9b1c-9dc42c0b312c-vm
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_1"
-  network: tcp
+  udp: true
+- client-fingerprint: chrome
+  name: "DE_\u5FB7\u56FD 2"
   password: 45a8d20d-9a78-4be4-a74a-ab3b9e84e34e
   port: 443
   server: 5.104.108.109
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: 20-24-33-134.nhost.00cdn.com
   type: trojan
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
+    \u5927_1"
+  network: ws
+  port: 16648
+  server: t.cnmjcn.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  ws-opts:
+    headers:
+      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
+    _3"
+  network: ws
+  port: 25257
+  server: us2.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      host: us2.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
+    \ 4"
+  network: ws
+  port: 443
+  server: hexsen.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  ws-opts:
+    headers:
+      Host: us.king361.cf
+    path: /argo-vmess?ed=2048
+- client-fingerprint: chrome
+  name: "DE_\u5FB7\u56FD"
+  password: 45a8d20d-9a78-4be4-a74a-ab3b9e84e34e
+  port: 443
+  server: 5.104.108.120
+  skip-cert-verify: false
+  sni: 20-24-33-134.nhost.00cdn.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1E6 _CN_\u4E2D\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
+    \u5927 2"
+  network: ws
+  port: 16648
+  server: t.cnmjcn.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  ws-opts:
+    headers:
+      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -253,18 +303,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1E6 _CN_\u4E2D\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
-    \u5927"
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 4"
   network: ws
-  port: 16648
-  server: m.cnmjcn.com
+  port: 2082
+  server: us-02.jikuai.xyz
   skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
   ws-opts:
     headers:
-      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+      Host: us-02.jikuai.xyz
     path: /
 - name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927"
   network: tcp
@@ -275,28 +326,128 @@ proxies:
   sni: frontend.kuangbiaoyun.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 5"
+- name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
   network: ws
-  port: 80
-  server: singapore.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  password: d07a02a06191c99f
+  port: 3306
+  server: 185.230.245.213
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: ssrsub.v03.ssrsub.com
-    path: /api/v3/download.getFile
-- client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD->DE_\u5FB7\u56FD"
-  password: 41aa073b-68fa-40c0-9b1c-9dc42c0b312c
-  port: 8443
-  server: skk.moe
+      host: n2.gladns.com
+    path: /gateway/connect
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F2\U0001F1FD_MX_\u58A8\u897F\
+    \u54E5"
+  network: ws
+  port: 25284
+  server: cu.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf
+  name: "\U0001F1FA\U0001F1F8 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  obfs: plain
+  obfs-param: 511df45641.microsoft.com
+  password: jFa4F1
+  port: 7706
+  protocol: auth_aes128_sha1
+  protocol-param: 45641:1119_jE165t
+  server: cm01.newcome.xyz
+  type: ssr
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  network: ws
+  port: 30000
+  server: 45.58.153.25
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
+  ws-opts:
+    path: /path/1702961716738
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
+  network: ws
+  port: 443
+  server: 172.99.190.109
   skip-cert-verify: false
-  sni: vps.restia.love
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "CN_\u4E2D\u56FD->US_\u7F8E\u56FD"
+  network: ws
+  port: 443
+  server: hexsen.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  ws-opts:
+    headers:
+      Host: us.king361.cf
+    path: /argo-vmess?ed=2048
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_2"
+  network: tcp
+  password: 45a8d20d-9a78-4be4-a74a-ab3b9e84e34e
+  port: 443
+  server: 5.104.108.120
+  skip-cert-verify: true
+  sni: 20-24-33-134.nhost.00cdn.com
   type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\
+    \u65AF\u8054\u90A6"
+  network: ws
+  port: 25230
+  server: cm1.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      host: cm1.awslcn.info
+    path: /
+- client-fingerprint: chrome
+  name: "CA_\u52A0\u62FF\u5927->US_\u7F8E\u56FD"
+  password: 57edfecf-5694-4a34-8072-54a4f0636a62
+  port: 40007
+  server: frontend.kuangbiaoyun.com
+  skip-cert-verify: false
+  sni: frontend.kuangbiaoyun.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "GB_\u82F1\u56FD"
+  network: ws
+  port: 443
+  server: 172.99.190.109
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: linkvws
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
@@ -314,153 +465,145 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
-    \u5927_1"
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
+  network: ws
+  port: 47551
+  server: 159.75.178.50
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2500a228-8c00-4934-81e0-22281c015a33
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD"
+  network: ws
+  port: 30000
+  server: 45.58.153.25
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
+  ws-opts:
+    path: /path/1702961716738
+- client-fingerprint: chrome
+  name: "CN_\u4E2D\u56FD->SK_\u65AF\u6D1B\u4F10\u514B"
+  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
+  port: 17728
+  server: gbs.pptv-tv.store
+  skip-cert-verify: false
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1E6 _CN_\u4E2D\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
+    \u5927"
   network: ws
   port: 16648
-  server: t.cnmjcn.cyou
-  skip-cert-verify: true
+  server: m.cnmjcn.com
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
   ws-opts:
     headers:
-      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
-- name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927->\U0001F1FA\U0001F1F8_US_\u7F8E\
-    \u56FD"
-  network: tcp
-  password: 57edfecf-5694-4a34-8072-54a4f0636a62
-  port: 40007
-  server: frontend.kuangbiaoyun.com
-  skip-cert-verify: true
-  sni: frontend.kuangbiaoyun.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  network: ws
-  port: 443
-  server: 172.99.190.109
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: linkvws
 - cipher: chacha20-ietf
-  name: "\U0001F1FA\U0001F1F8 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  name: "\U0001F1FA\U0001F1F8 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
+    \ 2"
   obfs: plain
   obfs-param: 511df45641.microsoft.com
   password: jFa4F1
-  port: 7706
+  port: 7703
   protocol: auth_aes128_sha1
   protocol-param: 45641:1119_jE165t
   server: cm01.newcome.xyz
   type: ssr
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 3"
-  password: amazonskr05
-  port: 443
-  server: 35.90.10.174
-  type: ss
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: ws
-  password: 41aa073b-68fa-40c0-9b1c-9dc42c0b312c
-  port: 8443
-  server: skk.moe
-  skip-cert-verify: true
-  sni: vps.restia.love
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tj.restia.love
-    path: 41aa073b-68fa-40c0-9b1c-9dc42c0b312c-trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _2"
-  network: ws
-  port: 25239
-  server: us1.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      host: us1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  network: ws
-  port: 80
-  server: 104.21.75.246
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: sbl2.shabijichang.com
-    path: /
-- name: "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\
-    \u65AF\u8054\u90A6"
-  network: tcp
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: ru01.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: ru01.trojanyyds.xyz
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    \ 4"
-  network: ws
-  port: 443
-  server: hexsen.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  ws-opts:
-    headers:
-      Host: us.king361.cf
-    path: /argo-vmess?ed=2048
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: "CN_\u4E2D\u56FD->US_\u7F8E\u56FD"
+  name: "US_\u7F8E\u56FD 3"
   network: ws
+  port: 80
+  server: singapore.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD"
+  password: MGQwNTgw
+  port: 1443
+  server: 185.231.205.80
+  type: ss
+- name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD 2"
+  password: 45a8d20d-9a78-4be4-a74a-ab3b9e84e34e
   port: 443
-  server: hexsen.com
+  server: 5.104.108.120
+  skip-cert-verify: false
+  sni: 20-24-33-134.nhost.00cdn.com
+  type: trojan
+- client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD->DE_\u5FB7\u56FD"
+  password: 41aa073b-68fa-40c0-9b1c-9dc42c0b312c
+  port: 8443
+  server: skk.moe
+  skip-cert-verify: false
+  sni: vps.restia.love
+  type: trojan
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_1"
+  network: tcp
+  password: 45a8d20d-9a78-4be4-a74a-ab3b9e84e34e
+  port: 443
+  server: 5.104.108.109
+  skip-cert-verify: true
+  sni: 20-24-33-134.nhost.00cdn.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD->DE_\u5FB7\u56FD 2"
+  network: ws
+  port: 8443
+  server: skk.moe
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  uuid: 41aa073b-68fa-40c0-9b1c-9dc42c0b312c
   ws-opts:
     headers:
-      Host: us.king361.cf
-    path: /argo-vmess?ed=2048
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    \ 2"
-  network: ws
-  password: 41aa073b-68fa-40c0-9b1c-9dc42c0b312c
-  port: 8443
-  server: skk.moe
+      Host: vm.restia.love
+    path: 41aa073b-68fa-40c0-9b1c-9dc42c0b312c-vm
+- name: "\U0001F1FA\U0001F1F8 _CA_\u52A0\u62FF\u5927->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD"
+  password: 57edfecf-5694-4a34-8072-54a4f0636a62
+  port: 40007
+  server: frontend.kuangbiaoyun.com
   skip-cert-verify: false
-  sni: vps.restia.love
+  sni: frontend.kuangbiaoyun.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  network: ws
+  port: 80
+  server: cf-lt.sharecentre.online
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
   ws-opts:
     headers:
-      Host: vps.restia.love
-    path: 41aa073b-68fa-40c0-9b1c-9dc42c0b312c-trojan
+      host: ssrsub.v004.ssrsub.com
+    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -477,28 +620,19 @@ proxies:
     headers:
       Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1E6 _CN_\u4E2D\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
-    \u5927 2"
-  network: ws
-  port: 16648
-  server: t.cnmjcn.cyou
+- name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD"
+  password: 45a8d20d-9a78-4be4-a74a-ab3b9e84e34e
+  port: 443
+  server: 5.104.108.109
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  ws-opts:
-    headers:
-      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-    path: /
-- client-fingerprint: chrome
-  name: "CA_\u52A0\u62FF\u5927->US_\u7F8E\u56FD"
-  password: 57edfecf-5694-4a34-8072-54a4f0636a62
-  port: 40007
-  server: frontend.kuangbiaoyun.com
+  sni: 20-24-33-134.nhost.00cdn.com
+  type: trojan
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD"
+  password: cc287f24-c5a5-4ebc-a77a-bb95ff902445
+  port: 443
+  server: hk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
   skip-cert-verify: false
-  sni: frontend.kuangbiaoyun.com
+  sni: 13-231-155-134.nhost.00cdn.com
   type: trojan
 - client-fingerprint: chrome
   name: "NZ_\u65B0\u897F\u5170"
@@ -508,48 +642,25 @@ proxies:
   skip-cert-verify: false
   sni: 216.73.156.230
   type: trojan
-- client-fingerprint: chrome
-  name: "CN_\u4E2D\u56FD->SK_\u65AF\u6D1B\u4F10\u514B"
-  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
-  port: 17728
-  server: gbs.pptv-tv.store
-  skip-cert-verify: false
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   network: ws
-  port: 443
-  server: 172.99.190.109
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: linkvws
-- name: "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  network: tcp
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: us01.trojanyyds.xyz
+  password: 41aa073b-68fa-40c0-9b1c-9dc42c0b312c
+  port: 8443
+  server: skk.moe
   skip-cert-verify: true
-  sni: us01.trojanyyds.xyz
+  sni: vps.restia.love
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  network: ws
-  port: 2052
-  server: 104.21.33.130
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
   ws-opts:
     headers:
-      Host: family.mgtajhiz.ir
-    path: /
+      host: tj.restia.love
+    path: 41aa073b-68fa-40c0-9b1c-9dc42c0b312c-trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 4"
+  password: amazonskr05
+  port: 443
+  server: 54.70.3.6
+  type: ss
 - alterId: 64
   cipher: auto
   name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 6"
@@ -564,106 +675,62 @@ proxies:
     path: /path/1702961716738
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: ws
-  port: 8443
-  server: skk.moe
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 41aa073b-68fa-40c0-9b1c-9dc42c0b312c
-  ws-opts:
-    headers:
-      Host: vm.restia.love
-    path: 41aa073b-68fa-40c0-9b1c-9dc42c0b312c-vm
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 7"
-  password: amazonskr05
-  port: 443
-  server: 52.33.95.19
-  type: ss
-- cipher: chacha20-ietf
-  name: "\U0001F1FA\U0001F1F8 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    \ 2"
-  obfs: plain
-  obfs-param: 511df45641.microsoft.com
-  password: jFa4F1
-  port: 7703
-  protocol: auth_aes128_sha1
-  protocol-param: 45641:1119_jE165t
-  server: cm01.newcome.xyz
-  type: ssr
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 8"
-  password: amazonskr05
-  port: 443
-  server: 35.87.39.181
-  type: ss
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_2"
-  network: tcp
-  password: 45a8d20d-9a78-4be4-a74a-ab3b9e84e34e
-  port: 443
-  server: 5.104.108.120
-  skip-cert-verify: true
-  sni: 20-24-33-134.nhost.00cdn.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
   name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _3"
+    _1"
   network: ws
-  port: 25257
-  server: us2.awslcn.info
+  port: 25256
+  server: us1.awslcn.info
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      host: us2.awslcn.info
+      host: us1.awslcn.info
+    path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 3"
+  password: amazonskr05
+  port: 443
+  server: 35.90.10.174
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+  network: ws
+  port: 2052
+  server: 104.21.33.130
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
+  ws-opts:
+    headers:
+      Host: family.mgtajhiz.ir
     path: /
 - client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 5"
-  password: cc287f24-c5a5-4ebc-a77a-bb95ff902445
-  port: 443
-  server: hk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: false
-  sni: 13-231-155-134.nhost.00cdn.com
-  type: trojan
-- name: "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927"
-  password: 57edfecf-5694-4a34-8072-54a4f0636a62
-  port: 40020
-  server: 68.233.121.121
-  skip-cert-verify: false
-  sni: frontend.kuangbiaoyun.com
-  type: trojan
-- name: "\U0001F1F8\U0001F1EC _SG_\u65B0\u52A0\u5761"
-  network: ws
+  name: "SG_\u65B0\u52A0\u5761"
   password: d07a02a06191c99f
   port: 3306
   server: 185.230.245.213
   skip-cert-verify: false
   sni: n2.gladns.com
   type: trojan
-  ws-opts:
-    headers:
-      Host: n2.gladns.com
-    path: /gateway/connect
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: "GB_\u82F1\u56FD"
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
+    _2"
   network: ws
-  port: 443
-  server: 172.99.190.109
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  port: 25239
+  server: us1.awslcn.info
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
-    path: linkvws
+    headers:
+      host: us1.awslcn.info
+    path: /
 - name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 2"
   password: cc287f24-c5a5-4ebc-a77a-bb95ff902445
   port: 443
@@ -679,65 +746,18 @@ proxies:
   skip-cert-verify: false
   sni: 13-231-155-134.nhost.00cdn.com
   type: trojan
-- name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
-  network: ws
-  password: d07a02a06191c99f
-  port: 3306
-  server: 185.230.245.213
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: n2.gladns.com
-    path: /gateway/connect
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD"
-  password: MGQwNTgw
-  port: 1443
-  server: 185.231.205.80
-  type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD"
-  network: ws
-  port: 30000
-  server: 45.58.153.25
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
-  ws-opts:
-    path: /path/1702961716738
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
-    \u5927"
+  name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
   network: ws
-  port: 16648
-  server: t.cnmjcn.cyou
+  port: 443
+  server: 172.99.190.109
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
-    headers:
-      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-    path: /
-- cipher: chacha20-ietf
-  name: "\U0001F1FA\U0001F1F8 _CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    \ 3"
-  obfs: plain
-  obfs-param: 5d3ee46961.microsoft.com
-  password: jFa4F1
-  port: 7701
-  protocol: auth_aes128_sha1
-  protocol-param: 46961:1210-Tha
-  server: cm01.newcome.xyz
-  type: ssr
+    path: linkvws
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -754,13 +774,55 @@ proxies:
     headers:
       Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F8\U0001F1F0_SK_\u65AF\u6D1B\
-    \u4F10\u514B"
-  network: tcp
-  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
-  port: 17728
-  server: gbs.pptv-tv.store
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
+  password: OWJlYjYy
+  port: 8388
+  server: 91.194.161.7
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 5"
+  network: ws
+  port: 80
+  server: singapore.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 5"
+  password: cc287f24-c5a5-4ebc-a77a-bb95ff902445
+  port: 443
+  server: hk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: false
+  sni: 13-231-155-134.nhost.00cdn.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  network: ws
+  port: 80
+  server: cf-lt.sharecentre.online
   skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      host: ssrsub.v004.ssrsub.com
+    path: /api/v3/download.getFile
+- name: "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  network: tcp
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: us01.trojanyyds.xyz
+  skip-cert-verify: true
+  sni: us01.trojanyyds.xyz
   type: trojan
   udp: true
 - alterId: 0
@@ -777,91 +839,31 @@ proxies:
     headers:
       host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F2\U0001F1FD_MX_\u58A8\u897F\
-    \u54E5"
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    \ 2"
   network: ws
-  port: 25284
-  server: cu.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 2"
-  network: ws
-  port: 80
-  server: cf-lt.sharecentre.online
+  password: 41aa073b-68fa-40c0-9b1c-9dc42c0b312c
+  port: 8443
+  server: skk.moe
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  sni: vps.restia.love
+  type: trojan
   ws-opts:
     headers:
-      Host: ssrsub.v004.ssrsub.com
-    path: /api/v3/download.getFile
-- client-fingerprint: chrome
-  name: "CA_\u52A0\u62FF\u5927"
-  password: 57edfecf-5694-4a34-8072-54a4f0636a62
-  port: 40020
-  server: 68.233.121.121
-  skip-cert-verify: false
-  sni: frontend.kuangbiaoyun.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
+      Host: vps.restia.love
+    path: 41aa073b-68fa-40c0-9b1c-9dc42c0b312c-trojan
+- name: "\U0001F1F8\U0001F1EC _SG_\u65B0\u52A0\u5761"
   network: ws
-  port: 47551
-  server: 159.75.178.50
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2500a228-8c00-4934-81e0-22281c015a33
-- name: "\U0001F1F8\U0001F1F0 _CN_\u4E2D\u56FD->\U0001F1F8\U0001F1F0_SK_\u65AF\u6D1B\
-    \u4F10\u514B"
-  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
-  port: 17728
-  server: gbs.pptv-tv.store
-  skip-cert-verify: false
-  type: trojan
-- client-fingerprint: chrome
-  name: "DE_\u5FB7\u56FD 2"
-  password: 45a8d20d-9a78-4be4-a74a-ab3b9e84e34e
-  port: 443
-  server: 5.104.108.109
-  skip-cert-verify: false
-  sni: 20-24-33-134.nhost.00cdn.com
-  type: trojan
-- client-fingerprint: chrome
-  name: "DE_\u5FB7\u56FD"
-  password: 45a8d20d-9a78-4be4-a74a-ab3b9e84e34e
-  port: 443
-  server: 5.104.108.120
-  skip-cert-verify: false
-  sni: 20-24-33-134.nhost.00cdn.com
-  type: trojan
-- client-fingerprint: chrome
-  name: "SG_\u65B0\u52A0\u5761"
   password: d07a02a06191c99f
   port: 3306
   server: 185.230.245.213
   skip-cert-verify: false
   sni: n2.gladns.com
   type: trojan
-- name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD 2"
-  password: 45a8d20d-9a78-4be4-a74a-ab3b9e84e34e
-  port: 443
-  server: 5.104.108.120
-  skip-cert-verify: false
-  sni: 20-24-33-134.nhost.00cdn.com
-  type: trojan
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: /gateway/connect
 - name: "\U0001F1F8\U0001F1EC _NZ_\u65B0\u897F\u5170"
   password: 11e247e5-136d-45f1-844a-a7f054d36bab
   port: 443
@@ -871,35 +873,33 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _1"
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
+    \u5927"
   network: ws
-  port: 25256
-  server: us1.awslcn.info
+  port: 16648
+  server: t.cnmjcn.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
   ws-opts:
     headers:
-      host: us1.awslcn.info
+      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 4"
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   network: ws
-  port: 2082
-  server: us-02.jikuai.xyz
+  port: 8443
+  server: skk.moe
   skip-cert-verify: false
-  tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
+  uuid: 41aa073b-68fa-40c0-9b1c-9dc42c0b312c
   ws-opts:
     headers:
-      Host: us-02.jikuai.xyz
-    path: /
+      Host: vm.restia.love
+    path: 41aa073b-68fa-40c0-9b1c-9dc42c0b312c-vm
 proxy-groups:
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
   proxies:
