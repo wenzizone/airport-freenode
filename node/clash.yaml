@@ -77,408 +77,29 @@ external-controller: 0.0.0.0:9090
 log-level: info
 mixed-port: 7890
 proxies:
-- name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6_1"
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
   network: tcp
-  password: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
-  port: 14866
-  server: els_trojanone.yunjisuan.cf
-  skip-cert-verify: true
-  sni: els_trojanone.yunjisuan.cf
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 5"
-  network: ws
-  port: 37121
-  server: 132.145.132.227
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 93845b50-26f6-4203-f5ad-4d231d4e8f45
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  name: "CA_\u52A0\u62FF\u5927"
-  password: fe62cb68-6891-4e96-8fb9-e39f0ee53b7e
-  port: 443
-  server: 192.46.223.61
-  skip-cert-verify: false
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 2"
-  network: ws
-  port: 8880
-  server: 21.namesilo123.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 40e71b6a-00cf-437d-8232-4e83e6437286
-  ws-opts:
-    headers:
-      Host: uspp.sanfen002.top
-    path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "CN_\u4E2D\u56FD->DE_\u5FB7\u56FD"
-  port: 52707
-  server: 183.237.20.149
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_12"
-  network: ws
-  port: 8443
-  server: tes2.shrektm.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 02c4e4af-07ce-444d-b501-f75cd482cc11
-  ws-opts:
-    path: /@ATOVPN
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 17"
-  network: ws
-  port: 80
-  server: sbl2.shabijichang.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: sbl2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 15"
-  network: ws
-  port: 8880
-  server: 21.namesilo123.top
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 40e71b6a-00cf-437d-8232-4e83e6437286
-  ws-opts:
-    headers:
-      Host: uspp.sanfen002.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_8"
-  network: ws
-  port: 8880
-  server: 21.namesilo123.top
+  port: 55579
+  server: 172.233.188.217
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 40e71b6a-00cf-437d-8232-4e83e6437286
-  ws-opts:
-    headers:
-      host: uspp.sanfen002.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_3"
-  network: ws
-  port: 8880
-  server: 217.160.45.31
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 19"
-  network: ws
-  port: 80
-  server: 104.21.75.246
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: sbl2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD"
-  network: ws
-  port: 8880
-  server: 217.160.45.31
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708
-  ws-opts:
-    path: /
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_4"
-  network: tcp
-  password: 74811f39-8f69-4334-9e0f-a8a25d7413c1
-  port: 993
-  server: 78.47.217.216
-  skip-cert-verify: true
-  sni: www.casperco.online
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_7"
-  network: ws
-  port: 80
-  server: 158.101.7.8
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 95b45c49-f5c0-4959-bb64-2b8fbc4a869c
-  ws-opts:
-    path: /
-- name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6_3"
-  network: tcp
-  password: 28c79056-ccfd-4cc1-93d4-c337cc782e65
-  port: 80
-  server: 89.221.224.94
-  skip-cert-verify: true
-  sni: is2-t.sshmax.xyz
-  type: trojan
-  udp: true
-- name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
-  network: tcp
-  password: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
-  port: 14866
-  server: els_trojanone.yunjisuan.cf
-  skip-cert-verify: true
-  sni: els_trojanone.yunjisuan.cf
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 25"
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 38.91.107.37
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_13"
-  network: ws
-  port: 80
-  server: yhnsb3.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: yhnsb3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 2"
-  network: ws
-  port: 80
-  server: 158.101.7.8
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 95b45c49-f5c0-4959-bb64-2b8fbc4a869c
-  ws-opts:
-    path: /
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 22"
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 38.75.136.49
-  type: ss
-- name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD 3"
-  password: 74811f39-8f69-4334-9e0f-a8a25d7413c1
-  port: 993
-  server: 78.47.217.216
-  skip-cert-verify: false
-  sni: www.casperco.online
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 7"
-  network: ws
-  port: 80
-  server: singapore.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
-  ws-opts:
-    headers:
-      Host: ssrsub.v03.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927"
-  network: ws
-  port: 443
-  server: 142.171.202.130
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.87981532.xyz
-    path: /path/1702650992491
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 4"
-  port: 57848
-  server: 144.202.84.47
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e48643e7-0462-4055-f796-6ca6aa9f946d
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_16"
-  network: ws
-  port: 37121
-  server: 132.145.132.227
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93845b50-26f6-4203-f5ad-4d231d4e8f45
-  ws-opts:
-    path: /
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 24"
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 38.91.107.37
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  network: ws
-  port: 2095
-  server: frsadubiaa.76898102.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 78fd41e5-346a-3bf4-b942-be0fad711979
-  ws-opts:
-    headers:
-      Host: frsadubias.76898102.xyz
-    path: /funsdfrh
+  uuid: 610f7b76-a4e2-4b5a-c458-96e69cbffb5e
 - cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD"
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 3"
   password: amazonskr05
   port: 443
-  server: 35.87.39.181
+  server: 35.90.10.174
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  network: ws
-  port: 2092
-  server: 68.183.159.199
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 038e2714-5cbf-4812-fcfb-8726665c63b6
-  ws-opts:
-    headers:
-      host: 68.183.159.199
-    path: /telegram:@hkaa0
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_15"
-  network: ws
-  port: 30000
-  server: 45.58.153.25
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
-  ws-opts:
-    path: /path/1702961716738
-- alterId: 0
-  cipher: auto
-  name: "_CN_\u4E2D\u56FD 2"
-  network: ws
-  port: 47551
-  server: 159.75.178.50
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 2500a228-8c00-4934-81e0-22281c015a33
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6_4"
-  network: tcp
-  port: 47555
-  server: 46.29.166.237
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_10"
-  network: tcp
-  port: 50104
-  server: 38.180.33.136
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 790f6802-7535-4109-de6d-15f676d5e3f7
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6 5"
-  password: yZdRgske85Hou96z2dRdtH
-  port: 28490
-  server: 45.144.30.202
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  network: ws
-  port: 2095
-  server: frsadubiaa.76898102.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 78fd41e5-346a-3bf4-b942-be0fad711979
-  ws-opts:
-    headers:
-      host: frsadubias.76898102.xyz
-    path: /funsdfrh
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927"
-  network: ws
+- name: "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927 2"
+  password: d71655f5-d095-4365-8796-4f52772c0cc6
   port: 443
-  server: 142.171.202.130
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: www.87981532.xyz
-    path: /path/1702650992491
+  server: 138.197.152.9
+  skip-cert-verify: false
+  sni: dl.kgvn.garenanow.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: "\U0001F1EE\U0001F1F3 _CN_\u4E2D\u56FD->\U0001F1EE\U0001F1F3_IN_\u5370\u5EA6"
@@ -495,288 +116,32 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 10"
-  network: ws
-  port: 80
-  server: cf-lt.sharecentre.online
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
-  ws-opts:
-    headers:
-      Host: ssrsub.v005.ssrsub.com
-    path: /api/v3/download.getFile
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 6"
-  password: 5f610684-118f-46cf-aa34-9951475b75ad
-  port: 443
-  server: 172.234.99.161
-  skip-cert-verify: false
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 20"
-  port: 50104
-  server: 38.180.33.136
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 790f6802-7535-4109-de6d-15f676d5e3f7
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_18"
-  network: tcp
-  port: 14432
-  server: 104.237.128.72
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4c09b776-6f83-4bf2-f7f7-4e286dbbb6da
-- name: "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927 2"
-  password: d71655f5-d095-4365-8796-4f52772c0cc6
-  port: 443
-  server: 138.197.152.9
-  skip-cert-verify: false
-  sni: dl.kgvn.garenanow.com
-  type: trojan
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 21"
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.91.107.37
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 26"
-  network: ws
-  port: 80
-  server: cf-lt.sharecentre.online
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
-  ws-opts:
-    headers:
-      Host: ssrsub.v005.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 5"
-  network: ws
-  port: 2082
-  server: www.visa.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
-  ws-opts:
-    headers:
-      Host: mgtow_cdn.yunjisuan.cf
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 9"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
   network: ws
   port: 80
   server: lt2-vmess.sshmax.xyz
-  skip-cert-verify: false
-  tfo: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: ea2928cb-f9cc-4747-ab60-d23abe3ba1e6
   ws-opts:
     headers:
-      Host: lt2-vmess.sshmax.xyz
+      host: lt2-vmess.sshmax.xyz
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 13"
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
   network: ws
-  port: 80
-  server: lt2-vmess.sshmax.xyz
+  port: 2095
+  server: frsadubiaa.76898102.xyz
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: ea2928cb-f9cc-4747-ab60-d23abe3ba1e6
+  uuid: 78fd41e5-346a-3bf4-b942-be0fad711979
   ws-opts:
     headers:
-      Host: lt2-vmess.sshmax.xyz
-    path: /vmess
-- name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6 3"
-  password: 28c79056-ccfd-4cc1-93d4-c337cc782e65
-  port: 80
-  server: 89.221.224.94
-  skip-cert-verify: false
-  sni: is2-t.sshmax.xyz
-  type: trojan
-- name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD 4"
-  password: 74811f39-8f69-4334-9e0f-a8a25d7413c1
-  port: 1935
-  server: 78.47.217.216
-  skip-cert-verify: false
-  sni: www.casperco.online
-  type: trojan
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 14"
-  network: ws
-  port: 30000
-  server: 45.58.153.25
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
-  ws-opts:
-    path: /path/1702961716738
-- name: "_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1EE_GI_\u76F4\u5E03\u7F57\u9640"
-  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
-  port: 17728
-  server: gbs.pptv-tv.store
-  skip-cert-verify: false
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
-  network: tcp
-  port: 55579
-  server: 172.233.188.217
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 610f7b76-a4e2-4b5a-c458-96e69cbffb5e
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717"
-  network: tcp
-  port: 3350
-  server: 91.107.172.128
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2bf900ac-909a-4610-dc18-86a3a136b286
-- name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.179.78.100
-  skip-cert-verify: false
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 8"
-  port: 14432
-  server: 104.237.128.72
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 4c09b776-6f83-4bf2-f7f7-4e286dbbb6da
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 12"
-  network: ws
-  port: 30000
-  server: 45.58.153.24
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
-  ws-opts:
-    path: /path/1702392255355
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F8\U0001F1EA _SE_\u745E\u5178"
-  password: Q5CEiebSuSl2qFkfE4ztG2
-  port: 5741
-  server: 45.8.147.80
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 12"
-  network: ws
-  port: 2092
-  server: Telegram-Channel.hkaa0_shop.66688888.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 038e2714-5cbf-4812-fcfb-8726665c63b6
-  ws-opts:
-    headers:
-      Host: Telegram-Channel.hkaa0_shop.66688888.xyz
-    path: /telegram:@hkaa0
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
-  network: tcp
-  password: 5f610684-118f-46cf-aa34-9951475b75ad
-  port: 443
-  server: 172.234.99.161
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 3"
-  password: amazonskr05
-  port: 443
-  server: 35.90.10.174
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1EE\U0001F1F7 _IR_\u4F0A\u6717"
-  port: 3350
-  server: 91.107.172.128
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 2bf900ac-909a-4610-dc18-86a3a136b286
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 16"
-  network: ws
-  port: 80
-  server: yhnsb3.shabijichang.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: yhnsb3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 6"
-  port: 15551
-  server: 168.235.72.221
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 69510633-6acb-4291-a98e-0cdcc9bd5c51
-- name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD 2"
-  password: 74811f39-8f69-4334-9e0f-a8a25d7413c1
-  port: 993
-  server: www.casperco.online
-  skip-cert-verify: false
-  type: trojan
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 14"
-  network: ws
-  port: 30000
-  server: 45.58.153.24
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
-  ws-opts:
-    path: /path/1702392255355
+      Host: frsadubias.76898102.xyz
+    path: /funsdfrh
 - alterId: 64
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_11"
@@ -789,11 +154,20 @@ proxies:
   uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
   ws-opts:
     path: /path/1702392255355
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 23"
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 38.91.107.37
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 8"
+  port: 14432
+  server: 104.237.128.72
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 4c09b776-6f83-4bf2-f7f7-4e286dbbb6da
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6 5"
+  password: yZdRgske85Hou96z2dRdtH
+  port: 28490
+  server: 45.144.30.202
   type: ss
 - alterId: 0
   cipher: auto
@@ -811,126 +185,6 @@ proxies:
     path: /telegram:@hkaa0
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  network: ws
-  port: 80
-  server: lt2-vmess.sshmax.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ea2928cb-f9cc-4747-ab60-d23abe3ba1e6
-  ws-opts:
-    headers:
-      host: lt2-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 10"
-  port: 55579
-  server: 172.233.188.217
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 610f7b76-a4e2-4b5a-c458-96e69cbffb5e
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 11"
-  port: 50104
-  server: 38.180.33.136
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 790f6802-7535-4109-de6d-15f676d5e3f7
-- client-fingerprint: chrome
-  name: "RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
-  password: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
-  port: 14866
-  server: els_trojanone.yunjisuan.cf
-  skip-cert-verify: false
-  sni: els_trojanone.yunjisuan.cf
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  network: ws
-  port: 80
-  server: cf-lt.sharecentre.online
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
-  ws-opts:
-    headers:
-      host: ssrsub.v005.ssrsub.com
-    path: /api/v3/download.getFile
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1EE_GI_\u76F4\u5E03\
-    \u7F57\u9640"
-  network: tcp
-  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
-  port: 17728
-  server: gbs.pptv-tv.store
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "RU_\u4FC4\u7F57\u65AF\u8054\u90A6 2"
-  port: 47555
-  server: 46.29.166.237
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 4"
-  network: ws
-  port: 2092
-  server: 68.183.159.199
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 038e2714-5cbf-4812-fcfb-8726665c63b6
-  ws-opts:
-    headers:
-      Host: 68.183.159.199
-    path: /telegram:@hkaa0
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_1"
-  network: tcp
-  password: 74811f39-8f69-4334-9e0f-a8a25d7413c1
-  port: 1935
-  server: 78.47.217.216
-  skip-cert-verify: true
-  sni: www.casperco.online
-  type: trojan
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927_1"
-  network: ws
-  port: 443
-  server: 142.171.202.130
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: www.87981532.xyz
-    path: /path/1702650992491
-- name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6 2"
-  password: 9e77b491-73d4-4ea3-985b-cfe3ae583580
-  port: 80
-  server: 89.221.224.93
-  skip-cert-verify: false
-  sni: is1-t.sshmax.xyz
-  type: trojan
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: "IR_\u4F0A\u6717"
   port: 3350
@@ -942,226 +196,17 @@ proxies:
   uuid: 2bf900ac-909a-4610-dc18-86a3a136b286
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 8"
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_3"
   network: ws
-  port: 37121
-  server: 132.145.132.227
-  skip-cert-verify: false
-  tfo: false
+  port: 8880
+  server: 217.160.45.31
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 93845b50-26f6-4203-f5ad-4d231d4e8f45
+  uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6 4"
-  port: 47555
-  server: 46.29.166.237
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD"
-  network: ws
-  port: 2092
-  server: 68.183.159.199
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 038e2714-5cbf-4812-fcfb-8726665c63b6
-  ws-opts:
-    headers:
-      Host: 68.183.159.199
-    path: /telegram:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_14"
-  network: ws
-  port: 80
-  server: sbl2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: sbl2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EE\U0001F1F3_IN_\u5370\u5EA6"
-  network: ws
-  port: 16626
-  server: yes.cnmjcn.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  ws-opts:
-    headers:
-      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 13"
-  network: ws
-  port: 8443
-  server: tes2.shrektm.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 02c4e4af-07ce-444d-b501-f75cd482cc11
-  ws-opts:
-    headers:
-      Host: tes2.shrektm.top
-    path: /@ATOVPN
-- cipher: chacha20-ietf-poly1305
-  name: "_CN_\u4E2D\u56FD"
-  password: f7EI0dGWQM42T8gwN9CZIj
-  port: 6199
-  server: 45.87.153.246
-  type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 3"
-  network: ws
-  port: 30000
-  server: 45.58.153.25
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
-  ws-opts:
-    path: /path/1702961716738
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
-  network: ws
-  port: 47551
-  server: 159.75.178.50
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2500a228-8c00-4934-81e0-22281c015a33
-  ws-opts:
-    path: /
-- name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
-  password: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
-  port: 14866
-  server: els_trojanone.yunjisuan.cf
-  skip-cert-verify: false
-  sni: els_trojanone.yunjisuan.cf
-  type: trojan
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "CA_\u52A0\u62FF\u5927 2"
-  network: ws
-  port: 443
-  server: 142.171.202.130
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.87981532.xyz
-    path: /path/1702650992491
-- name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927_2"
-  network: tcp
-  password: d71655f5-d095-4365-8796-4f52772c0cc6
-  port: 443
-  server: 138.197.152.9
-  skip-cert-verify: true
-  sni: dl.kgvn.garenanow.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 7"
-  network: ws
-  port: 8443
-  server: tes2.shrektm.top
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 02c4e4af-07ce-444d-b501-f75cd482cc11
-  ws-opts:
-    headers:
-      Host: tes2.shrektm.top
-    path: /@ATOVPN
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_17"
-  network: ws
-  port: 80
-  server: 104.21.75.246
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: sbl2.shabijichang.com
-    path: /
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_2"
-  network: tcp
-  password: 74811f39-8f69-4334-9e0f-a8a25d7413c1
-  port: 993
-  server: www.casperco.online
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: "RU_\u4FC4\u7F57\u65AF\u8054\u90A6 3"
-  password: 9e77b491-73d4-4ea3-985b-cfe3ae583580
-  port: 80
-  server: 89.221.224.93
-  skip-cert-verify: false
-  sni: is1-t.sshmax.xyz
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
-  network: ws
-  port: 443
-  server: cold-dawn-9246.fly.dev
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  ws-opts:
-    headers:
-      host: cold-dawn-9246.fly.dev
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 11"
-  password: 31LdYhP8Ae
-  port: 58428
-  server: 45.58.39.13
-  type: ss
-- name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6_2"
-  network: tcp
-  password: 9e77b491-73d4-4ea3-985b-cfe3ae583580
-  port: 80
-  server: 89.221.224.93
-  skip-cert-verify: true
-  sni: is1-t.sshmax.xyz
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: "_CN_\u4E2D\u56FD->GI_\u76F4\u5E03\u7F57\u9640"
+- name: "_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1EE_GI_\u76F4\u5E03\u7F57\u9640"
   password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
   port: 17728
   server: gbs.pptv-tv.store
@@ -1181,6 +226,18 @@ proxies:
     headers:
       Host: cold-dawn-9246.fly.dev
     path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
+  network: ws
+  port: 30000
+  server: 46.182.107.15
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/1702215223320
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1197,15 +254,549 @@ proxies:
     headers:
       Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
-- name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 5"
+  network: ws
+  port: 2082
+  server: www.visa.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
+  ws-opts:
+    headers:
+      Host: mgtow_cdn.yunjisuan.cf
+    path: /
+- name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6_2"
   network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.179.78.100
+  password: 9e77b491-73d4-4ea3-985b-cfe3ae583580
+  port: 80
+  server: 89.221.224.93
   skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
+  sni: is1-t.sshmax.xyz
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6_2"
+  network: tcp
+  port: 47555
+  server: 46.29.166.237
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 19"
+  network: ws
+  port: 80
+  server: 104.21.75.246
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: sbl2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_18"
+  network: tcp
+  port: 14432
+  server: 104.237.128.72
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4c09b776-6f83-4bf2-f7f7-4e286dbbb6da
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_1"
+  network: tcp
+  password: 74811f39-8f69-4334-9e0f-a8a25d7413c1
+  port: 1935
+  server: 78.47.217.216
+  skip-cert-verify: true
+  sni: www.casperco.online
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6_1"
+  network: ws
+  port: 80
+  server: 45.144.2.113
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b7c3855f-e549-4fce-8439-ea44d5392f8d
+  ws-opts:
+    headers:
+      host: www.apple.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD"
+  network: ws
+  port: 2092
+  server: 68.183.159.199
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 038e2714-5cbf-4812-fcfb-8726665c63b6
+  ws-opts:
+    headers:
+      Host: 68.183.159.199
+    path: /telegram:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 20"
+  port: 50104
+  server: 38.180.33.136
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 790f6802-7535-4109-de6d-15f676d5e3f7
+- client-fingerprint: chrome
+  name: "_CN_\u4E2D\u56FD->GI_\u76F4\u5E03\u7F57\u9640"
+  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
+  port: 17728
+  server: gbs.pptv-tv.store
+  skip-cert-verify: false
+  type: trojan
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "CN_\u4E2D\u56FD->DE_\u5FB7\u56FD"
+  port: 52707
+  server: 183.237.20.149
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 16"
+  network: ws
+  port: 80
+  server: yhnsb3.shabijichang.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: yhnsb3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717"
+  network: tcp
+  port: 3350
+  server: 91.107.172.128
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2bf900ac-909a-4610-dc18-86a3a136b286
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
+  network: ws
+  port: 2092
+  server: 68.183.159.199
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 038e2714-5cbf-4812-fcfb-8726665c63b6
+  ws-opts:
+    headers:
+      host: 68.183.159.199
+    path: /telegram:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_14"
+  network: ws
+  port: 80
+  server: sbl2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: sbl2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_17"
+  network: ws
+  port: 80
+  server: 104.21.75.246
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: sbl2.shabijichang.com
+    path: /
+- name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD 2"
+  password: 74811f39-8f69-4334-9e0f-a8a25d7413c1
+  port: 993
+  server: www.casperco.online
+  skip-cert-verify: false
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1E8\U0001F1E6 _CA_\u52A0\u62FF\u5927"
+  network: ws
+  port: 443
+  server: 142.171.202.130
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.87981532.xyz
+    path: /path/1702650992491
+- name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6_1"
+  network: tcp
+  password: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
+  port: 14866
+  server: els_trojanone.yunjisuan.cf
+  skip-cert-verify: true
+  sni: els_trojanone.yunjisuan.cf
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: none
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  network: ws
+  port: 2086
+  server: cdn.yifenjichang.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 900ceafc-30b8-4581-a305-31854f563e4f
+  ws-opts:
+    headers:
+      host: thesis-grande-residence-landscapes.trycloudflare.com
+    path: 900ceafc-30b8-4581-a305-31854f563e4f-vm
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_2"
+  network: tcp
+  password: 74811f39-8f69-4334-9e0f-a8a25d7413c1
+  port: 993
+  server: www.casperco.online
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6 2"
+  password: 9e77b491-73d4-4ea3-985b-cfe3ae583580
+  port: 80
+  server: 89.221.224.93
+  skip-cert-verify: false
+  sni: is1-t.sshmax.xyz
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927_1"
+  network: ws
+  port: 443
+  server: 142.171.202.130
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.87981532.xyz
+    path: /path/1702650992491
+- client-fingerprint: chrome
+  name: "RU_\u4FC4\u7F57\u65AF\u8054\u90A6 3"
+  password: 9e77b491-73d4-4ea3-985b-cfe3ae583580
+  port: 80
+  server: 89.221.224.93
+  skip-cert-verify: false
+  sni: is1-t.sshmax.xyz
+  type: trojan
+- name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927_2"
+  network: tcp
+  password: d71655f5-d095-4365-8796-4f52772c0cc6
+  port: 443
+  server: 138.197.152.9
+  skip-cert-verify: true
+  sni: dl.kgvn.garenanow.com
+  type: trojan
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 6"
+  password: 5f610684-118f-46cf-aa34-9951475b75ad
+  port: 443
+  server: 172.234.99.161
+  skip-cert-verify: false
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 2"
+  network: ws
+  port: 80
+  server: 158.101.7.8
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 95b45c49-f5c0-4959-bb64-2b8fbc4a869c
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  network: ws
+  port: 80
+  server: singapore.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "RU_\u4FC4\u7F57\u65AF\u8054\u90A6 2"
+  port: 47555
+  server: 46.29.166.237
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EE\U0001F1F3_IN_\u5370\u5EA6"
+  network: ws
+  port: 16626
+  server: yes.cnmjcn.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  ws-opts:
+    headers:
+      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 21"
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.91.107.37
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_15"
+  network: ws
+  port: 30000
+  server: 45.58.153.25
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
+  ws-opts:
+    path: /path/1702961716738
+- client-fingerprint: chrome
+  name: "RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
+  password: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
+  port: 14866
+  server: els_trojanone.yunjisuan.cf
+  skip-cert-verify: false
+  sni: els_trojanone.yunjisuan.cf
+  type: trojan
+- name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD 3"
+  password: 74811f39-8f69-4334-9e0f-a8a25d7413c1
+  port: 993
+  server: 78.47.217.216
+  skip-cert-verify: false
+  sni: www.casperco.online
+  type: trojan
+- name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
+  password: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
+  port: 14866
+  server: els_trojanone.yunjisuan.cf
+  skip-cert-verify: false
+  sni: els_trojanone.yunjisuan.cf
+  type: trojan
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
+  network: tcp
+  password: 5f610684-118f-46cf-aa34-9951475b75ad
+  port: 443
+  server: 172.234.99.161
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 4"
+  port: 57848
+  server: 144.202.84.47
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e48643e7-0462-4055-f796-6ca6aa9f946d
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1EE_GI_\u76F4\u5E03\
+    \u7F57\u9640"
+  network: tcp
+  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
+  port: 17728
+  server: gbs.pptv-tv.store
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 17"
+  network: ws
+  port: 80
+  server: sbl2.shabijichang.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: sbl2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
+  network: ws
+  port: 47551
+  server: 159.75.178.50
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2500a228-8c00-4934-81e0-22281c015a33
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6 4"
+  port: 47555
+  server: 46.29.166.237
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_13"
+  network: ws
+  port: 80
+  server: yhnsb3.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: yhnsb3.shabijichang.com
+    path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD"
+  password: amazonskr05
+  port: 443
+  server: 35.87.39.181
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_12"
+  network: ws
+  port: 8443
+  server: tes2.shrektm.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 02c4e4af-07ce-444d-b501-f75cd482cc11
+  ws-opts:
+    path: /@ATOVPN
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_10"
+  network: tcp
+  port: 50104
+  server: 38.180.33.136
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 790f6802-7535-4109-de6d-15f676d5e3f7
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  network: ws
+  port: 2095
+  server: frsadubiaa.76898102.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 78fd41e5-346a-3bf4-b942-be0fad711979
+  ws-opts:
+    headers:
+      host: frsadubias.76898102.xyz
+    path: /funsdfrh
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 7"
+  network: ws
+  port: 80
+  server: singapore.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- client-fingerprint: chrome
+  name: "CA_\u52A0\u62FF\u5927"
+  password: fe62cb68-6891-4e96-8fb9-e39f0ee53b7e
+  port: 443
+  server: 192.46.223.61
+  skip-cert-verify: false
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6_4"
+  network: tcp
+  port: 47555
+  server: 46.29.166.237
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  network: ws
+  port: 80
+  server: cf-lt.sharecentre.online
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      host: ssrsub.v005.ssrsub.com
+    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
@@ -1220,6 +811,470 @@ proxies:
     headers:
       host: Telegram-Channel.hkaa0_shop.66688888.xyz
     path: /telegram:@hkaa0
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 2"
+  network: ws
+  port: 8880
+  server: 21.namesilo123.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 40e71b6a-00cf-437d-8232-4e83e6437286
+  ws-opts:
+    headers:
+      Host: uspp.sanfen002.top
+    path: /
+- name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.179.78.100
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 9"
+  network: ws
+  port: 80
+  server: lt2-vmess.sshmax.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ea2928cb-f9cc-4747-ab60-d23abe3ba1e6
+  ws-opts:
+    headers:
+      Host: lt2-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 10"
+  network: ws
+  port: 80
+  server: cf-lt.sharecentre.online
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      Host: ssrsub.v005.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_7"
+  network: ws
+  port: 80
+  server: 158.101.7.8
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 95b45c49-f5c0-4959-bb64-2b8fbc4a869c
+  ws-opts:
+    path: /
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 3"
+  network: ws
+  port: 30000
+  server: 45.58.153.25
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
+  ws-opts:
+    path: /path/1702961716738
+- cipher: chacha20-ietf-poly1305
+  name: "_CN_\u4E2D\u56FD"
+  password: f7EI0dGWQM42T8gwN9CZIj
+  port: 6199
+  server: 45.87.153.246
+  type: ss
+- name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6_3"
+  network: tcp
+  password: 28c79056-ccfd-4cc1-93d4-c337cc782e65
+  port: 80
+  server: 89.221.224.94
+  skip-cert-verify: true
+  sni: is2-t.sshmax.xyz
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 11"
+  password: 31LdYhP8Ae
+  port: 58428
+  server: 45.58.39.13
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 26"
+  network: ws
+  port: 80
+  server: cf-lt.sharecentre.online
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      Host: ssrsub.v005.ssrsub.com
+    path: /api/v3/download.getFile
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F8\U0001F1EA _SE_\u745E\u5178"
+  password: Q5CEiebSuSl2qFkfE4ztG2
+  port: 5741
+  server: 45.8.147.80
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 5"
+  network: ws
+  port: 37121
+  server: 132.145.132.227
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 93845b50-26f6-4203-f5ad-4d231d4e8f45
+  ws-opts:
+    path: /
+- name: "\U0001F1F7\U0001F1FA _RU_\u4FC4\u7F57\u65AF\u8054\u90A6 3"
+  password: 28c79056-ccfd-4cc1-93d4-c337cc782e65
+  port: 80
+  server: 89.221.224.94
+  skip-cert-verify: false
+  sni: is2-t.sshmax.xyz
+  type: trojan
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 23"
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 38.91.107.37
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 4"
+  network: ws
+  port: 2092
+  server: 68.183.159.199
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 038e2714-5cbf-4812-fcfb-8726665c63b6
+  ws-opts:
+    headers:
+      Host: 68.183.159.199
+    path: /telegram:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 10"
+  port: 55579
+  server: 172.233.188.217
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 610f7b76-a4e2-4b5a-c458-96e69cbffb5e
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 15"
+  network: ws
+  port: 8880
+  server: 21.namesilo123.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 40e71b6a-00cf-437d-8232-4e83e6437286
+  ws-opts:
+    headers:
+      Host: uspp.sanfen002.top
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 13"
+  network: ws
+  port: 8443
+  server: tes2.shrektm.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 02c4e4af-07ce-444d-b501-f75cd482cc11
+  ws-opts:
+    headers:
+      Host: tes2.shrektm.top
+    path: /@ATOVPN
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_16"
+  network: ws
+  port: 37121
+  server: 132.145.132.227
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 93845b50-26f6-4203-f5ad-4d231d4e8f45
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EE\U0001F1F7 _IR_\u4F0A\u6717"
+  port: 3350
+  server: 91.107.172.128
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2bf900ac-909a-4610-dc18-86a3a136b286
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 8"
+  network: ws
+  port: 37121
+  server: 132.145.132.227
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 93845b50-26f6-4203-f5ad-4d231d4e8f45
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
+  network: ws
+  port: 443
+  server: cold-dawn-9246.fly.dev
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  ws-opts:
+    headers:
+      host: cold-dawn-9246.fly.dev
+    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 14"
+  network: ws
+  port: 30000
+  server: 45.58.153.24
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
+  ws-opts:
+    path: /path/1702392255355
+- alterId: 0
+  cipher: auto
+  name: "_CN_\u4E2D\u56FD 2"
+  network: ws
+  port: 47551
+  server: 159.75.178.50
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2500a228-8c00-4934-81e0-22281c015a33
+  ws-opts:
+    path: /
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_4"
+  network: tcp
+  password: 74811f39-8f69-4334-9e0f-a8a25d7413c1
+  port: 993
+  server: 78.47.217.216
+  skip-cert-verify: true
+  sni: www.casperco.online
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  network: ws
+  port: 80
+  server: 162.159.142.204
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b7c3855f-e549-4fce-8439-ea44d5392f8d
+  ws-opts:
+    headers:
+      host: er3.889611.com
+    path: /
+- name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD 4"
+  password: 74811f39-8f69-4334-9e0f-a8a25d7413c1
+  port: 1935
+  server: 78.47.217.216
+  skip-cert-verify: false
+  sni: www.casperco.online
+  type: trojan
+- name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.179.78.100
+  skip-cert-verify: false
+  sni: trj.rollingnext.co.uk
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 12"
+  network: ws
+  port: 2092
+  server: Telegram-Channel.hkaa0_shop.66688888.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 038e2714-5cbf-4812-fcfb-8726665c63b6
+  ws-opts:
+    headers:
+      Host: Telegram-Channel.hkaa0_shop.66688888.xyz
+    path: /telegram:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 7"
+  network: ws
+  port: 8443
+  server: tes2.shrektm.top
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 02c4e4af-07ce-444d-b501-f75cd482cc11
+  ws-opts:
+    headers:
+      Host: tes2.shrektm.top
+    path: /@ATOVPN
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 25"
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 38.91.107.37
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_8"
+  network: ws
+  port: 8880
+  server: 21.namesilo123.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 40e71b6a-00cf-437d-8232-4e83e6437286
+  ws-opts:
+    headers:
+      host: uspp.sanfen002.top
+    path: /
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "CA_\u52A0\u62FF\u5927 2"
+  network: ws
+  port: 443
+  server: 142.171.202.130
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.87981532.xyz
+    path: /path/1702650992491
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 22"
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 38.75.136.49
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 24"
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 38.91.107.37
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 14"
+  network: ws
+  port: 30000
+  server: 45.58.153.25
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
+  ws-opts:
+    path: /path/1702961716738
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 12"
+  network: ws
+  port: 30000
+  server: 45.58.153.24
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
+  ws-opts:
+    path: /path/1702392255355
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 6"
+  port: 15551
+  server: 168.235.72.221
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 69510633-6acb-4291-a98e-0cdcc9bd5c51
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 13"
+  network: ws
+  port: 80
+  server: lt2-vmess.sshmax.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: ea2928cb-f9cc-4747-ab60-d23abe3ba1e6
+  ws-opts:
+    headers:
+      Host: lt2-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 11"
+  port: 50104
+  server: 38.180.33.136
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 790f6802-7535-4109-de6d-15f676d5e3f7
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD"
+  network: ws
+  port: 8880
+  server: 217.160.45.31
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708
+  ws-opts:
+    path: /
 proxy-groups:
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
   proxies:
@@ -1328,8 +1383,7 @@ proxy-groups:
   - "US_\u7F8E\u56FD 14"
   - "CN_\u4E2D\u56FD->DE_\u5FB7\u56FD"
   - "IR_\u4F0A\u6717"
-  - "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
-  - "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927"
+  - "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
@@ -1437,8 +1491,7 @@ proxy-groups:
   - "US_\u7F8E\u56FD 14"
   - "CN_\u4E2D\u56FD->DE_\u5FB7\u56FD"
   - "IR_\u4F0A\u6717"
-  - "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
-  - "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927"
+  - "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
