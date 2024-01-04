@@ -77,62 +77,59 @@ external-controller: 0.0.0.0:9090
 log-level: info
 mixed-port: 7890
 proxies:
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "CN_\u4E2D\u56FD->DE_\u5FB7\u56FD"
+  port: 52707
+  server: 183.237.20.148
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
-  network: tcp
-  port: 57848
-  server: 144.202.84.47
+  name: "\U0001F1F8\U0001F1F0_SK_\u65AF\u6D1B\u4F10\u514B"
+  network: ws
+  port: 80
+  server: sk1-vmess.sshmax.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: e48643e7-0462-4055-f796-6ca6aa9f946d
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  network: ws
-  port: 443
-  server: 172.99.190.109
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: linkvws
-- cipher: aes-128-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD"
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 3"
-  network: ws
-  port: 2082
-  server: whatismyipaddress.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
+  uuid: 06c2b568-b7df-4e80-9031-c83569397db4
   ws-opts:
     headers:
-      Host: mgtow_cdn.yunjisuan.cf
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 9"
-  network: ws
-  port: 8080
-  server: 94.131.10.135
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
-  ws-opts:
-    headers:
-      Host: 94.131.10.135
+      host: sk1-vmess.sshmax.xyz
     path: /vmess
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "SK_\u65AF\u6D1B\u4F10\u514B"
+  network: ws
+  port: 80
+  server: sk1-vmess.sshmax.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 06c2b568-b7df-4e80-9031-c83569397db4
+  ws-opts:
+    headers:
+      Host: sk1-vmess.sshmax.xyz
+    path: /vmess
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 2"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 77.72.5.113
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 8"
+  password: amazonskr05
+  port: 443
+  server: 35.90.10.174
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -147,21 +144,12 @@ proxies:
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     path: linkvws
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _2"
-  network: ws
-  port: 2083
-  server: 2bbiozh7wbc.servecounterstrike.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
-  ws-opts:
-    headers:
-      host: PAneljadid.mookoMEilz.homes
-    path: /snsk
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 3"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 195.154.169.198
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -178,42 +166,6 @@ proxies:
     headers:
       Host: mgtow_cdn.yunjisuan.cf
     path: /
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  network: ws
-  port: 30000
-  server: 45.58.153.25
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
-  ws-opts:
-    path: /path/1702961716738
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: tcp
-  port: 52707
-  server: 183.237.20.148
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: ws
-  port: 2083
-  server: 104.19.154.92
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
-  ws-opts:
-    headers:
-      Host: PAneljadid.mookoMEilz.homes
-    path: /snsk
 - alterId: 0
   cipher: auto
   name: "\U0001F1F8\U0001F1F0 _SK_\u65AF\u6D1B\u4F10\u514B"
@@ -228,11 +180,29 @@ proxies:
     headers:
       Host: sk1-vmess.sshmax.xyz
     path: /vmess
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 13"
+  password: tvX1v#NSFP_LG_bJ
+  port: 801
+  server: 169.197.141.186
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD 2"
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 217.182.198.219
+  type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 8"
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 7"
   password: amazonskr05
   port: 443
-  server: 35.90.10.174
+  server: 35.87.39.181
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 11"
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 38.75.136.49
   type: ss
 - alterId: 64
   cipher: auto
@@ -248,37 +218,25 @@ proxies:
     path: /path/1702961716738
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD"
   network: ws
   port: 80
-  server: 104.21.75.246
-  skip-cert-verify: true
+  server: ee1-vmess.sshmax.xyz
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: ea85d824-2faa-4bb2-849b-a2965db4ce18
   ws-opts:
     headers:
-      host: sbl2.shabijichang.com
-    path: /
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 10"
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 38.91.100.134
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 195.154.185.174
-  type: ss
+      Host: ee1-vmess.sshmax.xyz
+    path: /vmess
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD->DE_\u5FB7\u56FD"
+  name: "US_\u7F8E\u56FD->DE_\u5FB7\u56FD 2"
   network: ws
   port: 2083
-  server: 104.19.154.92
+  server: 2bbiozh7wbc.servecounterstrike.com
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -288,45 +246,162 @@ proxies:
     headers:
       Host: PAneljadid.mookoMEilz.homes
     path: /snsk
-- cipher: aes-256-gcm
-  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD->\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 217.182.198.219
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 12"
+  network: ws
+  port: 80
+  server: 104.21.75.246
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: sbl2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  network: ws
+  port: 80
+  server: ee1-vmess.sshmax.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ea85d824-2faa-4bb2-849b-a2965db4ce18
+  ws-opts:
+    headers:
+      host: ee1-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 3"
+  network: ws
+  port: 2082
+  server: whatismyipaddress.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
+  ws-opts:
+    headers:
+      Host: mgtow_cdn.yunjisuan.cf
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
+  network: ws
+  port: 80
+  server: cf-lt.sharecentre.online
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 4"
+  network: ws
+  port: 8080
+  server: 94.131.10.135
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
+  ws-opts:
+    headers:
+      Host: 94.131.10.135
+    path: /vmess
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: "CN_\u4E2D\u56FD->DE_\u5FB7\u56FD"
+  name: "US_\u7F8E\u56FD 5"
+  network: ws
+  port: 30000
+  server: 45.58.153.24
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
+  ws-opts:
+    headers:
+      Host: www.77935707.xyz
+    path: /path/1702392255355
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 6"
+  network: ws
+  port: 80
+  server: cf-lt.sharecentre.online
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "DE_\u5FB7\u56FD"
+  network: ws
+  port: 80
+  server: ee1-vmess.sshmax.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ea85d824-2faa-4bb2-849b-a2965db4ce18
+  ws-opts:
+    headers:
+      Host: ee1-vmess.sshmax.xyz
+    path: /vmess
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 195.154.185.174
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1E9\U0001F1EA _CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   port: 52707
   server: 183.237.20.148
   skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 2"
-  port: 57848
-  server: 144.202.84.47
-  skip-cert-verify: false
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_7"
+  network: ws
+  port: 80
+  server: sbl2.shabijichang.com
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: e48643e7-0462-4055-f796-6ca6aa9f946d
-- cipher: aes-256-cfb
-  name: "\U0001F1EA\U0001F1F8 _ES_\u897F\u73ED\u7259"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 92.38.171.89
-  type: ss
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: sbl2.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
+  name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
   network: ws
   port: 443
   server: 172.99.190.109
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -346,46 +421,58 @@ proxies:
     headers:
       host: mgtow_cdn.yunjisuan.cf
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F8\U0001F1EA _SE_\u745E\u5178"
-  password: Q5CEiebSuSl2qFkfE4ztG2
-  port: 5741
-  server: 45.8.147.80
+- cipher: aes-128-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD"
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
   type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1F8\U0001F1F0_SK_\u65AF\u6D1B\u4F10\u514B"
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 3"
+  port: 57848
+  server: 144.202.84.47
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e48643e7-0462-4055-f796-6ca6aa9f946d
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 3"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 77.72.5.150
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
   network: ws
-  port: 80
-  server: sk1-vmess.sshmax.xyz
+  port: 8080
+  server: 94.131.10.135
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 06c2b568-b7df-4e80-9031-c83569397db4
+  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
   ws-opts:
     headers:
-      host: sk1-vmess.sshmax.xyz
+      host: 94.131.10.135
     path: /vmess
-- cipher: aes-256-gcm
-  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD 3"
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 217.182.198.219
-  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 14"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _1"
   network: ws
-  port: 80
-  server: sbl2.shabijichang.com
-  skip-cert-verify: false
-  tls: false
+  port: 2083
+  server: 104.19.154.92
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
   ws-opts:
     headers:
-      Host: sbl2.shabijichang.com
-    path: /
+      host: PAneljadid.mookoMEilz.homes
+    path: /snsk
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -402,6 +489,70 @@ proxies:
     headers:
       Host: sbl2.shabijichang.com
     path: /
+- cipher: aes-256-gcm
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 4"
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 145.239.6.202
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD 7"
+  network: ws
+  port: 80
+  server: sbl2.shabijichang.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: sbl2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 2"
+  port: 57848
+  server: 144.202.84.47
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e48643e7-0462-4055-f796-6ca6aa9f946d
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1E6 _PA_\u5DF4\u62FF\u9A6C"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 138.186.142.4
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _2"
+  network: ws
+  port: 2083
+  server: 2bbiozh7wbc.servecounterstrike.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
+  ws-opts:
+    headers:
+      host: PAneljadid.mookoMEilz.homes
+    path: /snsk
+- cipher: aes-256-gcm
+  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD 3"
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F1 _CL_\u667A\u5229"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 190.120.230.9
+  type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -416,22 +567,24 @@ proxies:
   uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
   ws-opts:
     path: /path/1702961716738
-- alterId: 0
+- alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: "SK_\u65AF\u6D1B\u4F10\u514B"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
   network: ws
-  port: 80
-  server: sk1-vmess.sshmax.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  port: 30000
+  server: 45.58.153.25
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 06c2b568-b7df-4e80-9031-c83569397db4
+  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
   ws-opts:
-    headers:
-      Host: sk1-vmess.sshmax.xyz
-    path: /vmess
+    path: /path/1702961716738
+- cipher: aes-256-gcm
+  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD->\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 217.182.198.219
+  type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 2"
   password: f8f7aCzcPKbsF8p3
@@ -452,19 +605,109 @@ proxies:
     headers:
       Host: www.77935707.xyz
     path: /path/1702392255355
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 10"
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 38.91.100.134
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F8\U0001F1EA _SE_\u745E\u5178"
+  password: Q5CEiebSuSl2qFkfE4ztG2
+  port: 5741
+  server: 45.8.147.80
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
+  network: ws
+  port: 30000
+  server: 45.58.153.24
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
+  ws-opts:
+    headers:
+      host: www.77935707.xyz
+    path: /path/1702392255355
+- cipher: aes-256-cfb
+  name: "\U0001F1E6\U0001F1F7 _AR_\u963F\u6839\u5EF7"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 190.103.176.29
+  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD"
+  client-fingerprint: chrome
+  name: "US_\u7F8E\u56FD->DE_\u5FB7\u56FD"
+  network: ws
+  port: 2083
+  server: 104.19.154.92
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
+  ws-opts:
+    headers:
+      Host: PAneljadid.mookoMEilz.homes
+    path: /snsk
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 14"
   network: ws
   port: 80
-  server: ee1-vmess.sshmax.xyz
+  server: sbl2.shabijichang.com
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: ea85d824-2faa-4bb2-849b-a2965db4ce18
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: ee1-vmess.sshmax.xyz
+      Host: sbl2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  network: ws
+  port: 80
+  server: 104.21.75.246
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: sbl2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 4"
+  network: ws
+  port: 80
+  server: cf-lt.sharecentre.online
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 9"
+  network: ws
+  port: 8080
+  server: 94.131.10.135
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
+  ws-opts:
+    headers:
+      Host: 94.131.10.135
     path: /vmess
 - alterId: 0
   cipher: auto
@@ -483,248 +726,21 @@ proxies:
     path: /snsk
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_7"
-  network: ws
-  port: 80
-  server: sbl2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: sbl2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "DE_\u5FB7\u56FD"
-  network: ws
-  port: 80
-  server: ee1-vmess.sshmax.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: ea85d824-2faa-4bb2-849b-a2965db4ce18
-  ws-opts:
-    headers:
-      Host: ee1-vmess.sshmax.xyz
-    path: /vmess
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 3"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 195.154.169.198
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
-  network: ws
-  port: 30000
-  server: 45.58.153.24
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
-  ws-opts:
-    headers:
-      host: www.77935707.xyz
-    path: /path/1702392255355
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 5"
-  network: ws
-  port: 30000
-  server: 45.58.153.24
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
-  ws-opts:
-    headers:
-      Host: www.77935707.xyz
-    path: /path/1702392255355
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 13"
-  password: tvX1v#NSFP_LG_bJ
-  port: 801
-  server: 169.197.141.186
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1E6\U0001F1F7 _AR_\u963F\u6839\u5EF7"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 190.103.176.29
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  network: ws
-  port: 8080
-  server: 94.131.10.135
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
-  ws-opts:
-    headers:
-      host: 94.131.10.135
-    path: /vmess
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 11"
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 38.75.136.49
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 4"
-  network: ws
-  port: 8080
-  server: 94.131.10.135
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
-  ws-opts:
-    headers:
-      Host: 94.131.10.135
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 7"
-  network: ws
-  port: 80
-  server: sbl2.shabijichang.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: sbl2.shabijichang.com
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 7"
-  password: amazonskr05
-  port: 443
-  server: 35.87.39.181
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 12"
-  network: ws
-  port: 80
-  server: 104.21.75.246
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: sbl2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 3"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  network: tcp
   port: 57848
   server: 144.202.84.47
-  skip-cert-verify: false
-  tfo: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: e48643e7-0462-4055-f796-6ca6aa9f946d
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F1 _CL_\u667A\u5229"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 190.120.230.9
-  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 4"
-  network: ws
-  port: 80
-  server: cf-lt.sharecentre.online
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
-  ws-opts:
-    headers:
-      Host: ssrsub.v03.ssrsub.com
-    path: /api/v3/download.getFile
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1E6 _PA_\u5DF4\u62FF\u9A6C"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 138.186.142.4
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
-  network: ws
-  port: 80
-  server: cf-lt.sharecentre.online
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
-  ws-opts:
-    headers:
-      host: ssrsub.v03.ssrsub.com
-    path: /api/v3/download.getFile
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 3"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 77.72.5.150
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 4"
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 145.239.6.202
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD 6"
-  network: ws
-  port: 80
-  server: cf-lt.sharecentre.online
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
-  ws-opts:
-    headers:
-      Host: ssrsub.v03.ssrsub.com
-    path: /api/v3/download.getFile
-- cipher: aes-256-gcm
-  name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD 2"
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 217.182.198.219
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "US_\u7F8E\u56FD->DE_\u5FB7\u56FD 2"
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   network: ws
   port: 2083
-  server: 2bbiozh7wbc.servecounterstrike.com
+  server: 104.19.154.92
   skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
@@ -732,50 +748,34 @@ proxies:
     headers:
       Host: PAneljadid.mookoMEilz.homes
     path: /snsk
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 2"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 77.72.5.113
-  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _1"
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
   network: ws
-  port: 2083
-  server: 104.19.154.92
-  skip-cert-verify: true
+  port: 443
+  server: 172.99.190.109
+  skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
-    headers:
-      host: PAneljadid.mookoMEilz.homes
-    path: /snsk
+    path: linkvws
 - alterId: 64
   cipher: auto
-  name: "\U0001F1E9\U0001F1EA _CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  network: tcp
   port: 52707
   server: 183.237.20.148
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: ws
-  port: 80
-  server: ee1-vmess.sshmax.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ea85d824-2faa-4bb2-849b-a2965db4ce18
-  ws-opts:
-    headers:
-      host: ee1-vmess.sshmax.xyz
-    path: /vmess
+- cipher: aes-256-cfb
+  name: "\U0001F1EA\U0001F1F8 _ES_\u897F\u73ED\u7259"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 92.38.171.89
+  type: ss
 proxy-groups:
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
   proxies:
