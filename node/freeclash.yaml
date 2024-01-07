@@ -78,60 +78,81 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"www.udemy.com","port":2082,"cipher":"auto","uuid":"bf3d038a-93a2-4e24-886c-6bc64e3c3a90","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"els_cdnone.yunjisuan.cf"}}}
-  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"a3.bcbot.in","port":8880,"cipher":"auto","uuid":"ce9aadc8-8c6e-4867-d247-9a84b469ac27","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"a3.bcbot.in"}}}
-  - {"name":"🇺🇸_US_美国_3","type":"vmess","server":"104.17.184.241","port":80,"cipher":"auto","uuid":"bf3d038a-93a2-4e24-886c-6bc64e3c3a90","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"mg_cdn.yunjisuan.cf"}}}
+  - {"name":"🇩🇪_DE_德国","type":"trojan","server":"5.104.108.120","port":443,"udp":true,"password":"e86e242e-b5d5-46ae-a410-3684f7d70ac2","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国","type":"vmess","server":"104.19.154.92","port":2083,"cipher":"auto","uuid":"9e9b80f1-5555-4f7d-a209-d23b9d9dc047","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/snsk","headers":{"host":"PAneljadid.mookoMEilz.homes"}}}
+  - {"name":"🇫🇷_FR_法国","type":"trojan","server":"13.39.1.177","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇳🇿_NZ_新西兰","type":"vmess","server":"141.11.123.205","port":30870,"cipher":"auto","uuid":"f8e7c07a-4c32-4fc7-9169-073669416331","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸_US_美国","type":"vmess","server":"104.17.171.34","port":80,"cipher":"auto","uuid":"60be5ddb-c9f1-48ec-b0ee-f6bd4364b3ce","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ccs.hostmjj.com"}}}
+  - {"name":"🇮🇪_IE_爱尔兰","type":"trojan","server":"18.200.62.178","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇫🇷_FR_法国
+      - 🇳🇿_NZ_新西兰
+      - 🇺🇸_US_美国
+      - 🇮🇪_IE_爱尔兰
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇫🇷_FR_法国
+      - 🇳🇿_NZ_新西兰
+      - 🇺🇸_US_美国
+      - 🇮🇪_IE_爱尔兰
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇫🇷_FR_法国
+      - 🇳🇿_NZ_新西兰
+      - 🇺🇸_US_美国
+      - 🇮🇪_IE_爱尔兰
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇫🇷_FR_法国
+      - 🇳🇿_NZ_新西兰
+      - 🇺🇸_US_美国
+      - 🇮🇪_IE_爱尔兰
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇫🇷_FR_法国
+      - 🇳🇿_NZ_新西兰
+      - 🇺🇸_US_美国
+      - 🇮🇪_IE_爱尔兰
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇫🇷_FR_法国
+      - 🇳🇿_NZ_新西兰
+      - 🇺🇸_US_美国
+      - 🇮🇪_IE_爱尔兰
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -154,9 +175,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇫🇷_FR_法国
+      - 🇳🇿_NZ_新西兰
+      - 🇺🇸_US_美国
+      - 🇮🇪_IE_爱尔兰
 
 rules:
 # 本地/局域网地址
