@@ -77,148 +77,39 @@ external-controller: 0.0.0.0:9090
 log-level: info
 mixed-port: 7890
 proxies:
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 2"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 77.72.5.113
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
-  network: ws
-  port: 8880
-  server: 104.21.32.215
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
-  ws-opts:
-    headers:
-      host: a3.bcbot.in
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "US_\u7F8E\u56FD 5"
-  network: ws
-  port: 8880
-  server: a3.bcbot.in
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
-  ws-opts:
-    headers:
-      Host: a3.bcbot.in
-    path: /
-- name: "DE_\u5FB7\u56FD"
-  password: 56e1f11c-1217-46ab-b127-6afbc23bafba
-  port: 443
-  server: 5.104.108.120
-  skip-cert-verify: false
-  sni: 20-24-33-134.nhost.00cdn.com
-  type: trojan
-- name: "US_\u7F8E\u56FD 2"
-  network: ws
-  password: 56e1f11c-1217-46ab-b127-6afbc23bafba
-  port: 443
-  server: 89.116.180.158
-  skip-cert-verify: false
-  sni: 3us2.pqjc.buzz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 3us2.pqjc.buzz
-    path: /pq/us2
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 5"
-  network: ws
-  port: 8880
-  server: a3.bcbot.in
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
-  ws-opts:
-    headers:
-      Host: a3.bcbot.in
-    path: /
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 2"
   network: ws
   password: 56e1f11c-1217-46ab-b127-6afbc23bafba
   port: 443
   server: 167.68.5.183
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: 6us3.pqjc.buzz
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      host: 6us3.pqjc.buzz
+      Host: 6us3.pqjc.buzz
     path: /pq/us3
 - alterId: 0
   cipher: auto
-  name: "US_\u7F8E\u56FD->DE_\u5FB7\u56FD"
+  name: "US_\u7F8E\u56FD 4"
   network: ws
-  port: 2083
-  server: 104.19.180.169
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: b36e93b8-21b4-4495-ac81-0109f65cb1ad
-  ws-opts:
-    headers:
-      Host: kingofilter2.hamedgeek.sbs
-    path: /
-- name: "US_\u7F8E\u56FD 3"
-  network: ws
-  password: 56e1f11c-1217-46ab-b127-6afbc23bafba
-  port: 443
-  server: 89.116.180.179
-  skip-cert-verify: false
-  sni: p6us4.pqjc.buzz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: p6us4.pqjc.buzz
-    path: /pq/us4
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 3"
-  network: ws
-  password: 56e1f11c-1217-46ab-b127-6afbc23bafba
-  port: 443
-  server: 89.116.180.179
-  skip-cert-verify: false
-  sni: p6us4.pqjc.buzz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: p6us4.pqjc.buzz
-    path: /pq/us4
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: tcp
-  password: 56e1f11c-1217-46ab-b127-6afbc23bafba
-  port: 443
-  server: 5.104.108.120
-  skip-cert-verify: true
-  sni: 20-24-33-134.nhost.00cdn.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
-    \u5170"
-  network: ws
-  port: 80
-  server: 104.17.2.183
+  port: 8880
+  server: 104.21.32.215
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
   ws-opts:
     headers:
-      Host: v3ra3do.wakeuptimerap.shop
+      Host: a3.bcbot.in
     path: /
+- name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD"
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.38.208.28
+  skip-cert-verify: false
+  sni: trj.rollingnext.co.uk
+  type: trojan
 - name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
   network: ws
   password: 56e1f11c-1217-46ab-b127-6afbc23bafba
@@ -232,52 +123,25 @@ proxies:
     headers:
       host: p6us4.pqjc.buzz
     path: /pq/us4
-- cipher: aes-256-cfb
-  name: "\U0001F1F7\U0001F1F4 _RO_\u7F57\u9A6C\u5C3C\u4E9A"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 194.14.217.115
+- cipher: aes-256-gcm
+  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 2"
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 145.239.6.202
   type: ss
-- name: "US_\u7F8E\u56FD"
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
   network: ws
   password: 56e1f11c-1217-46ab-b127-6afbc23bafba
   port: 443
   server: 167.68.5.183
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 6us3.pqjc.buzz
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: 6us3.pqjc.buzz
+      host: 6us3.pqjc.buzz
     path: /pq/us3
-- cipher: aes-256-gcm
-  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
-  password: GeZbX4Enoc
-  port: 15100
-  server: 5.181.27.97
-  type: ss
-- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.38.208.28
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-128-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 4"
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  type: ss
-- name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD"
-  password: 56e1f11c-1217-46ab-b127-6afbc23bafba
-  port: 443
-  server: 5.104.108.120
-  skip-cert-verify: false
-  sni: 20-24-33-134.nhost.00cdn.com
-  type: trojan
 - alterId: 0
   cipher: auto
   name: "US_\u7F8E\u56FD->CA_\u52A0\u62FF\u5927"
@@ -294,20 +158,6 @@ proxies:
     path: /centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso
 - alterId: 0
   cipher: auto
-  name: "US_\u7F8E\u56FD->UA_\u4E4C\u514B\u5170"
-  network: ws
-  port: 80
-  server: glasco.fx-trader.shop
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
-  ws-opts:
-    headers:
-      Host: v3ra3do.wakeuptimerap.shop
-    path: /
-- alterId: 0
-  cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
     \u5170"
   network: ws
@@ -321,7 +171,7 @@ proxies:
     headers:
       host: v3ra3do.wakeuptimerap.shop
     path: /
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 2"
+- name: "US_\u7F8E\u56FD"
   network: ws
   password: 56e1f11c-1217-46ab-b127-6afbc23bafba
   port: 443
@@ -333,18 +183,126 @@ proxies:
     headers:
       Host: 6us3.pqjc.buzz
     path: /pq/us3
-- name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD"
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD"
+  network: ws
+  password: 56e1f11c-1217-46ab-b127-6afbc23bafba
+  port: 443
+  server: 89.116.161.133
+  skip-cert-verify: false
+  sni: p1us1.pqjc.buzz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: p1us1.pqjc.buzz
+    path: /pq/us1
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  network: tcp
+  password: 56e1f11c-1217-46ab-b127-6afbc23bafba
+  port: 443
+  server: 5.104.108.120
+  skip-cert-verify: true
+  sni: 20-24-33-134.nhost.00cdn.com
+  type: trojan
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 3"
+  network: ws
+  password: 56e1f11c-1217-46ab-b127-6afbc23bafba
+  port: 443
+  server: 89.116.180.179
+  skip-cert-verify: false
+  sni: p6us4.pqjc.buzz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: p6us4.pqjc.buzz
+    path: /pq/us4
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 6"
+  network: ws
+  port: 8880
+  server: 104.21.32.215
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
+  ws-opts:
+    headers:
+      Host: a3.bcbot.in
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 5"
+  network: ws
+  port: 8880
+  server: a3.bcbot.in
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
+  ws-opts:
+    headers:
+      Host: a3.bcbot.in
+    path: /
+- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  network: tcp
   password: telegram-id-privatevpns
   port: 22222
   server: 13.38.208.28
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: trj.rollingnext.co.uk
   type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 7"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 74.121.191.98
+  udp: true
+- name: "DE_\u5FB7\u56FD"
+  password: 56e1f11c-1217-46ab-b127-6afbc23bafba
+  port: 443
+  server: 5.104.108.120
+  skip-cert-verify: false
+  sni: 20-24-33-134.nhost.00cdn.com
+  type: trojan
+- name: "US_\u7F8E\u56FD 3"
+  network: ws
+  password: 56e1f11c-1217-46ab-b127-6afbc23bafba
+  port: 443
+  server: 89.116.180.179
+  skip-cert-verify: false
+  sni: p6us4.pqjc.buzz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: p6us4.pqjc.buzz
+    path: /pq/us4
+- name: "US_\u7F8E\u56FD 2"
+  network: ws
+  password: 56e1f11c-1217-46ab-b127-6afbc23bafba
+  port: 443
+  server: 89.116.180.158
+  skip-cert-verify: false
+  sni: 3us2.pqjc.buzz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 3us2.pqjc.buzz
+    path: /pq/us2
+- alterId: 0
+  cipher: auto
+  name: "US_\u7F8E\u56FD 5"
+  network: ws
+  port: 8880
+  server: a3.bcbot.in
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
+  ws-opts:
+    headers:
+      Host: a3.bcbot.in
+    path: /
+- cipher: aes-128-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 4"
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
   type: ss
 - name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
   network: ws
@@ -359,20 +317,45 @@ proxies:
     headers:
       host: p1us1.pqjc.buzz
     path: /pq/us1
+- cipher: aes-256-gcm
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
+  password: GeZbX4Enoc
+  port: 15100
+  server: 5.181.27.97
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 7"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 74.121.191.98
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD 2"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 77.72.5.113
+  type: ss
 - alterId: 0
   cipher: auto
-  name: "US_\u7F8E\u56FD 4"
+  name: "US_\u7F8E\u56FD->UA_\u4E4C\u514B\u5170"
   network: ws
-  port: 8880
-  server: 104.21.32.215
+  port: 80
+  server: glasco.fx-trader.shop
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
   ws-opts:
     headers:
-      Host: a3.bcbot.in
+      Host: v3ra3do.wakeuptimerap.shop
     path: /
+- name: "\U0001F1E9\U0001F1EA _DE_\u5FB7\u56FD"
+  password: 56e1f11c-1217-46ab-b127-6afbc23bafba
+  port: 443
+  server: 5.104.108.120
+  skip-cert-verify: false
+  sni: 20-24-33-134.nhost.00cdn.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
@@ -387,24 +370,21 @@ proxies:
     headers:
       host: a3.bcbot.in
     path: /
-- cipher: aes-256-gcm
-  name: "\U0001F1EB\U0001F1F7 _FR_\u6CD5\u56FD 2"
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 145.239.6.202
-  type: ss
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD"
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
+    \u5170"
   network: ws
-  password: 56e1f11c-1217-46ab-b127-6afbc23bafba
-  port: 443
-  server: 89.116.161.133
+  port: 80
+  server: 104.17.2.183
   skip-cert-verify: false
-  sni: p1us1.pqjc.buzz
-  type: trojan
+  tls: false
+  type: vmess
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
   ws-opts:
     headers:
-      Host: p1us1.pqjc.buzz
-    path: /pq/us1
+      Host: v3ra3do.wakeuptimerap.shop
+    path: /
 - name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
   network: ws
   password: 56e1f11c-1217-46ab-b127-6afbc23bafba
@@ -420,17 +400,37 @@ proxies:
     path: /pq/us4
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 6"
+  name: "US_\u7F8E\u56FD->DE_\u5FB7\u56FD"
+  network: ws
+  port: 2083
+  server: 104.19.180.169
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: b36e93b8-21b4-4495-ac81-0109f65cb1ad
+  ws-opts:
+    headers:
+      Host: kingofilter2.hamedgeek.sbs
+    path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1F7\U0001F1F4 _RO_\u7F57\u9A6C\u5C3C\u4E9A"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 194.14.217.115
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
   network: ws
   port: 8880
   server: 104.21.32.215
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
   ws-opts:
     headers:
-      Host: a3.bcbot.in
+      host: a3.bcbot.in
     path: /
 proxy-groups:
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
