@@ -78,15 +78,15 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇫🇷_FR_法国","type":"trojan","server":"13.38.208.28","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国","type":"trojan","server":"89.116.180.179","port":443,"udp":true,"password":"56e1f11c-1217-46ab-b127-6afbc23bafba","sni":"p6us4.pqjc.buzz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/pq/us4","headers":{"host":"p6us4.pqjc.buzz"}}}
+  - {"name":"🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦","type":"trojan","server":"zula.ir","port":443,"udp":true,"password":"qj1Dz1CJmFQRhWr1SP80aA","sni":"cdn-21.gsmxreality.com","skip-cert-verify":false,"network":"grpc","grpc-opts":{"grpc-service-name":"443trojan"}}
+  - {"name":"🇺🇸_US_美国","type":"vmess","server":"104.17.184.241","port":80,"cipher":"auto","uuid":"bf3d038a-93a2-4e24-886c-6bc64e3c3a90","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"mg_cdn.yunjisuan.cf"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇫🇷_FR_法国
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
       - 🇺🇸_US_美国
   - name: ♻️ 自动选择
     type: url-test
@@ -94,7 +94,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇫🇷_FR_法国
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
       - 🇺🇸_US_美国
   - name: 🌍 国外媒体
     type: select
@@ -102,28 +102,28 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇫🇷_FR_法国
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
       - 🇺🇸_US_美国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇫🇷_FR_法国
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
       - 🇺🇸_US_美国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇫🇷_FR_法国
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
       - 🇺🇸_US_美国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇫🇷_FR_法国
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
       - 🇺🇸_US_美国
   - name: 🎯 全球直连
     type: select
@@ -147,7 +147,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇫🇷_FR_法国
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
       - 🇺🇸_US_美国
 
 rules:
