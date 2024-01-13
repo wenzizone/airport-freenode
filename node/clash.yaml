@@ -79,7 +79,56 @@ mixed-port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: "US_\u7F8E\u56FD 2"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  network: ws
+  port: 8880
+  server: a3.bcbot.in
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
+  ws-opts:
+    headers:
+      host: a3.bcbot.in
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
+    \u5170_2"
+  network: ws
+  port: 80
+  server: 104.17.2.183
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  ws-opts:
+    headers:
+      host: v3ra3do.wakeuptimerap.shop
+    path: /
+- name: "US_\u7F8E\u56FD->CA_\u52A0\u62FF\u5927"
+  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
+  port: 443
+  server: ca.liangyuandiancloud.com
+  skip-cert-verify: false
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "US_\u7F8E\u56FD->UA_\u4E4C\u514B\u5170 2"
+  network: ws
+  port: 80
+  server: 104.17.2.183
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  ws-opts:
+    headers:
+      Host: v3ra3do.wakeuptimerap.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 2"
   network: ws
   port: 80
   server: 104.17.184.241
@@ -91,12 +140,119 @@ proxies:
     headers:
       Host: mg_cdn.yunjisuan.cf
     path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1EA\U0001F1F8 _ES_\u897F\u73ED\u7259"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 92.38.171.89
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  network: ws
+  port: 80
+  server: 104.17.184.241
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
+  ws-opts:
+    headers:
+      host: mg_cdn.yunjisuan.cf
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "US_\u7F8E\u56FD"
+  network: ws
+  port: 8880
+  server: a3.bcbot.in
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
+  ws-opts:
+    headers:
+      Host: a3.bcbot.in
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
+    \u5170_1"
+  network: ws
+  port: 80
+  server: glasco.fx-trader.shop
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  ws-opts:
+    headers:
+      host: v3ra3do.wakeuptimerap.shop
+    path: /
+- name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F->\U0001F1E8\U0001F1ED_CH_\u745E\u58EB"
+  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
+  port: 443
+  server: chjs.liangyuandiancloud.com
+  skip-cert-verify: false
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 3"
+  network: ws
+  port: 8880
+  server: www.visa.com.tw
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
+  ws-opts:
+    headers:
+      Host: mgthree_cdn.yunjisuan.cf
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  network: ws
+  port: 8880
+  server: a3.bcbot.in
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
+  ws-opts:
+    headers:
+      host: a3.bcbot.in
+    path: /
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
+    \u5927"
+  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
+  port: 443
+  server: ca.liangyuandiancloud.com
+  skip-cert-verify: false
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E6\U0001F1FA_AU_\u6FB3\u5927\u5229\u4E9A->\U0001F1E6\U0001F1EA_AE_\u963F\
+    \u8054\u914B"
+  network: ws
+  port: 13914
+  server: 202.139.228.24
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
+  ws-opts:
+    headers:
+      host: db.changding.tech
+    path: /vm-tls1-tls1?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "AU_\u6FB3\u5927\u5229\u4E9A->AE_\u963F\u8054\u914B"
+  network: ws
+  port: 13914
+  server: 202.139.228.24
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
+  ws-opts:
+    headers:
+      Host: db.changding.tech
+    path: /vm-tls1-tls1?ed=2048
 - alterId: 0
   cipher: auto
   name: "\U0001F1EC\U0001F1E7 _GB_\u82F1\u56FD"
@@ -109,11 +265,162 @@ proxies:
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     path: linkvws
-- name: "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1E8\U0001F1ED_CH_\u745E\u58EB"
-  network: tcp
+- alterId: 0
+  cipher: auto
+  name: "US_\u7F8E\u56FD 2"
+  network: ws
+  port: 80
+  server: 104.17.184.241
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
+  ws-opts:
+    headers:
+      Host: mg_cdn.yunjisuan.cf
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E6\U0001F1FA_AU_\u6FB3\u5927\u5229\u4E9A"
+  network: ws
+  port: 8080
+  server: 202.139.228.198
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
+  ws-opts:
+    headers:
+      host: xn.changding.tech
+    path: /vm-tls1-tls1?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  network: ws
+  port: 8880
+  server: www.visa.com.tw
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
+  ws-opts:
+    headers:
+      host: mgthree_cdn.yunjisuan.cf
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
+    \u5170 2"
+  network: ws
+  port: 80
+  server: 104.17.2.183
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  ws-opts:
+    headers:
+      Host: v3ra3do.wakeuptimerap.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "AU_\u6FB3\u5927\u5229\u4E9A"
+  network: ws
+  port: 8080
+  server: 202.139.228.198
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
+  ws-opts:
+    headers:
+      Host: xn.changding.tech
+    path: /vm-tls1-tls1?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+  network: ws
+  port: 443
+  server: 172.99.190.109
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: "US_\u7F8E\u56FD 4"
+  network: ws
+  port: 80
+  server: 172.67.217.144
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
+  ws-opts:
+    headers:
+      Host: lv1.xv2ray.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E6\U0001F1EA _AU_\u6FB3\u5927\u5229\u4E9A->\U0001F1E6\U0001F1EA_AE_\u963F\
+    \u8054\u914B"
+  network: ws
+  port: 13914
+  server: 202.139.228.24
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
+  ws-opts:
+    headers:
+      Host: db.changding.tech
+    path: /vm-tls1-tls1?ed=2048
+- name: "HK_\u9999\u6E2F->IN_\u5370\u5EA6"
+  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
+  port: 443
+  server: in.liangyuandiancloud.com
+  skip-cert-verify: false
+  type: trojan
+- name: "HK_\u9999\u6E2F->CH_\u745E\u58EB"
   password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
   port: 443
   server: chjs.liangyuandiancloud.com
+  skip-cert-verify: false
+  type: trojan
+- name: "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  network: tcp
+  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
+  port: 443
+  server: usa.liangyuandiancloud.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
+  port: 443
+  server: usa.liangyuandiancloud.com
+  skip-cert-verify: false
+  type: trojan
+- name: "HK_\u9999\u6E2F->US_\u7F8E\u56FD"
+  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
+  port: 443
+  server: usa.liangyuandiancloud.com
+  skip-cert-verify: false
+  type: trojan
+- name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F->\U0001F1EE\U0001F1F3_IN_\u5370\u5EA6"
+  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
+  port: 443
+  server: in.liangyuandiancloud.com
+  skip-cert-verify: false
+  type: trojan
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
+    \u5927_1"
+  network: tcp
+  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
+  port: 443
+  server: ca.liangyuandiancloud.com
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -133,7 +440,36 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 3"
+  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
+    \u5170"
+  network: ws
+  port: 80
+  server: glasco.fx-trader.shop
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  ws-opts:
+    headers:
+      Host: v3ra3do.wakeuptimerap.shop
+    path: /
+- name: "US_\u7F8E\u56FD->FR_\u6CD5\u56FD"
+  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
+  port: 443
+  server: uk.liangyuandiancloud.com
+  skip-cert-verify: false
+  type: trojan
+- name: "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1E8\U0001F1ED_CH_\u745E\u58EB"
+  network: tcp
+  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
+  port: 443
+  server: chjs.liangyuandiancloud.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "US_\u7F8E\u56FD 3"
   network: ws
   port: 8880
   server: www.visa.com.tw
@@ -145,6 +481,12 @@ proxies:
     headers:
       Host: mgthree_cdn.yunjisuan.cf
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: "_CN_\u4E2D\u56FD"
+  password: a3dfbdd6-7e01-4735-9973-e3dd056c129e
+  port: 20062
+  server: 12.xn--wbr85ozt0asys8qt.net
+  type: ss
 - alterId: 0
   cipher: auto
   name: "GB_\u82F1\u56FD"
@@ -157,161 +499,6 @@ proxies:
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     path: linkvws
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  network: tcp
-  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
-  port: 443
-  server: uk.liangyuandiancloud.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD 2"
-  network: ws
-  port: 80
-  server: 104.17.184.241
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
-  ws-opts:
-    headers:
-      Host: mg_cdn.yunjisuan.cf
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "US_\u7F8E\u56FD"
-  network: ws
-  port: 8880
-  server: a3.bcbot.in
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
-  ws-opts:
-    headers:
-      Host: a3.bcbot.in
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "AU_\u6FB3\u5927\u5229\u4E9A->AE_\u963F\u8054\u914B"
-  network: ws
-  port: 13914
-  server: 202.139.228.24
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
-  ws-opts:
-    headers:
-      Host: db.changding.tech
-    path: /vm-tls1-tls1?ed=2048
-- name: "US_\u7F8E\u56FD->FR_\u6CD5\u56FD"
-  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
-  port: 443
-  server: uk.liangyuandiancloud.com
-  skip-cert-verify: false
-  type: trojan
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
-  port: 443
-  server: uk.liangyuandiancloud.com
-  skip-cert-verify: false
-  type: trojan
-- name: "HK_\u9999\u6E2F->US_\u7F8E\u56FD"
-  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
-  port: 443
-  server: usa.liangyuandiancloud.com
-  skip-cert-verify: false
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
-  network: ws
-  port: 8880
-  server: www.visa.com.tw
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
-  ws-opts:
-    headers:
-      host: mgthree_cdn.yunjisuan.cf
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E6\U0001F1EA _AU_\u6FB3\u5927\u5229\u4E9A->\U0001F1E6\U0001F1EA_AE_\u963F\
-    \u8054\u914B"
-  network: ws
-  port: 13914
-  server: 202.139.228.24
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
-  ws-opts:
-    headers:
-      Host: db.changding.tech
-    path: /vm-tls1-tls1?ed=2048
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
-    \u5927_1"
-  network: tcp
-  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
-  port: 443
-  server: ca.liangyuandiancloud.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: "US_\u7F8E\u56FD->CA_\u52A0\u62FF\u5927"
-  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
-  port: 443
-  server: ca.liangyuandiancloud.com
-  skip-cert-verify: false
-  type: trojan
-- name: "HK_\u9999\u6E2F->CH_\u745E\u58EB"
-  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
-  port: 443
-  server: chjs.liangyuandiancloud.com
-  skip-cert-verify: false
-  type: trojan
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
-    \u5927_2"
-  network: tcp
-  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
-  port: 443
-  server: cajs.liangyuandiancloud.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "AU_\u6FB3\u5927\u5229\u4E9A"
-  network: ws
-  port: 8080
-  server: 202.139.228.198
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
-  ws-opts:
-    headers:
-      Host: xn.changding.tech
-    path: /vm-tls1-tls1?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  network: ws
-  port: 8880
-  server: a3.bcbot.in
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
-  ws-opts:
-    headers:
-      host: a3.bcbot.in
-    path: /
 - alterId: 0
   cipher: auto
   name: "US_\u7F8E\u56FD->UA_\u4E4C\u514B\u5170"
@@ -340,46 +527,11 @@ proxies:
     headers:
       Host: lv1.xv2ray.net
     path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
-    \u5170_2"
-  network: ws
-  port: 80
-  server: 104.17.2.183
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
-  ws-opts:
-    headers:
-      host: v3ra3do.wakeuptimerap.shop
-    path: /
-- name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F->\U0001F1EE\U0001F1F3_IN_\u5370\u5EA6"
-  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
-  port: 443
-  server: in.liangyuandiancloud.com
-  skip-cert-verify: false
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E6\U0001F1FA _AU_\u6FB3\u5927\u5229\u4E9A"
-  network: ws
-  port: 8080
-  server: 202.139.228.198
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
-  ws-opts:
-    headers:
-      Host: xn.changding.tech
-    path: /vm-tls1-tls1?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: "_CN_\u4E2D\u56FD"
-  password: a3dfbdd6-7e01-4735-9973-e3dd056c129e
-  port: 20062
-  server: 12.xn--wbr85ozt0asys8qt.net
+- cipher: aes-256-cfb
+  name: "\U0001F1EA\U0001F1F8 _ES_\u897F\u73ED\u7259"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 92.38.171.89
   type: ss
 - name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
     \u5927 2"
@@ -388,75 +540,14 @@ proxies:
   server: cajs.liangyuandiancloud.com
   skip-cert-verify: false
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
-    \u5170 2"
-  network: ws
-  port: 80
-  server: 104.17.2.183
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
-  ws-opts:
-    headers:
-      Host: v3ra3do.wakeuptimerap.shop
-    path: /
-- name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F->\U0001F1E8\U0001F1ED_CH_\u745E\u58EB"
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  network: tcp
   password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
   port: 443
-  server: chjs.liangyuandiancloud.com
-  skip-cert-verify: false
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
-    \u5170_1"
-  network: ws
-  port: 80
-  server: glasco.fx-trader.shop
+  server: uk.liangyuandiancloud.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
-  ws-opts:
-    headers:
-      host: v3ra3do.wakeuptimerap.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  network: ws
-  port: 443
-  server: 172.99.190.109
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: linkvws
-- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
-    \u5927"
-  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
-  port: 443
-  server: ca.liangyuandiancloud.com
-  skip-cert-verify: false
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: "US_\u7F8E\u56FD->UA_\u4E4C\u514B\u5170 2"
-  network: ws
-  port: 80
-  server: 104.17.2.183
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
-  ws-opts:
-    headers:
-      Host: v3ra3do.wakeuptimerap.shop
-    path: /
+  udp: true
 - cipher: aes-128-gcm
   name: "\U0001F1E8\U0001F1E6 _CN_\u4E2D\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
     \u5927"
@@ -464,61 +555,10 @@ proxies:
   port: 30364
   server: 9d0dbf29-shcm-ec2-cdn.fjbsb.top
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E6\U0001F1FA_AU_\u6FB3\u5927\u5229\u4E9A->\U0001F1E6\U0001F1EA_AE_\u963F\
-    \u8054\u914B"
-  network: ws
-  port: 13914
-  server: 202.139.228.24
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
-  ws-opts:
-    headers:
-      host: db.changding.tech
-    path: /vm-tls1-tls1?ed=2048
-- name: "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  network: tcp
+- name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
   password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
   port: 443
-  server: usa.liangyuandiancloud.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "US_\u7F8E\u56FD 3"
-  network: ws
-  port: 8880
-  server: www.visa.com.tw
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
-  ws-opts:
-    headers:
-      Host: mgthree_cdn.yunjisuan.cf
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  network: ws
-  port: 80
-  server: 104.17.184.241
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
-  ws-opts:
-    headers:
-      host: mg_cdn.yunjisuan.cf
-    path: /
-- name: "US_\u7F8E\u56FD->CA_\u52A0\u62FF\u5927 2"
-  password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
-  port: 443
-  server: cajs.liangyuandiancloud.com
+  server: uk.liangyuandiancloud.com
   skip-cert-verify: false
   type: trojan
 - name: "\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F->\U0001F1EE\U0001F1F3_IN_\u5370\u5EA6"
@@ -529,75 +569,21 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  network: ws
-  port: 8880
-  server: a3.bcbot.in
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
-  ws-opts:
-    headers:
-      host: a3.bcbot.in
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 _US_\u7F8E\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
-    \u5170"
-  network: ws
-  port: 80
-  server: glasco.fx-trader.shop
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
-  ws-opts:
-    headers:
-      Host: v3ra3do.wakeuptimerap.shop
-    path: /
-- name: "HK_\u9999\u6E2F->IN_\u5370\u5EA6"
+- name: "US_\u7F8E\u56FD->CA_\u52A0\u62FF\u5927 2"
   password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
   port: 443
-  server: in.liangyuandiancloud.com
+  server: cajs.liangyuandiancloud.com
   skip-cert-verify: false
   type: trojan
-- name: "\U0001F1ED\U0001F1F0 _HK_\u9999\u6E2F->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
+    \u5927_2"
+  network: tcp
   password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8
   port: 443
-  server: usa.liangyuandiancloud.com
-  skip-cert-verify: false
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "US_\u7F8E\u56FD 4"
-  network: ws
-  port: 80
-  server: 172.67.217.144
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
-  ws-opts:
-    headers:
-      Host: lv1.xv2ray.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E6\U0001F1FA_AU_\u6FB3\u5927\u5229\u4E9A"
-  network: ws
-  port: 8080
-  server: 202.139.228.198
+  server: cajs.liangyuandiancloud.com
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
-  ws-opts:
-    headers:
-      host: xn.changding.tech
-    path: /vm-tls1-tls1?ed=2048
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
@@ -612,6 +598,20 @@ proxies:
     headers:
       host: lv1.xv2ray.net
     path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E6\U0001F1FA _AU_\u6FB3\u5927\u5229\u4E9A"
+  network: ws
+  port: 8080
+  server: 202.139.228.198
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
+  ws-opts:
+    headers:
+      Host: xn.changding.tech
+    path: /vm-tls1-tls1?ed=2048
 proxy-groups:
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
   proxies:
