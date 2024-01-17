@@ -78,53 +78,67 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇨🇳_CN_中国->🇺🇦_UA_乌克兰","type":"trojan","server":"xibaozi.19890604.day","port":10845,"udp":true,"password":"a34db467-5757-4a39-bfed-d89a6501973e","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国","type":"trojan","server":"104.19.67.53","port":443,"udp":true,"password":"Mahanvpn-insta-mahan_vpn","sni":"mahanvip.mahantu.top","skip-cert-verify":false,"network":"grpc","grpc-opts":{"grpc-service-name":"mahanvip.mahantu.top"}}
+  - {"name":"🇵🇸_PS_巴勒斯坦->🇹🇷_TR_土耳其","type":"vmess","server":"82.213.5.50","port":80,"cipher":"auto","uuid":"f21bcdb6-5dc6-4c4b-9a34-3b185f6747c4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"host":"tabyan205.serveftp.com"}}}
+  - {"name":"🇺🇸_US_美国->🇺🇦_UA_乌克兰","type":"vmess","server":"glasco.fx-trader.shop","port":80,"cipher":"auto","uuid":"f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"v3ra3do.wakeuptimerap.shop"}}}
+  - {"name":"🇬🇧_GB_英国","type":"vmess","server":"172.99.190.109","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"linkvws"}}
+  - {"name":"🇸🇨_SC_塞舌尔->🇭🇰_HK_香港","type":"vmess","server":"156.251.226.106","port":1111,"cipher":"auto","uuid":"64424354-f4ff-42a0-8884-8f52f2bb7235","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/changding-tls0?ed=2048","headers":{"host":"hk-300.changding.tech"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇵🇸_PS_巴勒斯坦->🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰
+      - 🇬🇧_GB_英国
+      - 🇸🇨_SC_塞舌尔->🇭🇰_HK_香港
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇵🇸_PS_巴勒斯坦->🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰
+      - 🇬🇧_GB_英国
+      - 🇸🇨_SC_塞舌尔->🇭🇰_HK_香港
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇵🇸_PS_巴勒斯坦->🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰
+      - 🇬🇧_GB_英国
+      - 🇸🇨_SC_塞舌尔->🇭🇰_HK_香港
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇵🇸_PS_巴勒斯坦->🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰
+      - 🇬🇧_GB_英国
+      - 🇸🇨_SC_塞舌尔->🇭🇰_HK_香港
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇵🇸_PS_巴勒斯坦->🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰
+      - 🇬🇧_GB_英国
+      - 🇸🇨_SC_塞舌尔->🇭🇰_HK_香港
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇵🇸_PS_巴勒斯坦->🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰
+      - 🇬🇧_GB_英国
+      - 🇸🇨_SC_塞舌尔->🇭🇰_HK_香港
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -147,8 +161,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇵🇸_PS_巴勒斯坦->🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰
+      - 🇬🇧_GB_英国
+      - 🇸🇨_SC_塞舌尔->🇭🇰_HK_香港
 
 rules:
 # 本地/局域网地址
