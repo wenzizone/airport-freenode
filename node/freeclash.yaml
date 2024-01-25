@@ -78,46 +78,60 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦","type":"vmess","server":"162.159.200.7","port":80,"cipher":"auto","uuid":"9b170ad4-3211-4f0f-8bc9-80d356b67662","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"er3.visaapp.top"}}}
+  - {"name":"🇨🇳_CN_中国->🇦🇹_AT_奥地利","type":"trojan","server":"xibaozi.19890604.day","port":10848,"udp":true,"password":"3e5d1046-5807-4b79-8397-31a006f546d1","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国","type":"vmess","server":"104.31.16.104","port":8080,"cipher":"auto","uuid":"3a6752b4-8353-4172-85b1-32202116714d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"asan3.azad1.tech"}}}
+  - {"name":"🇺🇸_US_美国","type":"vmess","server":"pt2-vmess.sshmax.xyz","port":80,"cipher":"auto","uuid":"099b5b7a-9d71-43cd-80e3-b8fbe1cc2695","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"pt2-vmess.sshmax.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳_CN_中国->🇦🇹_AT_奥地利
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳_CN_中国->🇦🇹_AT_奥地利
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳_CN_中国->🇦🇹_AT_奥地利
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳_CN_中国->🇦🇹_AT_奥地利
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳_CN_中国->🇦🇹_AT_奥地利
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳_CN_中国->🇦🇹_AT_奥地利
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -140,7 +154,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳_CN_中国->🇦🇹_AT_奥地利
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国
 
 rules:
 # 本地/局域网地址
