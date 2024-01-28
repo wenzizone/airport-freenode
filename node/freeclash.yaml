@@ -78,67 +78,67 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇦🇺_AU_澳大利亚->🇺🇸_US_美国","type":"trojan","server":"192.65.217.247","port":443,"udp":true,"password":"933e3c9c-701e-45df-978b-ca8f42fb8871","sni":"k5us2.yfjc.sbs","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yfjc/kus2","headers":{"host":"k5us2.yfjc.sbs"}}}
-  - {"name":"🇺🇸_US_美国","type":"vmess","server":"www.blueberrywindow.online","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.blueberrywindow.online"}}}
-  - {"name":"🇬🇧_GB_英国","type":"vmess","server":"172.99.190.109","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"linkvws"}}
-  - {"name":"🇦🇲_AM_亚美尼亚->🇳🇱_NL_荷兰","type":"trojan","server":"185.162.231.208","port":443,"udp":true,"password":"933e3c9c-701e-45df-978b-ca8f42fb8871","sni":"k8nl2.yfjc.sbs","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yfjc/knl2","headers":{"host":"k8nl2.yfjc.sbs"}}}
+  - {"name":"🇮🇪_IE_爱尔兰","type":"trojan","server":"54.78.37.252","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.miwan.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇦🇺_AU_澳大利亚->🇺🇸_US_美国","type":"trojan","server":"192.65.217.200","port":443,"udp":true,"password":"933e3c9c-701e-45df-978b-ca8f42fb8871","sni":"k6us1.yfjc.sbs","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yfjc/kus1","headers":{"host":"k6us1.yfjc.sbs"}}}
+  - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国","type":"vmess","server":"hamrahaval.asan3a.shop","port":8080,"cipher":"auto","uuid":"3a6752b4-8353-4172-85b1-32202116714d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"asan3.azad1.tech"}}}
+  - {"name":"🇺🇸_US_美国","type":"vmess","server":"www.crispyrainbow.online","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.crispyrainbow.online"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇮🇪_IE_爱尔兰
       - 🇦🇺_AU_澳大利亚->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇺🇸_US_美国
-      - 🇬🇧_GB_英国
-      - 🇦🇲_AM_亚美尼亚->🇳🇱_NL_荷兰
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇮🇪_IE_爱尔兰
       - 🇦🇺_AU_澳大利亚->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇺🇸_US_美国
-      - 🇬🇧_GB_英国
-      - 🇦🇲_AM_亚美尼亚->🇳🇱_NL_荷兰
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇮🇪_IE_爱尔兰
       - 🇦🇺_AU_澳大利亚->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇺🇸_US_美国
-      - 🇬🇧_GB_英国
-      - 🇦🇲_AM_亚美尼亚->🇳🇱_NL_荷兰
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇮🇪_IE_爱尔兰
       - 🇦🇺_AU_澳大利亚->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇺🇸_US_美国
-      - 🇬🇧_GB_英国
-      - 🇦🇲_AM_亚美尼亚->🇳🇱_NL_荷兰
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇮🇪_IE_爱尔兰
       - 🇦🇺_AU_澳大利亚->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇺🇸_US_美国
-      - 🇬🇧_GB_英国
-      - 🇦🇲_AM_亚美尼亚->🇳🇱_NL_荷兰
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇮🇪_IE_爱尔兰
       - 🇦🇺_AU_澳大利亚->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇺🇸_US_美国
-      - 🇬🇧_GB_英国
-      - 🇦🇲_AM_亚美尼亚->🇳🇱_NL_荷兰
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -161,10 +161,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇮🇪_IE_爱尔兰
       - 🇦🇺_AU_澳大利亚->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇺🇸_US_美国
-      - 🇬🇧_GB_英国
-      - 🇦🇲_AM_亚美尼亚->🇳🇱_NL_荷兰
 
 rules:
 # 本地/局域网地址
