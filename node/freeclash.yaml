@@ -78,95 +78,67 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国","type":"trojan","server":"xibaozi.19890604.day","port":10850,"udp":true,"password":"17e82f43-a0c6-4518-9d1f-3ac454429c3d","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇮🇱_IL_以色列->🇳🇱_NL_荷兰","type":"vmess","server":"5.188.94.5","port":80,"cipher":"auto","uuid":"75916879-adcf-45b3-98d8-54a2412470b5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"host":"sahar55.serveirc.com"}}}
-  - {"name":"🇧🇭_BH_巴林->🇳🇱_NL_荷兰","type":"vmess","server":"151.248.104.91","port":80,"cipher":"auto","uuid":"75916879-adcf-45b3-98d8-54a2412470b5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"host":"sahar55.serveirc.com"}}}
-  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"www.blueberrywindow.online","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.blueberrywindow.online"}}}
-  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"be1-vmess.sshmax.xyz","port":80,"cipher":"auto","uuid":"38df59ec-30e2-45e9-86c7-5a58667e6994","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"🇺🇸_US_美国->🇳🇱_NL_荷兰","type":"vmess","server":"92.38.159.4","port":80,"cipher":"auto","uuid":"75916879-adcf-45b3-98d8-54a2412470b5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"host":"sahar55.serveirc.com"}}}
-  - {"name":"🇨🇾_CY_塞浦路斯->🇹🇷_TR_土耳其","type":"vmess","server":"195.14.146.81","port":80,"cipher":"auto","uuid":"f0028153-2a2d-45fe-b44e-a1a6dbd0c65e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"host":"saman8888.servecounterstrike.com"}}}
-  - {"name":"🇰🇬_KG_吉尔吉斯斯坦->🇹🇷_TR_土耳其","type":"vmess","server":"185.48.136.150","port":80,"cipher":"auto","uuid":"c220f88c-8883-44aa-b66f-f4776a4053d7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"host":"xyz33.servecounterstrike.com"}}}
+  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"172.67.166.190","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.crispyrainbow.online"}}}
+  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"cfcdn1.yuzhoucloud003.xyz","port":2052,"cipher":"auto","uuid":"4eff3792-6078-4ad1-aa31-7772830c78ac","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/LpPP8QNC","headers":{"host":"huzfxqdgus1.zvhdeaof.xyz"}}}
+  - {"name":"🇺🇸_US_美国_3","type":"vmess","server":"be1-vmess.sshmax.xyz","port":80,"cipher":"auto","uuid":"38df59ec-30e2-45e9-86c7-5a58667e6994","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"be1-vmess.sshmax.xyz"}}}
+  - {"name":"🇺🇸_US_美国->🇮🇷_IR_伊朗","type":"vmess","server":"www.darkroom.lol","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.darkroom.lol"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇮🇱_IL_以色列->🇳🇱_NL_荷兰
-      - 🇧🇭_BH_巴林->🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇨🇾_CY_塞浦路斯->🇹🇷_TR_土耳其
-      - 🇰🇬_KG_吉尔吉斯斯坦->🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇮🇱_IL_以色列->🇳🇱_NL_荷兰
-      - 🇧🇭_BH_巴林->🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇨🇾_CY_塞浦路斯->🇹🇷_TR_土耳其
-      - 🇰🇬_KG_吉尔吉斯斯坦->🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇮🇱_IL_以色列->🇳🇱_NL_荷兰
-      - 🇧🇭_BH_巴林->🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇨🇾_CY_塞浦路斯->🇹🇷_TR_土耳其
-      - 🇰🇬_KG_吉尔吉斯斯坦->🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇮🇱_IL_以色列->🇳🇱_NL_荷兰
-      - 🇧🇭_BH_巴林->🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇨🇾_CY_塞浦路斯->🇹🇷_TR_土耳其
-      - 🇰🇬_KG_吉尔吉斯斯坦->🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇮🇱_IL_以色列->🇳🇱_NL_荷兰
-      - 🇧🇭_BH_巴林->🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇨🇾_CY_塞浦路斯->🇹🇷_TR_土耳其
-      - 🇰🇬_KG_吉尔吉斯斯坦->🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇮🇱_IL_以色列->🇳🇱_NL_荷兰
-      - 🇧🇭_BH_巴林->🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇨🇾_CY_塞浦路斯->🇹🇷_TR_土耳其
-      - 🇰🇬_KG_吉尔吉斯斯坦->🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -189,14 +161,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇮🇱_IL_以色列->🇳🇱_NL_荷兰
-      - 🇧🇭_BH_巴林->🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇨🇾_CY_塞浦路斯->🇹🇷_TR_土耳其
-      - 🇰🇬_KG_吉尔吉斯斯坦->🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
 
 rules:
 # 本地/局域网地址
