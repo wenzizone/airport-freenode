@@ -78,95 +78,95 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇺🇸_US_美国->🇵🇳_PN_皮特凯恩","type":"vmess","server":"173.249.197.176","port":443,"cipher":"auto","uuid":"e4c9dc48-f9dc-4d9b-9318-a3933d113736","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"www.blueberrywindow.online","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.blueberrywindow.online"}}}
-  - {"name":"🇺🇸_US_美国_2","type":"trojan","server":"89.116.180.179","port":443,"udp":true,"password":"676ccd3b-793d-4efd-b93c-48943711055d","sni":"p6us4.pqjc.buzz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/pq/us4","headers":{"host":"p6us4.pqjc.buzz"}}}
-  - {"name":"🇺🇸_US_美国_3","type":"vmess","server":"172.67.212.114","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.crispyrainbow.biz"}}}
-  - {"name":"🇺🇸_US_美国_4","type":"vmess","server":"172.67.166.190","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.crispyrainbow.online"}}}
-  - {"name":"🇺🇸_US_美国_5","type":"vmess","server":"104.21.83.10","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.coldstone.club"}}}
-  - {"name":"🇪🇸_ES_西班牙->🇭🇰_HK_香港","type":"vmess","server":"185.214.103.249","port":8002,"cipher":"auto","uuid":"e096b14e-b746-3dda-bc95-a435b4b2aceb","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/db00","headers":{"host":"cache-hk-1.cn-db.top"}}}
-  - {"name":"🇬🇧_GB_英国","type":"trojan","server":"13.42.93.180","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.miwan.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"server32.beheshtbaneh.com","port":8880,"cipher":"auto","uuid":"044ba8ed-7285-472a-bc14-fb91dc6be4c9","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"server32.beheshtbaneh.com"}}}
+  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"104.22.51.162","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"my1.tooters.ir"}}}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国","type":"trojan","server":"xibaozi.19890604.day","port":10850,"udp":true,"password":"e8977c57-c5c2-478f-a67a-5af7ba873eac","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_3","type":"vmess","server":"104.24.208.37","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"my1.tooters.ir"}}}
+  - {"name":"🇺🇸_US_美国_4","type":"vmess","server":"www.crispyrainbow.online","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.crispyrainbow.online"}}}
+  - {"name":"🇺🇸_US_美国_5","type":"vmess","server":"172.67.166.190","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.crispyrainbow.online"}}}
+  - {"name":"🇨🇳_CN_中国->🇨🇿_CZ_捷克","type":"trojan","server":"xibaozi.19890604.day","port":10846,"udp":true,"password":"e8977c57-c5c2-478f-a67a-5af7ba873eac","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_6","type":"vmess","server":"104.21.94.99","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.blueberrywindow.online"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国->🇵🇳_PN_皮特凯恩
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
-      - 🇪🇸_ES_西班牙->🇭🇰_HK_香港
-      - 🇬🇧_GB_英国
+      - 🇨🇳_CN_中国->🇨🇿_CZ_捷克
+      - 🇺🇸_US_美国_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国->🇵🇳_PN_皮特凯恩
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
-      - 🇪🇸_ES_西班牙->🇭🇰_HK_香港
-      - 🇬🇧_GB_英国
+      - 🇨🇳_CN_中国->🇨🇿_CZ_捷克
+      - 🇺🇸_US_美国_6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇵🇳_PN_皮特凯恩
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
-      - 🇪🇸_ES_西班牙->🇭🇰_HK_香港
-      - 🇬🇧_GB_英国
+      - 🇨🇳_CN_中国->🇨🇿_CZ_捷克
+      - 🇺🇸_US_美国_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇵🇳_PN_皮特凯恩
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
-      - 🇪🇸_ES_西班牙->🇭🇰_HK_香港
-      - 🇬🇧_GB_英国
+      - 🇨🇳_CN_中国->🇨🇿_CZ_捷克
+      - 🇺🇸_US_美国_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国->🇵🇳_PN_皮特凯恩
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
-      - 🇪🇸_ES_西班牙->🇭🇰_HK_香港
-      - 🇬🇧_GB_英国
+      - 🇨🇳_CN_中国->🇨🇿_CZ_捷克
+      - 🇺🇸_US_美国_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇵🇳_PN_皮特凯恩
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
-      - 🇪🇸_ES_西班牙->🇭🇰_HK_香港
-      - 🇬🇧_GB_英国
+      - 🇨🇳_CN_中国->🇨🇿_CZ_捷克
+      - 🇺🇸_US_美国_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -189,14 +189,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国->🇵🇳_PN_皮特凯恩
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
-      - 🇪🇸_ES_西班牙->🇭🇰_HK_香港
-      - 🇬🇧_GB_英国
+      - 🇨🇳_CN_中国->🇨🇿_CZ_捷克
+      - 🇺🇸_US_美国_6
 
 rules:
 # 本地/局域网地址
