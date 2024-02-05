@@ -80,166 +80,131 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 7"
+  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57->\u9983\u56A6\u9983\u56A4\
+    _NL_\u947D\u5CF0\u53DE"
   network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
+  port: 2095
+  server: 172.67.185.208
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  uuid: 3c1cca21-1373-4707-a575-195e9da0fb71
   ws-opts:
     headers:
-      Host: server31.beheshtbaneh.com
+      Host: ebiii.fozool76.lol
     path: /
-- name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 18.134.176.184
-  skip-cert-verify: false
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_17"
+  name: "\U0001F1EA\U0001F1F8_ES_\u897F\u73ED\u7259->\U0001F1ED\U0001F1F0_HK_\u9999\
+    \u6E2F"
   network: ws
-  port: 8080
-  server: 104.21.23.176
+  port: 8002
+  server: 185.214.103.249
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: e096b14e-b746-3dda-bc95-a435b4b2aceb
   ws-opts:
     headers:
-      host: www.crispyrainbow.biz
-    path: /
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E8\U0001F1FF_CZ_\u6377\u514B"
+      host: cache-hk-1.cn-db.top
+    path: /db00
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10846
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u56AD\u9983\
-    \u56AB_US_\u7F07\u5EA1\u6D57"
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10850
-  server: xibaozi.19890604.day
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-- name: "\U0001F1F3\U0001F1FF_NZ_\u65B0\u897F\u5170"
-  network: tcp
-  password: 11e247e5-136d-45f1-844a-a7f054d36bab
+  password: 94fe4445-fc3f-4dd4-9bac-438b54f994c9
   port: 443
-  server: 216.73.156.230
+  server: 213.202.216.14
   skip-cert-verify: true
-  sni: 216.73.156.230
+  sni: downloadde.xn--mes358acgm99l.com
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 16"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_7"
   network: ws
   port: 8880
-  server: server3.beheshtbaneh.com
-  skip-cert-verify: false
-  tfo: false
+  server: 104.21.82.183
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: e305fc57-6153-4650-8c52-9a36865a199d
+  uuid: c5626b16-4c57-4d7e-8668-6b1ecda5c8b5
   ws-opts:
     headers:
-      Host: server3.beheshtbaneh.com
+      host: server6.beheshtbaneh.com
     path: /
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _3"
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10837
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_13"
-  network: http
-  port: 12079
-  server: 45.32.192.94
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e63f477b-59d7-485e-9385-c38888b60cbf
-- client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u56AD\u9983\
-    \u56AB_US_\u7F07\u5EA1\u6D57 3"
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10847
-  server: xibaozi.19890604.day
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  network: ws
-  port: 80
-  server: 104.22.51.162
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: my1.tooters.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
   network: ws
   port: 8080
-  server: 104.21.94.99
+  server: www.darkroom.lol
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      host: www.blueberrywindow.online
+      host: www.darkroom.lol
     path: /
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
-    \u5170"
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10845
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
-    \u5170"
+  client-fingerprint: chrome
+  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 9"
+  network: ws
+  port: 8080
+  server: www.crispyrainbow.online
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.crispyrainbow.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
+    \u5927_2"
   network: ws
   port: 80
-  server: 104.17.2.183
+  server: 162.159.200.4
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
   ws-opts:
     headers:
-      host: v3ra3do.wakeuptimerap.shop
+      host: ca3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\
+    \u65AF\u8054\u90A6"
+  network: ws
+  port: 2083
+  server: 104.18.202.232
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0d3f0cf6-e010-4138-8133-140c07e5eafb
+  ws-opts:
+    headers:
+      host: joooin.golestan-vpn.link
+    path: /@golestan_vpn
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.darkroom.lol
     path: /
 - alterId: 0
   cipher: auto
@@ -257,373 +222,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
   network: ws
   port: 80
-  server: 104.18.15.148
+  server: 104.18.154.42
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
   ws-opts:
     headers:
-      host: er3.889611.com
+      host: us3.889611.com
     path: /
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _1"
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10847
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _4"
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10850
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57->\u9983\u56A0\u9983\u56AA\
-    _IR_\u6D7C\u5A43\u6E55 2"
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
-  network: ws
-  port: 8080
-  server: 172.67.166.190
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.crispyrainbow.online
-    path: /
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10850
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 19"
   network: ws
   port: 8880
-  server: server10.beheshtbaneh.com
+  server: server5.beheshtbaneh.com
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 66d4af1c-fcc3-479b-847c-3260253e1faa
+  uuid: 352ecc6f-21f1-4dc8-8177-4ebd52c55b12
   ws-opts:
     headers:
-      Host: server10.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 15"
-  network: ws
-  port: 8880
-  server: server4.beheshtbaneh.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b7e04f2a-2a6a-4b74-a11e-06f658c36391
-  ws-opts:
-    headers:
-      Host: server4.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
-  network: ws
-  port: 80
-  server: 104.24.208.37
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: my1.tooters.ir
-    path: /
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _4"
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10838
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 6"
-  network: ws
-  port: 8080
-  server: 104.21.94.99
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.blueberrywindow.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717\
-    _1"
-  network: ws
-  port: 8080
-  server: www.crispyrainbow.biz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.crispyrainbow.biz
-    path: /
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _1"
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10850
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_10"
-  network: ws
-  port: 8880
-  server: 104.21.32.215
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
-  ws-opts:
-    headers:
-      host: a3.bcbot.in
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_14"
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c5626b16-4c57-4d7e-8668-6b1ecda5c8b5
-  ws-opts:
-    headers:
-      host: server6.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_12"
-  network: ws
-  port: 2052
-  server: 104.17.19.122
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e393dd86-fddc-4bce-8abe-d902cf831670
-  ws-opts:
-    headers:
-      host: us2jdgv5GC7.fzbqfrse.xyz
-    path: /video/DDC4btA8wc/
-- grpc-opts:
-    grpc-service-name: mahanvip.mahantu.top
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: grpc
-  password: Mahanvpn
-  port: 443
-  server: 104.17.186.227
-  skip-cert-verify: false
-  sni: mahanvip.mahantu.top
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 8"
-  network: ws
-  port: 8080
-  server: 172.67.212.114
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.crispyrainbow.biz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  network: ws
-  port: 80
-  server: 104.18.15.149
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: er3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
-  network: ws
-  port: 2052
-  server: 104.19.87.19
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e393dd86-fddc-4bce-8abe-d902cf831670
-  ws-opts:
-    headers:
-      host: us2jdgv5GC7.fzbqfrse.xyz
-    path: /video/DDC4btA8wc/
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _2"
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10838
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57->\u9983\u56AA\u9983\u56A7\
-    _RO_\u7F03\u6945\u2508\u704F\u95F4\u7C39"
-  network: ws
-  port: 80
-  server: 104.17.25.1
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4e23bd4f-cc11-4ade-fbc1-fcaf245662bf
-  ws-opts:
-    headers:
-      Host: lmnyvpn.catnipballs.gay
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  network: ws
-  port: 8080
-  server: www.crispyrainbow.online
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.crispyrainbow.online
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 11"
-  network: ws
-  port: 8080
-  server: www.blueberrywindow.online
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.blueberrywindow.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_8"
-  network: ws
-  port: 8880
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30
-  ws-opts:
-    headers:
-      host: us6gzxQRrE4.fzbqfrse.xyz
-    path: /video/bYdJ7Vc2We
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57->\u9983\u56A0\u9983\u56AA\
-    _IR_\u6D7C\u5A43\u6E55"
-  network: ws
-  port: 8080
-  server: www.crispyrainbow.biz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.crispyrainbow.biz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_7"
-  network: ws
-  port: 80
-  server: 162.159.200.6
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: er3.889611.com
+      Host: server5.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
@@ -641,17 +266,327 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_16"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
   network: ws
   port: 8880
-  server: server3.beheshtbaneh.com
+  server: server26.beheshtbaneh.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: e305fc57-6153-4650-8c52-9a36865a199d
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
   ws-opts:
     headers:
-      host: server3.beheshtbaneh.com
+      host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
+  network: ws
+  port: 80
+  server: 104.18.15.148
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      host: er3.889611.com
+    path: /
+- name: "\U0001F1F3\U0001F1FF_NZ_\u65B0\u897F\u5170"
+  network: tcp
+  password: 11e247e5-136d-45f1-844a-a7f054d36bab
+  port: 443
+  server: 216.73.156.230
+  skip-cert-verify: true
+  sni: 216.73.156.230
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57->\u9983\u56AA\u9983\u56AD\
+    _RU_\u6DC7\u52ED\u7D8F\u93C2\uFFFD\u9471\u65C8\u504A"
+  network: ws
+  port: 2083
+  server: 104.18.202.232
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 0d3f0cf6-e010-4138-8133-140c07e5eafb
+  ws-opts:
+    headers:
+      Host: joooin.golestan-vpn.link
+    path: /@golestan_vpn
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_15"
+  network: ws
+  port: 8080
+  server: www.crispyrainbow.biz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.crispyrainbow.biz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  network: ws
+  port: 8880
+  server: server32.beheshtbaneh.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+  ws-opts:
+    headers:
+      host: server32.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
+  network: ws
+  port: 2095
+  server: 172.67.185.208
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3c1cca21-1373-4707-a575-195e9da0fb71
+  ws-opts:
+    headers:
+      host: ebiii.fozool76.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_18"
+  network: ws
+  port: 8880
+  server: server9.beheshtbaneh.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 62575747-37b4-4bf8-9ac5-95d214003be1
+  ws-opts:
+    headers:
+      host: server9.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 16"
+  network: ws
+  port: 8080
+  server: 104.21.94.99
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.blueberrywindow.online
+    path: /
+- grpc-opts:
+    grpc-service-name: mahanvip.mahantu.top
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  network: grpc
+  password: Mahanvpn
+  port: 443
+  server: 104.17.186.227
+  skip-cert-verify: false
+  sni: mahanvip.mahantu.top
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F1\U0001F1FE_LY_\u5229\u6BD4\u4E9A->\U0001F1F9\U0001F1F7_TR_\u571F\
+    \u8033\u5176"
+  network: ws
+  port: 80
+  server: 197.215.140.234
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
+  ws-opts:
+    headers:
+      host: softiri.serveirc.com
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
+  network: ws
+  port: 8880
+  server: server4.beheshtbaneh.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b7e04f2a-2a6a-4b74-a11e-06f658c36391
+  ws-opts:
+    headers:
+      host: server4.beheshtbaneh.com
+    path: /
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  network: tcp
+  password: 7522e2c27233459aab8d0f1d715828d0
+  port: 443
+  server: 104.160.18.251
+  skip-cert-verify: true
+  sni: www.gpt123.one
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
+  network: ws
+  port: 80
+  server: 45.144.2.113
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      host: www.apple.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 6"
+  network: ws
+  port: 8880
+  server: server13.beheshtbaneh.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 0c0db4fe-6133-4837-9f57-0ce75fb59692
+  ws-opts:
+    headers:
+      Host: server13.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 3"
+  network: ws
+  port: 8880
+  server: server32.beheshtbaneh.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+  ws-opts:
+    headers:
+      Host: server32.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_8"
+  network: ws
+  port: 8880
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30
+  ws-opts:
+    headers:
+      host: us6gzxQRrE4.fzbqfrse.xyz
+    path: /video/bYdJ7Vc2We
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
+    \u5170"
+  network: ws
+  port: 80
+  server: 104.17.2.183
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  ws-opts:
+    headers:
+      host: v3ra3do.wakeuptimerap.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
+  network: ws
+  port: 80
+  server: 45.144.2.113
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f
+  ws-opts:
+    headers:
+      host: 45.144.2.113
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
+  network: ws
+  port: 8080
+  server: 172.67.212.114
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.crispyrainbow.biz
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 11"
+  network: ws
+  port: 8880
+  server: server4.beheshtbaneh.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b7e04f2a-2a6a-4b74-a11e-06f658c36391
+  ws-opts:
+    headers:
+      Host: server4.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
+  network: ws
+  port: 8080
+  server: 104.21.23.176
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.crispyrainbow.biz
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 4"
+  network: ws
+  port: 8080
+  server: 104.21.23.176
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.crispyrainbow.biz
     path: /
 - alterId: 0
   cipher: auto
@@ -671,255 +606,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 2"
-  network: ws
-  port: 80
-  server: 104.22.51.162
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 5"
-  network: ws
-  port: 8080
-  server: 172.67.166.190
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.crispyrainbow.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
-  network: ws
-  port: 80
-  server: 104.18.154.42
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: us3.889611.com
-    path: /
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E6\U0001F1F9_AT_\u5965\u5730\
-    \u5229"
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10848
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F1\U0001F1FE_LY_\u5229\u6BD4\u4E9A->\U0001F1F9\U0001F1F7_TR_\u571F\
-    \u8033\u5176"
-  network: ws
-  port: 80
-  server: 197.215.140.234
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
-  ws-opts:
-    headers:
-      host: softiri.serveirc.com
-    path: /@forwardv2ray
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _3"
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10847
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: "\u9983\u569E\u9983\u5699 _GB_\u947B\u535E\u6D57"
-  password: telegram-id-directvpn
-  port: 22222
-  server: 18.134.176.184
-  skip-cert-verify: false
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_8"
-  network: ws
-  port: 8080
-  server: 172.67.212.114
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.crispyrainbow.biz
-    path: /
-- client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u5698 _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u56AD\u9983\
-    \u5698_UA_\u6D94\u5C7D\u53A0\u934F\uFFFD"
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10845
-  server: xibaozi.19890604.day
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-- client-fingerprint: chrome
-  name: "\u9983\u5698\u9983\u56AC _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u5698\u9983\
-    \u56AC_AT_\u6FC2\u30E5\u6E74\u9352\uFFFD"
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10848
-  server: xibaozi.19890604.day
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 12"
-  network: ws
-  port: 2052
-  server: 104.17.19.122
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e393dd86-fddc-4bce-8abe-d902cf831670
-  ws-opts:
-    headers:
-      Host: us2jdgv5GC7.fzbqfrse.xyz
-    path: /video/DDC4btA8wc/
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 18"
-  network: ws
-  port: 80
-  server: 104.20.231.30
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 4"
-  network: ws
-  port: 8080
-  server: www.crispyrainbow.online
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.crispyrainbow.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_11"
-  network: ws
-  port: 8080
-  server: www.blueberrywindow.online
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.blueberrywindow.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F0\U0001F1FF_KZ_\u54C8\u8428\u514B\u65AF\u5766"
-  network: tcp
-  port: 8443
-  server: kz-v2ray.ipracevpn.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 48b10b02-2c60-4323-bc65-a11b15144745
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_7"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_10"
   network: ws
   port: 8880
-  server: server31.beheshtbaneh.com
+  server: 104.21.32.215
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
   ws-opts:
     headers:
-      host: server31.beheshtbaneh.com
+      host: a3.bcbot.in
     path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 17"
+  name: "\u9983\u56AA\u9983\u56AD _RU_\u6DC7\u52ED\u7D8F\u93C2\uFFFD\u9471\u65C8\u504A"
   network: ws
-  port: 8080
-  server: 104.21.23.176
+  port: 80
+  server: 45.144.2.113
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f
   ws-opts:
     headers:
-      Host: www.crispyrainbow.biz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  network: ws
-  port: 8880
-  server: server32.beheshtbaneh.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-  ws-opts:
-    headers:
-      host: server32.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\
-    \u5C3C\u4E9A"
-  network: ws
-  port: 80
-  server: 104.17.25.1
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4e23bd4f-cc11-4ade-fbc1-fcaf245662bf
-  ws-opts:
-    headers:
-      host: lmnyvpn.catnipballs.gay
+      Host: 45.144.2.113
     path: /
 - alterId: 0
   cipher: auto
@@ -938,70 +651,322 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717\
-    _2"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  network: ws
+  port: 80
+  server: 104.18.15.147
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      host: er3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
+  network: ws
+  port: 80
+  server: 104.18.15.149
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      host: er3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_7"
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b2c3b2d3-c21c-4a33-b55c-db589d485487
+  ws-opts:
+    headers:
+      host: worker-falling-leaf-df34.dtdacxjh.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
+  network: ws
+  port: 8880
+  server: server13.beheshtbaneh.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0c0db4fe-6133-4837-9f57-0ce75fb59692
+  ws-opts:
+    headers:
+      host: server13.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_11"
+  network: ws
+  port: 8880
+  server: server4.beheshtbaneh.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b7e04f2a-2a6a-4b74-a11e-06f658c36391
+  ws-opts:
+    headers:
+      host: server4.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_12"
   network: ws
   port: 8080
-  server: www.darkroom.lol
+  server: www.blueberrywindow.online
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      host: www.darkroom.lol
+      host: www.blueberrywindow.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
+  network: ws
+  port: 8880
+  server: server20.beheshtbaneh.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692
+  ws-opts:
+    headers:
+      host: server20.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 2"
+  network: ws
+  port: 8080
+  server: 172.67.166.190
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.crispyrainbow.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_8"
+  network: ws
+  port: 8880
+  server: server20.beheshtbaneh.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692
+  ws-opts:
+    headers:
+      host: server20.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 10"
   network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
+  port: 8880
+  server: server3.beheshtbaneh.com
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: e393dd86-fddc-4bce-8abe-d902cf831670
+  uuid: e305fc57-6153-4650-8c52-9a36865a199d
   ws-opts:
     headers:
-      Host: us2jdgv5GC7.fzbqfrse.xyz
-    path: /video/DDC4btA8wc/
-- client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u56AD\u9983\
-    \u56AB_US_\u7F07\u5EA1\u6D57 2"
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10837
-  server: xibaozi.19890604.day
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
+      Host: server3.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F0\U0001F1FF_KZ_\u54C8\u8428\u514B\u65AF\u5766"
+  network: tcp
+  port: 8443
+  server: kz-v2ray.ipracevpn.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 48b10b02-2c60-4323-bc65-a11b15144745
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
+  network: ws
+  port: 8080
+  server: www.crispyrainbow.online
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.crispyrainbow.online
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 3"
+  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 13"
   network: ws
-  port: 80
-  server: 104.24.208.37
+  port: 8080
+  server: www.darkroom.lol
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      Host: my1.tooters.ir
+      Host: www.darkroom.lol
     path: /
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _2"
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10837
-  server: xibaozi.19890604.day
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 5"
+  network: ws
+  port: 8880
+  server: server26.beheshtbaneh.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 7"
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b2c3b2d3-c21c-4a33-b55c-db589d485487
+  ws-opts:
+    headers:
+      Host: worker-falling-leaf-df34.dtdacxjh.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_14"
+  network: ws
+  port: 8880
+  server: 104.21.82.183
   skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
+  tls: false
+  type: vmess
+  uuid: c5626b16-4c57-4d7e-8668-6b1ecda5c8b5
+  ws-opts:
+    headers:
+      host: server6.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_16"
+  network: ws
+  port: 8080
+  server: 104.21.94.99
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.blueberrywindow.online
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 12"
+  network: ws
+  port: 8080
+  server: www.blueberrywindow.online
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.blueberrywindow.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_10"
+  network: ws
+  port: 8880
+  server: server3.beheshtbaneh.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e305fc57-6153-4650-8c52-9a36865a199d
+  ws-opts:
+    headers:
+      host: server3.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  network: ws
+  port: 8080
+  server: 172.67.166.190
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.crispyrainbow.online
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 15"
+  network: ws
+  port: 8080
+  server: www.crispyrainbow.biz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.crispyrainbow.biz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_17"
+  network: ws
+  port: 8080
+  server: 172.67.212.114
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.crispyrainbow.biz
+    path: /
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
@@ -1018,108 +983,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57"
-  network: ws
-  port: 8880
-  server: server32.beheshtbaneh.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-  ws-opts:
-    headers:
-      Host: server32.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_18"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_7"
   network: ws
   port: 80
-  server: 104.20.231.30
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: my1.tooters.ir
-    path: /
-- client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u56AD\u9983\
-    \u56AB_US_\u7F07\u5EA1\u6D57 4"
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10838
-  server: xibaozi.19890604.day
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_10"
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e393dd86-fddc-4bce-8abe-d902cf831670
-  ws-opts:
-    headers:
-      host: us2jdgv5GC7.fzbqfrse.xyz
-    path: /video/DDC4btA8wc/
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 9"
-  network: ws
-  port: 2052
-  server: 104.19.87.19
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e393dd86-fddc-4bce-8abe-d902cf831670
-  ws-opts:
-    headers:
-      Host: us2jdgv5GC7.fzbqfrse.xyz
-    path: /video/DDC4btA8wc/
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
-    \u5927_2"
-  network: ws
-  port: 80
-  server: 162.159.200.4
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: ca3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_19"
-  network: ws
-  port: 8880
-  server: server10.beheshtbaneh.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 66d4af1c-fcc3-479b-847c-3260253e1faa
-  ws-opts:
-    headers:
-      host: server10.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  network: ws
-  port: 80
-  server: 104.18.15.147
+  server: 162.159.200.6
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1128,67 +995,106 @@ proxies:
     headers:
       host: er3.889611.com
     path: /
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: tcp
-  password: 94fe4445-fc3f-4dd4-9bac-438b54f994c9
-  port: 443
-  server: 213.202.216.14
-  skip-cert-verify: true
-  sni: downloadde.xn--mes358acgm99l.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 13"
-  network: http
-  port: 12079
-  server: 45.32.192.94
+  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 18"
+  network: ws
+  port: 8880
+  server: server9.beheshtbaneh.com
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: e63f477b-59d7-485e-9385-c38888b60cbf
+  uuid: 62575747-37b4-4bf8-9ac5-95d214003be1
+  ws-opts:
+    headers:
+      Host: server9.beheshtbaneh.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_15"
+  client-fingerprint: chrome
+  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 8"
   network: ws
   port: 8880
-  server: server4.beheshtbaneh.com
+  server: server20.beheshtbaneh.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692
+  ws-opts:
+    headers:
+      Host: server20.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_19"
+  network: ws
+  port: 8880
+  server: server5.beheshtbaneh.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: b7e04f2a-2a6a-4b74-a11e-06f658c36391
+  uuid: 352ecc6f-21f1-4dc8-8177-4ebd52c55b12
   ws-opts:
     headers:
-      host: server4.beheshtbaneh.com
+      host: server5.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\u9983\u569F\u9983\u56A2 _ES_\u7457\u8DE8\u5F6E\u9417\uFFFD->\u9983\u569F\
+    \u9983\u56A2_HK_\u68E3\u6B10\u8150"
+  network: ws
+  port: 8002
+  server: 185.214.103.249
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e096b14e-b746-3dda-bc95-a435b4b2aceb
+  ws-opts:
+    headers:
+      Host: cache-hk-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 17"
+  network: ws
+  port: 8080
+  server: 172.67.212.114
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.crispyrainbow.biz
     path: /
 - client-fingerprint: chrome
-  name: "\u9983\u569A\u9983\u56B3 _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u569A\u9983\
-    \u56B3_CZ_\u93B9\u5CF0\u53A0"
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10846
-  server: xibaozi.19890604.day
+  name: "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57"
+  password: 7522e2c27233459aab8d0f1d715828d0
+  port: 443
+  server: 104.160.18.251
   skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
+  sni: www.gpt123.one
   type: trojan
 - alterId: 0
   cipher: auto
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
   network: ws
-  port: 80
-  server: 45.144.2.113
+  port: 8880
+  server: server9.beheshtbaneh.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  uuid: 62575747-37b4-4bf8-9ac5-95d214003be1
   ws-opts:
     headers:
-      host: www.apple.com
+      host: server9.beheshtbaneh.com
     path: /
 proxy-groups:
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
@@ -1197,76 +1103,54 @@ proxy-groups:
   - DIRECT
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E8\U0001F1FF_CZ_\u6377\u514B"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717_1"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_7"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_8"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_10"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_11"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_12"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_13"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_14"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_15"
-  - "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717_2"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E6\U0001F1F9_AT_\u5965\u5730\u5229"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_16"
+  - "\U0001F1EA\U0001F1F8_ES_\u897F\u73ED\u7259->\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_17"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_18"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\u5C3C\
-    \u4E9A"
+  - "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_19"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\
+    \u8054\u90A6"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 2"
-  - "\u9983\u56AD\u9983\u56AB _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u56AD\u9983\u56AB\
-    _US_\u7F07\u5EA1\u6D57"
+  - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57->\u9983\u56A6\u9983\u56A4_NL_\u947D\
+    \u5CF0\u53DE"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 3"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 4"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 5"
-  - "\u9983\u569A\u9983\u56B3 _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u569A\u9983\u56B3\
-    _CZ_\u93B9\u5CF0\u53A0"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 6"
-  - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57->\u9983\u56A0\u9983\u56AA_IR_\u6D7C\
-    \u5A43\u6E55"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 7"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 8"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 9"
-  - "\u9983\u56AD\u9983\u56AB _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u56AD\u9983\u56AB\
-    _US_\u7F07\u5EA1\u6D57 2"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 10"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 11"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 12"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 13"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 14"
-  - "\u9983\u56AD\u9983\u56AB _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u56AD\u9983\u56AB\
-    _US_\u7F07\u5EA1\u6D57 3"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 15"
-  - "\u9983\u569E\u9983\u5699 _GB_\u947B\u535E\u6D57"
-  - "\u9983\u56AD\u9983\u56AB _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u56AD\u9983\u56AB\
-    _US_\u7F07\u5EA1\u6D57 4"
-  - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57->\u9983\u56A0\u9983\u56AA_IR_\u6D7C\
-    \u5A43\u6E55 2"
-  - "\u9983\u5698\u9983\u56AC _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u5698\u9983\u56AC\
-    _AT_\u6FC2\u30E5\u6E74\u9352\uFFFD"
-  - "\u9983\u56AD\u9983\u5698 _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u56AD\u9983\u5698\
-    _UA_\u6D94\u5C7D\u53A0\u934F\uFFFD"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 16"
+  - "\u9983\u569F\u9983\u56A2 _ES_\u7457\u8DE8\u5F6E\u9417\uFFFD->\u9983\u569F\u9983\
+    \u56A2_HK_\u68E3\u6B10\u8150"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 17"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 18"
-  - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57->\u9983\u56AA\u9983\u56A7_RO_\u7F03\
-    \u6945\u2508\u704F\u95F4\u7C39"
+  - "\u9983\u56AA\u9983\u56AD _RU_\u6DC7\u52ED\u7D8F\u93C2\uFFFD\u9471\u65C8\u504A"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 19"
+  - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57->\u9983\u56AA\u9983\u56AD_RU_\u6DC7\
+    \u52ED\u7D8F\u93C2\uFFFD\u9471\u65C8\u504A"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927\
     _1"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
@@ -1274,7 +1158,6 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
   - "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   - "\U0001F1F3\U0001F1FF_NZ_\u65B0\u897F\u5170"
-  - "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
   - "\U0001F1F1\U0001F1FE_LY_\u5229\u6BD4\u4E9A->\U0001F1F9\U0001F1F7_TR_\u571F\u8033\
     \u5176"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927\
@@ -1285,76 +1168,54 @@ proxy-groups:
   proxies:
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E8\U0001F1FF_CZ_\u6377\u514B"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717_1"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_7"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_8"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_10"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_11"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_12"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_13"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_14"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_15"
-  - "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717_2"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E6\U0001F1F9_AT_\u5965\u5730\u5229"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_16"
+  - "\U0001F1EA\U0001F1F8_ES_\u897F\u73ED\u7259->\U0001F1ED\U0001F1F0_HK_\u9999\u6E2F"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_17"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_18"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\u5C3C\
-    \u4E9A"
+  - "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_19"
-  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\
+    \u8054\u90A6"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 2"
-  - "\u9983\u56AD\u9983\u56AB _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u56AD\u9983\u56AB\
-    _US_\u7F07\u5EA1\u6D57"
+  - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57->\u9983\u56A6\u9983\u56A4_NL_\u947D\
+    \u5CF0\u53DE"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 3"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 4"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 5"
-  - "\u9983\u569A\u9983\u56B3 _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u569A\u9983\u56B3\
-    _CZ_\u93B9\u5CF0\u53A0"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 6"
-  - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57->\u9983\u56A0\u9983\u56AA_IR_\u6D7C\
-    \u5A43\u6E55"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 7"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 8"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 9"
-  - "\u9983\u56AD\u9983\u56AB _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u56AD\u9983\u56AB\
-    _US_\u7F07\u5EA1\u6D57 2"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 10"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 11"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 12"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 13"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 14"
-  - "\u9983\u56AD\u9983\u56AB _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u56AD\u9983\u56AB\
-    _US_\u7F07\u5EA1\u6D57 3"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 15"
-  - "\u9983\u569E\u9983\u5699 _GB_\u947B\u535E\u6D57"
-  - "\u9983\u56AD\u9983\u56AB _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u56AD\u9983\u56AB\
-    _US_\u7F07\u5EA1\u6D57 4"
-  - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57->\u9983\u56A0\u9983\u56AA_IR_\u6D7C\
-    \u5A43\u6E55 2"
-  - "\u9983\u5698\u9983\u56AC _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u5698\u9983\u56AC\
-    _AT_\u6FC2\u30E5\u6E74\u9352\uFFFD"
-  - "\u9983\u56AD\u9983\u5698 _CN_\u6D93\uFFFD\u9365\uFFFD->\u9983\u56AD\u9983\u5698\
-    _UA_\u6D94\u5C7D\u53A0\u934F\uFFFD"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 16"
+  - "\u9983\u569F\u9983\u56A2 _ES_\u7457\u8DE8\u5F6E\u9417\uFFFD->\u9983\u569F\u9983\
+    \u56A2_HK_\u68E3\u6B10\u8150"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 17"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 18"
-  - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57->\u9983\u56AA\u9983\u56A7_RO_\u7F03\
-    \u6945\u2508\u704F\u95F4\u7C39"
+  - "\u9983\u56AA\u9983\u56AD _RU_\u6DC7\u52ED\u7D8F\u93C2\uFFFD\u9471\u65C8\u504A"
   - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57 19"
+  - "\u9983\u56AD\u9983\u56AB _US_\u7F07\u5EA1\u6D57->\u9983\u56AA\u9983\u56AD_RU_\u6DC7\
+    \u52ED\u7D8F\u93C2\uFFFD\u9471\u65C8\u504A"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927\
     _1"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
@@ -1362,7 +1223,6 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
   - "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   - "\U0001F1F3\U0001F1FF_NZ_\u65B0\u897F\u5170"
-  - "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
   - "\U0001F1F1\U0001F1FE_LY_\u5229\u6BD4\u4E9A->\U0001F1F9\U0001F1F7_TR_\u571F\u8033\
     \u5176"
   - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927\
