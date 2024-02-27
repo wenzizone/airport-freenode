@@ -80,546 +80,10 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _25"
-  network: ws
-  port: 80
-  server: 104.21.225.78
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _18"
-  network: ws
-  port: 80
-  server: 104.21.239.78
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _31"
-  network: ws
-  port: 80
-  server: 104.21.225.136
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _26"
-  network: ws
-  port: 80
-  server: 104.21.238.93
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _23"
-  network: ws
-  port: 80
-  server: 104.21.239.79
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _17"
-  network: ws
-  port: 80
-  server: 104.21.239.98
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _33"
-  network: ws
-  port: 80
-  server: 104.21.225.233
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _38"
-  network: ws
-  port: 80
-  server: 104.21.235.76
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _10"
-  network: ws
-  port: 80
-  server: 104.21.225.185
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
-    \u5927_1"
-  network: ws
-  port: 80
-  server: 162.159.200.3
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: ca3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _19"
-  network: ws
-  port: 80
-  server: 104.21.231.57
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
     _9"
   network: ws
   port: 80
   server: 104.21.225.47
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _6"
-  network: ws
-  port: 80
-  server: 104.21.225.228
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _40"
-  network: ws
-  port: 80
-  server: 104.21.225.136
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _34"
-  network: ws
-  port: 80
-  server: 104.21.225.150
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _1"
-  network: ws
-  port: 80
-  server: 104.21.225.233
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _23"
-  network: ws
-  port: 80
-  server: 104.21.232.61
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _24"
-  network: ws
-  port: 80
-  server: 104.21.225.62
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _32"
-  network: ws
-  port: 80
-  server: 104.21.228.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  network: ws
-  port: 8880
-  server: a3.bcbot.in
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
-  ws-opts:
-    headers:
-      host: a3.bcbot.in
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _1"
-  network: ws
-  port: 80
-  server: 104.21.225.195
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
-  network: ws
-  port: 80
-  server: 162.159.200.7
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: er3.visaapp.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _45"
-  network: ws
-  port: 80
-  server: 104.21.232.44
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _14"
-  network: ws
-  port: 80
-  server: 104.21.225.148
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _33"
-  network: ws
-  port: 80
-  server: 104.21.237.67
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
-  network: ws
-  port: 80
-  server: 104.18.15.150
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: er3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _26"
-  network: ws
-  port: 80
-  server: 172.67.255.79
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _17"
-  network: ws
-  port: 80
-  server: 104.21.225.12
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
-  network: ws
-  port: 80
-  server: 45.144.2.113
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: www.apple.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _17"
-  network: ws
-  port: 80
-  server: 104.21.225.105
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _9"
-  network: ws
-  port: 80
-  server: 104.21.237.87
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _39"
-  network: ws
-  port: 80
-  server: 104.21.225.17
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _16"
-  network: ws
-  port: 80
-  server: 104.21.233.68
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _18"
-  network: ws
-  port: 80
-  server: 104.16.77.74
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: my1.tooters.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _8"
-  network: ws
-  port: 80
-  server: 104.21.228.20
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _35"
-  network: ws
-  port: 80
-  server: 104.21.236.81
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _29"
-  network: ws
-  port: 80
-  server: 104.21.225.92
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -645,21 +109,26 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  network: tcp
-  port: 50004
-  server: 14.18.91.151
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
+    \u5927_1"
+  network: ws
+  port: 80
+  server: 162.159.200.3
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      host: ca3.889611.com
+    path: /
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _1"
+    _26"
   network: ws
   port: 80
-  server: 104.21.228.21
+  server: 172.67.255.79
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -667,29 +136,14 @@ proxies:
   ws-opts:
     headers:
       host: a.prapt5.ir
-    path: /?ed=2048
+    path: /
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
     _42"
   network: ws
   port: 80
-  server: 172.67.253.71
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: my1.tooters.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _8"
-  network: ws
-  port: 80
-  server: 104.21.228.43
+  server: 172.67.254.191
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -716,76 +170,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _6"
-  network: ws
-  port: 80
-  server: 104.21.225.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F0\U0001F1FF_KZ_\u54C8\u8428\u514B\u65AF\u5766"
-  network: tcp
-  port: 8443
-  server: kz-v2ray.ipracevpn.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 48b10b02-2c60-4323-bc65-a11b15144745
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F1\U0001F1FE_LY_\u5229\u6BD4\u4E9A->\U0001F1F9\U0001F1F7_TR_\u571F\
-    \u8033\u5176"
-  network: ws
-  port: 80
-  server: 197.215.140.234
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
-  ws-opts:
-    headers:
-      host: softiri.serveirc.com
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _29"
-  network: ws
-  port: 80
-  server: 104.21.225.231
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _11"
-  network: ws
-  port: 80
-  server: 172.67.253.194
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: my1.tooters.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
     _35"
   network: ws
   port: 80
@@ -801,10 +185,10 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _12"
+    _8"
   network: ws
   port: 80
-  server: 104.21.236.61
+  server: 104.21.228.20
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -816,10 +200,10 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _4"
+    _24"
   network: ws
   port: 80
-  server: 104.21.236.63
+  server: 104.21.225.62
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -827,6 +211,21 @@ proxies:
   ws-opts:
     headers:
       host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _41"
+  network: ws
+  port: 80
+  server: 104.21.69.44
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt4.ir
     path: /
 - alterId: 0
   cipher: auto
@@ -834,7 +233,7 @@ proxies:
     _6"
   network: ws
   port: 80
-  server: 104.21.225.113
+  server: 104.21.225.250
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -843,140 +242,15 @@ proxies:
     headers:
       host: a.prapt5.ir
     path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _22"
-  network: ws
-  port: 80
-  server: 104.21.225.206
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  network: tcp
+  password: 94fe4445-fc3f-4dd4-9bac-438b54f994c9
+  port: 443
+  server: 213.202.216.14
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
-  network: ws
-  port: 80
-  server: 104.21.225.154
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _20"
-  network: ws
-  port: 80
-  server: 104.21.225.68
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _21"
-  network: ws
-  port: 80
-  server: 104.21.225.167
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _2"
-  network: ws
-  port: 80
-  server: 104.21.237.87
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _36"
-  network: ws
-  port: 80
-  server: 104.21.233.68
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F7_CR_\u54E5\u65AF\u8FBE\u9ECE\u52A0->\U0001F1E8\U0001F1E6\
-    _CA_\u52A0\u62FF\u5927_2"
-  network: ws
-  port: 8080
-  server: 190.93.246.113
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
-  ws-opts:
-    headers:
-      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _3"
-  network: ws
-  port: 80
-  server: 104.21.225.94
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _14"
-  network: ws
-  port: 80
-  server: 104.21.230.50
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
+  sni: downloadde.xn--mes358acgm99l.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: "\U0001F1E6\U0001F1EA_AE_\u963F\u8054\u914B->\U0001F1EC\U0001F1E7_GB_\u82F1\
@@ -995,263 +269,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _5"
-  network: ws
-  port: 80
-  server: 104.21.225.166
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _8"
-  network: ws
-  port: 80
-  server: 104.21.229.29
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _40"
-  network: ws
-  port: 80
-  server: 104.21.225.181
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: ws
-  port: 80
-  server: mci--join.outline-vpn.cloud
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _34"
-  network: ws
-  port: 80
-  server: 104.21.225.113
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _15"
-  network: ws
-  port: 80
-  server: 104.21.225.230
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 35.181.196.129
-  skip-cert-verify: true
-  sni: trojan.miwan.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _20"
-  network: ws
-  port: 80
-  server: 104.21.231.39
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _45"
-  network: ws
-  port: 80
-  server: 172.67.241.103
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _44"
-  network: ws
-  port: 80
-  server: 172.67.253.71
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: my1.tooters.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _13"
-  network: ws
-  port: 80
-  server: 104.21.231.57
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _13"
-  network: ws
-  port: 80
-  server: 104.21.225.20
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _12"
-  network: ws
-  port: 80
-  server: 104.21.238.70
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _37"
-  network: ws
-  port: 80
-  server: 104.21.228.20
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /?ed=2048
-- grpc-opts:
-    grpc-service-name: mahanvip.mahantu.top
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: grpc
-  password: Mahanvpn
-  port: 443
-  server: 104.17.186.227
-  skip-cert-verify: false
-  sni: mahanvip.mahantu.top
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _15"
-  network: ws
-  port: 80
-  server: 104.21.225.179
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  network: ws
-  port: 80
-  server: 104.18.15.147
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: er3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  network: ws
-  port: 8080
-  server: 108.162.192.253
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
-  ws-opts:
-    headers:
-      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
     _24"
   network: ws
   port: 80
@@ -1267,68 +284,10 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _25"
+    _4"
   network: ws
   port: 80
-  server: 104.21.225.121
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  network: ws
-  port: 80
-  server: 104.18.15.149
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: er3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_8"
-  network: ws
-  port: 8880
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30
-  ws-opts:
-    headers:
-      host: us6gzxQRrE4.fzbqfrse.xyz
-    path: /video/bYdJ7Vc2We
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _15"
-  network: ws
-  port: 80
-  server: 104.21.69.44
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt4.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _36"
-  network: ws
-  port: 80
-  server: 104.21.225.35
+  server: 104.21.236.63
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1340,255 +299,18 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _7"
+    _42"
   network: ws
   port: 80
-  server: 104.21.225.19
+  server: 172.67.253.71
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   ws-opts:
     headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _34"
-  network: ws
-  port: 80
-  server: 104.21.225.98
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _27"
-  network: ws
-  port: 80
-  server: 104.21.225.17
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  network: ws
-  port: 8080
-  server: 173.245.58.226
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
-  ws-opts:
-    headers:
-      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
-  network: ws
-  port: 80
-  server: 104.18.154.42
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: us3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _18"
-  network: ws
-  port: 80
-  server: 104.21.225.94
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _28"
-  network: ws
-  port: 80
-  server: 104.21.225.185
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
-    \u5170"
-  network: ws
-  port: 80
-  server: 104.17.2.183
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
-  ws-opts:
-    headers:
-      host: v3ra3do.wakeuptimerap.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _38"
-  network: ws
-  port: 80
-  server: 104.21.225.100
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _7"
-  network: ws
-  port: 80
-  server: 172.67.241.103
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_7"
-  network: ws
-  port: 80
-  server: 162.159.200.6
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: er3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _32"
-  network: ws
-  port: 80
-  server: 104.21.225.34
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _5"
-  network: ws
-  port: 80
-  server: 104.21.225.238
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _41"
-  network: ws
-  port: 80
-  server: 104.21.69.44
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt4.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _24"
-  network: ws
-  port: 80
-  server: 104.21.225.148
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _19"
-  network: ws
-  port: 80
-  server: 104.21.225.68
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F7_CR_\u54E5\u65AF\u8FBE\u9ECE\u52A0->\U0001F1E8\U0001F1E6\
-    _CA_\u52A0\u62FF\u5927_1"
-  network: ws
-  port: 8080
-  server: 190.93.246.198
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
-  ws-opts:
-    headers:
-      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+      host: my1.tooters.ir
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
@@ -1598,205 +320,35 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
   ws-opts:
     headers:
-      host: 45.144.2.113
+      host: www.apple.com
     path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _30"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
   network: ws
   port: 80
-  server: 104.21.231.55
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _3"
-  network: ws
-  port: 80
-  server: 104.21.235.76
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _31"
-  network: ws
-  port: 80
-  server: 104.21.225.55
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _22"
-  network: ws
-  port: 80
-  server: 104.21.225.238
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _39"
-  network: ws
-  port: 80
-  server: 104.21.230.51
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _22"
-  network: ws
-  port: 80
-  server: 104.21.225.82
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
-    \u5927_2"
-  network: ws
-  port: 80
-  server: 162.159.200.4
+  server: 104.18.15.150
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
   ws-opts:
     headers:
-      host: ca3.889611.com
+      host: er3.889611.com
     path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_10"
-  network: ws
-  port: 8880
-  server: 104.21.32.215
+  name: "\U0001F1F0\U0001F1FF_KZ_\u54C8\u8428\u514B\u65AF\u5766"
+  network: tcp
+  port: 8443
+  server: kz-v2ray.ipracevpn.com
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
-  ws-opts:
-    headers:
-      host: a3.bcbot.in
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _41"
-  network: ws
-  port: 80
-  server: 104.21.225.166
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _4"
-  network: ws
-  port: 80
-  server: 172.67.254.191
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _11"
-  network: ws
-  port: 80
-  server: 104.21.225.150
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _40"
-  network: ws
-  port: 80
-  server: 104.21.225.92
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _7"
-  network: ws
-  port: 80
-  server: 104.21.225.34
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
+  uuid: 48b10b02-2c60-4323-bc65-a11b15144745
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
@@ -1830,10 +382,10 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _27"
+    _40"
   network: ws
   port: 80
-  server: 104.21.225.98
+  server: 104.21.225.136
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1842,6 +394,49 @@ proxies:
     headers:
       host: a.prapt5.ir
     path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_10"
+  network: ws
+  port: 8880
+  server: 104.21.32.215
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
+  ws-opts:
+    headers:
+      host: a3.bcbot.in
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _5"
+  network: ws
+  port: 80
+  server: 104.21.225.238
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  network: ws
+  port: 8080
+  server: 173.245.58.226
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+  ws-opts:
+    headers:
+      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
@@ -1860,10 +455,10 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _12"
+    _3"
   network: ws
   port: 80
-  server: 104.21.225.62
+  server: 104.21.235.76
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1875,25 +470,10 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _11"
+    _37"
   network: ws
   port: 80
-  server: 104.21.225.27
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _4"
-  network: ws
-  port: 80
-  server: 104.21.231.38
+  server: 104.21.228.20
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1905,7 +485,165 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _32"
+  network: ws
+  port: 80
+  server: 104.21.225.34
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _12"
+  network: ws
+  port: 80
+  server: 104.21.236.61
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _28"
+  network: ws
+  port: 80
+  server: 104.21.232.44
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
+  network: ws
+  port: 80
+  server: 104.18.154.42
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      host: us3.889611.com
+    path: /
+- name: "\U0001F1F3\U0001F1FF_NZ_\u65B0\u897F\u5170"
+  network: tcp
+  password: 11e247e5-136d-45f1-844a-a7f054d36bab
+  port: 443
+  server: 216.73.156.230
+  skip-cert-verify: true
+  sni: 216.73.156.230
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _22"
+  network: ws
+  port: 80
+  server: 104.21.225.238
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
     _20"
+  network: ws
+  port: 80
+  server: 104.21.225.68
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _10"
+  network: ws
+  port: 80
+  server: 104.21.228.21
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _2"
+  network: ws
+  port: 80
+  server: 104.21.237.87
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _18"
+  network: ws
+  port: 80
+  server: 104.21.225.94
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _33"
+  network: ws
+  port: 80
+  server: 104.21.225.233
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _34"
   network: ws
   port: 80
   server: 104.21.225.150
@@ -1919,10 +657,159 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _41"
   network: ws
   port: 80
-  server: 104.18.15.148
+  server: 104.21.225.166
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _18"
+  network: ws
+  port: 80
+  server: 104.16.77.74
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: my1.tooters.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _37"
+  network: ws
+  port: 80
+  server: 172.67.254.3
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _2"
+  network: ws
+  port: 80
+  server: 104.21.239.78
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _45"
+  network: ws
+  port: 80
+  server: 172.67.241.103
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _35"
+  network: ws
+  port: 80
+  server: 104.21.236.81
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _15"
+  network: ws
+  port: 80
+  server: 104.21.225.230
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _30"
+  network: ws
+  port: 80
+  server: 104.21.225.221
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _30"
+  network: ws
+  port: 80
+  server: 104.21.231.55
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  network: ws
+  port: 8880
+  server: a3.bcbot.in
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
+  ws-opts:
+    headers:
+      host: a3.bcbot.in
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
+  network: ws
+  port: 80
+  server: 104.18.15.149
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1938,21 +825,6 @@ proxies:
   network: ws
   port: 80
   server: 104.21.236.81
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _14"
-  network: ws
-  port: 80
-  server: 104.21.225.121
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1979,6 +851,318 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _39"
+  network: ws
+  port: 80
+  server: 104.21.225.17
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _21"
+  network: ws
+  port: 80
+  server: 104.21.229.29
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _34"
+  network: ws
+  port: 80
+  server: 104.21.225.113
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _36"
+  network: ws
+  port: 80
+  server: 104.21.225.35
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
+  network: ws
+  port: 80
+  server: 45.144.2.113
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f
+  ws-opts:
+    headers:
+      host: 45.144.2.113
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _18"
+  network: ws
+  port: 80
+  server: 104.21.239.78
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_7"
+  network: ws
+  port: 80
+  server: 162.159.200.6
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      host: er3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _23"
+  network: ws
+  port: 80
+  server: 104.21.239.79
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _11"
+  network: ws
+  port: 80
+  server: 172.67.253.194
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: my1.tooters.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _28"
+  network: ws
+  port: 80
+  server: 104.21.225.90
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
+  network: ws
+  port: 80
+  server: 162.159.200.7
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      host: er3.visaapp.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _36"
+  network: ws
+  port: 80
+  server: 104.21.233.68
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _19"
+  network: ws
+  port: 80
+  server: 104.21.231.57
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _35"
+  network: ws
+  port: 80
+  server: 104.21.225.68
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F1\U0001F1FE_LY_\u5229\u6BD4\u4E9A->\U0001F1F9\U0001F1F7_TR_\u571F\
+    \u8033\u5176"
+  network: ws
+  port: 80
+  server: 197.215.140.234
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
+  ws-opts:
+    headers:
+      host: softiri.serveirc.com
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _1"
+  network: ws
+  port: 80
+  server: 104.21.225.195
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
+    \u5927_2"
+  network: ws
+  port: 80
+  server: 162.159.200.4
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      host: ca3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _25"
+  network: ws
+  port: 80
+  server: 104.21.225.78
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _29"
+  network: ws
+  port: 80
+  server: 104.21.225.92
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _34"
+  network: ws
+  port: 80
+  server: 104.21.225.98
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _23"
+  network: ws
+  port: 80
+  server: 104.21.225.35
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
     _13"
   network: ws
   port: 80
@@ -1993,25 +1177,566 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _17"
   network: ws
-  port: 8080
-  server: 104.17.123.55
+  port: 80
+  server: 104.21.225.12
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   ws-opts:
     headers:
-      host: pq.kmoljklj.top
-    path: /qZTtpya?ed=2048
+      host: a.prapt5.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _35"
+    _22"
+  network: ws
+  port: 80
+  server: 104.21.225.82
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  network: ws
+  port: 8080
+  server: 103.21.244.156
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  ws-opts:
+    headers:
+      host: larger-marketing-amounts-skin.trycloudflare.com
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _31"
+  network: ws
+  port: 80
+  server: 104.21.225.136
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _44"
+  network: ws
+  port: 80
+  server: 172.67.253.71
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: my1.tooters.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _43"
+  network: ws
+  port: 80
+  server: 104.21.225.179
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _26"
+  network: ws
+  port: 80
+  server: 104.21.238.93
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _33"
+  network: ws
+  port: 80
+  server: 104.21.237.67
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _40"
+  network: ws
+  port: 80
+  server: 104.21.225.92
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 35.181.196.129
+  skip-cert-verify: true
+  sni: trojan.miwan.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _38"
+  network: ws
+  port: 80
+  server: 104.21.225.55
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _20"
+  network: ws
+  port: 80
+  server: 104.21.231.39
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _36"
+  network: ws
+  port: 80
+  server: 104.21.234.51
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_8"
+  network: ws
+  port: 8880
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30
+  ws-opts:
+    headers:
+      host: us6gzxQRrE4.fzbqfrse.xyz
+    path: /video/bYdJ7Vc2We
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _44"
+  network: ws
+  port: 80
+  server: 104.21.225.20
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
+  network: ws
+  port: 8080
+  server: 108.162.192.253
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+  ws-opts:
+    headers:
+      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _14"
+  network: ws
+  port: 80
+  server: 104.21.230.50
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- grpc-opts:
+    grpc-service-name: mahanvip.mahantu.top
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  network: grpc
+  password: Mahanvpn
+  port: 443
+  server: 104.17.186.227
+  skip-cert-verify: false
+  sni: mahanvip.mahantu.top
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _21"
+  network: ws
+  port: 80
+  server: 104.21.225.167
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _19"
   network: ws
   port: 80
   server: 104.21.225.68
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _40"
+  network: ws
+  port: 80
+  server: 104.21.225.181
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  network: ws
+  port: 80
+  server: 104.18.15.147
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      host: er3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _15"
+  network: ws
+  port: 80
+  server: 104.21.69.44
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt4.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _27"
+  network: ws
+  port: 80
+  server: 104.21.225.98
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _12"
+  network: ws
+  port: 80
+  server: 104.21.225.62
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F7_CR_\u54E5\u65AF\u8FBE\u9ECE\u52A0->\U0001F1E8\U0001F1E6\
+    _CA_\u52A0\u62FF\u5927_1"
+  network: ws
+  port: 8080
+  server: 190.93.246.198
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+  ws-opts:
+    headers:
+      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F7_CR_\u54E5\u65AF\u8FBE\u9ECE\u52A0->\U0001F1E8\U0001F1E6\
+    _CA_\u52A0\u62FF\u5927_2"
+  network: ws
+  port: 8080
+  server: 190.93.246.113
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+  ws-opts:
+    headers:
+      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _13"
+  network: ws
+  port: 80
+  server: 104.21.231.57
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _4"
+  network: ws
+  port: 80
+  server: 104.21.231.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _14"
+  network: ws
+  port: 80
+  server: 104.21.225.148
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _8"
+  network: ws
+  port: 80
+  server: 104.21.229.29
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
+    \u5927"
+  network: ws
+  port: 8080
+  server: 198.41.219.235
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
+  ws-opts:
+    headers:
+      host: nest-emily-healing-h.trycloudflare.com
+    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _27"
+  network: ws
+  port: 80
+  server: 104.21.225.17
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _6"
+  network: ws
+  port: 80
+  server: 104.21.225.113
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _16"
+  network: ws
+  port: 80
+  server: 104.21.233.68
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _8"
+  network: ws
+  port: 80
+  server: 104.21.228.43
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _10"
+  network: ws
+  port: 80
+  server: 104.21.225.185
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _7"
+  network: ws
+  port: 80
+  server: 104.21.225.19
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  network: ws
+  port: 80
+  server: 104.21.225.154
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -2038,10 +1763,145 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _30"
+    _23"
   network: ws
   port: 80
-  server: 104.21.225.221
+  server: 104.21.232.61
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _13"
+  network: ws
+  port: 80
+  server: 104.21.225.20
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _15"
+  network: ws
+  port: 80
+  server: 104.21.225.179
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _45"
+  network: ws
+  port: 80
+  server: 104.21.232.44
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _24"
+  network: ws
+  port: 80
+  server: 104.21.225.148
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _39"
+  network: ws
+  port: 80
+  server: 104.21.232.61
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _31"
+  network: ws
+  port: 80
+  server: 104.21.225.55
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _28"
+  network: ws
+  port: 80
+  server: 104.21.225.185
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _38"
+  network: ws
+  port: 80
+  server: 104.21.225.100
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _1"
+  network: ws
+  port: 80
+  server: 104.21.225.233
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -2056,7 +1916,7 @@ proxies:
     _3"
   network: ws
   port: 80
-  server: 104.21.226.10
+  server: 104.21.225.94
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -2064,7 +1924,7 @@ proxies:
   ws-opts:
     headers:
       host: a.prapt5.ir
-    path: /?ed=2048
+    path: /
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
@@ -2083,151 +1943,7 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _21"
-  network: ws
-  port: 80
-  server: 104.21.229.29
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _33"
-  network: ws
-  port: 80
-  server: 104.16.77.74
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: my1.tooters.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _44"
-  network: ws
-  port: 80
-  server: 104.21.225.20
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _10"
-  network: ws
-  port: 80
-  server: 104.21.228.21
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /?ed=2048
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: tcp
-  password: 94fe4445-fc3f-4dd4-9bac-438b54f994c9
-  port: 443
-  server: 213.202.216.14
-  skip-cert-verify: true
-  sni: downloadde.xn--mes358acgm99l.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _36"
-  network: ws
-  port: 80
-  server: 104.21.234.51
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _23"
-  network: ws
-  port: 80
-  server: 104.21.225.35
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _25"
-  network: ws
-  port: 80
-  server: 104.21.225.228
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _38"
-  network: ws
-  port: 80
-  server: 104.21.225.55
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _5"
-  network: ws
-  port: 80
-  server: 104.21.233.66
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _2"
+    _30"
   network: ws
   port: 80
   server: 104.21.239.78
@@ -2242,40 +1958,10 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _43"
+    _25"
   network: ws
   port: 80
-  server: 104.21.225.179
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _16"
-  network: ws
-  port: 80
-  server: 104.21.232.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _37"
-  network: ws
-  port: 80
-  server: 172.67.254.3
+  server: 104.21.225.228
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -2316,55 +2002,25 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _37"
-  network: ws
-  port: 80
-  server: 104.21.225.206
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
   network: ws
   port: 8080
-  server: 103.21.244.156
+  server: 104.17.123.55
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
   ws-opts:
     headers:
-      host: larger-marketing-amounts-skin.trycloudflare.com
-    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+      host: pq.kmoljklj.top
+    path: /qZTtpya?ed=2048
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _39"
+    _20"
   network: ws
   port: 80
-  server: 104.21.232.61
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _28"
-  network: ws
-  port: 80
-  server: 104.21.225.90
+  server: 104.21.225.150
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -2373,51 +2029,6 @@ proxies:
     headers:
       host: a.prapt5.ir
     path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _30"
-  network: ws
-  port: 80
-  server: 104.21.239.78
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _28"
-  network: ws
-  port: 80
-  server: 104.21.232.44
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _42"
-  network: ws
-  port: 80
-  server: 172.67.254.191
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: a.prapt5.ir
-    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
@@ -2435,28 +2046,417 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
-    \u5927"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
+    \u5170"
   network: ws
-  port: 8080
-  server: 198.41.219.235
+  port: 80
+  server: 104.17.2.183
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
   ws-opts:
     headers:
-      host: nest-emily-healing-h.trycloudflare.com
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-- name: "\U0001F1F3\U0001F1FF_NZ_\u65B0\u897F\u5170"
-  network: tcp
-  password: 11e247e5-136d-45f1-844a-a7f054d36bab
-  port: 443
-  server: 216.73.156.230
+      host: v3ra3do.wakeuptimerap.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _4"
+  network: ws
+  port: 80
+  server: 172.67.254.191
   skip-cert-verify: true
-  sni: 216.73.156.230
-  type: trojan
-  udp: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _25"
+  network: ws
+  port: 80
+  server: 104.21.225.121
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _11"
+  network: ws
+  port: 80
+  server: 104.21.225.27
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _32"
+  network: ws
+  port: 80
+  server: 104.21.228.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _37"
+  network: ws
+  port: 80
+  server: 104.21.225.206
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _33"
+  network: ws
+  port: 80
+  server: 104.16.77.74
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: my1.tooters.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _1"
+  network: ws
+  port: 80
+  server: 104.21.228.21
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
+  network: ws
+  port: 80
+  server: 104.18.15.148
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      host: er3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _3"
+  network: ws
+  port: 80
+  server: 104.21.226.10
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _5"
+  network: ws
+  port: 80
+  server: 104.21.225.166
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _29"
+  network: ws
+  port: 80
+  server: 104.21.225.231
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _22"
+  network: ws
+  port: 80
+  server: 104.21.225.206
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _11"
+  network: ws
+  port: 80
+  server: 104.21.225.150
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _6"
+  network: ws
+  port: 80
+  server: 104.21.225.228
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _16"
+  network: ws
+  port: 80
+  server: 104.21.232.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  network: tcp
+  port: 50004
+  server: 14.18.91.151
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _14"
+  network: ws
+  port: 80
+  server: 104.21.225.121
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _12"
+  network: ws
+  port: 80
+  server: 104.21.238.70
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _38"
+  network: ws
+  port: 80
+  server: 104.21.235.76
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _39"
+  network: ws
+  port: 80
+  server: 104.21.230.51
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _17"
+  network: ws
+  port: 80
+  server: 104.21.239.98
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _17"
+  network: ws
+  port: 80
+  server: 104.21.225.105
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  network: ws
+  port: 80
+  server: mci--join.outline-vpn.cloud
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _7"
+  network: ws
+  port: 80
+  server: 104.21.225.34
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _9"
+  network: ws
+  port: 80
+  server: 104.21.237.87
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _5"
+  network: ws
+  port: 80
+  server: 104.21.233.66
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _7"
+  network: ws
+  port: 80
+  server: 172.67.241.103
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt5.ir
+    path: /
 proxy-groups:
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
   proxies:
