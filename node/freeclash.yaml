@@ -78,53 +78,81 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇨🇦_CA_加拿大->🇺🇸_US_美国","type":"trojan","server":"23.227.38.11","port":443,"udp":true,"password":"b17fa17d-13a0-4e8a-a398-8e549ea8b208","sni":"syndication-statutes-wanted-logo.trycloudflare.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/argox-tr"}}
-  - {"name":"🇦🇪_AE_阿联酋->🇫🇷_FR_法国","type":"vmess","server":"94.140.0.110","port":8880,"cipher":"auto","uuid":"0d1bf26a-ce97-4707-a270-7f4d2ae37334","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"food.zhaal.ir"}}}
+  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"104.21.54.252","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.velvetmountain.shop"}}}
+  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"www.velvetmountain.shop","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.velvetmountain.shop"}}}
+  - {"name":"🇺🇸_US_美国_3","type":"vmess","server":"cloudflare.cfgo.cc","port":80,"cipher":"auto","uuid":"22a13aa2-4854-44cb-e090-ec71ab84b1ff","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"wap.hostmjj.com"}}}
+  - {"name":"🇨🇦_CA_加拿大","type":"trojan","server":"15.157.113.141","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trojan.miwan.co.uk","skip-cert-verify":false,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_4","type":"vmess","server":"172.67.143.192","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.velvetmountain.shop"}}}
+  - {"name":"🇦🇪_AE_阿联酋->🇬🇧_GB_英国","type":"vmess","server":"94.140.0.110","port":8880,"cipher":"auto","uuid":"0d1bf26a-ce97-4707-a270-7f4d2ae37334","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"food.zhaal.ir"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_4
+      - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_4
+      - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_4
+      - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_4
+      - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_4
+      - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_4
+      - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -147,8 +175,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_4
+      - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
 
 rules:
 # 本地/局域网地址
