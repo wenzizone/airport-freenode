@@ -77,138 +77,20 @@ external-controller: 0.0.0.0:9090
 log-level: info
 mixed-port: 7890
 proxies:
-- grpc-opts:
-    grpc-service-name: mahanvip.mahantu.top
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: grpc
-  password: Mahanvpn
-  port: 443
-  server: 104.17.186.227
-  skip-cert-verify: false
-  sni: mahanvip.mahantu.top
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: lK1wclmJRbMxj4FxIzvwxUDoX
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\
-    \u65AF\u8054\u90A6"
-  network: grpc
-  password: 7b06d62b-25ed-45ed-ac0d-bc28a4779ef9
-  port: 2096
-  server: 172.67.132.6
-  skip-cert-verify: false
-  sni: channel.v2bamdad.tech
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_8"
   network: ws
-  port: 8080
-  server: www.velvetmountain.shop
+  port: 8880
+  server: cfcdn1.sanfencdn9.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30
   ws-opts:
     headers:
-      host: www.velvetmountain.shop
-    path: /
-- name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927"
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 15.157.113.141
-  skip-cert-verify: false
-  sni: trojan.miwan.co.uk
-  type: trojan
-  udp: true
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: tcp
-  password: 94fe4445-fc3f-4dd4-9bac-438b54f994c9
-  port: 443
-  server: 213.202.216.14
-  skip-cert-verify: true
-  sni: downloadde.xn--mes358acgm99l.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F0\U0001F1FF_KZ_\u54C8\u8428\u514B\u65AF\u5766"
-  network: tcp
-  port: 8443
-  server: kz-v2ray.ipracevpn.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 48b10b02-2c60-4323-bc65-a11b15144745
-- name: "\U0001F1F3\U0001F1FF_NZ_\u65B0\u897F\u5170"
-  network: tcp
-  password: 11e247e5-136d-45f1-844a-a7f054d36bab
-  port: 443
-  server: 216.73.156.230
-  skip-cert-verify: true
-  sni: 216.73.156.230
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
-  network: ws
-  port: 80
-  server: 104.18.154.42
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: us3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
-  network: ws
-  port: 80
-  server: 104.18.15.150
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: er3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EE\U0001F1F3_IN_\u5370\u5EA6\
-    _2"
-  network: ws
-  port: 80
-  server: www.visa.com.hk
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42
-  ws-opts:
-    headers:
-      host: ydmmamd2.mac2win.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EE\U0001F1F9_IT_\u610F\u5927\
-    \u5229"
-  network: ws
-  port: 2052
-  server: frcc.digicert.pp.ua
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5cc3a871-6eeb-4b87-b4e4-4f2611eb5441
-  ws-opts:
-    headers:
-      host: asdfas.qkhbyf.tech
-    path: /apopsdsssaop
+      host: us6gzxQRrE4.fzbqfrse.xyz
+    path: /video/bYdJ7Vc2We
 - alterId: 0
   cipher: auto
   name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF\u8054\u90A6"
@@ -223,84 +105,17 @@ proxies:
     headers:
       host: www.apple.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  network: ws
-  port: 8880
-  server: a3.bcbot.in
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
-  ws-opts:
-    headers:
-      host: a3.bcbot.in
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E6\U0001F1EA_AE_\u963F\u8054\
-    \u914B"
-  network: ws
-  port: 2052
-  server: asdad.cxzntq.tech
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5cc3a871-6eeb-4b87-b4e4-4f2611eb5441
-  ws-opts:
-    headers:
-      host: dibanqd.cxzntq.tech
-    path: /apopop
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_10"
-  network: ws
-  port: 8880
-  server: 104.21.32.215
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
-  ws-opts:
-    headers:
-      host: a3.bcbot.in
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1E6\U0001F1F7_AR_\u963F\u6839\u5EF7"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 190.103.176.29
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
-    \u5927_2"
-  network: ws
-  port: 80
-  server: 162.159.200.4
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: ca3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
-  network: ws
-  port: 80
-  server: cloudflare.cfgo.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
-  ws-opts:
-    headers:
-      host: wap.hostmjj.com
-    path: /
+- grpc-opts:
+    grpc-service-name: mahanvip.mahantu.top
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  network: grpc
+  password: Mahanvpn
+  port: 443
+  server: 104.17.186.227
+  skip-cert-verify: false
+  sni: mahanvip.mahantu.top
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_7"
@@ -315,55 +130,28 @@ proxies:
     headers:
       host: er3.889611.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
-  password: s2S9dyaGAPRY0N3LYz838G
-  port: 32955
-  server: 138.124.184.209
-  type: ss
+- name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927"
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 15.157.113.141
+  skip-cert-verify: false
+  sni: trojan.miwan.co.uk
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E6\U0001F1EA_AE_\u963F\u8054\u914B->\U0001F1EC\U0001F1E7_GB_\u82F1\
-    \u56FD"
-  network: ws
-  port: 8880
-  server: 94.140.0.110
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      host: food.zhaal.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
-    \u5927_1"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
   network: ws
   port: 80
-  server: 162.159.200.3
+  server: 104.18.15.150
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
   ws-opts:
     headers:
-      host: ca3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  network: ws
-  port: 80
-  server: cloudflare.cfgo.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
-  ws-opts:
-    headers:
-      host: wap.hostmjj.com
+      host: er3.889611.com
     path: /
 - alterId: 0
   cipher: auto
@@ -382,10 +170,183 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  network: ws
+  port: 80
+  server: cloudflare.cfgo.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
+  ws-opts:
+    headers:
+      host: wap.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
   network: ws
   port: 8080
   server: www.velvetmountain.shop
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.velvetmountain.shop
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
+  password: s2S9dyaGAPRY0N3LYz838G
+  port: 32955
+  server: 138.124.184.209
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F0\U0001F1FF_KZ_\u54C8\u8428\u514B\u65AF\u5766"
+  network: tcp
+  port: 8443
+  server: kz-v2ray.ipracevpn.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 48b10b02-2c60-4323-bc65-a11b15144745
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
+  network: ws
+  port: 80
+  server: 104.18.154.42
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      host: us3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EE\U0001F1F3_IN_\u5370\u5EA6\
+    _1"
+  network: ws
+  port: 8080
+  server: www.visa.co.jp
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42
+  ws-opts:
+    headers:
+      host: ydmmamd1.mac2win.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
+  network: ws
+  port: 80
+  server: 162.159.200.7
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      host: er3.visaapp.top
+    path: /
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  network: tcp
+  password: 94fe4445-fc3f-4dd4-9bac-438b54f994c9
+  port: 443
+  server: 213.202.216.14
+  skip-cert-verify: true
+  sni: downloadde.xn--mes358acgm99l.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  network: ws
+  port: 80
+  server: cloudflare.cfgo.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
+  ws-opts:
+    headers:
+      host: wap.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E6\U0001F1EA_AE_\u963F\u8054\u914B->\U0001F1EC\U0001F1E7_GB_\u82F1\
+    \u56FD"
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      host: food.zhaal.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
+  network: ws
+  port: 80
+  server: 104.18.15.148
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      host: er3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
+  network: ws
+  port: 80
+  server: 104.18.15.149
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      host: er3.889611.com
+    path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1E6\U0001F1F7_AR_\u963F\u6839\u5EF7"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 190.103.176.29
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  network: ws
+  port: 80
+  server: 104.18.15.147
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      host: er3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  network: ws
+  port: 8080
+  server: 104.21.54.252
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -410,60 +371,75 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  network: ws
-  port: 80
-  server: 104.18.15.147
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: er3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
-  network: ws
-  port: 80
-  server: 104.18.15.148
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: er3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_8"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
   network: ws
   port: 8880
-  server: cfcdn1.sanfencdn9.com
+  server: a3.bcbot.in
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30
+  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
   ws-opts:
     headers:
-      host: us6gzxQRrE4.fzbqfrse.xyz
-    path: /video/bYdJ7Vc2We
+      host: a3.bcbot.in
+    path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EE\U0001F1F3_IN_\u5370\u5EA6\
-    _1"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_10"
   network: ws
-  port: 8080
-  server: www.visa.co.jp
+  port: 8880
+  server: 104.21.32.215
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42
+  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
   ws-opts:
     headers:
-      host: ydmmamd1.mac2win.top
+      host: a3.bcbot.in
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EE\U0001F1F9_IT_\u610F\u5927\
+    \u5229"
+  network: ws
+  port: 2052
+  server: frcc.digicert.pp.ua
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5cc3a871-6eeb-4b87-b4e4-4f2611eb5441
+  ws-opts:
+    headers:
+      host: asdfas.qkhbyf.tech
+    path: /apopsdsssaop
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
+    \u5927_1"
+  network: ws
+  port: 80
+  server: 162.159.200.3
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      host: ca3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  network: ws
+  port: 8080
+  server: www.velvetmountain.shop
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.velvetmountain.shop
     path: /
 - name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927->\U0001F1FA\U0001F1F8_US_\u7F8E\
     \u56FD"
@@ -479,41 +455,19 @@ proxies:
     path: /argox-tr
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EE\U0001F1F3_IN_\u5370\u5EA6\
+    _2"
   network: ws
   port: 80
-  server: 162.159.200.7
+  server: www.visa.com.hk
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42
   ws-opts:
     headers:
-      host: er3.visaapp.top
+      host: ydmmamd2.mac2win.top
     path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  network: ws
-  port: 80
-  server: 104.18.15.149
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: er3.889611.com
-    path: /
-- name: "\U0001F1EE\U0001F1EA_IE_\u7231\u5C14\u5170"
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 34.243.1.59
-  skip-cert-verify: false
-  sni: trojan.miwan.co.uk
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
@@ -529,20 +483,33 @@ proxies:
     headers:
       host: v3ra3do.wakeuptimerap.shop
     path: /
+- grpc-opts:
+    grpc-service-name: lK1wclmJRbMxj4FxIzvwxUDoX
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\
+    \u65AF\u8054\u90A6"
+  network: grpc
+  password: 7b06d62b-25ed-45ed-ac0d-bc28a4779ef9
+  port: 2096
+  server: 172.67.132.6
+  skip-cert-verify: false
+  sni: channel.v2bamdad.tech
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E6\U0001F1EA_AE_\u963F\u8054\
+    \u914B"
   network: ws
-  port: 8080
-  server: 104.21.54.252
+  port: 2052
+  server: asdad.cxzntq.tech
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: 5cc3a871-6eeb-4b87-b4e4-4f2611eb5441
   ws-opts:
     headers:
-      host: www.velvetmountain.shop
-    path: /
+      host: dibanqd.cxzntq.tech
+    path: /apopop
 - alterId: 0
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
@@ -557,6 +524,39 @@ proxies:
     headers:
       host: www.velvetmountain.shop
     path: /
+- name: "\U0001F1F3\U0001F1FF_NZ_\u65B0\u897F\u5170"
+  network: tcp
+  password: 11e247e5-136d-45f1-844a-a7f054d36bab
+  port: 443
+  server: 216.73.156.230
+  skip-cert-verify: true
+  sni: 216.73.156.230
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
+    \u5927_2"
+  network: ws
+  port: 80
+  server: 162.159.200.4
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      host: ca3.889611.com
+    path: /
+- name: "\U0001F1EE\U0001F1EA_IE_\u7231\u5C14\u5170"
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 34.243.1.59
+  skip-cert-verify: false
+  sni: trojan.miwan.co.uk
+  type: trojan
+  udp: true
 proxy-groups:
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
   proxies:
